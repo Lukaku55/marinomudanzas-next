@@ -105,8 +105,8 @@ const TestimonialsSection = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" />
-            <CarouselNext className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" />
+            <CarouselPrevious style={{border: "1px solid rgba(255,255,255,0.3)", color: "white"}} />
+            <CarouselNext style={{border: "1px solid rgba(255,255,255,0.3)", color: "white"}} />
           </Carousel>
         </div>
 
