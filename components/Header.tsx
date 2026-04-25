@@ -22,7 +22,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-navy shadow-lg">
       <div className="container mx-auto flex items-center justify-between py-3 px-4">
         <a href="/#inicio" className="flex items-center gap-3">
-          <img src="/logo-mm.webp" alt="Logo de Marino Mudanzas - Empresa de mudanzas y fletes en Buenos Aires" className="h-12 w-12 rounded-full bg-background p-1" />
+          <img src="/logo-marino-nuevo.png" alt="Logo de Marino Mudanzas - Empresa de mudanzas y fletes en Buenos Aires" className="h-12 w-12 rounded-full bg-background p-1" />
           <span className="font-display text-2xl font-bold text-primary-foreground tracking-wide hidden sm:inline">
             Marino Mudanzas
           </span>
