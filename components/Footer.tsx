@@ -101,7 +101,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center">
           <p className="font-body text-sm text-primary-foreground/40">
-            © Marino Mudanzas 2025 — Empresa de mudanzas en Buenos Aires desde 1950. Todos los derechos reservados.
+            © Marino Mudanzas 2026 — Empresa de mudanzas en Buenos Aires desde 1950. Todos los derechos reservados.
           </p>
         </div>
       </div>
