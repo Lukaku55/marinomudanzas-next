@@ -105,8 +105,8 @@ const TestimonialsSection = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious style={{border: "1px solid rgba(255,255,255,0.3)", color: "white"}} />
-            <CarouselNext style={{border: "1px solid rgba(255,255,255,0.3)", color: "white"}} />
+            <CarouselPrevious style={{border: "1px solid rgba(255,255,255,0.3)", color: "white", background: "transparent"}} />
+            <CarouselNext style={{border: "1px solid rgba(255,255,255,0.3)", color: "white", background: "transparent"}} />
           </Carousel>
         </div>
 
