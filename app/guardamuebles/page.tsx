@@ -11,6 +11,28 @@ export const metadata: Metadata = {
 
 import ServiceDetailGuardamuebles from "@/components/ServiceDetailGuardamuebles";
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Guardamuebles en Buenos Aires",
+  "description": "Almacenaje seguro y monitoreado en Flores, CABA.",
+  "url": "https://www.mudanzasmarino.com.ar/guardamuebles",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Marino Mudanzas",
+    "url": "https://www.mudanzasmarino.com.ar",
+    "telephone": "+541146111818",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Juan Bautista Alberdi 2968",
+      "addressLocality": "Flores",
+      "addressRegion": "Buenos Aires",
+      "addressCountry": "AR"
+    }
+  }
+};
+
 export default function Page() {
   return (
   <>

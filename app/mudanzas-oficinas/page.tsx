@@ -11,6 +11,28 @@ export const metadata: Metadata = {
 
 import ServiceDetailComercial from "@/components/ServiceDetailComercial";
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Mudanzas de Oficinas en Buenos Aires",
+  "description": "Servicio especializado de mudanzas corporativas en CABA y GBA.",
+  "url": "https://www.mudanzasmarino.com.ar/mudanzas-oficinas",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Marino Mudanzas",
+    "url": "https://www.mudanzasmarino.com.ar",
+    "telephone": "+541146111818",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Juan Bautista Alberdi 2968",
+      "addressLocality": "Flores",
+      "addressRegion": "Buenos Aires",
+      "addressCountry": "AR"
+    }
+  }
+};
+
 export default function Page() {
   return (
   <>
