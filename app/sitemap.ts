@@ -1,0 +1,90 @@
+import type { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://www.mudanzasmarino.com.ar";
+
+  const blogSlugs = [
+    "cuanto-cuesta-mudanza-buenos-aires",
+    "como-organizar-mudanza-paso-a-paso",
+    "mudanzas-edificios-buenos-aires",
+    "checklist-mudanza",
+    "como-embalar-muebles-mudanza",
+    "que-incluye-una-mudanza",
+    "mudanzas-por-soga",
+    "guardamuebles-buenos-aires",
+    "empresa-mudanzas-confiable-buenos-aires",
+    "mudanzas-departamentos-buenos-aires",
+    "mudanzas-con-y-sin-ascensor",
+    "fletes-buenos-aires",
+    "mudanzas-oficinas-buenos-aires",
+    "mudanzas-larga-distancia-argentina",
+    "mudanzas-palermo",
+    "mudanzas-belgrano",
+    "mudanzas-caballito",
+    "mudanzas-recoleta",
+    "mudanzas-flores",
+    "mudanzas-almagro",
+    "mudanzas-villa-urquiza",
+    "mudanzas-san-telmo",
+    "mudanzas-boedo",
+    "mudanzas-villa-crespo",
+    "mudanzas-nunez",
+    "mudanzas-colegiales",
+    "mudanzas-villa-devoto",
+    "mudanzas-liniers",
+    "mudanzas-mataderos",
+    "mudanzas-vicente-lopez",
+    "mudanzas-san-isidro",
+    "mudanzas-tigre",
+    "mudanzas-moron",
+    "mudanzas-lanus",
+    "mudanzas-quilmes",
+    "mudanzas-avellaneda",
+    "mudanzas-la-matanza",
+  ];
+
+  return [
+    {
+      url: baseUrl,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 1,
+    },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/mudanzas-residenciales`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/mudanzas-oficinas`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/guardamuebles`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/mudanzas-interior`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    ...blogSlugs.map((slug) => ({
+      url: `${baseUrl}/blog/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ];
+}
