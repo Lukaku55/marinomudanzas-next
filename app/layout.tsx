@@ -1,10 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Cinzel, Inter } from "next/font/google";
-
-const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-cinzel", display: "swap" });
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
-
 export const metadata: Metadata = {
   title: "Mudanzas en Buenos Aires | Marino Mudanzas | Desde 1950 | Tel 4611-1818",
   description: "Empresa de mudanzas en Buenos Aires con +80 anos de experiencia. Mudanzas residenciales, oficinas y guardamuebles en CABA y GBA. Presupuesto sin cargo. Llamanos: 4611-1818",
@@ -26,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className={`${cinzel.variable} ${inter.variable}`}>
+    <html lang="es" className="">
       <body>{children}</body>
     </html>
   );
