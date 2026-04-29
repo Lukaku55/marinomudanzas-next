@@ -9,11 +9,32 @@ export const metadata: Metadata = {
   description: "Checklist completo para organizar tu mudanza paso a paso. Que hacer 4 semanas antes, 1 semana antes y el dia de la mudanza. Guia de Marino Mudanzas.",
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Checklist de Mudanza Completo 2026 | Marino Mudanzas",
+  "description": "Checklist completo para organizar tu mudanza paso a paso. Que hacer 4 semanas antes, 1 semana antes y el dia de la mudanza. Guia de Marino Mudanzas.",
+  "url": "https://www.mudanzasmarino.com.ar/blog/checklist-mudanza",
+  "author": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "url": "https://www.mudanzasmarino.com.ar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"
+    }
+  }
+};
+
 export default function Page() {
   return (
     <>
-      
-      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">Volver al blog</Link>

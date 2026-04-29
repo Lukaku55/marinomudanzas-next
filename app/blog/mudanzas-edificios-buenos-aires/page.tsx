@@ -11,11 +11,32 @@ export const metadata: Metadata = {
 
 import { MessageCircle, Phone } from "lucide-react";
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Mudanzas en edificios de Buenos Aires: todo lo que tenés que saber | Marino Mudanzas",
+  "description": "Guía completa sobre mudanzas en edificios de Buenos Aires: horarios permitidos, documentación, coordinación con encargados, mudanzas con y sin ascensor.",
+  "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-edificios-buenos-aires",
+  "author": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "url": "https://www.mudanzasmarino.com.ar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"
+    }
+  }
+};
+
 export default function Page() {
   return (
     <>
-      
-      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>

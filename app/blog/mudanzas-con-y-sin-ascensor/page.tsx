@@ -9,11 +9,32 @@ export const metadata: Metadata = {
   description: "Todo sobre mudanzas en edificios con y sin ascensor en Buenos Aires. Técnicas, costos y soluciones para cada caso. Marino Mudanzas, especialistas desde 1950.",
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Mudanzas con Ascensor y sin Ascensor en Buenos Aires | Marino Mudanzas",
+  "description": "Todo sobre mudanzas en edificios con y sin ascensor en Buenos Aires. Técnicas, costos y soluciones para cada caso. Marino Mudanzas, especialistas desde 1950.",
+  "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-con-y-sin-ascensor",
+  "author": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "url": "https://www.mudanzasmarino.com.ar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"
+    }
+  }
+};
+
 export default function Page() {
   return (
     <>
-      
-      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>

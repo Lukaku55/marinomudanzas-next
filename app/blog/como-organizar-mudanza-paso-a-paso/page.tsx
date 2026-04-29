@@ -11,11 +11,32 @@ export const metadata: Metadata = {
 
 import { MessageCircle, Phone } from "lucide-react";
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cómo organizar una mudanza paso a paso: guía completa | Marino Mudanzas",
+  "description": "Guía completa para organizar tu mudanza: checklist de 4 semanas, consejos de embalaje profesional y qué llevar el primer día. Por Marino Mudanzas, 80 años de experiencia.",
+  "url": "https://www.mudanzasmarino.com.ar/blog/como-organizar-mudanza-paso-a-paso",
+  "author": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "url": "https://www.mudanzasmarino.com.ar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"
+    }
+  }
+};
+
 export default function Page() {
   return (
     <>
-      
-      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>

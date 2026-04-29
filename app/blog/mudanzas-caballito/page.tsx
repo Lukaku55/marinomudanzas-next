@@ -9,11 +9,32 @@ export const metadata: Metadata = {
   description: "Servicio de mudanzas en Caballito, Buenos Aires. El barrio mas centrico de CABA. Más de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Mudanzas en Caballito Buenos Aires | Marino Mudanzas",
+  "description": "Servicio de mudanzas en Caballito, Buenos Aires. El barrio mas centrico de CABA. Más de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-caballito",
+  "author": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "url": "https://www.mudanzasmarino.com.ar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"
+    }
+  }
+};
+
 export default function Page() {
   return (
     <>
-      
-      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>

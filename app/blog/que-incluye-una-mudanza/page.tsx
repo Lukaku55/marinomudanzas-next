@@ -9,11 +9,32 @@ export const metadata: Metadata = {
   description: "Todo lo que incluye un servicio de mudanza profesional en Buenos Aires. Embalaje, carga, transporte, descarga y más. Marino Mudanzas explica cada detalle.",
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "¿Qué Incluye un Servicio de Mudanza? | Marino Mudanzas",
+  "description": "Todo lo que incluye un servicio de mudanza profesional en Buenos Aires. Embalaje, carga, transporte, descarga y más. Marino Mudanzas explica cada detalle.",
+  "url": "https://www.mudanzasmarino.com.ar/blog/que-incluye-una-mudanza",
+  "author": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "url": "https://www.mudanzasmarino.com.ar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"
+    }
+  }
+};
+
 export default function Page() {
   return (
     <>
-      
-      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>

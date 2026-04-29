@@ -9,11 +9,32 @@ export const metadata: Metadata = {
   description: "Servicio especializado de mudanzas de oficinas en Buenos Aires. Minimizamos el tiempo de inactividad de tu empresa. Mas de 80 anos de experiencia. Tel 4611-1818",
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Mudanzas de Oficinas en Buenos Aires | Marino Mudanzas",
+  "description": "Servicio especializado de mudanzas de oficinas en Buenos Aires. Minimizamos el tiempo de inactividad de tu empresa. Mas de 80 anos de experiencia. Tel 4611-1818",
+  "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-oficinas-buenos-aires",
+  "author": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "url": "https://www.mudanzasmarino.com.ar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"
+    }
+  }
+};
+
 export default function Page() {
   return (
     <>
-      
-      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
