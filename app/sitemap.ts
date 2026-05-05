@@ -41,6 +41,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-quilmes",
     "mudanzas-avellaneda",
     "mudanzas-la-matanza",
+    "mudanzas-con-mascotas",
+    "mudanzas-en-invierno",
   ];
 
   return [
