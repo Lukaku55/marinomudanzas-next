@@ -66,7 +66,7 @@ const TestimonialsSection = () => {
             Lo Que Dicen Nuestros Clientes
           </h2>
           <p className="font-body text-primary-foreground/70 text-lg max-w-xl mx-auto">
-            338 reseñas en Google con una puntuación de 4.7 sobre 5
+            370 reseñas en Google con una puntuación de 4.7 sobre 5
           </p>
         </div>
 
