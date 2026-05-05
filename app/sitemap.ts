@@ -43,6 +43,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-la-matanza",
     "mudanzas-con-mascotas",
     "mudanzas-en-invierno",
+    "mudanzas-express-buenos-aires",
+    "como-armar-cajas-mudanza",
+    "mudanzas-chacarita",
+    "mudanzas-saavedra",
+    "mudanzas-parque-patricios",
+    "mudanzas-montserrat",
+    "mudanzas-hurlingham",
+    "mudanzas-pilar",
+    "mudanzas-san-fernando",
+    "mudanzas-lomas-de-zamora",
   ];
 
   return [
