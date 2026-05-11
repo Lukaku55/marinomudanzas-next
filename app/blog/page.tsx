@@ -119,6 +119,7 @@ const articles = [
   {slug:'mudanzas-quilmes',title:'Mudanzas en Quilmes GBA',excerpt:'Servicio de mudanzas en Quilmes, Bernal y Berazategui. Mas de 80 anos de experiencia en el sur del GBA.',date:'2026-04-23'},
   {slug:'mudanzas-avellaneda',title:'Mudanzas en Avellaneda GBA',excerpt:'Mudanzas en Avellaneda y zona sur del GBA. Lindero con CABA, uno de los destinos mas frecuentes.',date:'2026-04-23'},
   {slug:'mudanzas-la-matanza',title:'Mudanzas en La Matanza GBA',excerpt:'Mudanzas en San Justo, Ramos Mejia y todo el partido de La Matanza. El partido mas poblado del GBA.',date:'2026-04-23'},
+  {slug:'mudanzas-fin-de-mes',title:'Mudanzas a Fin de Mes en Buenos Aires',excerpt:'Todo lo que necesitas saber para organizarte cuando te mudas a fin de mes. La fecha mas demandada del mes y como reservar con anticipacion.',date:'2026-05-11'},
 ];
 
 export default function Blog() {
