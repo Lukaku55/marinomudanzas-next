@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Cómo organizar una mudanza paso a paso: guía completa | Marino Mudanzas",
-  description: "Guía completa para organizar tu mudanza: checklist de 4 semanas, consejos de embalaje profesional y qué llevar el primer día. Por Marino Mudanzas, 80 años de experiencia.",
+  description: "¿No sabés por dónde empezar tu mudanza? Guía paso a paso con checklist semana a semana, consejos de embalaje y todo lo que necesitás saber antes del día D.",
 };
 
 import { MessageCircle, Phone } from "lucide-react";

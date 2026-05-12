@@ -6,7 +6,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Mudanzas Residenciales en Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas de casas y departamentos en CABA y GBA. Embalaje profesional, flota propia y más de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  description: "Mudanzas de casas y departamentos en Buenos Aires. Embalaje incluido, seguro de carga y más de 80 años de experiencia. ¡Pedí tu presupuesto sin cargo hoy! Tel 4611-1818",
 };
 
 const jsonLd = {

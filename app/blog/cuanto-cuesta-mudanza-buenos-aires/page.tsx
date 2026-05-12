@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "¿Cuánto cuesta una mudanza en Buenos Aires en 2026? | Marino Mudanzas",
-  description: "Conocé los factores que definen el costo de una mudanza en Buenos Aires: volumen, distancia, piso, embalaje. Rangos de precios actualizados 2026. Presupuesto sin cargo.",
+  description: "¿Cuánto cuesta una mudanza en Buenos Aires? Precios reales por tamaño de vivienda: monoambiente, 2 y 3 ambientes. Guía actualizada 2026. Presupuesto sin cargo al 4611-1818.",
 };
 
 import { MessageCircle, Phone } from "lucide-react";

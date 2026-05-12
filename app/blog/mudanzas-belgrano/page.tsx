@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Belgrano Buenos Aires | Marino Mudanzas",
-  description: "Servicio de mudanzas en Belgrano, Buenos Aires. Especialistas en Belgrano R, C y Chico. Más de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  description: "Mudanzas en Belgrano con más de 80 años de experiencia. Belgrano R, C y Chico. Conocemos cada edificio del barrio. Embalaje incluido y presupuesto sin cargo. ¡Llamanos!",
 };
 
 

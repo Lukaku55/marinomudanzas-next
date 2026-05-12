@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en edificios de Buenos Aires: todo lo que tenés que saber | Marino Mudanzas",
-  description: "Guía completa sobre mudanzas en edificios de Buenos Aires: horarios permitidos, documentación, coordinación con encargados, mudanzas con y sin ascensor.",
+  description: "¿Te mudás en un edificio de Buenos Aires? Horarios permitidos, permisos, coordinación con el encargado y soluciones para edificios sin ascensor. Más de 80 años de experiencia.",
 };
 
 import { MessageCircle, Phone } from "lucide-react";
