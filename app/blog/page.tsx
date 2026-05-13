@@ -121,6 +121,7 @@ const articles = [
   {slug:'mudanzas-la-matanza',title:'Mudanzas en La Matanza GBA',excerpt:'Mudanzas en San Justo, Ramos Mejia y todo el partido de La Matanza. El partido mas poblado del GBA.',date:'2026-04-23'},
   {slug:'mudanzas-fin-de-mes',title:'Mudanzas a Fin de Mes en Buenos Aires',excerpt:'Todo lo que necesitas saber para organizarte cuando te mudas a fin de mes. La fecha mas demandada del mes y como reservar con anticipacion.',date:'2026-05-11'},
   {slug:'mudanzas-villa-del-parque',title:'Mudanzas en Villa del Parque Buenos Aires',excerpt:'Servicio de mudanzas en Villa del Parque. Experiencia en edificios sin ascensor, casas con jardin y PHs. Presupuesto sin cargo.',date:'2026-05-12'},
+  {slug:'mudanzas-chacarita',title:'Mudanzas en Chacarita Buenos Aires',excerpt:'Servicio de mudanzas en Chacarita. Experiencia en edificios sin ascensor y calles angostas. Flota de distintos tamaños. Presupuesto sin cargo.',date:'2026-05-13'},
 ];
 
 export default function Blog() {
