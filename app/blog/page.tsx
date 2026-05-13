@@ -124,6 +124,7 @@ const articles = [
   {slug:'mudanzas-chacarita',title:'Mudanzas en Chacarita Buenos Aires',excerpt:'Servicio de mudanzas en Chacarita. Experiencia en edificios sin ascensor y calles angostas. Flota de distintos tamaños. Presupuesto sin cargo.',date:'2026-05-13'},
   {slug:'mudanzas-parque-chacabuco',title:'Mudanzas en Parque Chacabuco Buenos Aires',excerpt:'Servicio de mudanzas en Parque Chacabuco. Experiencia en casas de familia y edificios sin ascensor. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
   {slug:'mudanzas-paternal',title:'Mudanzas en Paternal Buenos Aires',excerpt:'Servicio de mudanzas en Paternal. Experiencia en casas de familia y edificios sin ascensor. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
+  {slug:'mudanzas-villa-pueyrredon',title:'Mudanzas en Villa Pueyrredón Buenos Aires',excerpt:'Servicio de mudanzas en Villa Pueyrredón. Experiencia en casas de familia y edificios sin ascensor. Calles arboladas y tranquilas. Presupuesto sin cargo.',date:'2026-05-13'},
 ];
 
 export default function Blog() {
