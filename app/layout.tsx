@@ -1,5 +1,20 @@
 import type { Metadata } from "next";
+import { Cinzel, Inter } from "next/font/google";
 import "./globals.css";
+
+const cinzel = Cinzel({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-cinzel",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Mudanzas en Buenos Aires | Marino Mudanzas | Desde 1950 | Tel 4611-1818",
@@ -25,10 +40,8 @@ export default function RootLayout({
     <html lang="es">
       <head>
         <link rel="preload" as="image" href="/hero-mudanzas.webp" type="image/webp" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
-      <body>{children}</body>
+      <body className={`${cinzel.variable} ${inter.variable}`}>{children}</body>
     </html>
   );
 }
