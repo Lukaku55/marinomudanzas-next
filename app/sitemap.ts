@@ -53,6 +53,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-pilar",
     "mudanzas-san-fernando",
     "mudanzas-lomas-de-zamora",
+    "mudanzas-fin-de-mes",
+    "mudanzas-villa-del-parque",
+    "mudanzas-chacarita",
+    "mudanzas-parque-chacabuco",
+    "mudanzas-paternal",
+    "mudanzas-villa-pueyrredon",
+    "mudanzas-agronomia",
+    "mudanzas-villa-lugano",
+    "mudanzas-balvanera",
+    "mudanzas-floresta",
   ];
 
   return [
