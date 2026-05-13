@@ -89,8 +89,7 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas los sábados?</h3>
             <p>Sí, trabajamos de lunes a sábado de 8 a 18hs. Los domingos no prestamos servicio salvo situaciones excepcionales.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza residencial?</h3>
-            <p>El precio depende del volumen de la mudanza, la distancia entre origen y destino, el piso y si hay ascensor. Un monoambiente parte desde $150.000, un 2 ambientes desde $250.000 y un 3 ambientes desde $400.000 aproximadamente. Pedí tu presupuesto sin cargo para obtener un precio exacto.</p>
+
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Pedí tu presupuesto sin cargo</h2>
             <p>Contactanos hoy y recibí un presupuesto detallado para tu mudanza residencial. Sin compromiso y con respuesta inmediata.</p>

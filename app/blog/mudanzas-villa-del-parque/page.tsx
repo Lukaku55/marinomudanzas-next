@@ -42,15 +42,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Villa del Parque donde operamos</h2>
             <p>Cubrimos todo el barrio de Villa del Parque y las zonas limítrofes — Villa del Parque propiamente dicho, las áreas cercanas a la Av. San Martín, Av. Nazca, Av. Francisco Beiró y todo el perímetro del barrio incluyendo los límites con Villa Devoto, Agronomía y Villa Pueyrredón.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cuánto cuesta una mudanza en Villa del Parque?</h2>
-            <p>El precio depende del volumen de la mudanza, el piso, si hay ascensor y la distancia al destino. Como referencia orientativa:</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Monoambiente o estudio: desde $150.000</li>
-              <li>Departamento de 2 ambientes: desde $250.000</li>
-              <li>Departamento de 3 ambientes: desde $400.000</li>
-              <li>Casa o PH: presupuesto personalizado según volumen</li>
-            </ul>
-            <p>Todos los precios incluyen embalaje de muebles, carga, traslado y descarga. Pedí tu presupuesto sin cargo para obtener un precio exacto.</p>
+
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Villa del Parque</h2>
 

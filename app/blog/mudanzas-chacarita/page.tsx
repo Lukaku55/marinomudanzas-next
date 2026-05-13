@@ -42,15 +42,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Chacarita donde operamos</h2>
             <p>Cubrimos todo el barrio de Chacarita — desde las zonas lindantes con Palermo y Villa Crespo hasta los límites con Colegiales y Paternal. Las calles más frecuentes donde trabajamos incluyen Av. Corrientes, Av. Forest, Av. Dorrego, Jorge Newbery, Fraga, Céspedes, Charlone y todo el interior del barrio.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cuánto cuesta una mudanza en Chacarita?</h2>
-            <p>El precio depende del volumen, el piso, si hay ascensor y la distancia al destino. Como referencia orientativa:</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Monoambiente o estudio: desde $150.000</li>
-              <li>Departamento de 2 ambientes: desde $250.000</li>
-              <li>Departamento de 3 ambientes: desde $400.000</li>
-              <li>Casa o PH: presupuesto personalizado según volumen</li>
-            </ul>
-            <p>Todos los precios incluyen embalaje de muebles, carga, traslado y descarga. Pedí tu presupuesto sin cargo para obtener un precio exacto.</p>
+
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Chacarita</h2>
 
