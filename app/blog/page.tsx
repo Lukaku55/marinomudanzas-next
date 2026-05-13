@@ -126,6 +126,9 @@ const articles = [
   {slug:'mudanzas-paternal',title:'Mudanzas en Paternal Buenos Aires',excerpt:'Servicio de mudanzas en Paternal. Experiencia en casas de familia y edificios sin ascensor. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
   {slug:'mudanzas-villa-pueyrredon',title:'Mudanzas en Villa Pueyrredón Buenos Aires',excerpt:'Servicio de mudanzas en Villa Pueyrredón. Experiencia en casas de familia y edificios sin ascensor. Calles arboladas y tranquilas. Presupuesto sin cargo.',date:'2026-05-13'},
   {slug:'mudanzas-agronomia',title:'Mudanzas en Agronomía Buenos Aires',excerpt:'Servicio de mudanzas en Agronomía. Barrio tranquilo con predominio de casas bajas. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
+  {slug:'mudanzas-villa-lugano',title:'Mudanzas en Villa Lugano Buenos Aires',excerpt:'Servicio de mudanzas en Villa Lugano. Experiencia en el sur de CABA con flota de distintos tamaños. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
+  {slug:'mudanzas-balvanera',title:'Mudanzas en Balvanera Buenos Aires',excerpt:'Mudanzas en Balvanera, Once, Abasto y Congreso. Experiencia en edificios antiguos y alta densidad. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
+  {slug:'mudanzas-floresta',title:'Mudanzas en Floresta Buenos Aires',excerpt:'Mudanzas en Floresta, barrio vecino a Flores nuestro lugar de origen. Calles tranquilas y arboladas. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
 ];
 
 export default function Blog() {
