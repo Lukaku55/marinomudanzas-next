@@ -68,6 +68,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-villa-luro",
     "mudanzas-villa-general-mitre",
     "mudanzas-barracas",
+    "mudanzas-constitucion",
+    "mudanzas-nueva-pompeya",
+    "mudanzas-villa-soldati",
+    "mudanzas-villa-riachuelo",
+    "mudanzas-boca",
   ];
 
   return [

@@ -134,6 +134,11 @@ const articles = [
   {slug:'mudanzas-villa-luro',title:'Mudanzas en Villa Luro Buenos Aires',excerpt:'Servicio de mudanzas en Villa Luro. Experiencia en calles angostas y edificios de mediana altura. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-14'},
   {slug:'mudanzas-villa-general-mitre',title:'Mudanzas en Villa General Mitre Buenos Aires',excerpt:'Servicio de mudanzas en Villa General Mitre. Uno de los barrios más tranquilos de CABA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-14'},
   {slug:'mudanzas-barracas',title:'Mudanzas en Barracas Buenos Aires',excerpt:'Servicio de mudanzas en Barracas. Barrio histórico del sur de CABA con lofts, edificios de época y nuevas torres. Presupuesto sin cargo.',date:'2026-05-14'},
+  {slug:'mudanzas-constitucion',title:'Mudanzas en Constitución Buenos Aires',excerpt:'Servicio de mudanzas en Constitución. Barrio céntrico del sur con alta densidad de edificios. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-14'},
+  {slug:'mudanzas-nueva-pompeya',title:'Mudanzas en Nueva Pompeya Buenos Aires',excerpt:'Servicio de mudanzas en Nueva Pompeya. Barrio tradicional del sur de CABA con casas bajas. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-14'},
+  {slug:'mudanzas-villa-soldati',title:'Mudanzas en Villa Soldati Buenos Aires',excerpt:'Servicio de mudanzas en Villa Soldati. Alta densidad poblacional en el sur de CABA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-14'},
+  {slug:'mudanzas-villa-riachuelo',title:'Mudanzas en Villa Riachuelo Buenos Aires',excerpt:'Servicio de mudanzas en Villa Riachuelo. Barrio tranquilo del sur de CABA con predominio de casas bajas. Presupuesto sin cargo.',date:'2026-05-14'},
+  {slug:'mudanzas-boca',title:'Mudanzas en La Boca Buenos Aires',excerpt:'Servicio de mudanzas en La Boca. Barrio histórico y colorido del sur de CABA. Experiencia en propiedades de época. Presupuesto sin cargo.',date:'2026-05-14'},
 ];
 
 export default function Blog() {
