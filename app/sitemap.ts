@@ -63,6 +63,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-villa-lugano",
     "mudanzas-balvanera",
     "mudanzas-floresta",
+    "mudanzas-villa-santa-rita",
+    "mudanzas-monte-castro",
+    "mudanzas-villa-luro",
+    "mudanzas-villa-general-mitre",
+    "mudanzas-barracas",
   ];
 
   return [

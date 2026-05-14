@@ -129,6 +129,11 @@ const articles = [
   {slug:'mudanzas-villa-lugano',title:'Mudanzas en Villa Lugano Buenos Aires',excerpt:'Servicio de mudanzas en Villa Lugano. Experiencia en el sur de CABA con flota de distintos tamaños. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
   {slug:'mudanzas-balvanera',title:'Mudanzas en Balvanera Buenos Aires',excerpt:'Mudanzas en Balvanera, Once, Abasto y Congreso. Experiencia en edificios antiguos y alta densidad. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
   {slug:'mudanzas-floresta',title:'Mudanzas en Floresta Buenos Aires',excerpt:'Mudanzas en Floresta, barrio vecino a Flores nuestro lugar de origen. Calles tranquilas y arboladas. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
+  {slug:'mudanzas-villa-santa-rita',title:'Mudanzas en Villa Santa Rita Buenos Aires',excerpt:'Servicio de mudanzas en Villa Santa Rita. Barrio tranquilo del oeste con predominio de casas bajas. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-14'},
+  {slug:'mudanzas-monte-castro',title:'Mudanzas en Monte Castro Buenos Aires',excerpt:'Servicio de mudanzas en Monte Castro. Casas bajas y calles tranquilas del oeste de CABA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-14'},
+  {slug:'mudanzas-villa-luro',title:'Mudanzas en Villa Luro Buenos Aires',excerpt:'Servicio de mudanzas en Villa Luro. Experiencia en calles angostas y edificios de mediana altura. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-14'},
+  {slug:'mudanzas-villa-general-mitre',title:'Mudanzas en Villa General Mitre Buenos Aires',excerpt:'Servicio de mudanzas en Villa General Mitre. Uno de los barrios más tranquilos de CABA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-14'},
+  {slug:'mudanzas-barracas',title:'Mudanzas en Barracas Buenos Aires',excerpt:'Servicio de mudanzas en Barracas. Barrio histórico del sur de CABA con lofts, edificios de época y nuevas torres. Presupuesto sin cargo.',date:'2026-05-14'},
 ];
 
 export default function Blog() {
