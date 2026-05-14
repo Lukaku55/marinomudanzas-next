@@ -40,6 +40,7 @@ export default function RootLayout({
     <html lang="es">
       <head>
         <link rel="preload" as="image" href="/hero-mudanzas.webp" type="image/webp" />
+        <meta name="google-site-verification" content="rk9l8EzMSLczWXE-YqyLiFk9b9lAOG3iaIxc7GHApaQ" />
       </head>
       <body className={`${cinzel.variable} ${inter.variable}`}>{children}</body>
     </html>
