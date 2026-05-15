@@ -151,6 +151,12 @@ const articles = [
   {slug:'mudanzas-ezeiza',title:'Mudanzas en Ezeiza GBA',excerpt:'Servicio de mudanzas en Ezeiza. Canning, Carlos Spegazzini y todo el partido. Presupuesto sin cargo.',date:'2026-05-15'},
   {slug:'mudanzas-marcos-paz',title:'Mudanzas en Marcos Paz GBA',excerpt:'Servicio de mudanzas en Marcos Paz. Partido tranquilo del oeste del GBA con casas de familia. Presupuesto sin cargo.',date:'2026-05-15'},
   {slug:'mudanzas-general-rodriguez',title:'Mudanzas en General Rodríguez GBA',excerpt:'Servicio de mudanzas en General Rodríguez. Partido en crecimiento del oeste del GBA. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-retiro',title:'Mudanzas en Retiro Buenos Aires',excerpt:'Servicio de mudanzas en Retiro. Barrio céntrico con edificios de alto nivel. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-villa-ortuzar',title:'Mudanzas en Villa Ortúzar Buenos Aires',excerpt:'Servicio de mudanzas en Villa Ortúzar. Barrio tranquilo del norte de CABA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-versalles',title:'Mudanzas en Versalles Buenos Aires',excerpt:'Servicio de mudanzas en Versalles. Barrio exclusivo del oeste con calles sinuosas y casas de alto nivel. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-villa-real',title:'Mudanzas en Villa Real Buenos Aires',excerpt:'Servicio de mudanzas en Villa Real. Barrio tranquilo del oeste con predominio de casas bajas. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-lujan',title:'Mudanzas en Luján GBA',excerpt:'Servicio de mudanzas en Luján. Ciudad histórica del oeste del GBA a 70 km de Buenos Aires. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-zarate',title:'Mudanzas en Zárate GBA',excerpt:'Servicio de mudanzas en Zárate. Ciudad industrial del norte del GBA a orillas del Río Paraná. Presupuesto sin cargo.',date:'2026-05-15'},
 ];
 
 export default function Blog() {

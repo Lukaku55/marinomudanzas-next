@@ -85,6 +85,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-ezeiza",
     "mudanzas-marcos-paz",
     "mudanzas-general-rodriguez",
+    "mudanzas-retiro",
+    "mudanzas-villa-ortuzar",
+    "mudanzas-versalles",
+    "mudanzas-villa-real",
+    "mudanzas-lujan",
+    "mudanzas-zarate",
   ];
 
   return [
