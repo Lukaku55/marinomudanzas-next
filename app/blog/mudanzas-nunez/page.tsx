@@ -55,6 +55,16 @@ export default function Page() {
             <p>Si, coordinamos las mudanzas en horarios que no coincidan con los partidos para evitar restricciones de acceso en la zona.</p>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Tienen experiencia en edificios modernos de Libertador en Nunez?</h3>
             <p>Si, conocemos los requisitos de los edificios de alta categoria sobre Av. del Libertador y coordinamos previamente con los encargados.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
+            <p>Si tu mudanza involucra barrios limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-belgrano" className="text-gold hover:underline">Mudanzas en Belgrano</a></li>
+              <li><a href="/blog/mudanzas-saavedra" className="text-gold hover:underline">Mudanzas en Saavedra</a></li>
+              <li><a href="/blog/mudanzas-colegiales" className="text-gold hover:underline">Mudanzas en Colegiales</a></li>
+              <li><a href="/blog/mudanzas-villa-urquiza" className="text-gold hover:underline">Mudanzas en Villa Urquiza</a></li>
+              <li><a href="/blog/mudanzas-vicente-lopez" className="text-gold hover:underline">Mudanzas en Vicente López</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicita tu presupuesto sin cargo</h2>
             <p>Contactanos por WhatsApp o telefono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
