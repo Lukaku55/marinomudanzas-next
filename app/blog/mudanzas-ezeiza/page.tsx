@@ -52,6 +52,16 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Trabajan los sábados?</h3>
             <p>Sí, trabajamos de lunes a sábado de 8 a 18hs.</p>
 
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas cercanas donde también operamos</h2>
+            <p>Si tu mudanza involucra zonas limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-esteban-echeverria" className="text-gold hover:underline">Mudanzas en Esteban Echeverría</a></li>
+              <li><a href="/blog/mudanzas-la-matanza" className="text-gold hover:underline">Mudanzas en La Matanza</a></li>
+              <li><a href="/blog/mudanzas-lomas-de-zamora" className="text-gold hover:underline">Mudanzas en Lomas de Zamora</a></li>
+              <li><a href="/blog/mudanzas-marcos-paz" className="text-gold hover:underline">Mudanzas en Marcos Paz</a></li>
+              <li><a href="/blog/mudanzas-florencio-varela" className="text-gold hover:underline">Mudanzas en Florencio Varela</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactános para tu mudanza en Ezeiza</h2>
             <p>Pedí tu presupuesto sin cargo hoy. Respondemos de inmediato por WhatsApp o teléfono.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
