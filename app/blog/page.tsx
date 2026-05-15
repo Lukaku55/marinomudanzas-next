@@ -157,6 +157,7 @@ const articles = [
   {slug:'mudanzas-villa-real',title:'Mudanzas en Villa Real Buenos Aires',excerpt:'Servicio de mudanzas en Villa Real. Barrio tranquilo del oeste con predominio de casas bajas. Presupuesto sin cargo.',date:'2026-05-15'},
   {slug:'mudanzas-lujan',title:'Mudanzas en Luján GBA',excerpt:'Servicio de mudanzas en Luján. Ciudad histórica del oeste del GBA a 70 km de Buenos Aires. Presupuesto sin cargo.',date:'2026-05-15'},
   {slug:'mudanzas-zarate',title:'Mudanzas en Zárate GBA',excerpt:'Servicio de mudanzas en Zárate. Ciudad industrial del norte del GBA a orillas del Río Paraná. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'como-calcular-volumen-mudanza',title:'¿Cómo calcular el volumen de una mudanza?',excerpt:'Guía práctica para calcular el volumen de tu mudanza y elegir el camión correcto. Tablas de referencia por tipo de vivienda y consejos de expertos.',date:'2026-05-15'},
 ];
 
 export default function Blog() {
