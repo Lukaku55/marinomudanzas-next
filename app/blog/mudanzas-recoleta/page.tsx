@@ -57,6 +57,16 @@ export default function Page() {
             <p>Sí, utilizamos protectores especiales para pisos de mármol, madera y materiales delicados que son comunes en los edificios históricos de Recoleta.</p>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Pueden trabajar en horarios restringidos de consorcio?</h3>
             <p>Sí, coordinamos con los encargados de edificios para respetar los horarios permitidos de carga y descarga en cada consorcio de Recoleta.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
+            <p>Si tu mudanza involucra barrios limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-palermo" className="text-gold hover:underline">Mudanzas en Palermo</a></li>
+              <li><a href="/blog/mudanzas-belgrano" className="text-gold hover:underline">Mudanzas en Belgrano</a></li>
+              <li><a href="/blog/mudanzas-san-telmo" className="text-gold hover:underline">Mudanzas en San Telmo</a></li>
+              <li><a href="/blog/mudanzas-retiro" className="text-gold hover:underline">Mudanzas en Retiro</a></li>
+              <li><a href="/blog/mudanzas-balvanera" className="text-gold hover:underline">Mudanzas en Balvanera</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactanos por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
