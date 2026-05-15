@@ -139,6 +139,10 @@ const articles = [
   {slug:'mudanzas-villa-soldati',title:'Mudanzas en Villa Soldati Buenos Aires',excerpt:'Servicio de mudanzas en Villa Soldati. Alta densidad poblacional en el sur de CABA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-14'},
   {slug:'mudanzas-villa-riachuelo',title:'Mudanzas en Villa Riachuelo Buenos Aires',excerpt:'Servicio de mudanzas en Villa Riachuelo. Barrio tranquilo del sur de CABA con predominio de casas bajas. Presupuesto sin cargo.',date:'2026-05-14'},
   {slug:'mudanzas-boca',title:'Mudanzas en La Boca Buenos Aires',excerpt:'Servicio de mudanzas en La Boca. Barrio histórico y colorido del sur de CABA. Experiencia en propiedades de época. Presupuesto sin cargo.',date:'2026-05-14'},
+  {slug:'mudanzas-merlo',title:'Mudanzas en Merlo GBA',excerpt:'Servicio de mudanzas en Merlo. Cubrimos todo el partido incluyendo Libertad, Pontevedra y San Antonio de Padua. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-moreno',title:'Mudanzas en Moreno GBA',excerpt:'Servicio de mudanzas en Moreno. Cubrimos todo el partido incluyendo Francisco Álvarez, La Reja y Cuartel V. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-san-martin',title:'Mudanzas en San Martín GBA',excerpt:'Servicio de mudanzas en San Martín. Villa Ballester, José León Suárez y todo el partido. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-tres-de-febrero',title:'Mudanzas en Tres de Febrero GBA',excerpt:'Servicio de mudanzas en Tres de Febrero. Caseros, Ciudadela, El Palomar y todo el partido. Presupuesto sin cargo.',date:'2026-05-15'},
 ];
 
 export default function Blog() {

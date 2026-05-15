@@ -73,6 +73,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-villa-soldati",
     "mudanzas-villa-riachuelo",
     "mudanzas-boca",
+    "mudanzas-merlo",
+    "mudanzas-moreno",
+    "mudanzas-san-martin",
+    "mudanzas-tres-de-febrero",
   ];
 
   return [
