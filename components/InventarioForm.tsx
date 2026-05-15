@@ -38,7 +38,7 @@ export default function InventarioForm() {
   const [telefono, setTelefono] = useState("");
   const [email, setEmail] = useState("");
   const [materialesSeleccionados, setMaterialesSeleccionados] = useState<string[]>([]);
-  const [otroMaterial, setOtroMaterial] = useState("");
+  const [detallesMateriales, setDetallesMateriales] = useState<{ [mat: string]: string }>({});
   const [inventario, setInventario] = useState<Inventario>({});
   const [enviado, setEnviado] = useState(false);
   const [enviando, setEnviando] = useState(false);
@@ -47,6 +47,10 @@ export default function InventarioForm() {
     setMaterialesSeleccionados((prev) =>
       prev.includes(mat) ? prev.filter((m) => m !== mat) : [...prev, mat]
     );
+  };
+
+  const updateDetalleMaterial = (mat: string, valor: string) => {
+    setDetallesMateriales((prev) => ({ ...prev, [mat]: valor }));
   };
 
   const updateItem = (ambiente: string, mueble: string, field: keyof ItemData, value: string | number) => {
@@ -69,12 +73,16 @@ export default function InventarioForm() {
     resumen += `*Cliente:* ${nombre}%0A`;
     resumen += `*Teléfono:* ${telefono}%0A`;
     if (email) resumen += `*Email:* ${email}%0A`;
-    
-    const matsFinales = materialesSeleccionados.includes("Otro") && otroMaterial
-      ? [...materialesSeleccionados.filter(m => m !== "Otro"), otroMaterial]
-      : materialesSeleccionados;
-    if (matsFinales.length > 0) resumen += `*Materiales principales:* ${matsFinales.join(", ")}%0A`;
     resumen += `%0A`;
+
+    if (materialesSeleccionados.length > 0) {
+      resumen += `*Materiales y muebles especiales:*%0A`;
+      materialesSeleccionados.forEach((mat) => {
+        const detalle = detallesMateriales[mat];
+        resumen += `• ${mat}${detalle ? `: ${detalle}` : ""}%0A`;
+      });
+      resumen += `%0A`;
+    }
 
     ambientes.forEach(({ nombre: amb }) => {
       const items = inventario[amb];
@@ -99,8 +107,7 @@ export default function InventarioForm() {
     }
     setEnviando(true);
     const resumen = buildResumen();
-    const whatsappUrl = `https://wa.me/5491154507435?text=${resumen}`;
-    window.open(whatsappUrl, "_blank");
+    window.open(`https://wa.me/5491154507435?text=${resumen}`, "_blank");
     setEnviando(false);
     setEnviado(true);
   };
@@ -144,9 +151,9 @@ export default function InventarioForm() {
 
       {/* Materiales */}
       <div className="bg-card border border-border rounded-xl p-6">
-        <h2 className="font-display text-xl font-bold text-foreground mb-2">Materiales principales de tus muebles</h2>
-        <p className="font-body text-muted-foreground text-sm mb-4">Seleccioná todos los que apliquen. Esto nos ayuda a preparar el embalaje adecuado.</p>
-        <div className="flex flex-wrap gap-2">
+        <h2 className="font-display text-xl font-bold text-foreground mb-2">Materiales de tus muebles</h2>
+        <p className="font-body text-muted-foreground text-sm mb-4">Seleccioná los materiales que tienen tus muebles. Si hay alguno delicado como mármol o cristal, especificá qué mueble es para que lo tratemos con cuidado especial.</p>
+        <div className="flex flex-wrap gap-2 mb-4">
           {materiales.map((mat) => (
             <button key={mat} onClick={() => toggleMaterial(mat)}
               className={`px-4 py-2 rounded-lg font-body text-sm border transition-colors ${
@@ -158,10 +165,23 @@ export default function InventarioForm() {
             </button>
           ))}
         </div>
-        {materialesSeleccionados.includes("Otro") && (
-          <input type="text" value={otroMaterial} onChange={(e) => setOtroMaterial(e.target.value)}
-            className="mt-3 w-full border border-border rounded-lg px-4 py-2 bg-background text-foreground font-body focus:outline-none focus:border-gold"
-            placeholder="Especificá el material..." />
+        {/* Detalle por material seleccionado */}
+        {materialesSeleccionados.length > 0 && (
+          <div className="space-y-3 mt-4 border-t border-border pt-4">
+            <p className="font-body text-sm text-muted-foreground">Especificá qué muebles son de cada material (opcional pero recomendado):</p>
+            {materialesSeleccionados.map((mat) => (
+              <div key={mat} className="flex items-center gap-3">
+                <span className="font-body text-sm text-foreground font-medium w-36 shrink-0">{mat}:</span>
+                <input
+                  type="text"
+                  value={detallesMateriales[mat] || ""}
+                  onChange={(e) => updateDetalleMaterial(mat, e.target.value)}
+                  className="flex-1 border border-border rounded-lg px-3 py-1.5 bg-background text-foreground font-body text-sm focus:outline-none focus:border-gold"
+                  placeholder={`Ej: ${mat === "Mármol" ? "mesa de comedor, encimera" : mat === "Cristal / Vidrio" ? "vitrina, mesa de centro" : mat === "Cuero" ? "sofá, sillón" : "especificá el mueble..."}`}
+                />
+              </div>
+            ))}
+          </div>
         )}
       </div>
 
