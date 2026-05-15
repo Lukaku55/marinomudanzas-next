@@ -54,6 +54,16 @@ export default function Page() {
             <p>Si, realizamos mudanzas entre CABA y Moron frecuentemente. Es una de las rutas mas demandadas del oeste del GBA.</p>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Tienen servicio de guardamuebles para mudanzas en Moron?</h3>
             <p>Si, nuestro deposito de guardamuebles en Flores, CABA, esta estrategicamente ubicado para dar servicio a toda la zona oeste del GBA.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas cercanas donde también operamos</h2>
+            <p>Si tu mudanza involucra zonas limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-hurlingham" className="text-gold hover:underline">Mudanzas en Hurlingham</a></li>
+              <li><a href="/blog/mudanzas-tres-de-febrero" className="text-gold hover:underline">Mudanzas en Tres de Febrero</a></li>
+              <li><a href="/blog/mudanzas-la-matanza" className="text-gold hover:underline">Mudanzas en La Matanza</a></li>
+              <li><a href="/blog/mudanzas-merlo" className="text-gold hover:underline">Mudanzas en Merlo</a></li>
+              <li><a href="/blog/mudanzas-moreno" className="text-gold hover:underline">Mudanzas en Moreno</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactános por WhatsApp o teléfono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">

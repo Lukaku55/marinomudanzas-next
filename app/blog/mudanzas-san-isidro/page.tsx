@@ -54,6 +54,16 @@ export default function Page() {
             <p>Si, coordinamos previamente el acceso con la administracion de cada country o barrio privado en San Isidro y Martinez.</p>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Hacen mudanzas de chacras y casas grandes en San Isidro?</h3>
             <p>Si, contamos con camiónes de gran capacidad para mudanzas de propiedades grandes en San Isidro, con personal especializado en el manejo de muebles de alto valor.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas cercanas donde también operamos</h2>
+            <p>Si tu mudanza involucra zonas limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-vicente-lopez" className="text-gold hover:underline">Mudanzas en Vicente López</a></li>
+              <li><a href="/blog/mudanzas-tigre" className="text-gold hover:underline">Mudanzas en Tigre</a></li>
+              <li><a href="/blog/mudanzas-san-fernando" className="text-gold hover:underline">Mudanzas en San Fernando</a></li>
+              <li><a href="/blog/mudanzas-belgrano" className="text-gold hover:underline">Mudanzas en Belgrano</a></li>
+              <li><a href="/blog/mudanzas-nunez" className="text-gold hover:underline">Mudanzas en Núñez</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactános por WhatsApp o teléfono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
