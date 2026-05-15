@@ -24,6 +24,16 @@ export default function Page() {
             <p>El crecimiento edilicio de Parque Patricios genera mucha demanda de mudanzas. Conocemos las particularidades de los nuevos edificios del barrio y coordinamos con los encargados para cumplir con las normas de cada consorcio.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Por qué elegirnos para tu mudanza en Parque Patricios</h2>
             <p>Con más de 80 años de trayectoria, Marino Mudanzas es la empresa de mudanzas con mayor experiencia de Buenos Aires. Nuestro equipo conoce las particularidades de cada barrio de CABA y está capacitado para resolver cualquier situación logística. Flota propia, embalaje incluido y seguro de carga en todos nuestros servicios.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
+            <p>Si tu mudanza involucra barrios limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-boedo" className="text-gold hover:underline">Mudanzas en Boedo</a></li>
+              <li><a href="/blog/mudanzas-barracas" className="text-gold hover:underline">Mudanzas en Barracas</a></li>
+              <li><a href="/blog/mudanzas-nueva-pompeya" className="text-gold hover:underline">Mudanzas en Nueva Pompeya</a></li>
+              <li><a href="/blog/mudanzas-constitucion" className="text-gold hover:underline">Mudanzas en Constitución</a></li>
+              <li><a href="/blog/mudanzas-san-telmo" className="text-gold hover:underline">Mudanzas en San Telmo</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactános por WhatsApp o teléfono y te damos un presupuesto sin cargo. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">

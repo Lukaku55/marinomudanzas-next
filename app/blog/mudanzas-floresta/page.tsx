@@ -53,7 +53,17 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Trabajan los sábados?</h3>
             <p>Sí, trabajamos de lunes a sábado de 8 a 18hs.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactános para tu mudanza en Floresta</h2>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
+            <p>Si tu mudanza involucra barrios limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-flores" className="text-gold hover:underline">Mudanzas en Flores</a></li>
+              <li><a href="/blog/mudanzas-villa-devoto" className="text-gold hover:underline">Mudanzas en Villa Devoto</a></li>
+              <li><a href="/blog/mudanzas-monte-castro" className="text-gold hover:underline">Mudanzas en Monte Castro</a></li>
+              <li><a href="/blog/mudanzas-villa-santa-rita" className="text-gold hover:underline">Mudanzas en Villa Santa Rita</a></li>
+              <li><a href="/blog/mudanzas-villa-luro" className="text-gold hover:underline">Mudanzas en Villa Luro</a></li>
+            </ul>
+
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactanos para tu mudanza en Floresta</h2>
             <p>Pedí tu presupuesto sin cargo hoy. Respondemos de inmediato por WhatsApp o teléfono.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>

@@ -55,6 +55,16 @@ export default function Page() {
             <p>Si, tenemos experiencia en mudanzas de casas con jardin, incluyendo el traslado de muebles de exterior, parrillas y elementos de jardin.</p>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Trabajan en fin de semana en Boedo?</h3>
             <p>Si, trabajamos de lunes a sabado. Para mudanzas en sabado recomendamos coordinar con anticipación.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
+            <p>Si tu mudanza involucra barrios limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-almagro" className="text-gold hover:underline">Mudanzas en Almagro</a></li>
+              <li><a href="/blog/mudanzas-caballito" className="text-gold hover:underline">Mudanzas en Caballito</a></li>
+              <li><a href="/blog/mudanzas-san-telmo" className="text-gold hover:underline">Mudanzas en San Telmo</a></li>
+              <li><a href="/blog/mudanzas-parque-chacabuco" className="text-gold hover:underline">Mudanzas en Parque Chacabuco</a></li>
+              <li><a href="/blog/mudanzas-nueva-pompeya" className="text-gold hover:underline">Mudanzas en Nueva Pompeya</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactános por WhatsApp o teléfono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
