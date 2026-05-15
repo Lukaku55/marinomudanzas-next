@@ -64,7 +64,7 @@ export default function Page() {
             <p>En Marino Mudanzas ofrecemos servicio de embalaje profesional — nos encargamos de armar todas las cajas con los materiales adecuados para cada tipo de objeto. Consultanos por nuestro servicio de embalaje premium.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

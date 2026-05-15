@@ -21,11 +21,11 @@ export default function Page() {
             <p>Chacarita es uno de los barrios más vibrantes del norte de Buenos Aires. Con una mezcla de edificios de mediana altura, casas bajas, PHs y una creciente oferta gastronómica y cultural, es un barrio donde la demanda de mudanzas crece año a año. En Marino Mudanzas realizamos mudanzas en Chacarita con más de 80 años de experiencia en CABA.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Características de las mudanzas en Chacarita</h2>
-            <p>Chacarita tiene una variedad de propiedades que requieren diferentes soluciones logísticas. Las calles del barrio son relativamente amplias cerca de las avenidas principales como Corrientes, Forest y Dorrego, pero se angosta considerablemente en las calles internas. Muchos edificios del barrio son de construcción antigua y carecen de ascensor.</p>
+            <p>Chacarita tiene una variedad de propiedades que requieren diferentes soluciónes logísticas. Las calles del barrio son relativamente amplias cerca de las avenidas principales como Corrientes, Forest y Dorrego, pero se angosta considerablemente en las calles internas. Muchos edificios del barrio son de construcción antigua y carecen de ascensor.</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Gran cantidad de edificios sin ascensor de los años 50 y 60</li>
               <li>PHs y casas bajas con accesos alternativos</li>
-              <li>Calles angostas en el interior del barrio que requieren camiones de menor porte</li>
+              <li>Calles angostas en el interior del barrio que requieren camiónes de menor porte</li>
               <li>Edificios nuevos en la zona de Dorrego con mejor acceso</li>
             </ul>
 
@@ -36,7 +36,7 @@ export default function Page() {
               <li><strong>Mudanzas por soga:</strong> para muebles que no entran por escalera en edificios sin ascensor.</li>
               <li><strong>Coordinación con el consorcio:</strong> nos encargamos de los permisos y horarios del edificio.</li>
               <li><strong>Seguro de carga:</strong> tus pertenencias están cubiertas durante todo el traslado.</li>
-              <li><strong>Flota de distintos tamaños:</strong> camiones chicos para calles angostas y grandes para mudanzas de mayor volumen.</li>
+              <li><strong>Flota de distintos tamaños:</strong> camiónes chicos para calles angostas y grandes para mudanzas de mayor volumen.</li>
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Chacarita donde operamos</h2>
@@ -46,8 +46,8 @@ export default function Page() {
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Chacarita</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Tienen camiones pequeños para calles angostas?</h3>
-            <p>Sí, contamos con flota de distintos tamaños. Para calles angostas del interior de Chacarita usamos camiones de menor porte que facilitan la carga y descarga sin interrumpir el tráfico.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Tienen camiónes pequeños para calles angostas?</h3>
+            <p>Sí, contamos con flota de distintos tamaños. Para calles angostas del interior de Chacarita usamos camiónes de menor porte que fácilitan la carga y descarga sin interrumpir el tráfico.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas en edificios sin ascensor?</h3>
             <p>Sí, tenemos amplia experiencia en edificios sin ascensor. Para muebles que no pasan por la escalera utilizamos técnicas de elevación por soga desde el exterior.</p>
@@ -58,11 +58,21 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿También hacen mudanzas desde Chacarita hacia otros barrios o el GBA?</h3>
             <p>Sí, cubrimos mudanzas desde y hacia cualquier barrio de CABA y todo el Gran Buenos Aires. También realizamos mudanzas al interior del país.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactanos para tu mudanza en Chacarita</h2>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
+            <p>Si tu mudanza involucra barrios limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-palermo" className="text-gold hover:underline">Mudanzas en Palermo</a></li>
+              <li><a href="/blog/mudanzas-villa-crespo" className="text-gold hover:underline">Mudanzas en Villa Crespo</a></li>
+              <li><a href="/blog/mudanzas-colegiales" className="text-gold hover:underline">Mudanzas en Colegiales</a></li>
+              <li><a href="/blog/mudanzas-paternal" className="text-gold hover:underline">Mudanzas en Paternal</a></li>
+              <li><a href="/blog/mudanzas-villa-ortuzar" className="text-gold hover:underline">Mudanzas en Villa Ortúzar</a></li>
+            </ul>
+
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactános para tu mudanza en Chacarita</h2>
             <p>Pedí tu presupuesto sin cargo hoy. Respondemos de inmediato por WhatsApp o teléfono.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

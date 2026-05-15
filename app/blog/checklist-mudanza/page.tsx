@@ -40,7 +40,7 @@ export default function Page() {
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">Volver al blog</Link>
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Checklist de Mudanza Completo 2026</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
-            <p>Una mudanza bien planificada es una mudanza exitosa. En Marino Mudanzas, con mas de 80 anos de experiencia, sabemos que la organizacion previa es clave para evitar el estres y los imprevistos. Por eso preparamos este checklist completo para que no te olvides de nada.</p>
+            <p>Una mudanza bien planificada es una mudanza exitosa. En Marino Mudanzas, con más de 80 años de experiencia, sabemos que la organizacion previa es clave para evitar el estres y los imprevistos. Por eso preparamos este checklist completo para que no te olvides de nada.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">4 semanas antes de la mudanza</h2>
             <ul className="list-disc pl-6 space-y-2">
@@ -94,11 +94,11 @@ export default function Page() {
               <li>Conocer las normas del nuevo consorcio</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicita tu presupuesto sin cargo</h2>
-            <p>Contactanos por WhatsApp o telefono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <p>Contactános por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedi tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

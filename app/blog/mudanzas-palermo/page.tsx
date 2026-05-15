@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Palermo Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas en Palermo con más de 80 años de experiencia. Cubrimos Palermo Soho, Hollywood y Chico. Embalaje incluido, seguro de carga y presupuesto sin cargo. ¡Llamanos!",
+  description: "Mudanzas en Palermo con más de 80 años de experiencia. Cubrimos Palermo Soho, Hollywood y Chico. Embalaje incluido, seguro de carga y presupuesto sin cargo. ¡Llamános!",
 };
 
 
@@ -43,7 +43,7 @@ export default function Page() {
             <p>Palermo es el barrio más grande de Buenos Aires y uno de los más dinámicos en cuanto a mudanzas. Con más de 300.000 habitantes y una constante rotación de inquilinos y propietarios, la demanda de mudanzas en Palermo es muy alta. En Marino Mudanzas llevamos más de 80 años realizando mudanzas en Palermo Soho, Palermo Hollywood, Palermo Chico y Las Cañitas, con conocimiento detallado de cada calle, consorcio y restricción de tráfico del barrio.</p>
             
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Particularidades de las mudanzas en Palermo</h2>
-            <p>Palermo presenta desafíos únicos para las mudanzas. Sus calles angostas como Thames, Gurruchaga o Fitz Roy dificultan el acceso de camiones grandes. Muchos edificios de Palermo Soho son edificios reciclados sin ascensor, lo que requiere experiencia en mudanzas por escalera o por soga. En Palermo Hollywood abundan los lofts y espacios de techo alto con muebles de grandes dimensiones que requieren maniobras especiales.</p>
+            <p>Palermo presenta desafíos únicos para las mudanzas. Sus calles angostas como Thames, Gurruchaga o Fitz Roy dificultan el acceso de camiónes grandes. Muchos edificios de Palermo Soho son edificios reciclados sin ascensor, lo que requiere experiencia en mudanzas por escalera o por soga. En Palermo Hollywood abundan los lofts y espacios de techo alto con muebles de grandes dimensiones que requieren maniobras especiales.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Palermo que cubrimos</h2>
             <ul className="list-disc pl-6 space-y-2">
@@ -76,10 +76,10 @@ export default function Page() {
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
-            <p>Contactanos por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>
+            <p>Contactános por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas Express en Buenos Aires | Marino Mudanzas",
-  description: "Servicio de mudanzas express en Buenos Aires. Mudanzas urgentes y en el día en CABA y GBA. Mas de 80 anos de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  description: "Servicio de mudanzas express en Buenos Aires. Mudanzas urgentes y en el día en CABA y GBA. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };
 
 export default function Page() {
@@ -19,7 +19,7 @@ export default function Page() {
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas Express en Buenos Aires</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
-            <p>A veces las mudanzas no se pueden planificar con semanas de anticipación. Una situación imprevista, el vencimiento de un contrato o una oportunidad de trabajo pueden requerir una mudanza urgente. En Marino Mudanzas ofrecemos servicio de mudanzas express en Buenos Aires con más de 80 años de experiencia resolviendo situaciones de todo tipo.</p>
+            <p>A veces las mudanzas no se pueden planificar con semanas de anticipación. Una situación imprevista, el vencimiento de un contrato o una oportunidad de trabajo pueden requerir una mudanza urgente. En Marino Mudanzas ofrecemos servicio de mudanzas express en Buenos Aires con más de 80 años de experiencia resolviendo situaciónes de todo tipo.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué es una mudanza express?</h2>
             <p>Una mudanza express es un servicio de traslado urgente que se coordina con muy poca anticipación — en algunos casos el mismo día o al día siguiente. A diferencia de una mudanza planificada, la mudanza express requiere mayor flexibilidad de ambas partes pero es perfectamente posible cuando las circunstancias lo requieren.</p>
@@ -39,7 +39,7 @@ export default function Page() {
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Consejos para una mudanza express exitosa</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Contactanos lo antes posible — cuanto más tiempo tengamos, mejor podemos organizarnos</li>
+              <li>Contactános lo antes posible — cuanto más tiempo tengamos, mejor podemos organizarnos</li>
               <li>Tené lista la mayor cantidad de cosas embaladas antes de que lleguemos</li>
               <li>Priorizá los objetos esenciales si el tiempo no alcanza para todo</li>
               <li>Coordiná con el encargado del edificio con anticipación para el uso del ascensor</li>
@@ -57,11 +57,11 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿El seguro de carga aplica en mudanzas express?</h3>
             <p>Sí, todas nuestras mudanzas incluyen seguro de carga independientemente de la urgencia del traslado.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactanos ahora</h2>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactános ahora</h2>
             <p>Para mudanzas urgentes la mejor forma de contactarnos es por WhatsApp — respondemos rápido y podemos darte una respuesta inmediata sobre disponibilidad.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

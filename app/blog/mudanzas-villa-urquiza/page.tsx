@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Villa Urquiza Buenos Aires | Marino Mudanzas",
-  description: "Servicio de mudanzas en Villa Urquiza, Buenos Aires. Barrio residencial del norte de CABA. Mas de 80 anos de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  description: "Servicio de mudanzas en Villa Urquiza, Buenos Aires. Barrio residencial del norte de CABA. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };
 
 
@@ -14,7 +14,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Mudanzas en Villa Urquiza Buenos Aires | Marino Mudanzas",
-  "description": "Servicio de mudanzas en Villa Urquiza, Buenos Aires. Barrio residencial del norte de CABA. Mas de 80 anos de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  "description": "Servicio de mudanzas en Villa Urquiza, Buenos Aires. Barrio residencial del norte de CABA. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
   "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-villa-urquiza",
   "author": {
     "@type": "Organization",
@@ -42,7 +42,7 @@ export default function Page() {
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
             <p>Villa Urquiza es uno de los barrios mas tranquilos y residenciales del norte de Buenos Aires. Con casas de gran porte y edificios modernos, las mudanzas en Villa Urquiza requieren experiencia y equipamiento adecuado. En Marino Mudanzas contamos con flota propia y personal capacitado para cualquier tipo de traslado en el barrio.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Particularidades de las mudanzas en Villa Urquiza</h2>
-            <p>Villa Urquiza tiene calles arboladas y tranquilas que facilitan el traslado. Sus casas de familia suelen ser amplias, con jardines y garajes. Los edificios modernos tienen buenos ascensores y espacios de carga. La Avenida Triunvirato es el corredor principal del barrio.</p>
+            <p>Villa Urquiza tiene calles arboladas y tranquilas que fácilitan el traslado. Sus casas de familia suelen ser amplias, con jardines y garajes. Los edificios modernos tienen buenos ascensores y espacios de carga. La Avenida Triunvirato es el corredor principal del barrio.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Villa Urquiza que cubrimos</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Villa Urquiza Centro</strong> — zona comercial alrededor de Triunvirato</li>
@@ -52,7 +52,7 @@ export default function Page() {
             </ul>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Villa Urquiza</h2>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Hacen mudanzas de casas grandes en Villa Urquiza?</h3>
-            <p>Si, contamos con camiones de distintos tamanos para mudanzas de casas grandes en Villa Urquiza, incluyendo el desmontaje y montaje de muebles a medida.</p>
+            <p>Si, contamos con camiónes de distintos tamanos para mudanzas de casas grandes en Villa Urquiza, incluyendo el desmontaje y montaje de muebles a medida.</p>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Pueden mover autos o motos durante la mudanza en Villa Urquiza?</h3>
             <p>No trasladamos vehiculos, pero podemos coordinar el traslado de todos los demas bienes del hogar con total seguridad.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
@@ -65,11 +65,11 @@ export default function Page() {
               <li><a href="/blog/mudanzas-colegiales" className="text-gold hover:underline">Mudanzas en Colegiales</a></li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicita tu presupuesto sin cargo</h2>
-            <p>Contactanos por WhatsApp o telefono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <p>Contactános por WhatsApp o teléfono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedi tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

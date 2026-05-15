@@ -43,7 +43,7 @@ export default function Page() {
             <p>Caballito es el barrio más céntrico de Buenos Aires y uno de los más densamente poblados, con más de 180.000 habitantes. Su ubicación geográfica en el corazón de la ciudad lo convierte en uno de los barrios con mayor demanda de mudanzas de toda CABA. En Marino Mudanzas tenemos décadas de experiencia realizando mudanzas en Caballito, conociendo cada edificio y cada restricción de tráfico del barrio.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Particularidades de las mudanzas en Caballito</h2>
-            <p>Caballito tiene una alta densidad de edificios de departamentos construidos entre los años 60 y 90, muchos de los cuales tienen ascensores pequeños o escaleras angostas. La avenida Rivadavia, que atraviesa el barrio, tiene restricciones de carga y descarga en horarios pico. Las calles internas del barrio suelen ser más tranquilas pero con estacionamiento limitado para camiones grandes.</p>
+            <p>Caballito tiene una alta densidad de edificios de departamentos construidos entre los años 60 y 90, muchos de los cuales tienen ascensores pequeños o escaleras angostas. La avenida Rivadavia, que atraviesa el barrio, tiene restricciones de carga y descarga en horarios pico. Las calles internas del barrio suelen ser más tranquilas pero con estacionamiento limitado para camiónes grandes.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Caballito que cubrimos</h2>
             <ul className="list-disc pl-6 space-y-2">
@@ -75,10 +75,10 @@ export default function Page() {
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
-            <p>Contactanos por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>
+            <p>Contactános por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

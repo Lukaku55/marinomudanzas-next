@@ -58,10 +58,10 @@ export default function Page() {
             <p>Es algo que ocurre frecuentemente a fin de mes. En la medida de lo posible nos adaptamos a pequeñas variaciones de horario. Si el retraso es significativo coordinamos juntos la mejor solución para no afectar otras mudanzas del día.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Reservá tu mudanza ahora</h2>
-            <p>No esperes a último momento. Contactanos hoy y asegurá tu fecha antes de que se llene la agenda.</p>
+            <p>No esperes a último momento. Contactános hoy y asegurá tu fecha antes de que se llene la agenda.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

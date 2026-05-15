@@ -21,11 +21,11 @@ export default function Page() {
             <p>Villa Riachuelo es uno de los barrios más al sur de la Ciudad Autónoma de Buenos Aires, limítrofe con Villa Soldati y Mataderos. Es un barrio predominantemente de casas bajas con calles tranquilas y un perfil muy familiar. En Marino Mudanzas realizamos mudanzas en Villa Riachuelo con más de 80 años de experiencia en CABA.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Características de las mudanzas en Villa Riachuelo</h2>
-            <p>Villa Riachuelo tiene una fisonomía casi exclusivamente horizontal — casas de planta baja y primer piso con jardín. Es uno de los barrios más tranquilos del sur de CABA, lo que facilita enormemente las operaciones de mudanza.</p>
+            <p>Villa Riachuelo tiene una fisonomía casi exclusivamente horizontal — casas de planta baja y primer piso con jardín. Es uno de los barrios más tranquilos del sur de CABA, lo que fácilita enormemente las operaciónes de mudanza.</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Predominio casi exclusivo de casas bajas con jardín</li>
               <li>Calles muy tranquilas con bajo tráfico</li>
-              <li>Amplio espacio para maniobras de camiones</li>
+              <li>Amplio espacio para maniobras de camiónes</li>
               <li>Uno de los barrios más al sur de CABA</li>
             </ul>
 
@@ -36,7 +36,7 @@ export default function Page() {
               <li><strong>Mudanzas por soga:</strong> para muebles que no entran por escalera en edificios sin ascensor.</li>
               <li><strong>Coordinación con el consorcio:</strong> nos encargamos de los permisos y horarios del edificio.</li>
               <li><strong>Seguro de carga:</strong> tus pertenencias están cubiertas durante todo el traslado.</li>
-              <li><strong>Flota propia:</strong> camiones de distintos tamaños para adaptarnos a cada mudanza.</li>
+              <li><strong>Flota propia:</strong> camiónes de distintos tamaños para adaptarnos a cada mudanza.</li>
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Villa Riachuelo donde operamos</h2>
@@ -53,11 +53,11 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Trabajan los sábados?</h3>
             <p>Sí, trabajamos de lunes a sábado de 8 a 18hs.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactanos para tu mudanza en Villa Riachuelo</h2>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactános para tu mudanza en Villa Riachuelo</h2>
             <p>Pedí tu presupuesto sin cargo hoy. Respondemos de inmediato por WhatsApp o teléfono.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

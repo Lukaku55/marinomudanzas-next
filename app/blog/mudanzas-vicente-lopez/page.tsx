@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Vicente Lopez GBA | Marino Mudanzas Buenos Aires",
-  description: "Servicio de mudanzas en Vicente Lopez, Olivos, La Lucila y todo el partido. Mas de 80 anos de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  description: "Servicio de mudanzas en Vicente Lopez, Olivos, La Lucila y todo el partido. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };
 
 
@@ -14,7 +14,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Mudanzas en Vicente Lopez GBA | Marino Mudanzas Buenos Aires",
-  "description": "Servicio de mudanzas en Vicente Lopez, Olivos, La Lucila y todo el partido. Mas de 80 anos de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  "description": "Servicio de mudanzas en Vicente Lopez, Olivos, La Lucila y todo el partido. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
   "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-vicente-lopez",
   "author": {
     "@type": "Organization",
@@ -40,7 +40,7 @@ export default function Page() {
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">Volver al blog</Link>
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas en Vicente Lopez</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
-            <p>Vicente Lopez es uno de los partidos mas elegantes del norte del Gran Buenos Aires, con barrios como Olivos, La Lucila, Munro y Florida. Sus amplias avenidas y residencias de gran porte requieren experiencia y equipamiento adecuado. En Marino Mudanzas realizamos mudanzas en Vicente Lopez desde hace mas de 80 anos.</p>
+            <p>Vicente Lopez es uno de los partidos mas elegantes del norte del Gran Buenos Aires, con barrios como Olivos, La Lucila, Munro y Florida. Sus amplias avenidas y residencias de gran porte requieren experiencia y equipamiento adecuado. En Marino Mudanzas realizamos mudanzas en Vicente Lopez desde hace más de 80 anos.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Localidades de Vicente Lopez que cubrimos</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Olivos</strong> — zona residencial premium con casas de gran porte</li>
@@ -55,12 +55,12 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Hacen mudanzas desde CABA a Vicente Lopez?</h3>
             <p>Si, realizamos mudanzas entre CABA y Vicente Lopez frecuentemente. Es una de las rutas mas demandadas del norte del GBA.</p>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Tienen experiencia en mudanzas de casas grandes en Olivos?</h3>
-            <p>Si, contamos con camiones de distintos tamanos y personal especializado para mudanzas de casas de gran porte en Olivos y La Lucila.</p>
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicita tu presupuesto sin cargo</h2>
-            <p>Contactanos por WhatsApp o telefono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
+            <p>Si, contamos con camiónes de distintos tamanos y personal especializado para mudanzas de casas de gran porte en Olivos y La Lucila.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <p>Contactános por WhatsApp o teléfono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedi tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

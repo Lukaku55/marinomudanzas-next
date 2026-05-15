@@ -59,7 +59,7 @@ export default function Page() {
               <li><strong>Oficinas medianas:</strong> empresas de 10 a 50 personas con coordinación de múltiples áreas y equipamiento variado.</li>
               <li><strong>Grandes corporaciones:</strong> mudanzas de múltiples pisos o edificios completos con planificación por etapas.</li>
               <li><strong>Locales comerciales:</strong> traslado de mobiliario, equipamiento y mercadería de locales en CABA y GBA.</li>
-              <li><strong>Mudanzas de depósitos:</strong> traslado de stock, estanterías y equipamiento industrial con camiones de gran porte.</li>
+              <li><strong>Mudanzas de depósitos:</strong> traslado de stock, estanterías y equipamiento industrial con camiónes de gran porte.</li>
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Empresas que confiaron en nosotros</h2>
@@ -89,10 +89,10 @@ export default function Page() {
             <p>Para mudanzas corporativas recomendamos contactarnos con al menos 3 a 4 semanas de anticipación para poder hacer el relevamiento, preparar el presupuesto y planificar la logística correctamente.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Pedí tu presupuesto corporativo</h2>
-            <p>Contactanos hoy para coordinar una visita de relevamiento sin cargo. Te preparamos un presupuesto detallado adaptado a las necesidades de tu empresa.</p>
+            <p>Contactános hoy para coordinar una visita de relevamiento sin cargo. Te preparamos un presupuesto detallado adaptado a las necesidades de tu empresa.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

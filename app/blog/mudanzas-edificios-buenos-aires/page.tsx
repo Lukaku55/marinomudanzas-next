@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en edificios de Buenos Aires: todo lo que tenés que saber | Marino Mudanzas",
-  description: "¿Te mudás en un edificio de Buenos Aires? Horarios permitidos, permisos, coordinación con el encargado y soluciones para edificios sin ascensor. Más de 80 años de experiencia.",
+  description: "¿Te mudás en un edificio de Buenos Aires? Horarios permitidos, permisos, coordinación con el encargado y soluciónes para edificios sin ascensor. Más de 80 años de experiencia.",
 };
 
 import { MessageCircle, Phone } from "lucide-react";
@@ -125,7 +125,7 @@ export default function Page() {
               className="flex items-center gap-3 bg-navy text-primary-foreground px-8 py-4 rounded-lg font-body font-bold text-lg hover:opacity-90 transition-opacity shadow-xl"
             >
               <Phone className="w-6 h-6" />
-              Llamanos: 4611-1818
+              Llamános: 4611-1818
             </a>
           </div>
         </article>

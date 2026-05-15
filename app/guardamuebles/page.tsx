@@ -80,7 +80,7 @@ export default function Page() {
             <p>Sí, podés acceder a tus pertenencias coordinando previamente con nosotros. Te pedimos que avises con al menos 24 horas de anticipación para organizar el acceso.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta el guardamuebles?</h3>
-            <p>El precio depende del volumen a almacenar y el plazo. Contactanos para recibir un presupuesto personalizado sin cargo.</p>
+            <p>El precio depende del volumen a almacenar y el plazo. Contactános para recibir un presupuesto personalizado sin cargo.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Mis pertenencias están aseguradas?</h3>
             <p>Sí, el servicio de guardamuebles incluye cobertura de seguro. Consultanos los detalles de la cobertura al momento de contratar.</p>
@@ -92,10 +92,10 @@ export default function Page() {
             <p>Sí, podemos realizar el embalaje profesional de tus pertenencias antes de llevarlas al guardamuebles. Es un servicio adicional que recomendamos especialmente para objetos frágiles o muebles delicados.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Consultanos sin cargo</h2>
-            <p>Contactanos hoy para recibir un presupuesto personalizado para tu guardamuebles. Respondemos de inmediato.</p>
+            <p>Contactános hoy para recibir un presupuesto personalizado para tu guardamuebles. Respondemos de inmediato.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

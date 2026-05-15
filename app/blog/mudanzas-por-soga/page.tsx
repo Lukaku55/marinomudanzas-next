@@ -40,7 +40,7 @@ export default function Page() {
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">Volver al blog</Link>
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas por Soga en Buenos Aires</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
-            <p>Las mudanzas por soga son una solucion especializada para mover muebles de gran tamano que no pueden subir o bajar por el ascensor o la escalera de un edificio. En Marino Mudanzas somos especialistas en este tipo de servicio, con mas de 80 anos de experiencia y el equipamiento adecuado para realizarlo con total seguridad.</p>
+            <p>Las mudanzas por soga son una solución especializada para mover muebles de gran tamano que no pueden subir o bajar por el ascensor o la escalera de un edificio. En Marino Mudanzas somos especialistas en este tipo de servicio, con más de 80 años de experiencia y el equipamiento adecuado para realizarlo con total seguridad.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Que es una mudanza por soga?</h2>
             <p>Una mudanza por soga consiste en elevar o descender muebles por el exterior de un edificio usando cuerdas y poleas especiales. Este metodo se utiliza cuando los muebles son demasiado grandes para pasar por el ascensor, cuando las escaleras son muy angostas o empinadas, o cuando es necesario ingresar muebles por una ventana o balcon.</p>
@@ -76,11 +76,11 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Tienen seguro para mudanzas por soga?</h3>
             <p>Si, todos nuestros servicios de mudanza, incluidas las mudanzas por soga, estan cubiertos por un seguro de carga que protege tus pertenencias durante todo el proceso.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicita tu presupuesto sin cargo</h2>
-            <p>Contactanos por WhatsApp o telefono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <p>Contactános por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedi tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

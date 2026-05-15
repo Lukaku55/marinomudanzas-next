@@ -40,7 +40,7 @@ export default function Page() {
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">Volver al blog</Link>
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Guardamuebles en Buenos Aires: Todo lo que Necesitas Saber</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
-            <p>El servicio de guardamuebles es una solucion muy util cuando necesitas almacenar tus muebles y pertenencias de forma segura por un tiempo determinado. Ya sea por una refaccion, un viaje largo, una separacion o simplemente porque te sobra espacio, en Marino Mudanzas ofrecemos guardamuebles en Flores, CABA, con mas de 80 anos de experiencia.</p>
+            <p>El servicio de guardamuebles es una solución muy util cuando necesitas almacenar tus muebles y pertenencias de forma segura por un tiempo determinado. Ya sea por una refaccion, un viaje largo, una separacion o simplemente porque te sobra espacio, en Marino Mudanzas ofrecemos guardamuebles en Flores, CABA, con más de 80 años de experiencia.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cuando necesitas un guardamuebles?</h2>
             <ul className="list-disc pl-6 space-y-2">
@@ -72,19 +72,19 @@ export default function Page() {
             <p>No hay un plazo maximo. Ofrecemos almacenaje por tiempo corto (desde una semana) o prolongado (meses o incluso anos). El precio se ajusta segun el tiempo contratado.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Puedo acceder a mis cosas mientras estan en el guardamuebles?</h3>
-            <p>Si, coordinando previamente con nuestro equipo podes acceder a tus pertenencias en horario de atencion. No es un acceso libre e irrestricto, pero si coordinado y seguro.</p>
+            <p>Si, coordinando previamente con nuestro equipo podes acceder a tus pertenencias en horario de atención. No es un acceso libre e irrestricto, pero si coordinado y seguro.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Que no puedo guardar en el guardamuebles?</h3>
             <p>No admitimos materiales inflamables, explosivos, alimentos perecederos, animales o plantas. Tampoco objetos ilegales o que requieran condiciones especiales de temperatura.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Hacen el retiro y la entrega de los muebles?</h3>
-            <p>Si, con nuestro servicio completo nos encargamos del retiro de tus muebles en tu domicilio y de la entrega cuando los necesites, usando nuestros camiones y personal especializado.</p>
+            <p>Si, con nuestro servicio completo nos encargamos del retiro de tus muebles en tu domicilio y de la entrega cuando los necesites, usando nuestros camiónes y personal especializado.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicita tu presupuesto sin cargo</h2>
-            <p>Contactanos por WhatsApp o telefono y te damos un presupuesto de guardamuebles sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <p>Contactános por WhatsApp o teléfono y te damos un presupuesto de guardamuebles sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedi tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

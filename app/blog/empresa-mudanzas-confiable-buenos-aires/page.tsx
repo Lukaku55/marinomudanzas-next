@@ -73,13 +73,13 @@ export default function Page() {
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Por qué elegir Marino Mudanzas</h2>
-            <p>Con más de 80 años de trayectoria, Marino Mudanzas es una de las empresas de mudanzas más antiguas y confiables de Buenos Aires. Tenemos sede en Flores desde 1950, flota propia de camiones, más de 338 reseñas en Google con 4.7 estrellas y seguro de carga en todos nuestros servicios. Cada mudanza tiene un presupuesto detallado por escrito y un equipo de operarios capacitados y comprometidos con el cuidado de tus pertenencias.</p>
+            <p>Con más de 80 años de trayectoria, Marino Mudanzas es una de las empresas de mudanzas más antiguas y confiables de Buenos Aires. Tenemos sede en Flores desde 1950, flota propia de camiónes, más de 338 reseñas en Google con 4.7 estrellas y seguro de carga en todos nuestros servicios. Cada mudanza tiene un presupuesto detallado por escrito y un equipo de operarios capacitados y comprometidos con el cuidado de tus pertenencias.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
-            <p>Contactanos por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>
+            <p>Contactános por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

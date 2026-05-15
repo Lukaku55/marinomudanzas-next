@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Villa Devoto Buenos Aires | Marino Mudanzas",
-  description: "Servicio de mudanzas en Villa Devoto, Buenos Aires. Barrio familiar del oeste de CABA. Mas de 80 anos de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  description: "Servicio de mudanzas en Villa Devoto, Buenos Aires. Barrio familiar del oeste de CABA. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };
 
 
@@ -14,7 +14,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Mudanzas en Villa Devoto Buenos Aires | Marino Mudanzas",
-  "description": "Servicio de mudanzas en Villa Devoto, Buenos Aires. Barrio familiar del oeste de CABA. Mas de 80 anos de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  "description": "Servicio de mudanzas en Villa Devoto, Buenos Aires. Barrio familiar del oeste de CABA. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
   "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-villa-devoto",
   "author": {
     "@type": "Organization",
@@ -42,7 +42,7 @@ export default function Page() {
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
             <p>Villa Devoto es uno de los barrios mas tradicionales y familiares del oeste de Buenos Aires, con una gran cantidad de casas de familia, chalets y edificios de baja altura. Su ambiente tranquilo y sus calles arboladas lo convierten en un barrio ideal para vivir. En Marino Mudanzas tenemos decadas de experiencia realizando mudanzas en Villa Devoto.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Particularidades de las mudanzas en Villa Devoto</h2>
-            <p>Villa Devoto tiene calles amplias y tranquilas que facilitan el acceso de camiones. Sus casas de familia suelen ser grandes, con jardin y garaje. La Plaza Arenales es el centro del barrio, con comercios y servicios alrededor.</p>
+            <p>Villa Devoto tiene calles amplias y tranquilas que fácilitan el acceso de camiónes. Sus casas de familia suelen ser grandes, con jardin y garaje. La Plaza Arenales es el centro del barrio, con comercios y servicios alrededor.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Villa Devoto que cubrimos</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Villa Devoto Norte</strong> — zona de casas de familia amplias</li>
@@ -55,11 +55,21 @@ export default function Page() {
             <p>Si, tenemos experiencia en mudanzas de casas con jardin en Villa Devoto, incluyendo el traslado de muebles de exterior y elementos de jardin.</p>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Pueden hacer mudanzas a Villa Devoto desde cualquier barrio de CABA?</h3>
             <p>Si, realizamos mudanzas desde y hacia Villa Devoto desde cualquier barrio de CABA y el GBA.</p>
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicita tu presupuesto sin cargo</h2>
-            <p>Contactanos por WhatsApp o telefono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
+            <p>Si tu mudanza involucra barrios limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-villa-del-parque" className="text-gold hover:underline">Mudanzas en Villa del Parque</a></li>
+              <li><a href="/blog/mudanzas-villa-urquiza" className="text-gold hover:underline">Mudanzas en Villa Urquiza</a></li>
+              <li><a href="/blog/mudanzas-floresta" className="text-gold hover:underline">Mudanzas en Floresta</a></li>
+              <li><a href="/blog/mudanzas-monte-castro" className="text-gold hover:underline">Mudanzas en Monte Castro</a></li>
+              <li><a href="/blog/mudanzas-villa-santa-rita" className="text-gold hover:underline">Mudanzas en Villa Santa Rita</a></li>
+            </ul>
+
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <p>Contactános por WhatsApp o teléfono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedi tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

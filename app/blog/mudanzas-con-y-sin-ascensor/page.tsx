@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas con Ascensor y sin Ascensor en Buenos Aires | Marino Mudanzas",
-  description: "Todo sobre mudanzas en edificios con y sin ascensor en Buenos Aires. Técnicas, costos y soluciones para cada caso. Marino Mudanzas, especialistas desde 1950.",
+  description: "Todo sobre mudanzas en edificios con y sin ascensor en Buenos Aires. Técnicas, costos y soluciónes para cada caso. Marino Mudanzas, especialistas desde 1950.",
 };
 
 
@@ -14,7 +14,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Mudanzas con Ascensor y sin Ascensor en Buenos Aires | Marino Mudanzas",
-  "description": "Todo sobre mudanzas en edificios con y sin ascensor en Buenos Aires. Técnicas, costos y soluciones para cada caso. Marino Mudanzas, especialistas desde 1950.",
+  "description": "Todo sobre mudanzas en edificios con y sin ascensor en Buenos Aires. Técnicas, costos y soluciónes para cada caso. Marino Mudanzas, especialistas desde 1950.",
   "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-con-y-sin-ascensor",
   "author": {
     "@type": "Organization",
@@ -66,10 +66,10 @@ export default function Page() {
             <p>No hay un límite fijo, pero evaluamos cada caso individualmente. Contamos con el equipamiento necesario para trabajar en edificios de hasta 10 pisos.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
-            <p>Contactanos por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>
+            <p>Contactános por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

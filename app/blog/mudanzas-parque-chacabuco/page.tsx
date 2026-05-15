@@ -21,7 +21,7 @@ export default function Page() {
             <p>Parque Chacabuco es un barrio tranquilo y familiar del sur de la Ciudad Autónoma de Buenos Aires. Ubicado entre Caballito, Boedo y Nueva Pompeya, es un barrio predominantemente residencial con casas de familia, edificios de mediana altura y amplias avenidas. En Marino Mudanzas realizamos mudanzas en Parque Chacabuco con más de 80 años de experiencia en CABA.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Características de las mudanzas en Parque Chacabuco</h2>
-            <p>Parque Chacabuco tiene una fisonomía particular — predominan las casas bajas y los edificios de 4 a 6 pisos, muchos de los cuales fueron construidos en las décadas del 50 y 60 y no cuentan con ascensor. El barrio limita con el Parque Chacabuco propiamente dicho, lo que genera calles tranquilas y poco tráfico en muchas zonas, facilitando la carga y descarga.</p>
+            <p>Parque Chacabuco tiene una fisonomía particular — predominan las casas bajas y los edificios de 4 a 6 pisos, muchos de los cuales fueron construidos en las décadas del 50 y 60 y no cuentan con ascensor. El barrio limita con el Parque Chacabuco propiamente dicho, lo que genera calles tranquilas y poco tráfico en muchas zonas, fácilitando la carga y descarga.</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Predominio de casas de familia con jardín y accesos amplios</li>
               <li>Edificios de mediana altura muchos sin ascensor</li>
@@ -36,7 +36,7 @@ export default function Page() {
               <li><strong>Mudanzas por soga:</strong> para muebles que no entran por escalera en edificios sin ascensor.</li>
               <li><strong>Coordinación con el consorcio:</strong> nos encargamos de los permisos y horarios del edificio.</li>
               <li><strong>Seguro de carga:</strong> tus pertenencias están cubiertas durante todo el traslado.</li>
-              <li><strong>Flota propia:</strong> camiones de distintos tamaños para adaptarnos a cada mudanza.</li>
+              <li><strong>Flota propia:</strong> camiónes de distintos tamaños para adaptarnos a cada mudanza.</li>
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Parque Chacabuco donde operamos</h2>
@@ -45,7 +45,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Parque Chacabuco</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas de casas con jardín en Parque Chacabuco?</h3>
-            <p>Sí, tenemos amplia experiencia en mudanzas de casas de familia con jardín. Coordinamos el acceso por el frente o lateral según la disposición de la propiedad para facilitar la carga de muebles voluminosos.</p>
+            <p>Sí, tenemos amplia experiencia en mudanzas de casas de familia con jardín. Coordinamos el acceso por el frente o lateral según la disposición de la propiedad para fácilitar la carga de muebles voluminosos.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación tengo que reservar?</h3>
             <p>Recomendamos reservar con al menos 10 a 15 días de anticipación. Para mudanzas a fin de mes lo ideal es reservar con 3 semanas.</p>
@@ -56,11 +56,11 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Trabajan los sábados?</h3>
             <p>Sí, trabajamos de lunes a sábado de 8 a 18hs.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactanos para tu mudanza en Parque Chacabuco</h2>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactános para tu mudanza en Parque Chacabuco</h2>
             <p>Pedí tu presupuesto sin cargo hoy. Respondemos de inmediato por WhatsApp o teléfono.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

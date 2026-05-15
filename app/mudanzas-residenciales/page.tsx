@@ -49,16 +49,16 @@ export default function Page() {
               <li><strong>Coordinación con el consorcio:</strong> nos encargamos de coordinar el uso del ascensor, los horarios permitidos y la documentación que requiera el edificio.</li>
               <li><strong>Seguro de carga:</strong> todas nuestras mudanzas incluyen seguro de carga para proteger tus pertenencias durante todo el traslado.</li>
               <li><strong>Entrega de canastos y cajas:</strong> te entregamos los materiales con anticipación para que puedas empacar con tranquilidad.</li>
-              <li><strong>Flota propia:</strong> contamos con camiones propios de distintos tamaños para adaptarnos al volumen de cada mudanza.</li>
+              <li><strong>Flota propia:</strong> contamos con camiónes propios de distintos tamaños para adaptarnos al volumen de cada mudanza.</li>
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Tipos de mudanzas residenciales que realizamos</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Mudanzas de monoambientes y departamentos pequeños:</strong> rápidas y eficientes, generalmente se resuelven en medio día.</li>
               <li><strong>Mudanzas de departamentos de 2 y 3 ambientes:</strong> el servicio más demandado en CABA, con amplia experiencia en edificios con y sin ascensor.</li>
-              <li><strong>Mudanzas de casas y PHs:</strong> traslados de mayor volumen con coordinación de varios camiones si es necesario.</li>
+              <li><strong>Mudanzas de casas y PHs:</strong> traslados de mayor volumen con coordinación de varios camiónes si es necesario.</li>
               <li><strong>Mudanzas por soga:</strong> cuando los muebles no entran por ascensor o escalera, utilizamos técnicas de elevación exterior con soga y aparejos.</li>
-              <li><strong>Mudanzas express:</strong> servicio urgente para situaciones imprevistas con la mínima anticipación posible.</li>
+              <li><strong>Mudanzas express:</strong> servicio urgente para situaciónes imprevistas con la mínima anticipación posible.</li>
               <li><strong>Mudanzas con guardamuebles:</strong> combinamos el traslado con almacenaje temporal en nuestras instalaciones en Flores.</li>
             </ul>
 
@@ -87,15 +87,15 @@ export default function Page() {
             <p>Somos especialistas en mudanzas por soga. Elevamos y descendemos muebles por el exterior del edificio con técnicas profesionales y seguras. Consultanos el caso específico para evaluar la mejor solución.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas los sábados?</h3>
-            <p>Sí, trabajamos de lunes a sábado de 8 a 18hs. Los domingos no prestamos servicio salvo situaciones excepcionales.</p>
+            <p>Sí, trabajamos de lunes a sábado de 8 a 18hs. Los domingos no prestamos servicio salvo situaciónes excepcionales.</p>
 
 
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Pedí tu presupuesto sin cargo</h2>
-            <p>Contactanos hoy y recibí un presupuesto detallado para tu mudanza residencial. Sin compromiso y con respuesta inmediata.</p>
+            <p>Contactános hoy y recibí un presupuesto detallado para tu mudanza residencial. Sin compromiso y con respuesta inmediata.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>
