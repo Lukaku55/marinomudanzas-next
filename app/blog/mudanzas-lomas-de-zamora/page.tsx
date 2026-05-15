@@ -24,6 +24,16 @@ export default function Page() {
             <p>Lomas de Zamora tiene sectores con alto tráfico comercial que requieren planificación del horario de carga y descarga. Coordinamos previamente para minimizar demoras.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Por qué elegirnos para tu mudanza en Lomas de Zamora</h2>
             <p>Con más de 80 años de trayectoria, Marino Mudanzas es la empresa de mudanzas con mayor experiencia de Buenos Aires. Nuestro equipo conoce las particularidades de cada zona del GBA y está capacitado para resolver cualquier situación logística. Flota propia, embalaje incluido y seguro de carga en todos nuestros servicios.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas cercanas donde también operamos</h2>
+            <p>Si tu mudanza involucra zonas limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-lanus" className="text-gold hover:underline">Mudanzas en Lanús</a></li>
+              <li><a href="/blog/mudanzas-avellaneda" className="text-gold hover:underline">Mudanzas en Avellaneda</a></li>
+              <li><a href="/blog/mudanzas-quilmes" className="text-gold hover:underline">Mudanzas en Quilmes</a></li>
+              <li><a href="/blog/mudanzas-esteban-echeverria" className="text-gold hover:underline">Mudanzas en Esteban Echeverría</a></li>
+              <li><a href="/blog/mudanzas-la-matanza" className="text-gold hover:underline">Mudanzas en La Matanza</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactános por WhatsApp o teléfono y te damos un presupuesto sin cargo. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">

@@ -54,6 +54,16 @@ export default function Page() {
             <p>Si, realizamos mudanzas entre CABA y Lanus frecuentemente. Es una de las rutas mas demandadas del sur del GBA.</p>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Tienen experiencia en mudanzas de departamentos en Lanus?</h3>
             <p>Si, Lanus tiene una gran cantidad de edificios de departamentos y tenemos amplia experiencia en mudanzas en este tipo de propiedades.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas cercanas donde también operamos</h2>
+            <p>Si tu mudanza involucra zonas limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-avellaneda" className="text-gold hover:underline">Mudanzas en Avellaneda</a></li>
+              <li><a href="/blog/mudanzas-lomas-de-zamora" className="text-gold hover:underline">Mudanzas en Lomas de Zamora</a></li>
+              <li><a href="/blog/mudanzas-quilmes" className="text-gold hover:underline">Mudanzas en Quilmes</a></li>
+              <li><a href="/blog/mudanzas-esteban-echeverria" className="text-gold hover:underline">Mudanzas en Esteban Echeverría</a></li>
+              <li><a href="/blog/mudanzas-la-matanza" className="text-gold hover:underline">Mudanzas en La Matanza</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactános por WhatsApp o teléfono y te damos un presupuesto sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
