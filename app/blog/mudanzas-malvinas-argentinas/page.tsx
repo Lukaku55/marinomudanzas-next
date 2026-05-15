@@ -52,6 +52,16 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Trabajan los sábados?</h3>
             <p>Sí, trabajamos de lunes a sábado de 8 a 18hs.</p>
 
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas cercanas donde también operamos</h2>
+            <p>Si tu mudanza involucra zonas limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-san-martin" className="text-gold hover:underline">Mudanzas en San Martín</a></li>
+              <li><a href="/blog/mudanzas-jose-c-paz" className="text-gold hover:underline">Mudanzas en José C. Paz</a></li>
+              <li><a href="/blog/mudanzas-pilar" className="text-gold hover:underline">Mudanzas en Pilar</a></li>
+              <li><a href="/blog/mudanzas-tigre" className="text-gold hover:underline">Mudanzas en Tigre</a></li>
+              <li><a href="/blog/mudanzas-tres-de-febrero" className="text-gold hover:underline">Mudanzas en Tres de Febrero</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactános para tu mudanza en Malvinas Argentinas</h2>
             <p>Pedí tu presupuesto sin cargo hoy. Respondemos de inmediato por WhatsApp o teléfono.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
