@@ -143,6 +143,10 @@ const articles = [
   {slug:'mudanzas-moreno',title:'Mudanzas en Moreno GBA',excerpt:'Servicio de mudanzas en Moreno. Cubrimos todo el partido incluyendo Francisco Álvarez, La Reja y Cuartel V. Presupuesto sin cargo.',date:'2026-05-15'},
   {slug:'mudanzas-san-martin',title:'Mudanzas en San Martín GBA',excerpt:'Servicio de mudanzas en San Martín. Villa Ballester, José León Suárez y todo el partido. Presupuesto sin cargo.',date:'2026-05-15'},
   {slug:'mudanzas-tres-de-febrero',title:'Mudanzas en Tres de Febrero GBA',excerpt:'Servicio de mudanzas en Tres de Febrero. Caseros, Ciudadela, El Palomar y todo el partido. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-berazategui',title:'Mudanzas en Berazategui GBA',excerpt:'Servicio de mudanzas en Berazategui. Hudson, Ranelagh y todo el partido. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-jose-c-paz',title:'Mudanzas en José C. Paz GBA',excerpt:'Servicio de mudanzas en José C. Paz. Cubrimos todo el partido del noroeste del GBA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-malvinas-argentinas',title:'Mudanzas en Malvinas Argentinas GBA',excerpt:'Servicio de mudanzas en Malvinas Argentinas. Grand Bourg, Los Polvorines, Tortuguitas y todo el partido. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-esteban-echeverria',title:'Mudanzas en Esteban Echeverría GBA',excerpt:'Servicio de mudanzas en Esteban Echeverría. Monte Grande, El Jagüel y todo el partido del sur del GBA. Presupuesto sin cargo.',date:'2026-05-15'},
 ];
 
 export default function Blog() {

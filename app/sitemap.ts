@@ -77,6 +77,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-moreno",
     "mudanzas-san-martin",
     "mudanzas-tres-de-febrero",
+    "mudanzas-berazategui",
+    "mudanzas-jose-c-paz",
+    "mudanzas-malvinas-argentinas",
+    "mudanzas-esteban-echeverria",
   ];
 
   return [
