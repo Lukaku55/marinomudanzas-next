@@ -24,6 +24,16 @@ export default function Page() {
             <p>Las casas de Saavedra suelen ser amplias y con jardín, lo que requiere camiones de mayor capacidad. Conocemos bien las calles del barrio y sus accesos para optimizar cada mudanza.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Por qué elegirnos para tu mudanza en Saavedra</h2>
             <p>Con más de 80 años de trayectoria, Marino Mudanzas es la empresa de mudanzas con mayor experiencia de Buenos Aires. Nuestro equipo conoce las particularidades de cada barrio de CABA y está capacitado para resolver cualquier situación logística. Flota propia, embalaje incluido y seguro de carga en todos nuestros servicios.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
+            <p>Si tu mudanza involucra barrios limítrofes, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-nunez" className="text-gold hover:underline">Mudanzas en Núñez</a></li>
+              <li><a href="/blog/mudanzas-belgrano" className="text-gold hover:underline">Mudanzas en Belgrano</a></li>
+              <li><a href="/blog/mudanzas-villa-urquiza" className="text-gold hover:underline">Mudanzas en Villa Urquiza</a></li>
+              <li><a href="/blog/mudanzas-villa-pueyrredon" className="text-gold hover:underline">Mudanzas en Villa Pueyrredón</a></li>
+              <li><a href="/blog/mudanzas-san-isidro" className="text-gold hover:underline">Mudanzas en San Isidro</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactanos por WhatsApp o teléfono y te damos un presupuesto sin cargo. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
