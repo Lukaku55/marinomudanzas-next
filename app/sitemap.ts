@@ -81,6 +81,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-jose-c-paz",
     "mudanzas-malvinas-argentinas",
     "mudanzas-esteban-echeverria",
+    "mudanzas-florencio-varela",
+    "mudanzas-ezeiza",
+    "mudanzas-marcos-paz",
+    "mudanzas-general-rodriguez",
   ];
 
   return [

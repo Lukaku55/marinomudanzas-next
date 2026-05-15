@@ -147,6 +147,10 @@ const articles = [
   {slug:'mudanzas-jose-c-paz',title:'Mudanzas en José C. Paz GBA',excerpt:'Servicio de mudanzas en José C. Paz. Cubrimos todo el partido del noroeste del GBA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-15'},
   {slug:'mudanzas-malvinas-argentinas',title:'Mudanzas en Malvinas Argentinas GBA',excerpt:'Servicio de mudanzas en Malvinas Argentinas. Grand Bourg, Los Polvorines, Tortuguitas y todo el partido. Presupuesto sin cargo.',date:'2026-05-15'},
   {slug:'mudanzas-esteban-echeverria',title:'Mudanzas en Esteban Echeverría GBA',excerpt:'Servicio de mudanzas en Esteban Echeverría. Monte Grande, El Jagüel y todo el partido del sur del GBA. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-florencio-varela',title:'Mudanzas en Florencio Varela GBA',excerpt:'Servicio de mudanzas en Florencio Varela. Bosques, Villa Brown y todo el partido del sur del GBA. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-ezeiza',title:'Mudanzas en Ezeiza GBA',excerpt:'Servicio de mudanzas en Ezeiza. Canning, Carlos Spegazzini y todo el partido. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-marcos-paz',title:'Mudanzas en Marcos Paz GBA',excerpt:'Servicio de mudanzas en Marcos Paz. Partido tranquilo del oeste del GBA con casas de familia. Presupuesto sin cargo.',date:'2026-05-15'},
+  {slug:'mudanzas-general-rodriguez',title:'Mudanzas en General Rodríguez GBA',excerpt:'Servicio de mudanzas en General Rodríguez. Partido en crecimiento del oeste del GBA. Presupuesto sin cargo.',date:'2026-05-15'},
 ];
 
 export default function Blog() {
