@@ -57,6 +57,16 @@ export default function Page() {
             <p>Al tener nuestra base en Flores, podemos estar en cualquier punto del barrio en muy poco tiempo. Esto nos permite ser muy puntuales con los horarios acordados.</p>
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas dentro del mismo barrio en Flores?</h3>
             <p>Sí, realizamos mudanzas dentro del mismo barrio, incluso entre calles cercanas. No hay distancia mínima para nuestro servicio.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
+            <p>Si tu mudanza involucra barrios limítrofes a Flores, también cubrimos:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><a href="/blog/mudanzas-caballito" className="text-gold hover:underline">Mudanzas en Caballito</a></li>
+              <li><a href="/blog/mudanzas-floresta" className="text-gold hover:underline">Mudanzas en Floresta</a></li>
+              <li><a href="/blog/mudanzas-almagro" className="text-gold hover:underline">Mudanzas en Almagro</a></li>
+              <li><a href="/blog/mudanzas-boedo" className="text-gold hover:underline">Mudanzas en Boedo</a></li>
+              <li><a href="/blog/mudanzas-liniers" className="text-gold hover:underline">Mudanzas en Liniers</a></li>
+            </ul>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactanos por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
