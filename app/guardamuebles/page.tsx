@@ -91,6 +91,14 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen el embalaje antes de guardar?</h3>
             <p>Sí, podemos realizar el embalaje profesional de tus pertenencias antes de llevarlas al guardamuebles. Es un servicio adicional que recomendamos especialmente para objetos frágiles o muebles delicados.</p>
 
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Completá tu inventario online</h2>
+            <p>¿Sabés qué muebles querés guardar? Completá el inventario online y nos llega el detalle para preparar todo con anticipación.</p>
+            <div className="mt-4 mb-8">
+              <a href="/guardamuebles/inventario" className="inline-flex items-center gap-2 bg-gold text-black px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                Completar inventario de muebles →
+              </a>
+            </div>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Consultanos sin cargo</h2>
             <p>Contactános hoy para recibir un presupuesto personalizado para tu guardamuebles. Respondemos de inmediato.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
