@@ -25,7 +25,6 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { label: "Inicio", href: "/#inicio" },
     { label: "Nosotros", href: "/#nosotros" },
     { label: "Zonas", href: "/#zonas-cobertura" },
     { label: "Testimonios", href: "/#testimonios" },
@@ -44,6 +43,7 @@ const Header = () => {
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
+          <a href="/#inicio" className="text-primary-foreground/80 hover:text-gold transition-colors font-body text-sm uppercase tracking-wider">Inicio</a>
           <div className="relative" ref={dropdownRef}>
             <button
               onClick={() => setServiciosOpen(!serviciosOpen)}
