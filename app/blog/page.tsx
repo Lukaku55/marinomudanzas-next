@@ -158,6 +158,8 @@ const articles = [
   {slug:'mudanzas-lujan',title:'Mudanzas en Luján GBA',excerpt:'Servicio de mudanzas en Luján. Ciudad histórica del oeste del GBA a 70 km de Buenos Aires. Presupuesto sin cargo.',date:'2026-05-15'},
   {slug:'mudanzas-zarate',title:'Mudanzas en Zárate GBA',excerpt:'Servicio de mudanzas en Zárate. Ciudad industrial del norte del GBA a orillas del Río Paraná. Presupuesto sin cargo.',date:'2026-05-15'},
   {slug:'como-calcular-volumen-mudanza',title:'¿Cómo calcular el volumen de una mudanza?',excerpt:'Guía práctica para calcular el volumen de tu mudanza y elegir el camión correcto. Tablas de referencia por tipo de vivienda y consejos de expertos.',date:'2026-05-15'},
+  {slug:'como-preparar-electrodomesticos-mudanza',title:'Cómo Preparar los Electrodomésticos para una Mudanza',excerpt:'Guía paso a paso para desconectar y preparar heladera, lavarropas, TV y más antes de tu mudanza. Consejos para evitar roturas y daños.',date:'2026-05-21'},
+  {slug:'mudanzas-con-ninos',title:'Cómo Mudarse con Niños en Buenos Aires',excerpt:'Consejos para hacer la transición más fácil para toda la familia. Cómo hablar con los chicos, involucrarlos en el proceso y facilitar la adaptación al nuevo hogar.',date:'2026-05-21'},
 ];
 
 export default function Blog() {
