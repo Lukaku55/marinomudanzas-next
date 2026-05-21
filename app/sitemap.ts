@@ -55,7 +55,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-lomas-de-zamora",
     "mudanzas-fin-de-mes",
     "mudanzas-villa-del-parque",
-    "mudanzas-chacarita",
     "mudanzas-parque-chacabuco",
     "mudanzas-paternal",
     "mudanzas-villa-pueyrredon",
@@ -92,6 +91,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-lujan",
     "mudanzas-zarate",
     "como-calcular-volumen-mudanza",
+    "como-preparar-electrodomesticos-mudanza",
+    "mudanzas-con-ninos",
   ];
 
   return [
