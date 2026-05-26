@@ -12,90 +12,20 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { ArrowRight } from "lucide-react";
 
 const articles = [
-  {
-    slug: "cuanto-cuesta-mudanza-buenos-aires",
-    title: "¿Cuánto cuesta una mudanza en Buenos Aires en 2026?",
-    excerpt: "Descubrí los factores que afectan el precio de una mudanza y rangos de precios orientativos según el tamaño de tu vivienda.",
-    date: "2026-04-22",
-  },
-  {
-    slug: "checklist-mudanza",
-    title: "Checklist de Mudanza Completo 2026",
-    excerpt: "Todo lo que tenes que hacer 4 semanas antes, 1 semana antes y el dia de tu mudanza. Guia completa.",
-    date: "2026-04-22",
-  },
-  {
-    slug: "como-embalar-muebles-mudanza",
-    title: "Cómo Embalar Muebles para una Mudanza",
-    excerpt: "Guía completa con técnicas profesionales para embalar muebles, objetos frágiles y electrodomésticos antes de mudarte.",
-    date: "2026-04-23",
-  },
-  {
-    slug: "que-incluye-una-mudanza",
-    title: "¿Qué Incluye un Servicio de Mudanza Profesional?",
-    excerpt: "Todo lo que está incluido en un servicio de mudanza: embalaje, desarmado, carga, transporte, descarga y coordinación con el consorcio.",
-    date: "2026-04-23",
-  },
-  {
-    slug: "mudanzas-por-soga",
-    title: "Mudanzas por Soga en Buenos Aires",
-    excerpt: "Especialistas en elevar y descender muebles por el exterior cuando no entran por ascensor o escalera.",
-    date: "2026-04-22",
-  },
-  {
-    slug: "mudanzas-departamentos-buenos-aires",
-    title: "Mudanzas de Departamentos en Buenos Aires",
-    excerpt: "Todo lo que necesitas saber para hacer una mudanza de departamento en Buenos Aires. Consorcios, ascensores y soluciones para cada caso.",
-    date: "2026-04-23",
-  },
-  {
-    slug: "mudanzas-con-y-sin-ascensor",
-    title: "Mudanzas con Ascensor y sin Ascensor en Buenos Aires",
-    excerpt: "Todo sobre mudanzas en edificios con y sin ascensor. Tecnicas, soluciones por soga y como afecta el piso al costo.",
-    date: "2026-04-23",
-  },
-  {
-    slug: "empresa-mudanzas-confiable-buenos-aires",
-    title: "Cómo Elegir una Empresa de Mudanzas Confiable en Buenos Aires",
-    excerpt: "Qué verificar antes de contratar una empresa de mudanzas. Señales de alerta y preguntas clave para tomar la mejor decision.",
-    date: "2026-04-23",
-  },
-  {
-    slug: "fletes-buenos-aires",
-    title: "Fletes en Buenos Aires",
-    excerpt: "Servicio de fletes para trasladar muebles, electrodomesticos y objetos en CABA y GBA. Rapido, seguro y con presupuesto sin cargo.",
-    date: "2026-04-23",
-  },
-  {
-    slug: "mudanzas-oficinas-buenos-aires",
-    title: "Mudanzas de Oficinas en Buenos Aires",
-    excerpt: "Servicio especializado de mudanzas corporativas. Minimizamos el tiempo de inactividad de tu empresa con planificacion detallada.",
-    date: "2026-04-23",
-  },
-  {
-    slug: "guardamuebles-buenos-aires",
-    title: "Guardamuebles en Buenos Aires: Todo lo que Necesitas Saber",
-    excerpt: "Como funciona el guardamuebles, que incluye y cuando lo necesitas. Marino Mudanzas tiene guardamuebles en Flores, CABA.",
-    date: "2026-04-22",
-  },
-  {
-    slug: "mudanzas-larga-distancia-argentina",
-    title: "Mudanzas de Larga Distancia en Argentina",
-    excerpt: "Mudanzas exclusivas desde Buenos Aires a todo el pais y paises limitrofes. Sin cargas parciales, mayor seguridad y tiempos precisos.",
-    date: "2026-04-23",
-  },
-  {
-    slug: "como-organizar-mudanza-paso-a-paso",
-    title: "Cómo organizar una mudanza paso a paso: guía completa",
-    excerpt: "Checklist de 4 semanas antes de la mudanza, consejos de embalaje y qué llevar el primer día en tu nuevo hogar.",
-    date: "2026-04-22",
-  },
-  {
-    slug: "mudanzas-edificios-buenos-aires",
-    title: "Mudanzas en edificios de Buenos Aires: todo lo que tenés que saber",
-    excerpt: "Horarios permitidos, documentación necesaria, coordinación con el encargado y diferencias entre mudanzas con y sin ascensor.",
-    date: "2026-04-22",
-  },
+  { slug: "cuanto-cuesta-mudanza-buenos-aires", title: "¿Cuánto cuesta una mudanza en Buenos Aires en 2026?", excerpt: "Descubrí los factores que afectan el precio de una mudanza y rangos de precios orientativos según el tamaño de tu vivienda.", date: "2026-04-22" },
+  { slug: "checklist-mudanza", title: "Checklist de Mudanza Completo 2026", excerpt: "Todo lo que tenes que hacer 4 semanas antes, 1 semana antes y el dia de tu mudanza. Guia completa.", date: "2026-04-22" },
+  { slug: "como-embalar-muebles-mudanza", title: "Cómo Embalar Muebles para una Mudanza", excerpt: "Guía completa con técnicas profesionales para embalar muebles, objetos frágiles y electrodomésticos antes de mudarte.", date: "2026-04-23" },
+  { slug: "que-incluye-una-mudanza", title: "¿Qué Incluye un Servicio de Mudanza Profesional?", excerpt: "Todo lo que está incluido en un servicio de mudanza: embalaje, desarmado, carga, transporte, descarga y coordinación con el consorcio.", date: "2026-04-23" },
+  { slug: "mudanzas-por-soga", title: "Mudanzas por Soga en Buenos Aires", excerpt: "Especialistas en elevar y descender muebles por el exterior cuando no entran por ascensor o escalera.", date: "2026-04-22" },
+  { slug: "mudanzas-departamentos-buenos-aires", title: "Mudanzas de Departamentos en Buenos Aires", excerpt: "Todo lo que necesitas saber para hacer una mudanza de departamento en Buenos Aires. Consorcios, ascensores y soluciones para cada caso.", date: "2026-04-23" },
+  { slug: "mudanzas-con-y-sin-ascensor", title: "Mudanzas con Ascensor y sin Ascensor en Buenos Aires", excerpt: "Todo sobre mudanzas en edificios con y sin ascensor. Tecnicas, soluciones por soga y como afecta el piso al costo.", date: "2026-04-23" },
+  { slug: "empresa-mudanzas-confiable-buenos-aires", title: "Cómo Elegir una Empresa de Mudanzas Confiable en Buenos Aires", excerpt: "Qué verificar antes de contratar una empresa de mudanzas. Señales de alerta y preguntas clave para tomar la mejor decision.", date: "2026-04-23" },
+  { slug: "fletes-buenos-aires", title: "Fletes en Buenos Aires", excerpt: "Servicio de fletes para trasladar muebles, electrodomesticos y objetos en CABA y GBA. Rapido, seguro y con presupuesto sin cargo.", date: "2026-04-23" },
+  { slug: "mudanzas-oficinas-buenos-aires", title: "Mudanzas de Oficinas en Buenos Aires", excerpt: "Servicio especializado de mudanzas corporativas. Minimizamos el tiempo de inactividad de tu empresa con planificacion detallada.", date: "2026-04-23" },
+  { slug: "guardamuebles-buenos-aires", title: "Guardamuebles en Buenos Aires: Todo lo que Necesitas Saber", excerpt: "Como funciona el guardamuebles, que incluye y cuando lo necesitas. Marino Mudanzas tiene guardamuebles en Flores, CABA.", date: "2026-04-22" },
+  { slug: "mudanzas-larga-distancia-argentina", title: "Mudanzas de Larga Distancia en Argentina", excerpt: "Mudanzas exclusivas desde Buenos Aires a todo el pais y paises limitrofes. Sin cargas parciales, mayor seguridad y tiempos precisos.", date: "2026-04-23" },
+  { slug: "como-organizar-mudanza-paso-a-paso", title: "Cómo organizar una mudanza paso a paso: guía completa", excerpt: "Checklist de 4 semanas antes de la mudanza, consejos de embalaje y qué llevar el primer día en tu nuevo hogar.", date: "2026-04-22" },
+  { slug: "mudanzas-edificios-buenos-aires", title: "Mudanzas en edificios de Buenos Aires: todo lo que tenés que saber", excerpt: "Horarios permitidos, documentación necesaria, coordinación con el encargado y diferencias entre mudanzas con y sin ascensor.", date: "2026-04-22" },
   {slug:'mudanzas-palermo',title:'Mudanzas en Palermo Buenos Aires',excerpt:'Todo lo que necesitas saber para hacer una mudanza en Palermo. Consejos, permisos y por que elegirnos.',date:'2026-04-22'},
   {slug:'mudanzas-belgrano',title:'Mudanzas en Belgrano Buenos Aires',excerpt:'Servicio especializado de mudanzas en Belgrano. Conocemos cada edificio y cada particularidad del barrio.',date:'2026-04-22'},
   {slug:'mudanzas-caballito',title:'Mudanzas en Caballito Buenos Aires',excerpt:'Mudanzas en el barrio mas centrico de Buenos Aires. Coordinacion de permisos y acceso incluido.',date:'2026-04-22'},
@@ -160,6 +90,8 @@ const articles = [
   {slug:'como-calcular-volumen-mudanza',title:'¿Cómo calcular el volumen de una mudanza?',excerpt:'Guía práctica para calcular el volumen de tu mudanza y elegir el camión correcto. Tablas de referencia por tipo de vivienda y consejos de expertos.',date:'2026-05-15'},
   {slug:'como-preparar-electrodomesticos-mudanza',title:'Cómo Preparar los Electrodomésticos para una Mudanza',excerpt:'Guía paso a paso para desconectar y preparar heladera, lavarropas, TV y más antes de tu mudanza. Consejos para evitar roturas y daños.',date:'2026-05-21'},
   {slug:'mudanzas-con-ninos',title:'Cómo Mudarse con Niños en Buenos Aires',excerpt:'Consejos para hacer la transición más fácil para toda la familia. Cómo hablar con los chicos, involucrarlos en el proceso y facilitar la adaptación al nuevo hogar.',date:'2026-05-21'},
+  {slug:'mudanzas-de-piano-buenos-aires',title:'Mudanzas de Piano en Buenos Aires',excerpt:'Especialistas en el traslado de pianos verticales y de cola. Equipamiento profesional, técnica segura y más de 80 años de experiencia en Buenos Aires.',date:'2026-05-26'},
+  {slug:'que-no-transportan-las-empresas-de-mudanzas',title:'Qué No Transportan las Empresas de Mudanzas',excerpt:'Guía completa sobre objetos prohibidos en una mudanza: garrafas, joyas, mascotas, alimentos perecederos y más. Evitá sorpresas el día del traslado.',date:'2026-05-26'},
 ];
 
 export default function Blog() {
@@ -176,22 +108,13 @@ export default function Blog() {
               Guías prácticas y consejos de nuestros expertos con más de 80 años de experiencia en mudanzas.
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {articles.map((article) => (
-              <Link
-                key={article.slug}
-                href={`/blog/${article.slug}`}
-                className="bg-card rounded-xl border border-border p-6 hover:shadow-lg hover:border-gold/40 transition-all group"
-              >
+              <Link key={article.slug} href={`/blog/${article.slug}`} className="bg-card rounded-xl border border-border p-6 hover:shadow-lg hover:border-gold/40 transition-all group">
                 <time className="font-body text-sm text-muted-foreground">{new Date(article.date).toLocaleDateString("es-AR", { year: "numeric", month: "long", day: "numeric" })}</time>
-                <h2 className="font-display text-xl font-bold text-foreground mt-2 mb-3 group-hover:text-gold transition-colors">
-                  {article.title}
-                </h2>
+                <h2 className="font-display text-xl font-bold text-foreground mt-2 mb-3 group-hover:text-gold transition-colors">{article.title}</h2>
                 <p className="font-body text-muted-foreground text-sm leading-relaxed mb-4">{article.excerpt}</p>
-                <span className="flex items-center gap-1 font-body text-gold font-semibold text-sm">
-                  Leer más <ArrowRight className="w-4 h-4" />
-                </span>
+                <span className="flex items-center gap-1 font-body text-gold font-semibold text-sm">Leer más <ArrowRight className="w-4 h-4" /></span>
               </Link>
             ))}
           </div>
@@ -202,5 +125,3 @@ export default function Blog() {
     </>
   );
 };
-
-
