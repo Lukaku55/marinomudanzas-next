@@ -93,45 +93,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "como-calcular-volumen-mudanza",
     "como-preparar-electrodomesticos-mudanza",
     "mudanzas-con-ninos",
+    "mudanzas-de-piano-buenos-aires",
+    "que-no-transportan-las-empresas-de-mudanzas",
   ];
 
   return [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/mudanzas-residenciales`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/mudanzas-oficinas`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/guardamuebles`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/mudanzas-interior`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
+    { url: baseUrl, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
+    { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/mudanzas-residenciales`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/mudanzas-oficinas`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/guardamuebles`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/mudanzas-interior`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     ...blogSlugs.map((slug) => ({
       url: `${baseUrl}/blog/${slug}`,
       lastModified: new Date(),
