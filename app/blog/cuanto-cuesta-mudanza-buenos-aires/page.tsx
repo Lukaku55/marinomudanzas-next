@@ -116,6 +116,16 @@ export default function Page() {
               Llamános: 4611-1818
             </a>
           </div>
+
+          <div className="mt-12 pt-8 border-t border-border">
+            <h3 className="font-display text-lg font-bold text-foreground mb-4">Conocé nuestros servicios</h3>
+            <div className="grid grid-cols-2 gap-3">
+              <Link href="/mudanzas-residenciales" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas Residenciales</Link>
+              <Link href="/mudanzas-oficinas" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas de Oficinas</Link>
+              <Link href="/guardamuebles" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Guardamuebles</Link>
+              <Link href="/mudanzas-interior" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas al Interior</Link>
+            </div>
+          </div>
         </article>
       </main>
       
