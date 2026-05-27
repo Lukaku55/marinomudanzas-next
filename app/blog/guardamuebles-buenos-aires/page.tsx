@@ -16,19 +16,8 @@ const jsonLd = {
   "headline": "Guardamuebles en Buenos Aires: Todo lo que Necesitas Saber | Marino Mudanzas",
   "description": "Todo sobre guardamuebles en Buenos Aires. Como funciona, que incluye, cuanto cuesta y como elegir el mejor servicio. Marino Mudanzas tiene guardamuebles en Flores, CABA.",
   "url": "https://www.mudanzasmarino.com.ar/blog/guardamuebles-buenos-aires",
-  "author": {
-    "@type": "Organization",
-    "name": "Marino Mudanzas",
-    "url": "https://www.mudanzasmarino.com.ar"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Marino Mudanzas",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"
-    }
-  }
+  "author": { "@type": "Organization", "name": "Marino Mudanzas", "url": "https://www.mudanzasmarino.com.ar" },
+  "publisher": { "@type": "Organization", "name": "Marino Mudanzas", "logo": { "@type": "ImageObject", "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png" } }
 };
 
 export default function Page() {
@@ -87,10 +76,18 @@ export default function Page() {
               <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
             </div>
           </div>
+
+          <div className="mt-12 pt-8 border-t border-border">
+            <h3 className="font-display text-lg font-bold text-foreground mb-4">Conocé nuestros servicios</h3>
+            <div className="grid grid-cols-2 gap-3">
+              <Link href="/mudanzas-residenciales" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas Residenciales</Link>
+              <Link href="/mudanzas-oficinas" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas de Oficinas</Link>
+              <Link href="/guardamuebles" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Ver servicio de Guardamuebles</Link>
+              <Link href="/mudanzas-interior" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas al Interior</Link>
+            </div>
+          </div>
         </article>
       </main>
-      
-      
     </>
   );
 };
