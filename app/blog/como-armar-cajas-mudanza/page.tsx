@@ -1,7 +1,4 @@
 import type { Metadata } from "next";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -9,11 +6,31 @@ export const metadata: Metadata = {
   description: "Guia completa para armar y embalar cajas para mudanza. Tecnicas profesionales para proteger tus objetos y aprovechar el espacio. Marino Mudanzas Buenos Aires.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cómo Armar Cajas para una Mudanza: Guía Completa",
+  "description": "Guía completa para armar y embalar cajas para mudanza. Técnicas profesionales para proteger tus objetos y aprovechar el espacio al máximo.",
+  "url": "https://www.mudanzasmarino.com.ar/blog/como-armar-cajas-mudanza",
+  "author": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "url": "https://www.mudanzasmarino.com.ar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"
+    }
+  }
+};
+
 export default function Page() {
   return (
     <>
-      
-      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
@@ -23,11 +40,11 @@ export default function Page() {
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Materiales que necesitás</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Cajas de cartón resistente</strong> — de distintos tamaños según el contenido</li>
-              <li><strong>Cinta de embalar ancha</strong> — al menos 48mm de ancho</li>
-              <li><strong>Papel de diario o papel de embalaje</strong> — para envolver objetos</li>
-              <li><strong>Marcador permanente</strong> — para etiquetar cada caja</li>
-              <li><strong>Papel burbuja</strong> — para objetos muy frágiles</li>
+              <li><strong className="text-foreground">Cajas de cartón resistente</strong> — de distintos tamaños según el contenido</li>
+              <li><strong className="text-foreground">Cinta de embalar ancha</strong> — al menos 48mm de ancho</li>
+              <li><strong className="text-foreground">Papel de diario o papel de embalaje</strong> — para envolver objetos</li>
+              <li><strong className="text-foreground">Marcador permanente</strong> — para etiquetar cada caja</li>
+              <li><strong className="text-foreground">Papel burbuja</strong> — para objetos muy frágiles</li>
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cómo armar la base de la caja</h2>
@@ -64,13 +81,21 @@ export default function Page() {
             <p>En Marino Mudanzas ofrecemos servicio de embalaje profesional — nos encargamos de armar todas las cajas con los materiales adecuados para cada tipo de objeto. Consultanos por nuestro servicio de embalaje premium.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-border">
+            <h3 className="font-display text-lg font-bold text-foreground mb-4">Conocé nuestros servicios</h3>
+            <div className="grid grid-cols-2 gap-3">
+              <Link href="/mudanzas-residenciales" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas Residenciales</Link>
+              <Link href="/mudanzas-oficinas" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas de Oficinas</Link>
+              <Link href="/guardamuebles" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Guardamuebles</Link>
+              <Link href="/mudanzas-interior" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas al Interior</Link>
             </div>
           </div>
         </article>
       </main>
-      
-      
     </>
   );
 };
