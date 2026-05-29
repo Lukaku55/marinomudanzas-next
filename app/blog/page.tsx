@@ -94,6 +94,7 @@ const articles = [
   {slug:'que-no-transportan-las-empresas-de-mudanzas',title:'Qué No Transportan las Empresas de Mudanzas',excerpt:'Guía completa sobre objetos prohibidos en una mudanza: garrafas, joyas, mascotas, alimentos perecederos y más. Evitá sorpresas el día del traslado.',date:'2026-05-26'},
   {slug:'como-armar-cajas-mudanza',title:'Cómo Armar Cajas para Mudanza: Guía Completa',excerpt:'Técnicas profesionales para armar y empacar cajas correctamente. Cómo proteger objetos frágiles, elegir los materiales y organizar el contenido para una mudanza sin roturas.',date:'2026-05-28'},
   {slug:'mudanzas-express-buenos-aires',title:'Mudanzas Express en Buenos Aires',excerpt:'¿Necesitás mudarte con poco tiempo? Conocé cómo funciona el servicio de mudanza express en Buenos Aires, qué incluye y cómo coordinar una mudanza urgente en 24 a 48 horas.',date:'2026-05-28'},
+  {slug:'mudanzas-tortuguitas',title:'Mudanzas en Tortuguitas, Malvinas Argentinas',excerpt:'Servicio de mudanzas en Tortuguitas, partido de Malvinas Argentinas. Más de 80 años de experiencia en el noroeste del GBA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-29'},
 ];
 
 export default function Blog() {
