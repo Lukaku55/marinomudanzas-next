@@ -95,6 +95,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-con-ninos",
     "mudanzas-de-piano-buenos-aires",
     "que-no-transportan-las-empresas-de-mudanzas",
+    "mudanzas-tortuguitas",
   ];
 
   return [
