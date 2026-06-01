@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "Guardamuebles seguro y monitoreado 24hs en Flores, CABA. Espacios individuales, retiro y entrega a domicilio. Más de 80 años de experiencia. Tel 4611-1818",
 };
 
-const jsonLd = {
+const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Guardamuebles en Buenos Aires",
@@ -30,10 +30,58 @@ const jsonLd = {
   }
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Puedo acceder a mis cosas mientras están guardadas en el guardamuebles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, podés acceder a tus pertenencias coordinando previamente con nosotros. Te pedimos que avises con al menos 24 horas de anticipación para organizar el acceso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta el guardamuebles en Buenos Aires?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El precio depende del volumen a almacenar y el plazo. Contactanos para recibir un presupuesto personalizado sin cargo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Mis pertenencias están aseguradas en el guardamuebles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, el servicio de guardamuebles incluye cobertura de seguro. Consultanos los detalles de la cobertura al momento de contratar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el plazo mínimo de almacenaje en el guardamuebles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El plazo mínimo es de 15 días. A partir de ahí podés extender el servicio por el tiempo que necesites."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hacen el embalaje de los muebles antes de llevarlos al guardamuebles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, podemos realizar el embalaje profesional de tus pertenencias antes de llevarlas al guardamuebles. Es un servicio adicional que recomendamos especialmente para objetos frágiles o muebles delicados."
+      }
+    }
+  ]
+};
+
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
@@ -48,8 +96,8 @@ export default function Page() {
               <li><strong>Monitoreo 24 horas:</strong> nuestras instalaciones cuentan con vigilancia y cámaras de seguridad las 24hs.</li>
               <li><strong>Ambiente limpio y seco:</strong> espacios protegidos de la humedad y el polvo para cuidar tus muebles a largo plazo.</li>
               <li><strong>Retiro a domicilio:</strong> buscamos tus pertenencias en tu domicilio y las trasladamos a nuestras instalaciones.</li>
-              <li><strong>Entrega a domicilio:</strong> cuando lo necesites, te devolvemos todo en tu nuevo domicilio.</li>
-              <li><strong>Flexibilidad de plazo:</strong> podés guardar tus cosas por días, semanas o meses según lo necesites.</li>
+              <li><strong>Entrega a domicilio:</strong> cuando lo necesités, te devolvemos todo en tu nuevo domicilio.</li>
+              <li><strong>Flexibilidad de plazo:</strong> podés guardar tus cosas por días, semanas o meses según lo necesités.</li>
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cuándo necesitás un guardamuebles?</h2>
@@ -80,13 +128,13 @@ export default function Page() {
             <p>Sí, podés acceder a tus pertenencias coordinando previamente con nosotros. Te pedimos que avises con al menos 24 horas de anticipación para organizar el acceso.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta el guardamuebles?</h3>
-            <p>El precio depende del volumen a almacenar y el plazo. Contactános para recibir un presupuesto personalizado sin cargo.</p>
+            <p>El precio depende del volumen a almacenar y el plazo. Contactanos para recibir un presupuesto personalizado sin cargo.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Mis pertenencias están aseguradas?</h3>
+            <h3 className="font-display text-xl font-semibond text-foreground mt-6 mb-2">¿Mis pertenencias están aseguradas?</h3>
             <p>Sí, el servicio de guardamuebles incluye cobertura de seguro. Consultanos los detalles de la cobertura al momento de contratar.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuál es el plazo mínimo de almacenaje?</h3>
-            <p>El plazo mínimo es de 15 días. A partir de ahí podés extender el servicio por el tiempo que necesites.</p>
+            <p>El plazo mínimo es de 15 días. A partir de ahí podés extender el servicio por el tiempo que necesités.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen el embalaje antes de guardar?</h3>
             <p>Sí, podemos realizar el embalaje profesional de tus pertenencias antes de llevarlas al guardamuebles. Es un servicio adicional que recomendamos especialmente para objetos frágiles o muebles delicados.</p>
@@ -100,10 +148,20 @@ export default function Page() {
             </div>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Consultanos sin cargo</h2>
-            <p>Contactános hoy para recibir un presupuesto personalizado para tu guardamuebles. Respondemos de inmediato.</p>
+            <p>Contactanos hoy para recibir un presupuesto personalizado para tu guardamuebles. Respondemos de inmediato.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-border">
+            <h3 className="font-display text-lg font-bold text-foreground mb-4">Artículos relacionados</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <Link href="/blog/guardamuebles-buenos-aires" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Guardamuebles en Buenos Aires: todo lo que necesitás saber</Link>
+              <Link href="/blog/que-incluye-una-mudanza" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">¿Qué incluye un servicio de mudanza?</Link>
+              <Link href="/blog/mudanzas-larga-distancia-argentina" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas de larga distancia en Argentina</Link>
+              <Link href="/blog/cuanto-cuesta-mudanza-buenos-aires" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">¿Cuánto cuesta una mudanza?</Link>
             </div>
           </div>
         </article>
