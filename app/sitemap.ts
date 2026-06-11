@@ -97,6 +97,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "que-no-transportan-las-empresas-de-mudanzas",
     "mudanzas-tortuguitas",
     "primer-departamento-buenos-aires",
+    "mudanzas-en-verano",
   ];
 
   return [
