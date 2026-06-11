@@ -97,6 +97,7 @@ const articles = [
   {slug:'mudanzas-tortuguitas',title:'Mudanzas en Tortuguitas, Malvinas Argentinas',excerpt:'Servicio de mudanzas en Tortuguitas, partido de Malvinas Argentinas. Más de 80 años de experiencia en el noroeste del GBA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-29'},
   {slug:'mudanzas-en-invierno',title:'Mudanzas en Invierno en Buenos Aires',excerpt:'Todo lo que necesitás saber para mudarte durante el invierno porteño. Ventajas de la temporada baja, cómo proteger tus muebles de la lluvia y qué hacer si el día de la mudanza está complicado.',date:'2026-06-02'},
   {slug:'primer-departamento-buenos-aires',title:'Primer Departamento en Buenos Aires: Guía para tu Primera Mudanza',excerpt:'Guía completa para independizarte en Buenos Aires. Checklist de lo que necesitás, cuánto cuesta la mudanza de un monoambiente y consejos para el primer día en tu nuevo hogar.',date:'2026-06-10'},
+  {slug:'mudanzas-en-verano',title:'Mudanzas en Verano en Buenos Aires: Guía Completa',excerpt:'Todo lo que necesitás saber para mudarte en pleno verano porteño. Cómo manejar el calor, proteger tus plantas y electrodomésticos, y por qué reservar con anticipación en temporada alta.',date:'2026-06-10'},
 ];
 
 export default function Blog() {
