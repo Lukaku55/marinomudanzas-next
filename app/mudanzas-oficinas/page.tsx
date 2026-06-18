@@ -111,7 +111,7 @@ export default function Page() {
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Empresas que confiaron en nosotros</h2>
-            <p>A lo largo de más de 80 años hemos realizado mudanzas corporativas para empresas como Coca-Cola, Banco Comafi, Banco Ciudad, Aeropuerto 2000 y la Embajada de Qatar, entre muchas otras. Cada proyecto fue encarado con la misma profesionalidad y atención al detalle.</p>
+            <p>A lo largo de más de 80 años hemos realizado mudanzas corporativas para empresas e instituciones como Coca-Cola, Banco Comafi, Banco Ciudad, Aeropuerto 2000, la Embajada de Qatar y la Embajada de Francia, entre muchas otras. Cada proyecto fue encarado con la misma profesionalidad y atención al detalle.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cómo planificamos tu mudanza de oficina?</h2>
             <ul className="list-disc pl-6 space-y-2">
