@@ -98,6 +98,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-tortuguitas",
     "primer-departamento-buenos-aires",
     "mudanzas-en-verano",
+    "como-entregar-departamento-alquilado",
   ];
 
   return [
