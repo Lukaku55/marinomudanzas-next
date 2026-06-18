@@ -4,6 +4,7 @@ const companies = [
   { name: "Banco Ciudad", alt: "Mudanza corporativa para Banco Ciudad por Marino Mudanzas" },
   { name: "Aeropuerto 2000", alt: "Logística y mudanza para Aeropuerto 2000 por Marino Mudanzas" },
   { name: "Embajada Qatar", alt: "Servicio de mudanza para Embajada de Qatar por Marino Mudanzas" },
+  { name: "Embajada de Francia", alt: "Servicio de mudanza para la Embajada de Francia por Marino Mudanzas" },
 ];
 
 const TrustedBySection = () => {
@@ -14,7 +15,7 @@ const TrustedBySection = () => {
           Empresas que Confiaron en Nosotros
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
           {companies.map((company) => (
             <div
               key={company.name}
