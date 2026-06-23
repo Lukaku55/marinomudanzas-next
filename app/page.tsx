@@ -11,6 +11,7 @@ import AboutSection from "@/components/AboutSection";
 import InnovationSection from "@/components/InnovationSection";
 import ZonasCoberturaFull from "@/components/ZonasCoberturaFull";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import GallerySection from "@/components/GallerySection";
 import CTASection from "@/components/CTASection";
 import ContactForm from "@/components/ContactForm";
 import FAQSection from "@/components/FAQSection";
@@ -110,6 +111,7 @@ export default function Home() {
         <InnovationSection />
         <ZonasCoberturaFull />
         <TestimonialsSection />
+        <GallerySection />
         <CTASection />
         <ContactForm />
         <FAQSection />
