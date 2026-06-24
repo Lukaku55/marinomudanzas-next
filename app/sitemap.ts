@@ -99,7 +99,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "primer-departamento-buenos-aires",
     "mudanzas-en-verano",
     "como-entregar-departamento-alquilado",
-    "como-ahorrar-en-tu-mudanza",
   ];
 
   return [
