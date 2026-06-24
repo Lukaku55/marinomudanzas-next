@@ -99,7 +99,6 @@ const articles = [
   {slug:'primer-departamento-buenos-aires',title:'Primer Departamento en Buenos Aires: Guía para tu Primera Mudanza',excerpt:'Guía completa para independizarte en Buenos Aires. Checklist de lo que necesitás, cuánto cuesta la mudanza de un monoambiente y consejos para el primer día en tu nuevo hogar.',date:'2026-06-10'},
   {slug:'mudanzas-en-verano',title:'Mudanzas en Verano en Buenos Aires: Guía Completa',excerpt:'Todo lo que necesitás saber para mudarte en pleno verano porteño. Cómo manejar el calor, proteger tus plantas y electrodomésticos, y por qué reservar con anticipación en temporada alta.',date:'2026-06-10'},
   {slug:'como-entregar-departamento-alquilado',title:'Cómo Entregar un Departamento Alquilado en Buenos Aires',excerpt:'Guía paso a paso para la devolución de tu alquiler. Checklist de limpieza y reparaciones, cómo coordinar la mudanza de salida y qué hacer para recuperar tu depósito.',date:'2026-06-18'},
-  {slug:'como-ahorrar-en-tu-mudanza',title:'Cómo Ahorrar en tu Mudanza: 12 Consejos para Reducir el Costo',excerpt:'12 consejos prácticos para reducir el presupuesto de tu mudanza en Buenos Aires. Cuándo mudarte, cómo embalar vos mismo, qué negociar con la empresa y más.',date:'2026-06-24'},
 ];
 
 export default function Blog() {
