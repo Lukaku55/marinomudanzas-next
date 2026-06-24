@@ -50,7 +50,7 @@ export default function Page() {
             <p>Nos encargamos de coordinar con los encargados de los edificios de origen y destino para respetar los horarios permitidos de carga y descarga, gestionar el uso del ascensor de servicio y cumplir con las normas del consorcio.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Seguro de carga</h2>
-            <p>Todos nuestros servicios incluyen un seguro de carga que cubre tus pertenencias durante todo el proceso de mudanza. Si necesitás una cobertura adicional para objetos de alto valor, podemos coordinar un seguro especial.</p>
+            <p>Ofrecemos seguro de carga para mudanzas al interior del país, traslados de documentación sensible de bancos o empresas y equipos informáticos. Para este tipo de mudanzas, la cobertura está incluida durante todo el traslado. Para mudanzas locales en CABA y GBA, consultanos sobre las opciones disponibles según las características de tu mudanza.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué no está incluido en el servicio básico?</h2>
             <ul className="list-disc pl-6 space-y-2">
