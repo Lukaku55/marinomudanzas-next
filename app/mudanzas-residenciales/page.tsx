@@ -6,7 +6,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Mudanzas Residenciales en Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas de casas y departamentos en Buenos Aires. Embalaje incluido, seguro de carga y más de 80 años de experiencia. ¡Pedí tu presupuesto sin cargo hoy! Tel 4611-1818",
+  description: "Mudanzas de casas y departamentos en Buenos Aires. Embalaje incluido y más de 80 años de experiencia. ¡Pedí tu presupuesto sin cargo hoy! Tel 4611-1818",
 };
 
 const serviceSchema = {
@@ -68,10 +68,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "¿El servicio de mudanza residencial incluye seguro de carga?",
+      "name": "¿Ofrecen seguro de carga?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sí, todas nuestras mudanzas residenciales incluyen seguro de carga para proteger tus pertenencias durante el traslado."
+        "text": "Sí. El seguro de carga está disponible para mudanzas al interior del país, traslados de documentación sensible de bancos o empresas y equipos informáticos. Para mudanzas locales en CABA y GBA, consultanos sobre las opciones de cobertura disponibles."
       }
     }
   ]
@@ -95,7 +95,7 @@ export default function Page() {
               <li><strong>Embalaje profesional incluido:</strong> protegemos todos los muebles con mantas acolchadas y film stretch para evitar golpes y rayones durante el traslado.</li>
               <li><strong>Desarmado y armado de muebles:</strong> nuestro equipo desarma y arma camas, placard, bibliotecas y todo lo que sea necesario sin cargo adicional.</li>
               <li><strong>Coordinación con el consorcio:</strong> nos encargamos de coordinar el uso del ascensor, los horarios permitidos y la documentación que requiera el edificio.</li>
-              <li><strong>Seguro de carga:</strong> todas nuestras mudanzas incluyen seguro de carga para proteger tus pertenencias durante todo el traslado.</li>
+              <li><strong>Seguro de carga:</strong> disponible para mudanzas al interior del país, traslados de documentación sensible de bancos o empresas y equipos informáticos. Consultanos si tu mudanza lo requiere.</li>
               <li><strong>Entrega de canastos y cajas:</strong> te entregamos los materiales con anticipación para que puedas empacar con tranquilidad.</li>
               <li><strong>Flota propia:</strong> contamos con camiones propios de distintos tamaños para adaptarnos al volumen de cada mudanza.</li>
             </ul>
@@ -137,8 +137,8 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas los sábados?</h3>
             <p>Sí, trabajamos de lunes a sábado de 8 a 18hs. Los domingos no prestamos servicio salvo situaciones excepcionales.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿El servicio incluye seguro de carga?</h3>
-            <p>Sí, todas nuestras mudanzas residenciales incluyen seguro de carga para proteger tus pertenencias durante el traslado.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Ofrecen seguro de carga?</h3>
+            <p>Sí. El seguro de carga está disponible para mudanzas al interior del país, traslados de documentación sensible de bancos o empresas y equipos informáticos. Para mudanzas locales en CABA y GBA, consultanos sobre las opciones de cobertura disponibles.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Pedí tu presupuesto sin cargo</h2>
             <p>Contactanos hoy y recibí un presupuesto detallado para tu mudanza residencial. Sin compromiso y con respuesta inmediata.</p>
