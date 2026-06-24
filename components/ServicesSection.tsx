@@ -23,7 +23,7 @@ const services = [
   {
     icon: Shield,
     title: "Seguro de Carga",
-    description: "Tus pertenencias están aseguradas durante todo el proceso de mudanza.",
+    description: "Disponible para mudanzas al interior del país, documentación sensible de bancos o empresas y equipos informáticos.",
   },
   {
     icon: Clock,
@@ -42,7 +42,7 @@ const ServicesSection = () => {
   return (
     <section id="servicios" className="py-20 md:py-28 bg-secondary">
       <Helmet>
-        <meta name="description" content="Servicios de mudanzas residenciales, comerciales, embalaje profesional, seguro de carga, guardamuebles y fletes puntuales en Buenos Aires." />
+        <meta name="description" content="Servicios de mudanzas residenciales, comerciales, embalaje profesional, guardamuebles y fletes puntuales en Buenos Aires." />
       </Helmet>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
