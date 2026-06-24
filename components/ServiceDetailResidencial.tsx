@@ -10,7 +10,7 @@ const ServiceDetailResidencial = () => {
             Mudanzas Residenciales en CABA y GBA
           </h2>
           <p className="font-body text-muted-foreground text-lg leading-relaxed mb-8">
-            Trasladamos tu hogar con el mayor cuidado profesional. Embalaje incluido con mantas y film stretch, desarmado y armado de muebles, coordinacion con encargados de edificios y seguro de carga durante todo el traslado.
+            Trasladamos tu hogar con el mayor cuidado profesional. Embalaje incluido con mantas y film stretch, desarmado y armado de muebles y coordinacion con encargados de edificios.
           </p>
           <Link
             href="/mudanzas-residenciales"
