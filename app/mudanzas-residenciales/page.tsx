@@ -9,6 +9,15 @@ export const metadata: Metadata = {
   description: "Mudanzas de casas y departamentos en Buenos Aires. Embalaje incluido y más de 80 años de experiencia. ¡Pedí tu presupuesto sin cargo hoy! Tel 4611-1818",
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.mudanzasmarino.com.ar" },
+    { "@type": "ListItem", "position": 2, "name": "Mudanzas Residenciales", "item": "https://www.mudanzasmarino.com.ar/mudanzas-residenciales" }
+  ]
+};
+
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -80,6 +89,7 @@ const faqSchema = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header />
