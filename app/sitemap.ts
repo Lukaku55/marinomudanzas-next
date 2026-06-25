@@ -4,6 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.mudanzasmarino.com.ar";
 
   const blogSlugs = [
+    "que-preguntar-antes-de-contratar-mudanza",
     "cuanto-cuesta-mudanza-buenos-aires",
     "como-organizar-mudanza-paso-a-paso",
     "mudanzas-edificios-buenos-aires",
