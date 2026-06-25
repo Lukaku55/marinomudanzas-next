@@ -12,7 +12,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { ArrowRight } from "lucide-react";
 
 const articles = [
-  { slug: "que-preguntar-antes-de-contratar-mudanza", title: "10 Preguntas que Debés Hacer Antes de Contratar una Mudanza", excerpt: "Antes de firmar cualquier presupuesto, hacé estas preguntas clave. Cómo detectar empresas confiables, qué debe incluir el servicio y cómo evitar sorpresas el día de la mudanza.", date: "2026-06-25" },
+  { slug: "que-preguntar-antes-de-contratar-mudanza", title: "8 Preguntas que Debés Hacer Antes de Contratar una Mudanza", excerpt: "Antes de firmar cualquier presupuesto, hacé estas preguntas clave. Cómo detectar empresas confiables, qué debe incluir el servicio y cómo evitar sorpresas el día de la mudanza.", date: "2026-06-25" },
   { slug: "cuanto-cuesta-mudanza-buenos-aires", title: "¿Cuánto cuesta una mudanza en Buenos Aires en 2026?", excerpt: "Descubrí los factores que afectan el precio de una mudanza y rangos de precios orientativos según el tamaño de tu vivienda.", date: "2026-04-22" },
   { slug: "checklist-mudanza", title: "Checklist de Mudanza Completo 2026", excerpt: "Todo lo que tenes que hacer 4 semanas antes, 1 semana antes y el dia de tu mudanza. Guia completa.", date: "2026-04-22" },
   { slug: "como-embalar-muebles-mudanza", title: "Cómo Embalar Muebles para una Mudanza", excerpt: "Guía completa con técnicas profesionales para embalar muebles, objetos frágiles y electrodomésticos antes de mudarte.", date: "2026-04-23" },
