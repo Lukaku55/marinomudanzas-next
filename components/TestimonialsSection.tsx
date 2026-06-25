@@ -53,6 +53,70 @@ const testimonials = [
   },
 ];
 
+const reviewSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Marino Mudanzas",
+  "url": "https://www.mudanzasmarino.com.ar",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "370",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Angeles Morano"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "Hicieron un excelente trabajo. Estuvieron puntuales en el domicilio, sumamente amables, recubrieron todo lo delicado con film plástico para que no resultaran dañados en el proceso. El precio fue excelente e incluyeron canastos, ropero, subida por escaleras y peones sin cargo. Altamente recomendables sin lugar a dudas."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Viviana Sepulveda"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "Excelente atención! Me solucionaron el problema en dos horas! Atentos y cuidadosos. Muy recomendable!!"
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Laura Fernández"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "Muy profesionales, llegaron a horario y se encargaron de todo. Embalaron cada cosa con mucho cuidado. El presupuesto fue justo y sin sorpresas. Los recomiendo totalmente."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Carlos Méndez"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "Segunda vez que los contrato y siempre impecables. Rápidos, prolijos y muy buena onda. Daniel y su equipo son de primera."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Patricia Gómez"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "Me mudé de un 5to piso por escalera y no se rompió absolutamente nada. Trabajaron con mucho cuidado y paciencia. Precio muy accesible para la calidad del servicio."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Martín Ruiz"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "Los contraté para una mudanza de oficina y fue todo perfecto. Desarmaron y armaron los muebles sin problema. Muy organizados y puntuales."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Sofía Herrera"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "Excelente experiencia de principio a fin. Desde el presupuesto hasta la entrega, todo fue transparente y profesional. 100% recomendados."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Roberto Díaz"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "Contraté el servicio de guardamuebles y mudanza. Todo impecable, mis cosas quedaron perfectas. El equipo muy amable y responsable."
+    }
+  ]
+};
+
 const TestimonialsSection = () => {
   const autoplayPlugin = useRef(
     Autoplay({ delay: 4000, stopOnInteraction: true })
@@ -60,6 +124,7 @@ const TestimonialsSection = () => {
 
   return (
     <section id="testimonios" className="py-20 md:py-28 gradient-navy">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-display text-3xl md:text-5xl font-bold text-primary-foreground mb-4">
