@@ -9,6 +9,15 @@ export const metadata: Metadata = {
   description: "Guardamuebles seguro y monitoreado 24hs en Flores, CABA. Espacios individuales, retiro y entrega a domicilio. Más de 80 años de experiencia. Tel 4611-1818",
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.mudanzasmarino.com.ar" },
+    { "@type": "ListItem", "position": 2, "name": "Guardamuebles", "item": "https://www.mudanzasmarino.com.ar/guardamuebles" }
+  ]
+};
+
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -63,7 +72,7 @@ const faqSchema = {
       "name": "¿Cuál es el plazo mínimo de almacenaje en el guardamuebles?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "El plazo mínimo es de 15 días. A partir de ahí podés extender el servicio por el tiempo que necesites."
+        "text": "El plazo mínimo es de 15 días. A partir de ahí podés extender el servicio por el tiempo que necesités."
       }
     },
     {
@@ -80,6 +89,7 @@ const faqSchema = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header />
@@ -130,7 +140,7 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta el guardamuebles?</h3>
             <p>El precio depende del volumen a almacenar y el plazo. Contactanos para recibir un presupuesto personalizado sin cargo.</p>
 
-            <h3 className="font-display text-xl font-semibond text-foreground mt-6 mb-2">¿Mis pertenencias están aseguradas?</h3>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Mis pertenencias están aseguradas?</h3>
             <p>Sí, el servicio de guardamuebles incluye cobertura de seguro. Consultanos los detalles de la cobertura al momento de contratar.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuál es el plazo mínimo de almacenaje?</h3>
