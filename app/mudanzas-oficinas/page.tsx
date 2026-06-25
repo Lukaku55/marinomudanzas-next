@@ -9,6 +9,15 @@ export const metadata: Metadata = {
   description: "Mudanzas corporativas y de oficinas en CABA y GBA. Minimizamos el tiempo de inactividad de tu empresa. Más de 80 años de experiencia. Tel 4611-1818",
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.mudanzasmarino.com.ar" },
+    { "@type": "ListItem", "position": 2, "name": "Mudanzas de Oficinas", "item": "https://www.mudanzasmarino.com.ar/mudanzas-oficinas" }
+  ]
+};
+
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -80,6 +89,7 @@ const faqSchema = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header />
