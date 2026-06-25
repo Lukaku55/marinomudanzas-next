@@ -6,14 +6,14 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Mudanzas al Interior del País | Marino Mudanzas Buenos Aires",
-  description: "Mudanzas de larga distancia desde Buenos Aires a todo el país y países limítrofes. Mudanzas exclusivas sin cargas parciales. Más de 80 años de experiencia. Tel 4611-1818",
+  description: "Mudanzas de larga distancia desde Buenos Aires a todo el país y países limítrofes. Mudanzas exclusivas sin cargas parciales. Seguro de carga incluido. Más de 80 años de experiencia. Tel 4611-1818",
 };
 
-const jsonLd = {
+const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Mudanzas al Interior del País desde Buenos Aires",
-  "description": "Servicio de mudanzas de larga distancia desde Buenos Aires a todo el país y países limítrofes.",
+  "description": "Servicio de mudanzas de larga distancia desde Buenos Aires a todo el país y países limítrofes. Mudanzas exclusivas sin cargas parciales, con seguro de carga incluido.",
   "url": "https://www.mudanzasmarino.com.ar/mudanzas-interior",
   "provider": {
     "@type": "LocalBusiness",
@@ -30,10 +30,66 @@ const jsonLd = {
   }
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo tarda una mudanza al interior del país desde Buenos Aires?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende de la distancia. Rosario puede hacerse en el día. Córdoba en 1 a 2 días. Mendoza, Tucumán o Bariloche requieren 2 a 3 días contando carga, viaje y descarga en destino."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hacen cargas parciales al interior del país?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Solo realizamos mudanzas exclusivas al interior del país. Esto garantiza mayor seguridad, menos manipulación de tus pertenencias y tiempos de entrega más precisos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Con cuánta anticipación hay que coordinar una mudanza al interior?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para mudanzas al interior recomendamos coordinar con al menos 3 semanas de anticipación. Para destinos muy lejanos o mudanzas grandes, lo ideal es 4 semanas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿El precio de la mudanza al interior incluye la descarga en destino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, el presupuesto incluye carga en Buenos Aires y descarga en destino. No hay costos ocultos ni cargos adicionales por distancia."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Pueden guardar mis cosas si no tengo el domicilio de destino listo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, podemos combinar la mudanza al interior con nuestro servicio de guardamuebles en Buenos Aires para que tus pertenencias estén seguras hasta que estés listo en destino."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿El seguro de carga está incluido en las mudanzas al interior?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, todas nuestras mudanzas al interior del país incluyen seguro de carga con cobertura total durante todo el trayecto."
+      }
+    }
+  ]
+};
+
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
@@ -62,7 +118,7 @@ export default function Page() {
               <li><strong>Embalaje profesional completo:</strong> protegemos cada mueble y objeto para soportar el viaje de larga distancia.</li>
               <li><strong>Carga y descarga en ambos domicilios:</strong> nuestro equipo trabaja en origen y en destino.</li>
               <li><strong>Desarmado y armado de muebles:</strong> en origen y en destino sin cargo adicional.</li>
-              <li><strong>Seguro de carga:</strong> cobertura total durante todo el trayecto.</li>
+              <li><strong>Seguro de carga incluido:</strong> cobertura total durante todo el trayecto.</li>
               <li><strong>Camión exclusivo:</strong> sin cargas parciales ni paradas intermedias no planificadas.</li>
               <li><strong>Seguimiento del traslado:</strong> te mantenemos informado durante todo el viaje.</li>
             </ul>
@@ -87,11 +143,24 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Pueden guardar mis cosas si no tengo el domicilio de destino listo?</h3>
             <p>Sí, podemos combinar la mudanza al interior con nuestro servicio de guardamuebles en Buenos Aires para que tus pertenencias estén seguras hasta que estés listo en destino.</p>
 
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿El seguro de carga está incluido?</h3>
+            <p>Sí, todas nuestras mudanzas al interior del país incluyen seguro de carga con cobertura total durante todo el trayecto.</p>
+
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Pedí tu presupuesto sin cargo</h2>
             <p>Contactános con tu origen, destino y fecha tentativa y te preparamos un presupuesto detallado sin compromiso.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-border">
+            <h3 className="font-display text-lg font-bold text-foreground mb-4">Artículos relacionados</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <Link href="/blog/mudanzas-larga-distancia-argentina" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas de larga distancia en Argentina</Link>
+              <Link href="/blog/checklist-mudanza" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Checklist completo para tu mudanza</Link>
+              <Link href="/guardamuebles" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Guardamuebles en Buenos Aires</Link>
+              <Link href="/blog/como-embalar-muebles-mudanza" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Cómo embalar muebles para larga distancia</Link>
             </div>
           </div>
         </article>
