@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Qué Preguntar Antes de Contratar una Empresa de Mudanzas | Marino Mudanzas",
-  description: "Las 10 preguntas clave que debés hacerle a una empresa de mudanzas antes de contratar. Evitá sorpresas y protegé tus pertenencias. Guía de Marino Mudanzas.",
+  description: "Las preguntas clave que debés hacerle a una empresa de mudanzas antes de contratar. Evitá sorpresas y protegé tus pertenencias. Guía de Marino Mudanzas.",
 };
 
 const breadcrumbSchema = {
@@ -23,7 +23,7 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Qué Preguntar Antes de Contratar una Empresa de Mudanzas",
-  "description": "Las 10 preguntas clave que debés hacerle a una empresa de mudanzas antes de contratar en Buenos Aires.",
+  "description": "Las preguntas clave que debés hacerle a una empresa de mudanzas antes de contratar en Buenos Aires.",
   "datePublished": "2026-06-25",
   "dateModified": "2026-06-25",
   "url": "https://www.mudanzasmarino.com.ar/blog/que-preguntar-antes-de-contratar-mudanza",
@@ -62,14 +62,6 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "¿Qué pasa si algo se rompe durante la mudanza?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Antes de contratar, preguntá cuál es el proceso ante daños: ¿la empresa se hace cargo? ¿Tienen seguro? ¿Cómo se documenta un reclamo? Una empresa seria debe tener una política clara y transparente ante este escenario."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "¿El precio es cerrado o puede cambiar el día de la mudanza?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -96,10 +88,10 @@ export default function Page() {
 
           <div className="prose prose-lg mt-4 font-body text-muted-foreground leading-relaxed space-y-6">
             <p>
-              Antes de contratar una empresa de mudanzas en Buenos Aires, hay 10 preguntas que no podés dejar de hacer: cantidad de operarios, qué incluye el embalaje, si el camión es propio, qué pasa con los daños, si el precio es cerrado, si tienen experiencia en mudanzas por soga, cómo coordinar con el consorcio, cuándo hay que pagar, qué no está incluido y cuál es el contacto el día de la mudanza. Las respuestas revelan si estás contratando un servicio profesional o arriesgándote a una mala experiencia.
+              Antes de contratar una empresa de mudanzas en Buenos Aires, hay 8 preguntas que no podés dejar de hacer: cantidad de operarios, qué incluye el embalaje, si el camión es propio, si el precio es cerrado, si tienen experiencia en mudanzas por soga, cuándo hay que pagar, qué no está incluido y cuál es el contacto el día de la mudanza. Las respuestas revelan si estás contratando un servicio profesional o arriesgándote a una mala experiencia.
             </p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Las 10 preguntas que debés hacer</h2>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Las 8 preguntas que debés hacer</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">1. ¿Cuántos operarios van a venir?</h3>
             <p>La cantidad de personas determina la velocidad y seguridad del traslado. Un monoambiente puede resolverse con 2; un departamento grande necesita 3 o más. Si la empresa no puede confirmarlo, es una señal de falta de planificación.</p>
@@ -110,25 +102,19 @@ export default function Page() {
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">3. ¿El camión es propio o lo tercerizan?</h3>
             <p>Las empresas con flota propia tienen más control sobre el estado del vehículo y los tiempos. Cuando el transporte es tercerizado, la responsabilidad se diluye y los problemas son más difíciles de resolver.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">4. ¿Qué pasa si algo se rompe o daña?</h3>
-            <p>Una empresa seria tiene una política clara ante daños. Preguntá: ¿cómo se documenta un reclamo? ¿La empresa se hace cargo? ¿En qué plazos? Si no tienen respuesta clara, no los contrates.</p>
-
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">5. ¿El precio es cerrado o puede cambiar el día de la mudanza?</h3>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">4. ¿El precio es cerrado o puede cambiar el día de la mudanza?</h3>
             <p>El presupuesto debe ser un precio cerrado por escrito. Desconfiá de los que dan precios "aproximados" o "por hora" sin tope. Los cargos extra el día del traslado son la queja más frecuente contra empresas informales.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">6. ¿Tienen experiencia en mudanzas por soga?</h3>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">5. ¿Tienen experiencia en mudanzas por soga?</h3>
             <p>Si vivís en un piso alto y hay muebles grandes que no entran por el ascensor, necesitás una empresa especializada en elevación por soga. No todas la tienen — confirmalo antes.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">7. ¿Se encargan de coordinar con el encargado del edificio?</h3>
-            <p>Muchos edificios en CABA tienen horarios de mudanza, reservas de ascensor y documentación requerida. Una empresa profesional se encarga de toda esa coordinación. Si te dicen "eso lo hacés vos", pensá dos veces.</p>
-
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">8. ¿Cuándo y cómo se paga?</h3>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">6. ¿Cuándo y cómo se paga?</h3>
             <p>El esquema de pago habitual es: una seña para reservar la fecha y el saldo al finalizar el servicio. Desconfiá de quien te pide el 100% por adelantado — no tiene ningún incentivo para cumplir.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">9. ¿Qué no está incluido en el presupuesto?</h3>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">7. ¿Qué no está incluido en el presupuesto?</h3>
             <p>Preguntá explícitamente qué no cubre el precio: ¿embalaje de contenidos? ¿Viajes adicionales? ¿Horas extra? Saber qué está excluido es tan importante como saber qué está incluido.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">10. ¿Quién es el contacto el día de la mudanza?</h3>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">8. ¿Quién es el contacto el día de la mudanza?</h3>
             <p>Tener un número de contacto directo con el coordinador o encargado del equipo el día del traslado es fundamental para resolver cualquier imprevisto rápidamente.</p>
 
             <div className="bg-muted rounded-xl p-6 mt-10">
