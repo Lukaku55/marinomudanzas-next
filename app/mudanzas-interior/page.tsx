@@ -9,6 +9,15 @@ export const metadata: Metadata = {
   description: "Mudanzas de larga distancia desde Buenos Aires a todo el país y países limítrofes. Mudanzas exclusivas sin cargas parciales. Seguro de carga incluido. Más de 80 años de experiencia. Tel 4611-1818",
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.mudanzasmarino.com.ar" },
+    { "@type": "ListItem", "position": 2, "name": "Mudanzas al Interior del País", "item": "https://www.mudanzasmarino.com.ar/mudanzas-interior" }
+  ]
+};
+
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -88,6 +97,7 @@ const faqSchema = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header />
@@ -147,7 +157,7 @@ export default function Page() {
             <p>Sí, todas nuestras mudanzas al interior del país incluyen seguro de carga con cobertura total durante todo el trayecto.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Pedí tu presupuesto sin cargo</h2>
-            <p>Contactános con tu origen, destino y fecha tentativa y te preparamos un presupuesto detallado sin compromiso.</p>
+            <p>Contactanos con tu origen, destino y fecha tentativa y te preparamos un presupuesto detallado sin compromiso.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
               <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
