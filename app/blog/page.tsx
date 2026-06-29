@@ -12,6 +12,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { ArrowRight } from "lucide-react";
 
 const articles = [
+  { slug: "mudanzas-economicas-buenos-aires", title: "Mudanzas Económicas en Buenos Aires: Cómo Ahorrar sin Sacrificar Calidad", excerpt: "Qué factores determinan el costo de una mudanza, cómo comparar presupuestos correctamente y qué señales de alarma evitar en empresas demasiado baratas.", date: "2026-06-29" },
+  { slug: "cuanto-tiempo-dura-una-mudanza", title: "¿Cuánto Tiempo Dura una Mudanza? Tiempos Reales por Tamaño", excerpt: "Estimaciones reales de cuánto tarda una mudanza según la cantidad de ambientes, el piso, el ascensor y el volumen de muebles. Guía práctica para planificar tu día.", date: "2026-06-29" },
+  { slug: "mudanzas-monoambiente-buenos-aires", title: "Mudanzas de Monoambiente en Buenos Aires", excerpt: "Todo lo que necesitás saber para mudarte de un monoambiente en CABA. Costos, tiempos y por qué contratar una empresa incluso para mudanzas pequeñas.", date: "2026-06-29" },
   { slug: "que-preguntar-antes-de-contratar-mudanza", title: "8 Preguntas que Debés Hacer Antes de Contratar una Mudanza", excerpt: "Antes de firmar cualquier presupuesto, hacé estas preguntas clave. Cómo detectar empresas confiables, qué debe incluir el servicio y cómo evitar sorpresas el día de la mudanza.", date: "2026-06-25" },
   { slug: "cuanto-cuesta-mudanza-buenos-aires", title: "¿Cuánto cuesta una mudanza en Buenos Aires en 2026?", excerpt: "Descubrí los factores que afectan el precio de una mudanza y rangos de precios orientativos según el tamaño de tu vivienda.", date: "2026-04-22" },
   { slug: "checklist-mudanza", title: "Checklist de Mudanza Completo 2026", excerpt: "Todo lo que tenes que hacer 4 semanas antes, 1 semana antes y el dia de tu mudanza. Guia completa.", date: "2026-04-22" },

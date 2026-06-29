@@ -100,6 +100,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "primer-departamento-buenos-aires",
     "mudanzas-en-verano",
     "como-entregar-departamento-alquilado",
+    "mudanzas-economicas-buenos-aires",
+    "cuanto-tiempo-dura-una-mudanza",
+    "mudanzas-monoambiente-buenos-aires",
   ];
 
   return [
