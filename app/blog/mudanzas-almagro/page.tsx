@@ -49,10 +49,10 @@ const faqLd = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿Pueden mover pianos en Almagro?",
+      "name": "¿Hacen mudanzas de locales y estudios en Almagro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sí. Tenemos experiencia en el traslado de pianos verticales y de cola, algo muy frecuente en Almagro dado su tradición cultural y tanguera. El traslado de un piano requiere equipamiento especial, personal capacitado y planificación previa del acceso."
+        "text": "Sí, realizamos mudanzas comerciales en Almagro, incluyendo el traslado de equipamiento de estudio, mobiliario de oficina y mercadería."
       }
     },
     {
@@ -117,7 +117,6 @@ export default function Page() {
             <ul className="list-disc pl-6 space-y-2">
               <li>Desarmado y armado de muebles (placares, camas, escritorios)</li>
               <li>Embalaje de objetos frágiles, vajilla y cuadros</li>
-              <li>Traslado de pianos e instrumentos musicales (especialidad en el barrio)</li>
               <li>Traslado de equipamiento de estudio y locales comerciales</li>
               <li>Camión del tamaño adecuado a cada calle y volumen</li>
               <li>Presupuesto sin cargo y precio cerrado sin sorpresas</li>
@@ -133,8 +132,8 @@ export default function Page() {
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Almagro</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Pueden mover pianos en Almagro?</h3>
-            <p>Sí. Tenemos experiencia en el traslado de pianos verticales y de cola, algo muy frecuente en Almagro por su tradición cultural y tanguera. El traslado de un piano requiere equipamiento especial, personal capacitado y planificación previa del acceso.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas de locales y estudios en Almagro?</h3>
+            <p>Sí, realizamos mudanzas comerciales incluyendo el traslado de equipamiento de estudio, mobiliario de oficina y mercadería.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Es difícil el acceso para camiones de mudanza en Almagro?</h3>
             <p>Algunas calles como Medrano, Salguero y Bulnes son angostas. El tráfico sobre Corrientes y Rivadavia también suma complicaciones. Evaluamos el mejor punto de carga según la dirección específica y el horario más conveniente.</p>
@@ -161,7 +160,7 @@ export default function Page() {
               <Link href="/blog/mudanzas-boedo" className="text-gold hover:underline text-sm">Boedo</Link>
               <Link href="/blog/mudanzas-flores" className="text-gold hover:underline text-sm">Flores</Link>
               <Link href="/blog/mudanzas-palermo" className="text-gold hover:underline text-sm">Palermo</Link>
-              <Link href="/blog/mudanzas-de-piano-buenos-aires" className="text-gold hover:underline text-sm">Mudanzas de piano</Link>
+              <Link href="/blog/mudanzas-oficinas-buenos-aires" className="text-gold hover:underline text-sm">Mudanzas de oficinas</Link>
               <Link href="/mudanzas-residenciales" className="text-gold hover:underline text-sm">Mudanzas residenciales</Link>
             </div>
           </div>
