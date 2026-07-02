@@ -12,6 +12,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { ArrowRight } from "lucide-react";
 
 const articles = [
+  { slug: "guia-mudanzas-buenos-aires", title: "Mudanzas en Buenos Aires: Guía Completa 2026", excerpt: "Todo lo que necesitás saber sobre mudanzas en CABA y GBA: tipos de servicio, costos orientativos, cómo elegir empresa, particularidades por barrio y preguntas frecuentes.", date: "2026-06-29" },
   { slug: "mudanzas-economicas-buenos-aires", title: "Mudanzas Económicas en Buenos Aires: Cómo Ahorrar sin Sacrificar Calidad", excerpt: "Qué factores determinan el costo de una mudanza, cómo comparar presupuestos correctamente y qué señales de alarma evitar en empresas demasiado baratas.", date: "2026-06-29" },
   { slug: "cuanto-tiempo-dura-una-mudanza", title: "¿Cuánto Tiempo Dura una Mudanza? Tiempos Reales por Tamaño", excerpt: "Estimaciones reales de cuánto tarda una mudanza según la cantidad de ambientes, el piso, el ascensor y el volumen de muebles. Guía práctica para planificar tu día.", date: "2026-06-29" },
   { slug: "mudanzas-monoambiente-buenos-aires", title: "Mudanzas de Monoambiente en Buenos Aires", excerpt: "Todo lo que necesitás saber para mudarte de un monoambiente en CABA. Costos, tiempos y por qué contratar una empresa incluso para mudanzas pequeñas.", date: "2026-06-29" },

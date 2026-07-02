@@ -19,6 +19,85 @@ import TrustedBySection from "@/components/TrustedBySection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "MovingCompany",
+  "name": "Marino Mudanzas",
+  "url": "https://www.mudanzasmarino.com.ar",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"
+  },
+  "image": "https://www.mudanzasmarino.com.ar/hero-mudanzas.jpg",
+  "description": "Empresa de mudanzas en Buenos Aires con más de 80 años de experiencia. Mudanzas residenciales, de oficinas, guardamuebles y fletes en CABA y GBA. Presupuesto sin cargo.",
+  "telephone": "+541146111818",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Juan Bautista Alberdi 2968",
+    "addressLocality": "Flores",
+    "addressRegion": "Ciudad Autónoma de Buenos Aires",
+    "postalCode": "C1406",
+    "addressCountry": "AR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -34.6297,
+    "longitude": -58.4694
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    }
+  ],
+  "priceRange": "$$",
+  "foundingDate": "1950",
+  "areaServed": [
+    { "@type": "City", "name": "Ciudad Autónoma de Buenos Aires" },
+    { "@type": "AdministrativeArea", "name": "Gran Buenos Aires" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicios de Mudanzas en Buenos Aires",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Mudanzas Residenciales en Buenos Aires",
+          "url": "https://www.mudanzasmarino.com.ar/mudanzas-residenciales"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Mudanzas de Oficinas en Buenos Aires",
+          "url": "https://www.mudanzasmarino.com.ar/mudanzas-oficinas"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Guardamuebles en Buenos Aires",
+          "url": "https://www.mudanzasmarino.com.ar/guardamuebles"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Mudanzas al Interior del País",
+          "url": "https://www.mudanzasmarino.com.ar/mudanzas-interior"
+        }
+      }
+    ]
+  }
+};
+
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -95,6 +174,10 @@ export default function Home() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
