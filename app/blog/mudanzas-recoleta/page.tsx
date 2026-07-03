@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Recoleta Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas en Recoleta con más de 80 años de experiencia. Especialistas en edificios de época, pisos de mármol y antigüedades. Presupuesto sin cargo. Tel 4611-1818.",
+  description: "Mudanzas en Recoleta: edificios de época, ascensores de reja, pisos de mármol y antigüedades. Especialistas con precio cerrado y presupuesto sin cargo. Tel 4611-1818.",
 };
 
 const breadcrumb = {

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Belgrano Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas en Belgrano con más de 80 años de experiencia. Belgrano R, C y Chico. Manejo de muebles de alto valor, coordinación con consorcios y presupuesto sin cargo. Tel 4611-1818.",
+  description: "Mudanzas en Belgrano R, C y Chico. Muebles de alto valor, consorcios exigentes y precio cerrado sin sorpresas. 80 años de experiencia. Presupuesto sin cargo → 4611-1818.",
 };
 
 const breadcrumbSchema = {

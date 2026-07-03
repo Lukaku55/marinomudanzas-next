@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Palermo Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas en Palermo con más de 80 años de experiencia. Palermo Soho, Hollywood y Chico. Embalaje incluido, mudanzas por soga y presupuesto sin cargo. Tel 4611-1818.",
+  description: "Especialistas en mudanzas en Palermo: Soho, Hollywood y Chico. Embalaje incluido, mudanza por soga en PHs y precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };
 
 const breadcrumbSchema = {

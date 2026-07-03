@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Flores Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas en Flores, nuestro barrio de origen desde 1950. Base en Av. Juan B. Alberdi 2968. Guardamuebles propio. Más de 80 años de experiencia. Tel 4611-1818.",
+  description: "Nuestro barrio desde 1950. Base en Av. Alberdi 2968, Flores. Guardamuebles propio a metros. Llegamos antes y a menor costo que desde el centro. Tel 4611-1818.",
 };
 
 const breadcrumb = {

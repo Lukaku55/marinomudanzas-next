@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en San Telmo Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas en San Telmo con más de 80 años de experiencia. Especialistas en casas históricas, antigüedades y calles adoquinadas. Presupuesto sin cargo. Tel 4611-1818.",
+  description: "San Telmo es el barrio más exigente para mudanzas en CABA. Casas chorizo, adoquines y antigüedades. Especialistas con precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };
 
 const breadcrumb = {

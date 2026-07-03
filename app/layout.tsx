@@ -17,15 +17,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mudanzas en Buenos Aires | Marino Mudanzas | Desde 1950",
-  description: "Empresa de mudanzas en Buenos Aires con más de 80 años de experiencia. Mudanzas residenciales, de oficinas y guardamuebles en CABA y GBA. Presupuesto sin cargo. Llamanos al 4611-1818.",
+  title: "Mudanzas en Buenos Aires | Precio Cerrado | Marino Mudanzas",
+  description: "80 años moviendo Buenos Aires. Precio cerrado, sin sorpresas. Mudanzas en CABA y GBA de lunes a sábado. Presupuesto sin cargo → 4611-1818.",
   keywords: "mudanzas Buenos Aires, empresa de mudanzas CABA, mudanzas residenciales, mudanzas oficinas, guardamuebles Buenos Aires",
   icons: { icon: "/logo-marino-nuevo.png" },
   robots: { index: true, follow: true },
   alternates: { canonical: "https://www.mudanzasmarino.com.ar" },
   openGraph: {
-    title: "Mudanzas en Buenos Aires | Marino Mudanzas | Desde 1950",
-    description: "Más de 80 años moviendo Buenos Aires. Mudanzas residenciales, de oficinas y guardamuebles en CABA y GBA.",
+    title: "Mudanzas en Buenos Aires | Precio Cerrado | Marino Mudanzas",
+    description: "80 años moviendo Buenos Aires. Precio cerrado, sin sorpresas. Mudanzas en CABA y GBA de lunes a sábado.",
     url: "https://www.mudanzasmarino.com.ar",
     siteName: "Marino Mudanzas",
     locale: "es_AR",
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Mudanzas en Buenos Aires | Marino Mudanzas | Desde 1950",
-    description: "Más de 80 años moviendo Buenos Aires. Mudanzas residenciales, de oficinas y guardamuebles en CABA y GBA.",
+    title: "Mudanzas en Buenos Aires | Precio Cerrado | Marino Mudanzas",
+    description: "80 años moviendo Buenos Aires. Precio cerrado, sin sorpresas. Mudanzas en CABA y GBA de lunes a sábado.",
     images: ["https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png"],
   },
 };

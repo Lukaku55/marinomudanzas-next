@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Caballito Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas en Caballito con más de 80 años de experiencia. El barrio más céntrico de CABA. Embalaje incluido, escaleras sin ascensor y presupuesto sin cargo. Tel 4611-1818.",
+  description: "Mudanzas en Caballito: el barrio más céntrico de CABA. Edificios de todas las épocas, escaleras angostas y precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };
 
 const breadcrumbSchema = {

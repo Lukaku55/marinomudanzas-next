@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Consejos de Mudanza | Blog de Marino Mudanzas",
-  description: "Guias practicas y consejos de nuestros expertos con mas de 80 anos de experiencia en mudanzas.",
+  title: "Blog de Mudanzas Buenos Aires | Guías y Consejos | Marino Mudanzas",
+  description: "Guías prácticas sobre mudanzas en Buenos Aires: costos, embalaje, cómo elegir empresa, barrios y organización. Por expertos con más de 80 años de experiencia.",
 };
 
 import Link from "next/link";

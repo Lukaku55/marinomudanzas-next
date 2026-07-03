@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Villa Urquiza Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas en Villa Urquiza con más de 80 años de experiencia. Casas de gran porte, calles arboladas y buena accesibilidad. Presupuesto sin cargo. Tel 4611-1818.",
+  description: "Mudanzas en Villa Urquiza: calles arboladas, casas de gran porte y el mejor acceso para camiones de CABA. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };
 
 const breadcrumb = {
