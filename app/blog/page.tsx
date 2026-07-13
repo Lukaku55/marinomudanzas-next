@@ -12,6 +12,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { ArrowRight } from "lucide-react";
 
 const articles = [
+  { slug: "mudanzas-2-ambientes-buenos-aires", title: "Mudanza de 2 Ambientes en Buenos Aires: Precios y Tiempos 2026", excerpt: "¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires? Precios reales, tiempos estimados por piso y ascensor, qué camión necesitás y checklist de preparación.", date: "2026-07-13" },
   { slug: "guia-mudanzas-buenos-aires", title: "Mudanzas en Buenos Aires: Guía Completa 2026", excerpt: "Todo lo que necesitás saber sobre mudanzas en CABA y GBA: tipos de servicio, costos orientativos, cómo elegir empresa, particularidades por barrio y preguntas frecuentes.", date: "2026-06-29" },
   { slug: "mudanzas-economicas-buenos-aires", title: "Mudanzas Económicas en Buenos Aires: Cómo Ahorrar sin Sacrificar Calidad", excerpt: "Qué factores determinan el costo de una mudanza, cómo comparar presupuestos correctamente y qué señales de alarma evitar en empresas demasiado baratas.", date: "2026-06-29" },
   { slug: "cuanto-tiempo-dura-una-mudanza", title: "¿Cuánto Tiempo Dura una Mudanza? Tiempos Reales por Tamaño", excerpt: "Estimaciones reales de cuánto tarda una mudanza según la cantidad de ambientes, el piso, el ascensor y el volumen de muebles. Guía práctica para planificar tu día.", date: "2026-06-29" },
