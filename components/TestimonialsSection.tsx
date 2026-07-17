@@ -61,7 +61,7 @@ const reviewSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.7",
-    "reviewCount": "370",
+    "reviewCount": "393",
     "bestRating": "5",
     "worstRating": "1"
   },
@@ -131,7 +131,7 @@ const TestimonialsSection = () => {
             Lo Que Dicen Nuestros Clientes
           </h2>
           <p className="font-body text-primary-foreground/70 text-lg max-w-xl mx-auto">
-            370 reseñas en Google con una puntuación de 4.7 sobre 5
+            393 reseñas en Google con una puntuación de 4.7 sobre 5
           </p>
         </div>
 
