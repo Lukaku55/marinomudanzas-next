@@ -1,78 +1,164 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanzas en Chacarita Buenos Aires | Marino Mudanzas",
-  description: "Mudanzas en Chacarita con más de 80 años de experiencia. Conocemos cada edificio del barrio. Embalaje incluido, seguro de carga y presupuesto sin cargo. Tel 4611-1818",
+  description: "Mudanzas en Chacarita: casas bajas, PHs y edificios sin ascensor de los 50. Precio cerrado sin sorpresas. Conocemos cada calle del barrio. Presupuesto sin cargo → 4611-1818.",
+};
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.mudanzasmarino.com.ar" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.mudanzasmarino.com.ar/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Mudanzas en Chacarita", "item": "https://www.mudanzasmarino.com.ar/blog/mudanzas-chacarita" }
+  ]
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Mudanzas en Chacarita Buenos Aires | Marino Mudanzas",
+  "description": "Mudanzas en Chacarita: casas bajas, PHs y edificios sin ascensor de los 50. Precio cerrado sin sorpresas.",
+  "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-chacarita",
+  "datePublished": "2026-07-17",
+  "dateModified": "2026-07-17",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.mudanzasmarino.com.ar/blog/mudanzas-chacarita" },
+  "author": { "@type": "Organization", "name": "Marino Mudanzas", "url": "https://www.mudanzasmarino.com.ar" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "logo": { "@type": "ImageObject", "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png" }
+  }
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Tienen vehículos pequeños para las calles angostas de Chacarita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Las calles internas de Chacarita como Fraga, Charlone o Céspedes pueden ser estrechas. Usamos camioneta o camión chico en esas direcciones y reservamos los camiones grandes para las avenidas. Lo evaluamos cuando pedís el presupuesto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo manejan los edificios sin ascensor de Chacarita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Con personal extra y, cuando los muebles no pasan por la escalera, mediante elevación por soga desde el exterior. Los edificios de los años 50 y 60 del barrio son una de nuestras especialidades. El costo adicional por escaleras está incluido en el presupuesto cerrado."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta una mudanza en Chacarita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un departamento de 2 ambientes ronda los $150.000–$250.000. Una PH o casa puede ir desde $250.000 según el volumen y el acceso. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí el tuyo sin cargo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Con cuánta anticipación hay que reservar en Chacarita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Al menos una semana. Para fin de mes o sábados, 10–15 días. Chacarita tiene buena rotación de inquilinos especialmente en las zonas de Av. Corrientes y Dorrego, y los turnos de fin de mes se llenan rápido."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hacen mudanzas comerciales o de estudio en Chacarita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Chacarita tiene muchos estudios creativos, ateliers y locales gastronómicos. Realizamos mudanzas comerciales incluyendo traslado de mobiliario de local, equipamiento de cocina y mobiliario de oficina con precio cerrado."
+      }
+    }
+  ]
 };
 
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Header />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas en Chacarita</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
-            <p>Chacarita es uno de los barrios más vibrantes del norte de Buenos Aires. Con una mezcla de edificios de mediana altura, casas bajas, PHs y una creciente oferta gastronómica y cultural, es un barrio donde la demanda de mudanzas crece año a año. En Marino Mudanzas realizamos mudanzas en Chacarita con más de 80 años de experiencia en CABA.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Características de las mudanzas en Chacarita</h2>
-            <p>Chacarita tiene una variedad de propiedades que requieren diferentes soluciónes logísticas. Las calles del barrio son relativamente amplias cerca de las avenidas principales como Corrientes, Forest y Dorrego, pero se angosta considerablemente en las calles internas. Muchos edificios del barrio son de construcción antigua y carecen de ascensor.</p>
+            <p>Chacarita es uno de los barrios con más carácter del norte de CABA. La mezcla de casas bajas de principios del siglo XX, PHs con jardín, edificios de los 50 sin ascensor y una creciente escena gastronómica y cultural genera una demanda variada de mudanzas. En Marino Mudanzas trabajamos en Chacarita hace décadas y conocemos bien cada tipo de propiedad y cada calle del barrio.</p>
+
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cómo son las mudanzas en Chacarita</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Gran cantidad de edificios sin ascensor de los años 50 y 60</li>
-              <li>PHs y casas bajas con accesos alternativos</li>
-              <li>Calles angostas en el interior del barrio que requieren camiónes de menor porte</li>
-              <li>Edificios nuevos en la zona de Dorrego con mejor acceso</li>
+              <li><strong>Edificios sin ascensor de los años 50–60</strong> — la mayoría de los edificios del interior del barrio son de esta época. Personal extra para subida por escalera y elevación por soga cuando los muebles no pasan.</li>
+              <li><strong>PHs y casas bajas</strong> — propiedades con jardín y acceso directo desde la vereda. El mayor desafío suele ser el volumen, no el acceso.</li>
+              <li><strong>Calles internas angostas</strong> — Fraga, Charlone, Céspedes y otras calles del interior del barrio tienen árboles grandes y poco espacio. Usamos el vehículo adecuado para cada dirección.</li>
+              <li><strong>Edificios nuevos en Dorrego</strong> — la zona de Av. Dorrego y Av. Forest concentra edificios modernos con ascensor y espacios de carga bien señalizados.</li>
+              <li><strong>Alta rotación en Corrientes</strong> — el corredor de Av. Corrientes tiene muchos departamentos en alquiler con alta rotación, especialmente a fin de mes.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Nuestro servicio de mudanzas en Chacarita</h2>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué incluye nuestro servicio de mudanzas en Chacarita?</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Embalaje profesional incluido:</strong> protegemos cada mueble con mantas acolchadas y film stretch.</li>
-              <li><strong>Desarmado y armado de muebles:</strong> camas, placards, bibliotecas y todo lo necesario sin cargo adicional.</li>
-              <li><strong>Mudanzas por soga:</strong> para muebles que no entran por escalera en edificios sin ascensor.</li>
-              <li><strong>Coordinación con el consorcio:</strong> nos encargamos de los permisos y horarios del edificio.</li>
-              <li><strong>Seguro de carga:</strong> tus pertenencias están cubiertas durante todo el traslado.</li>
-              <li><strong>Flota de distintos tamaños:</strong> camiónes chicos para calles angostas y grandes para mudanzas de mayor volumen.</li>
+              <li>Desarmado y armado de muebles (placares, camas, escritorios)</li>
+              <li>Embalaje de objetos frágiles, vajilla y cuadros</li>
+              <li>Elevación por soga para muebles que no entran por escalera</li>
+              <li>Vehículo del tamaño adecuado a cada calle</li>
+              <li>Coordinación con el consorcio o encargado del edificio</li>
+              <li>Traslado de equipamiento de locales y estudios creativos</li>
+              <li>Presupuesto sin cargo y precio cerrado sin sorpresas</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Chacarita donde operamos</h2>
-            <p>Cubrimos todo el barrio de Chacarita — desde las zonas lindantes con Palermo y Villa Crespo hasta los límites con Colegiales y Paternal. Las calles más frecuentes donde trabajamos incluyen Av. Corrientes, Av. Forest, Av. Dorrego, Jorge Newbery, Fraga, Céspedes, Charlone y todo el interior del barrio.</p>
-
-
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Chacarita que cubrimos</h2>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><strong>Chacarita histórico</strong> — casas bajas y PHs entre Av. Forest y Av. Corrientes, el corazón residencial del barrio</li>
+              <li><strong>Corredor Dorrego</strong> — edificios nuevos y mayor accesibilidad para camiones de todos los tamaños</li>
+              <li><strong>Av. Corrientes</strong> — alta rotación de inquilinos, muchos departamentos de 1 y 2 ambientes</li>
+              <li><strong>Límite Palermo</strong> — zona de transición con creciente oferta de PHs recicladas y locales</li>
+              <li><strong>Límite Colegiales</strong> — calles tranquilas con casas y PHs de principios del siglo XX</li>
+            </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Chacarita</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Tienen camiónes pequeños para calles angostas?</h3>
-            <p>Sí, contamos con flota de distintos tamaños. Para calles angostas del interior de Chacarita usamos camiónes de menor porte que fácilitan la carga y descarga sin interrumpir el tráfico.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Tienen vehículos pequeños para las calles angostas?</h3>
+            <p>Sí. En calles como Fraga o Charlone usamos camioneta o camión chico para no interrumpir el tráfico ni dañar ramas. Lo evaluamos al presupuestar para no tener sorpresas el día de la mudanza.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas en edificios sin ascensor?</h3>
-            <p>Sí, tenemos amplia experiencia en edificios sin ascensor. Para muebles que no pasan por la escalera utilizamos técnicas de elevación por soga desde el exterior.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo manejan los edificios sin ascensor?</h3>
+            <p>Con personal extra y, cuando el mueble no pasa por la escalera, elevamos por soga desde el exterior. Es algo frecuente en los edificios de los 50-60 de Chacarita y está incluido en el presupuesto cerrado.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación tengo que reservar?</h3>
-            <p>Recomendamos reservar con al menos 10 a 15 días de anticipación. Para mudanzas a fin de mes lo ideal es reservar con 3 semanas.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Chacarita?</h3>
+            <p>Un 2 ambientes ronda los $150.000–$250.000. Una PH o casa puede ir desde $250.000 según el volumen y el acceso. Precio cerrado desde el presupuesto sin costos adicionales el día de la mudanza.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿También hacen mudanzas desde Chacarita hacia otros barrios o el GBA?</h3>
-            <p>Sí, cubrimos mudanzas desde y hacia cualquier barrio de CABA y todo el Gran Buenos Aires. También realizamos mudanzas al interior del país.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación hay que reservar?</h3>
+            <p>Al menos una semana. Para fin de mes o sábados, 10–15 días. La zona de Corrientes tiene alta rotación y los turnos se llenan rápido.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
-            <p>Si tu mudanza involucra barrios limítrofes, también cubrimos:</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li><a href="/blog/mudanzas-palermo" className="text-gold hover:underline">Mudanzas en Palermo</a></li>
-              <li><a href="/blog/mudanzas-villa-crespo" className="text-gold hover:underline">Mudanzas en Villa Crespo</a></li>
-              <li><a href="/blog/mudanzas-colegiales" className="text-gold hover:underline">Mudanzas en Colegiales</a></li>
-              <li><a href="/blog/mudanzas-paternal" className="text-gold hover:underline">Mudanzas en Paternal</a></li>
-              <li><a href="/blog/mudanzas-villa-ortuzar" className="text-gold hover:underline">Mudanzas en Villa Ortúzar</a></li>
-            </ul>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas comerciales o de estudio en Chacarita?</h3>
+            <p>Sí. Locales gastronómicos, estudios creativos y ateliers. Traslado de equipamiento de cocina, mobiliario de local y equipos con precio cerrado.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactános para tu mudanza en Chacarita</h2>
-            <p>Pedí tu presupuesto sin cargo hoy. Respondemos de inmediato por WhatsApp o teléfono.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <p>Contanos el tipo de propiedad, el piso y si hay ascensor. Te damos un precio cerrado en el día. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
+              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            </div>
+
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">También hacemos mudanzas en barrios cercanos</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
+              <Link href="/blog/mudanzas-palermo" className="text-gold hover:underline text-sm">Palermo</Link>
+              <Link href="/blog/mudanzas-villa-crespo" className="text-gold hover:underline text-sm">Villa Crespo</Link>
+              <Link href="/blog/mudanzas-colegiales" className="text-gold hover:underline text-sm">Colegiales</Link>
+              <Link href="/blog/mudanzas-paternal" className="text-gold hover:underline text-sm">Paternal</Link>
+              <Link href="/blog/mudanzas-villa-ortuzar" className="text-gold hover:underline text-sm">Villa Ortúzar</Link>
+              <Link href="/mudanzas-residenciales" className="text-gold hover:underline text-sm">Mudanzas residenciales</Link>
             </div>
           </div>
         </article>
