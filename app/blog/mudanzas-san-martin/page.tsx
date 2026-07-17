@@ -1,72 +1,163 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Mudanzas en San Martín GBA | Marino Mudanzas Buenos Aires",
-  description: "Mudanzas en San Martín con más de 80 años de experiencia. Villa Ballester, José León Suárez y todo el partido. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
+  title: "Mudanzas en San Martín GBA | Marino Mudanzas",
+  description: "Mudanzas en San Martín: Villa Ballester, Villa Maipú y José León Suárez. Precio cerrado sin sorpresas para todo el partido. Presupuesto sin cargo → 4611-1818.",
+};
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.mudanzasmarino.com.ar" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.mudanzasmarino.com.ar/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Mudanzas en San Martín", "item": "https://www.mudanzasmarino.com.ar/blog/mudanzas-san-martin" }
+  ]
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Mudanzas en San Martín GBA | Marino Mudanzas",
+  "description": "Mudanzas en San Martín: Villa Ballester, Villa Maipú y José León Suárez. Precio cerrado sin sorpresas para todo el partido.",
+  "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-san-martin",
+  "datePublished": "2026-07-17",
+  "dateModified": "2026-07-17",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.mudanzasmarino.com.ar/blog/mudanzas-san-martin" },
+  "author": { "@type": "Organization", "name": "Marino Mudanzas", "url": "https://www.mudanzasmarino.com.ar" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marino Mudanzas",
+    "logo": { "@type": "ImageObject", "url": "https://www.mudanzasmarino.com.ar/logo-marino-nuevo.png" }
+  }
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta una mudanza en San Martín?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un departamento de 2 ambientes en San Martín ronda los $170.000–$270.000. Una casa puede ir desde $280.000 según el volumen. El precio es cerrado desde el presupuesto e incluye el traslado desde o hacia CABA, sin costos adicionales el día de la mudanza."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cubren Villa Ballester, Villa Maipú y José León Suárez?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, cubrimos todo el partido de San Martín: San Martín centro, Villa Ballester, Villa Maipú, Villa Lynch, José León Suárez y Villa del Parque (GBA). El precio es cerrado desde el presupuesto independientemente de la localidad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo acceden a San Martín desde CABA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El acceso principal desde CABA es por el Acceso Oeste (Autopista) o por Av. San Martín. Desde Flores, nuestra base, el acceso es muy directo. Coordinamos la ruta más eficiente según la localidad y el horario."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Con cuánta anticipación hay que reservar en San Martín?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Al menos una semana. Para fin de mes o sábados, 10–15 días. San Martín centro y Villa Ballester tienen alta rotación de inquilinos y los turnos de fin de mes se llenan rápido."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hacen mudanzas de San Martín a CABA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, es una de las rutas más frecuentes del corredor norte-oeste. El traslado entre San Martín y cualquier barrio de CABA está incluido en el precio cerrado del presupuesto."
+      }
+    }
+  ]
 };
 
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Header />
       <main className="pt-24 pb-20">
         <article className="container mx-auto px-4 max-w-3xl">
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas en San Martín</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
-            <p>El partido de San Martín es uno de los más industriales y densamente poblados del Gran Buenos Aires. Con localidades como Villa Ballester, José León Suárez y Villa Maipú, es un partido con alta rotación de inquilinos y fuerte demanda de mudanzas residenciales y comerciales. En Marino Mudanzas realizamos mudanzas en San Martín con más de 80 años de experiencia.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Características de las mudanzas en San Martín</h2>
-            <p>San Martín tiene una fisonomía urbana densa con edificios de departamentos en los centros de las localidades y casas de familia en los barrios más alejados. Las principales localidades están bien conectadas con CABA por tren y autopista.</p>
+            <p>San Martín es uno de los partidos más industriales e históricos del norte del GBA, con una importante zona residencial en Villa Ballester, Villa Maipú y Villa Lynch. Su ubicación estratégica entre CABA y el corredor norte del GBA lo convierte en un punto de partida y destino frecuente en las rutas de mudanza del noroeste. En Marino Mudanzas realizamos mudanzas en todo el partido desde nuestra base en Flores, con acceso directo por el Acceso Oeste o Av. San Martín.</p>
+
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cómo son las mudanzas en San Martín</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Partido urbano y denso con alta rotación de inquilinos</li>
-              <li>Localidades principales: Villa Ballester, José León Suárez, Villa Maipú</li>
-              <li>Excelente conexión con CABA por Autopista Panamericana y tren</li>
-              <li>Mezcla de edificios de departamentos y casas de familia</li>
+              <li><strong>Villa Ballester</strong> — barrio residencial de clase media con casas y edificios. Alta demanda de mudanzas por su buena conectividad con CABA.</li>
+              <li><strong>Villa Maipú</strong> — zona de casas de familia con jardín. Calles amplias y buen acceso para camiones de todos los tamaños.</li>
+              <li><strong>Villa Lynch</strong> — barrio residencial con edificios y casas. Buen acceso desde CABA por Av. San Martín.</li>
+              <li><strong>San Martín centro</strong> — zona comercial con edificios y alta rotación de inquilinos en departamentos de alquiler.</li>
+              <li><strong>José León Suárez</strong> — localidad con casas de familia y buen acceso vehicular.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Nuestro servicio de mudanzas en San Martín</h2>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué incluye nuestro servicio de mudanzas en San Martín?</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Embalaje profesional incluido:</strong> protegemos cada mueble con mantas acolchadas y film stretch.</li>
-              <li><strong>Desarmado y armado de muebles:</strong> camas, placards, bibliotecas y todo lo necesario sin cargo adicional.</li>
-              <li><strong>Seguro de carga:</strong> tus pertenencias están cubiertas durante todo el traslado.</li>
-              <li><strong>Flota propia:</strong> camiónes de distintos tamaños para adaptarnos a cada mudanza.</li>
-              <li><strong>Coordinación completa:</strong> nos encargamos de todos los detalles logísticos del traslado.</li>
+              <li>Desarmado y armado de muebles (placares, camas, escritorios)</li>
+              <li>Embalaje de objetos frágiles, vajilla y cuadros</li>
+              <li>Coordinación con el consorcio o encargado del edificio</li>
+              <li>Camión del tamaño adecuado al volumen y la localidad</li>
+              <li>Traslado entre San Martín y CABA con precio cerrado</li>
+              <li>Presupuesto sin cargo y precio cerrado sin sorpresas</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cobertura en San Martín</h2>
-            <p>Cubrimos todo el partido de San Martín incluyendo San Martín Centro, Villa Ballester, José León Suárez, Villa Maipú, Billinghurst y todas las localidades del partido.</p>
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Localidades de San Martín que cubrimos</h2>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><strong>Villa Ballester</strong> — la localidad más demandada del partido</li>
+              <li><strong>Villa Maipú</strong> — casas con jardín y calles amplias</li>
+              <li><strong>Villa Lynch</strong> — residencial con buen acceso desde CABA</li>
+              <li><strong>San Martín centro</strong> — zona comercial con alta rotación</li>
+              <li><strong>José León Suárez</strong> — casas de familia, igualmente cubierta</li>
+            </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en San Martín</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación tengo que reservar?</h3>
-            <p>Recomendamos reservar con al menos 15 días de anticipación. Para mudanzas a fin de mes lo ideal es reservar con 3 semanas.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en San Martín?</h3>
+            <p>Un 2 ambientes ronda los $170.000–$270.000. Una casa puede ir desde $280.000 según el volumen. Precio cerrado que incluye el traslado desde o hacia CABA.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿El precio incluye la descarga en San Martín?</h3>
-            <p>Sí, el presupuesto incluye carga en origen y descarga en destino. No hay costos ocultos ni cargos adicionales por distancia.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cubren Villa Ballester, Villa Maipú y José León Suárez?</h3>
+            <p>Sí, todo el partido. Precio cerrado sin importar la localidad.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Trabajan los sábados?</h3>
-            <p>Sí, trabajamos de lunes a sábado de 8 a 18hs.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo acceden a San Martín desde CABA?</h3>
+            <p>Por el Acceso Oeste (autopista) o por Av. San Martín. Desde nuestra base en Flores el acceso es muy directo. Coordinamos la ruta más eficiente para cada localidad.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas cercanas donde también operamos</h2>
-            <p>Si tu mudanza involucra zonas limítrofes, también cubrimos:</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li><a href="/blog/mudanzas-tres-de-febrero" className="text-gold hover:underline">Mudanzas en Tres de Febrero</a></li>
-              <li><a href="/blog/mudanzas-malvinas-argentinas" className="text-gold hover:underline">Mudanzas en Malvinas Argentinas</a></li>
-              <li><a href="/blog/mudanzas-moron" className="text-gold hover:underline">Mudanzas en Morón</a></li>
-              <li><a href="/blog/mudanzas-jose-c-paz" className="text-gold hover:underline">Mudanzas en José C. Paz</a></li>
-              <li><a href="/blog/mudanzas-hurlingham" className="text-gold hover:underline">Mudanzas en Hurlingham</a></li>
-            </ul>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación hay que reservar?</h3>
+            <p>Al menos una semana. Para fin de mes o sábados, 10–15 días. Villa Ballester y el centro tienen alta rotación de inquilinos.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactános para tu mudanza en San Martín</h2>
-            <p>Pedí tu presupuesto sin cargo hoy. Respondemos de inmediato por WhatsApp o teléfono.</p>
+            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas de San Martín a CABA?</h3>
+            <p>Sí, una de las rutas más frecuentes del noroeste. El traslado a CABA está incluido en el precio cerrado.</p>
+
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <p>Contanos la localidad, el tipo de propiedad y el piso. Te damos un precio cerrado en el día. Trabajamos de lunes a sábado de 8 a 18hs.</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
+              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            </div>
+
+            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">También hacemos mudanzas en zonas cercanas</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
+              <Link href="/blog/mudanzas-tres-de-febrero" className="text-gold hover:underline text-sm">Tres de Febrero</Link>
+              <Link href="/blog/mudanzas-vicente-lopez" className="text-gold hover:underline text-sm">Vicente López</Link>
+              <Link href="/blog/mudanzas-moron" className="text-gold hover:underline text-sm">Morón</Link>
+              <Link href="/blog/mudanzas-hurlingham" className="text-gold hover:underline text-sm">Hurlingham</Link>
+              <Link href="/blog/mudanzas-belgrano" className="text-gold hover:underline text-sm">Belgrano</Link>
+              <Link href="/mudanzas-residenciales" className="text-gold hover:underline text-sm">Mudanzas residenciales</Link>
             </div>
           </div>
         </article>
