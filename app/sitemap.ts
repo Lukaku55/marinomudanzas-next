@@ -99,6 +99,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "primer-departamento-buenos-aires",
     "mudanzas-en-verano",
     "como-entregar-departamento-alquilado",
+    "mudanzas-3-ambientes-buenos-aires",
+    "mudanzas-casa-completa-buenos-aires",
   ];
 
   return [
