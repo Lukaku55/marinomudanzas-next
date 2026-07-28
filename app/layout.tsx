@@ -63,8 +63,51 @@ const localBusinessSchema = {
     "bestRating": "5",
     "worstRating": "1"
   },
-  "areaServed": { "@type": "City", "name": "Buenos Aires" },
-  "sameAs": ["https://www.google.com/maps/place/Marino+Mudanzas"]
+  "areaServed": [
+    { "@type": "City", "name": "Buenos Aires", "sameAs": "https://www.wikidata.org/wiki/Q1486" },
+    { "@type": "AdministrativeArea", "name": "Palermo" },
+    { "@type": "AdministrativeArea", "name": "Belgrano" },
+    { "@type": "AdministrativeArea", "name": "Caballito" },
+    { "@type": "AdministrativeArea", "name": "Recoleta" },
+    { "@type": "AdministrativeArea", "name": "Flores" },
+    { "@type": "AdministrativeArea", "name": "Almagro" },
+    { "@type": "AdministrativeArea", "name": "Villa Urquiza" },
+    { "@type": "AdministrativeArea", "name": "San Telmo" },
+    { "@type": "AdministrativeArea", "name": "Boedo" },
+    { "@type": "AdministrativeArea", "name": "Villa Crespo" },
+    { "@type": "AdministrativeArea", "name": "Núñez" },
+    { "@type": "AdministrativeArea", "name": "Colegiales" },
+    { "@type": "AdministrativeArea", "name": "Chacarita" },
+    { "@type": "AdministrativeArea", "name": "Saavedra" },
+    { "@type": "AdministrativeArea", "name": "Villa Devoto" },
+    { "@type": "AdministrativeArea", "name": "Liniers" },
+    { "@type": "AdministrativeArea", "name": "Mataderos" },
+    { "@type": "AdministrativeArea", "name": "Balvanera" },
+    { "@type": "AdministrativeArea", "name": "Montserrat" },
+    { "@type": "AdministrativeArea", "name": "Retiro" },
+    { "@type": "AdministrativeArea", "name": "Barracas" },
+    { "@type": "AdministrativeArea", "name": "Parque Patricios" },
+    { "@type": "AdministrativeArea", "name": "Nueva Pompeya" },
+    { "@type": "AdministrativeArea", "name": "Parque Chacabuco" },
+    { "@type": "AdministrativeArea", "name": "Villa Pueyrredón" },
+    { "@type": "AdministrativeArea", "name": "Paternal" },
+    { "@type": "AdministrativeArea", "name": "Villa Ortúzar" },
+    { "@type": "AdministrativeArea", "name": "Vicente López" },
+    { "@type": "AdministrativeArea", "name": "San Isidro" },
+    { "@type": "AdministrativeArea", "name": "Tigre" },
+    { "@type": "AdministrativeArea", "name": "Pilar" },
+    { "@type": "AdministrativeArea", "name": "Morón" },
+    { "@type": "AdministrativeArea", "name": "La Matanza" },
+    { "@type": "AdministrativeArea", "name": "Lomas de Zamora" },
+    { "@type": "AdministrativeArea", "name": "Avellaneda" },
+    { "@type": "AdministrativeArea", "name": "Quilmes" },
+    { "@type": "AdministrativeArea", "name": "Lanús" }
+  ],
+  "sameAs": [
+    "https://www.google.com/maps/place/Marino+Mudanzas",
+    "https://www.facebook.com/mudanzasmarino",
+    "https://www.instagram.com/mudanzasmarino"
+  ]
 };
 
 export default function RootLayout({
