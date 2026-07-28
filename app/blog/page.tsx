@@ -2,7 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Consejos de Mudanza | Blog de Marino Mudanzas",
-  description: "Guias practicas y consejos de nuestros expertos con mas de 80 anos de experiencia en mudanzas.",
+  description: "Guías prácticas y consejos de nuestros expertos con más de 80 años de experiencia en mudanzas.",
+  openGraph: {
+    title: "Consejos de Mudanza | Blog de Marino Mudanzas",
+    description: "Guías prácticas y consejos de nuestros expertos con más de 80 años de experiencia en mudanzas.",
+    url: "https://www.mudanzasmarino.com.ar/blog",
+    siteName: "Marino Mudanzas",
+    locale: "es_AR",
+    type: "website",
+  },
 };
 
 import Link from "next/link";
@@ -49,9 +57,17 @@ const articles = [
   {slug:'mudanzas-quilmes',title:'Mudanzas en Quilmes GBA',excerpt:'Servicio de mudanzas en Quilmes, Bernal y Berazategui. Mas de 80 anos de experiencia en el sur del GBA.',date:'2026-04-23'},
   {slug:'mudanzas-avellaneda',title:'Mudanzas en Avellaneda GBA',excerpt:'Mudanzas en Avellaneda y zona sur del GBA. Lindero con CABA, uno de los destinos mas frecuentes.',date:'2026-04-23'},
   {slug:'mudanzas-la-matanza',title:'Mudanzas en La Matanza GBA',excerpt:'Mudanzas en San Justo, Ramos Mejia y todo el partido de La Matanza. El partido mas poblado del GBA.',date:'2026-04-23'},
+  {slug:'mudanzas-con-mascotas',title:'Mudanzas con Mascotas en Buenos Aires',excerpt:'Guía para hacer la mudanza más tranquila para tus mascotas. Consejos para perros, gatos y otras especies, y cómo reducir el estrés del traslado.',date:'2026-05-26'},
   {slug:'mudanzas-fin-de-mes',title:'Mudanzas a Fin de Mes en Buenos Aires',excerpt:'Todo lo que necesitas saber para organizarte cuando te mudas a fin de mes. La fecha mas demandada del mes y como reservar con anticipacion.',date:'2026-05-11'},
   {slug:'mudanzas-villa-del-parque',title:'Mudanzas en Villa del Parque Buenos Aires',excerpt:'Servicio de mudanzas en Villa del Parque. Experiencia en edificios sin ascensor, casas con jardin y PHs. Presupuesto sin cargo.',date:'2026-05-12'},
   {slug:'mudanzas-chacarita',title:'Mudanzas en Chacarita Buenos Aires',excerpt:'Servicio de mudanzas en Chacarita. Experiencia en edificios sin ascensor y calles angostas. Flota de distintos tamaños. Presupuesto sin cargo.',date:'2026-05-13'},
+  {slug:'mudanzas-saavedra',title:'Mudanzas en Saavedra Buenos Aires',excerpt:'Servicio de mudanzas en Saavedra. Barrio residencial del norte de CABA con casas bajas y calles arboladas. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
+  {slug:'mudanzas-parque-patricios',title:'Mudanzas en Parque Patricios Buenos Aires',excerpt:'Servicio de mudanzas en Parque Patricios. Distrito Tecnológico y barrio histórico del sur de CABA con edificios nuevos y casas de época. Presupuesto sin cargo.',date:'2026-07-21'},
+  {slug:'mudanzas-montserrat',title:'Mudanzas en Montserrat Buenos Aires',excerpt:'Servicio de mudanzas en Montserrat. Barrio histórico del microcentro porteño con edificios patrimoniales, ascensores de reja y restricciones de tránsito. Presupuesto sin cargo.',date:'2026-07-21'},
+  {slug:'mudanzas-hurlingham',title:'Mudanzas en Hurlingham GBA',excerpt:'Servicio de mudanzas en Hurlingham. Partido del oeste del GBA con casas de familia y buenos accesos desde el centro. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-21'},
+  {slug:'mudanzas-pilar',title:'Mudanzas en Pilar GBA',excerpt:'Servicio de mudanzas en Pilar. Countries, barrios privados y zonas residenciales del norte del GBA. Experiencia en traslados de alto volumen. Presupuesto sin cargo.',date:'2026-05-21'},
+  {slug:'mudanzas-san-fernando',title:'Mudanzas en San Fernando GBA',excerpt:'Servicio de mudanzas en San Fernando. Partido del norte del GBA con viviendas de alto nivel y acceso al delta. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-21'},
+  {slug:'mudanzas-lomas-de-zamora',title:'Mudanzas en Lomas de Zamora GBA',excerpt:'Servicio de mudanzas en Lomas de Zamora. Uno de los partidos más poblados del sur del GBA. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-21'},
   {slug:'mudanzas-parque-chacabuco',title:'Mudanzas en Parque Chacabuco Buenos Aires',excerpt:'Servicio de mudanzas en Parque Chacabuco. Experiencia en casas de familia y edificios sin ascensor. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
   {slug:'mudanzas-paternal',title:'Mudanzas en Paternal Buenos Aires',excerpt:'Servicio de mudanzas en Paternal. Experiencia en casas de familia y edificios sin ascensor. Embalaje incluido y presupuesto sin cargo.',date:'2026-05-13'},
   {slug:'mudanzas-villa-pueyrredon',title:'Mudanzas en Villa Pueyrredón Buenos Aires',excerpt:'Servicio de mudanzas en Villa Pueyrredón. Experiencia en casas de familia y edificios sin ascensor. Calles arboladas y tranquilas. Presupuesto sin cargo.',date:'2026-05-13'},
@@ -99,11 +115,30 @@ const articles = [
   {slug:'primer-departamento-buenos-aires',title:'Primer Departamento en Buenos Aires: Guía para tu Primera Mudanza',excerpt:'Guía completa para independizarte en Buenos Aires. Checklist de lo que necesitás, cuánto cuesta la mudanza de un monoambiente y consejos para el primer día en tu nuevo hogar.',date:'2026-06-10'},
   {slug:'mudanzas-en-verano',title:'Mudanzas en Verano en Buenos Aires: Guía Completa',excerpt:'Todo lo que necesitás saber para mudarte en pleno verano porteño. Cómo manejar el calor, proteger tus plantas y electrodomésticos, y por qué reservar con anticipación en temporada alta.',date:'2026-06-10'},
   {slug:'como-entregar-departamento-alquilado',title:'Cómo Entregar un Departamento Alquilado en Buenos Aires',excerpt:'Guía paso a paso para la devolución de tu alquiler. Checklist de limpieza y reparaciones, cómo coordinar la mudanza de salida y qué hacer para recuperar tu depósito.',date:'2026-06-18'},
+  {slug:'mudanzas-3-ambientes-buenos-aires',title:'Mudanza de 3 Ambientes en Buenos Aires: Costo y Guía 2026',excerpt:'¿Cuánto cuesta una mudanza de 3 ambientes en Buenos Aires? Rangos de precio, cuántos operarios se necesitan y cuánto tiempo demora. Guía completa 2026.',date:'2026-07-21'},
+  {slug:'mudanzas-casa-completa-buenos-aires',title:'Mudanza de Casa Completa en Buenos Aires: Guía y Precios 2026',excerpt:'Todo lo que necesitás saber para organizar la mudanza de una casa completa en Buenos Aires. Precios, personal, camiones y consejos para una mudanza exitosa.',date:'2026-07-28'},
 ];
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Artículos de Mudanzas - Marino Mudanzas",
+  "url": "https://www.mudanzasmarino.com.ar/blog",
+  "itemListElement": articles.map((article, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "url": `https://www.mudanzasmarino.com.ar/blog/${article.slug}`,
+    "name": article.title,
+  })),
+};
 
 export default function Blog() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       <Header />
       <main className="pt-24 pb-20">
         <div className="container mx-auto px-4">

@@ -1,5 +1,3 @@
-"use client";
-import { useEffect } from "react";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
@@ -17,6 +15,7 @@ import FAQSection from "@/components/FAQSection";
 import TrustedBySection from "@/components/TrustedBySection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import HashScrollClient from "@/components/HashScrollClient";
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -82,18 +81,9 @@ const faqSchema = {
 };
 
 export default function Home() {
-  useEffect(() => {
-    const hash = window.location.hash;
-    if (hash) {
-      setTimeout(() => {
-        const el = document.querySelector(hash);
-        if (el) el.scrollIntoView({ behavior: "smooth" });
-      }, 100);
-    }
-  }, []);
-
   return (
     <>
+      <HashScrollClient />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

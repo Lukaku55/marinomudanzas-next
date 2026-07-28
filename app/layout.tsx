@@ -17,6 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.mudanzasmarino.com.ar"),
   title: "Mudanzas en Buenos Aires | Marino Mudanzas | Desde 1950",
   description: "Empresa de mudanzas en Buenos Aires con más de 80 años de experiencia. Mudanzas residenciales, de oficinas y guardamuebles en CABA y GBA. Presupuesto sin cargo. Llamanos al 4611-1818.",
   keywords: "mudanzas Buenos Aires, empresa de mudanzas CABA, mudanzas residenciales, mudanzas oficinas, guardamuebles Buenos Aires",
@@ -28,6 +29,11 @@ export const metadata: Metadata = {
     siteName: "Marino Mudanzas",
     locale: "es_AR",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mudanzas en Buenos Aires | Marino Mudanzas | Desde 1950",
+    description: "Más de 80 años moviendo Buenos Aires. Mudanzas residenciales, de oficinas y guardamuebles en CABA y GBA.",
   },
 };
 
@@ -110,6 +116,13 @@ const localBusinessSchema = {
   ]
 };
 
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Marino Mudanzas",
+  "url": "https://www.mudanzasmarino.com.ar",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -121,6 +134,7 @@ export default function RootLayout({
         <link rel="preload" as="image" href="/hero-mudanzas.webp" type="image/webp" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
         <meta name="google-site-verification" content="rk9l8EzMSLczWXE-YqyLiFk9b9lAOG3iaIxc7GHApaQ" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       </head>
       <body className={`${cinzel.variable} ${inter.variable}`}>{children}</body>
     </html>
