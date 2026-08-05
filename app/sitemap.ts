@@ -101,6 +101,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "como-entregar-departamento-alquilado",
     "mudanzas-3-ambientes-buenos-aires",
     "mudanzas-casa-completa-buenos-aires",
+    "mudanzas-coghlan",
   ];
 
   return [

@@ -117,6 +117,7 @@ const articles = [
   {slug:'como-entregar-departamento-alquilado',title:'Cómo Entregar un Departamento Alquilado en Buenos Aires',excerpt:'Guía paso a paso para la devolución de tu alquiler. Checklist de limpieza y reparaciones, cómo coordinar la mudanza de salida y qué hacer para recuperar tu depósito.',date:'2026-06-18'},
   {slug:'mudanzas-3-ambientes-buenos-aires',title:'Mudanza de 3 Ambientes en Buenos Aires: Costo y Guía 2026',excerpt:'¿Cuánto cuesta una mudanza de 3 ambientes en Buenos Aires? Rangos de precio, cuántos operarios se necesitan y cuánto tiempo demora. Guía completa 2026.',date:'2026-07-21'},
   {slug:'mudanzas-casa-completa-buenos-aires',title:'Mudanza de Casa Completa en Buenos Aires: Guía y Precios 2026',excerpt:'Todo lo que necesitás saber para organizar la mudanza de una casa completa en Buenos Aires. Precios, personal, camiones y consejos para una mudanza exitosa.',date:'2026-07-28'},
+  {slug:'mudanzas-coghlan',title:'Mudanzas en Coghlan Buenos Aires',excerpt:'Servicio de mudanzas en Coghlan. Barrio tranquilo del norte de CABA con predominio de casas bajas y calles arboladas. Embalaje incluido y presupuesto sin cargo.',date:'2026-08-05'},
 ];
 
 const itemListSchema = {
