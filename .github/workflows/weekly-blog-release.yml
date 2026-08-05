@@ -1,0 +1,44 @@
+name: Weekly Blog Release
+
+on:
+  schedule:
+    - cron: '7 12 * * 1'  # Lunes 9:07 AM Buenos Aires (UTC-3 → 12:07 UTC)
+  workflow_dispatch:        # Trigger manual para probar sin esperar el lunes
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Configure Git
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+      - name: Release next blog post
+        run: node .github/scripts/release-next-post.js
+
+      - name: Commit and push
+        run: |
+          git add app/sitemap.ts app/blog/page.tsx
+          if git diff --staged --quiet; then
+            echo "Sin cambios — la cola puede estar vacía."
+          else
+            SLUG=$(git diff --staged app/sitemap.ts | grep '^\+' | grep -oE '"[a-z0-9-]+"' | tail -1 | tr -d '"')
+            git commit -m "blog: ${SLUG} — publicación automática $(date +%Y-%m-%d)"
+            git push origin main
+            echo "✓ Publicado y pusheado: ${SLUG}"
+          fi
