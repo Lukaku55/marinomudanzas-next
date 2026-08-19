@@ -60,14 +60,6 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "¿Cuál es el plazo mínimo de almacenaje en el guardamuebles?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "El plazo mínimo es de 15 días. A partir de ahí podés extender el servicio por el tiempo que necesites."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "¿Hacen el embalaje de los muebles antes de llevarlos al guardamuebles?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -132,9 +124,6 @@ export default function Page() {
 
             <h3 className="font-display text-xl font-semibond text-foreground mt-6 mb-2">¿Mis pertenencias están aseguradas?</h3>
             <p>Sí, el servicio de guardamuebles incluye cobertura de seguro. Consultanos los detalles de la cobertura al momento de contratar.</p>
-
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuál es el plazo mínimo de almacenaje?</h3>
-            <p>El plazo mínimo es de 15 días. A partir de ahí podés extender el servicio por el tiempo que necesités.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen el embalaje antes de guardar?</h3>
             <p>Sí, podemos realizar el embalaje profesional de tus pertenencias antes de llevarlas al guardamuebles. Es un servicio adicional que recomendamos especialmente para objetos frágiles o muebles delicados.</p>
