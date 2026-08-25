@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Consejos de Mudanza | Blog de Marino Mudanzas",
-  description: "Guías prácticas y consejos de nuestros expertos con más de 80 años de experiencia en mudanzas.",
+  title: "Blog de Mudanzas Buenos Aires | Guías y Consejos | Marino Mudanzas",
+  description: "Guías prácticas sobre mudanzas en Buenos Aires: costos, embalaje, cómo elegir empresa, barrios y organización. Por expertos con más de 80 años de experiencia.",
   openGraph: {
-    title: "Consejos de Mudanza | Blog de Marino Mudanzas",
-    description: "Guías prácticas y consejos de nuestros expertos con más de 80 años de experiencia en mudanzas.",
+    title: "Blog de Mudanzas Buenos Aires | Guías y Consejos | Marino Mudanzas",
+    description: "Guías prácticas sobre mudanzas en Buenos Aires: costos, embalaje, cómo elegir empresa, barrios y organización. Por expertos con más de 80 años de experiencia.",
     url: "https://www.mudanzasmarino.com.ar/blog",
     siteName: "Marino Mudanzas",
     locale: "es_AR",
@@ -20,6 +20,12 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { ArrowRight } from "lucide-react";
 
 const articles = [
+  { slug: "mudanzas-2-ambientes-buenos-aires", title: "Mudanza de 2 Ambientes en Buenos Aires: Precios y Tiempos 2026", excerpt: "¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires? Precios reales, tiempos estimados por piso y ascensor, qué camión necesitás y checklist de preparación.", date: "2026-07-13" },
+  { slug: "guia-mudanzas-buenos-aires", title: "Mudanzas en Buenos Aires: Guía Completa 2026", excerpt: "Todo lo que necesitás saber sobre mudanzas en CABA y GBA: tipos de servicio, costos orientativos, cómo elegir empresa, particularidades por barrio y preguntas frecuentes.", date: "2026-06-29" },
+  { slug: "mudanzas-economicas-buenos-aires", title: "Mudanzas Económicas en Buenos Aires: Cómo Ahorrar sin Sacrificar Calidad", excerpt: "Qué factores determinan el costo de una mudanza, cómo comparar presupuestos correctamente y qué señales de alarma evitar en empresas demasiado baratas.", date: "2026-06-29" },
+  { slug: "cuanto-tiempo-dura-una-mudanza", title: "¿Cuánto Tiempo Dura una Mudanza? Tiempos Reales por Tamaño", excerpt: "Estimaciones reales de cuánto tarda una mudanza según la cantidad de ambientes, el piso, el ascensor y el volumen de muebles. Guía práctica para planificar tu día.", date: "2026-06-29" },
+  { slug: "mudanzas-monoambiente-buenos-aires", title: "Mudanzas de Monoambiente en Buenos Aires", excerpt: "Todo lo que necesitás saber para mudarte de un monoambiente en CABA. Costos, tiempos y por qué contratar una empresa incluso para mudanzas pequeñas.", date: "2026-06-29" },
+  { slug: "que-preguntar-antes-de-contratar-mudanza", title: "8 Preguntas que Debés Hacer Antes de Contratar una Mudanza", excerpt: "Antes de firmar cualquier presupuesto, hacé estas preguntas clave. Cómo detectar empresas confiables, qué debe incluir el servicio y cómo evitar sorpresas el día de la mudanza.", date: "2026-06-25" },
   { slug: "cuanto-cuesta-mudanza-buenos-aires", title: "¿Cuánto cuesta una mudanza en Buenos Aires en 2026?", excerpt: "Descubrí los factores que afectan el precio de una mudanza y rangos de precios orientativos según el tamaño de tu vivienda.", date: "2026-04-22" },
   { slug: "checklist-mudanza", title: "Checklist de Mudanza Completo 2026", excerpt: "Todo lo que tenes que hacer 4 semanas antes, 1 semana antes y el dia de tu mudanza. Guia completa.", date: "2026-04-22" },
   { slug: "como-embalar-muebles-mudanza", title: "Cómo Embalar Muebles para una Mudanza", excerpt: "Guía completa con técnicas profesionales para embalar muebles, objetos frágiles y electrodomésticos antes de mudarte.", date: "2026-04-23" },
@@ -34,6 +40,7 @@ const articles = [
   { slug: "mudanzas-larga-distancia-argentina", title: "Mudanzas de Larga Distancia en Argentina", excerpt: "Mudanzas exclusivas desde Buenos Aires a todo el pais y paises limitrofes. Sin cargas parciales, mayor seguridad y tiempos precisos.", date: "2026-04-23" },
   { slug: "como-organizar-mudanza-paso-a-paso", title: "Cómo organizar una mudanza paso a paso: guía completa", excerpt: "Checklist de 4 semanas antes de la mudanza, consejos de embalaje y qué llevar el primer día en tu nuevo hogar.", date: "2026-04-22" },
   { slug: "mudanzas-edificios-buenos-aires", title: "Mudanzas en edificios de Buenos Aires: todo lo que tenés que saber", excerpt: "Horarios permitidos, documentación necesaria, coordinación con el encargado y diferencias entre mudanzas con y sin ascensor.", date: "2026-04-22" },
+  { slug: "mudanzas-con-mascotas", title: "Cómo Mudarse con Mascotas en Buenos Aires", excerpt: "Guía práctica para organizar la mudanza cuando tenés mascotas. Cómo reducir el estrés de tus animales y qué tener en cuenta el día del traslado.", date: "2026-04-22" },
   {slug:'mudanzas-palermo',title:'Mudanzas en Palermo Buenos Aires',excerpt:'Todo lo que necesitas saber para hacer una mudanza en Palermo. Consejos, permisos y por que elegirnos.',date:'2026-04-22'},
   {slug:'mudanzas-belgrano',title:'Mudanzas en Belgrano Buenos Aires',excerpt:'Servicio especializado de mudanzas en Belgrano. Conocemos cada edificio y cada particularidad del barrio.',date:'2026-04-22'},
   {slug:'mudanzas-caballito',title:'Mudanzas en Caballito Buenos Aires',excerpt:'Mudanzas en el barrio mas centrico de Buenos Aires. Coordinacion de permisos y acceso incluido.',date:'2026-04-22'},
@@ -49,13 +56,19 @@ const articles = [
   {slug:'mudanzas-villa-devoto',title:'Mudanzas en Villa Devoto Buenos Aires',excerpt:'Barrio familiar del oeste con casas amplias y calles arboladas.',date:'2026-04-22'},
   {slug:'mudanzas-liniers',title:'Mudanzas en Liniers Buenos Aires',excerpt:'Barrio vibrante del oeste con historia y diversidad cultural.',date:'2026-04-22'},
   {slug:'mudanzas-mataderos',title:'Mudanzas en Mataderos Buenos Aires',excerpt:'Barrio tradicional del sur de CABA con casas de familia amplias.',date:'2026-04-22'},
+  {slug:'mudanzas-saavedra',title:'Mudanzas en Saavedra Buenos Aires',excerpt:'Servicio de mudanzas en Saavedra. Barrio residencial y arbolado del norte de CABA. Embalaje incluido y presupuesto sin cargo.',date:'2026-04-22'},
+  {slug:'mudanzas-parque-patricios',title:'Mudanzas en Parque Patricios Buenos Aires',excerpt:'Servicio de mudanzas en Parque Patricios. Barrio del sur de CABA en plena transformación con el Distrito Tecnológico. Presupuesto sin cargo.',date:'2026-04-22'},
+  {slug:'mudanzas-montserrat',title:'Mudanzas en Montserrat Buenos Aires',excerpt:'Servicio de mudanzas en Montserrat. Barrio histórico del centro de CABA. Experiencia en edificios de época. Presupuesto sin cargo.',date:'2026-04-22'},
   {slug:'mudanzas-vicente-lopez',title:'Mudanzas en Vicente Lopez GBA',excerpt:'Servicio de mudanzas en Vicente Lopez, Olivos, La Lucila y todo el partido. Mas de 80 anos de experiencia.',date:'2026-04-22'},
   {slug:'mudanzas-san-isidro',title:'Mudanzas en San Isidro GBA',excerpt:'Mudanzas en San Isidro, Beccar, Martinez y barrios privados. Manejo de mobiliario de alto valor.',date:'2026-04-22'},
+  {slug:'mudanzas-san-fernando',title:'Mudanzas en San Fernando GBA',excerpt:'Servicio de mudanzas en San Fernando. Zona norte del GBA entre Tigre y Vicente López. Presupuesto sin cargo.',date:'2026-04-22'},
   {slug:'mudanzas-tigre',title:'Mudanzas en Tigre GBA',excerpt:'Mudanzas a Tigre, Nordelta y countries del partido. Experiencia en barrios privados y countries.',date:'2026-04-22'},
   {slug:'mudanzas-moron',title:'Mudanzas en Moron GBA',excerpt:'Mudanzas en Moron, Haedo y El Palomar. Eficiencia y cuidado en cada traslado del oeste del GBA.',date:'2026-04-22'},
+  {slug:'mudanzas-hurlingham',title:'Mudanzas en Hurlingham GBA',excerpt:'Servicio de mudanzas en Hurlingham. Cubrimos todo el partido del oeste del GBA. Presupuesto sin cargo.',date:'2026-04-22'},
   {slug:'mudanzas-lanus',title:'Mudanzas en Lanus GBA',excerpt:'Mudanzas en Lanus Este, Lanus Oeste y Remedios de Escalada. Presupuesto sin cargo.',date:'2026-04-22'},
   {slug:'mudanzas-quilmes',title:'Mudanzas en Quilmes GBA',excerpt:'Servicio de mudanzas en Quilmes, Bernal y Berazategui. Mas de 80 anos de experiencia en el sur del GBA.',date:'2026-04-23'},
   {slug:'mudanzas-avellaneda',title:'Mudanzas en Avellaneda GBA',excerpt:'Mudanzas en Avellaneda y zona sur del GBA. Lindero con CABA, uno de los destinos mas frecuentes.',date:'2026-04-23'},
+  {slug:'mudanzas-lomas-de-zamora',title:'Mudanzas en Lomas de Zamora GBA',excerpt:'Servicio de mudanzas en Lomas de Zamora. Cubrimos todo el partido del sur del GBA. Presupuesto sin cargo.',date:'2026-04-23'},
   {slug:'mudanzas-la-matanza',title:'Mudanzas en La Matanza GBA',excerpt:'Mudanzas en San Justo, Ramos Mejia y todo el partido de La Matanza. El partido mas poblado del GBA.',date:'2026-04-23'},
   {slug:'mudanzas-con-mascotas',title:'Mudanzas con Mascotas en Buenos Aires',excerpt:'Guía para hacer la mudanza más tranquila para tus mascotas. Consejos para perros, gatos y otras especies, y cómo reducir el estrés del traslado.',date:'2026-05-26'},
   {slug:'mudanzas-fin-de-mes',title:'Mudanzas a Fin de Mes en Buenos Aires',excerpt:'Todo lo que necesitas saber para organizarte cuando te mudas a fin de mes. La fecha mas demandada del mes y como reservar con anticipacion.',date:'2026-05-11'},

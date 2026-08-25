@@ -4,6 +4,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.mudanzasmarino.com.ar";
 
   const blogSlugs = [
+    "mudanzas-2-ambientes-buenos-aires",
+    "que-preguntar-antes-de-contratar-mudanza",
     "cuanto-cuesta-mudanza-buenos-aires",
     "como-organizar-mudanza-paso-a-paso",
     "mudanzas-edificios-buenos-aires",
@@ -102,6 +104,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-3-ambientes-buenos-aires",
     "mudanzas-casa-completa-buenos-aires",
     "mudanzas-coghlan",
+    "guia-mudanzas-buenos-aires",
+    "mudanzas-economicas-buenos-aires",
+    "cuanto-tiempo-dura-una-mudanza",
+    "mudanzas-monoambiente-buenos-aires",
   ];
 
   return [

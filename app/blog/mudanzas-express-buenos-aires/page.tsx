@@ -72,7 +72,7 @@ export default function Page() {
             <p>Sí, trabajamos de lunes a sábado de 8 a 18hs. Para emergencias fuera de este horario consultanos — evaluamos cada caso particular.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿El seguro de carga aplica en mudanzas express?</h3>
-            <p>Sí, todas nuestras mudanzas incluyen seguro de carga independientemente de la urgencia del traslado.</p>
+            <p>El seguro de carga está disponible para mudanzas al interior del país, traslados de documentación sensible de bancos o empresas y equipos informáticos. Para mudanzas express locales en CABA y GBA, consultanos sobre las opciones de cobertura disponibles según tu caso.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactanos ahora</h2>
             <p>Para mudanzas urgentes la mejor forma de contactarnos es por WhatsApp — respondemos rápido y podemos darte una respuesta inmediata sobre disponibilidad.</p>
