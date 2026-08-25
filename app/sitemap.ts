@@ -111,6 +111,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/mudanzas-oficinas`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/guardamuebles`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/mudanzas-interior`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/galeria`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     ...blogSlugs.map((slug) => ({
       url: `${baseUrl}/blog/${slug}`,
       lastModified: new Date(),
