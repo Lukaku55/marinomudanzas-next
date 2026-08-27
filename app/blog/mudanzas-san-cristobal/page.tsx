@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en San Cristóbal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en San Cristóbal ronda los $150.000–$230.000. Los edificios de los años 40-60 sin ascensor pueden tener un costo algo mayor por la subida por escalera o la elevación por soga, que siempre está contemplada en el presupuesto cerrado antes del día de la mudanza."
+        "text": "Un departamento de 2 ambientes en San Cristóbal se cotiza según el caso. Los edificios de los años 40-60 sin ascensor pueden tener un costo algo mayor por la subida por escalera o la elevación por soga, que siempre está contemplada en el presupuesto cerrado antes del día de la mudanza."
       }
     },
     {
@@ -120,7 +120,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en San Cristóbal</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en San Cristóbal?</h3>
-            <p>Un departamento de 2 ambientes ronda los $150.000–$230.000. Los edificios sin ascensor pueden tener un costo algo mayor por la subida por escalera o la elevación por soga, siempre contemplado en el presupuesto cerrado antes del día de la mudanza.</p>
+            <p>Un departamento de 2 ambientes se cotiza según el caso. Los edificios sin ascensor pueden tener un costo algo mayor por la subida por escalera o la elevación por soga, siempre contemplado en el presupuesto cerrado antes del día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo manejan los edificios sin ascensor?</h3>
             <p>Contamos con personal especializado en subida y bajada por escalera y equipo de elevación por soga desde el exterior para muebles que no pasan. Todo incluido en el presupuesto cerrado, sin costos adicionales el día de la mudanza.</p>

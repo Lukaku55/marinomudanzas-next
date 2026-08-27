@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Paternal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Paternal ronda los $130.000–$210.000. Una casa de familia puede ir desde $190.000 según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Paternal se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -128,7 +128,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Paternal</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Paternal?</h3>
-            <p>Un 2 ambientes ronda los $130.000–$210.000. Una casa de familia puede ir desde $190.000 según el volumen. Precio cerrado desde el presupuesto, sin sorpresas.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. Precio cerrado desde el presupuesto, sin sorpresas.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas de casas con jardín en Paternal?</h3>
             <p>Sí. Acceso por frente o lateral, traslado de muebles de jardín incluido en el presupuesto cerrado.</p>

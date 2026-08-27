@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Parque Chacabuco?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Parque Chacabuco ronda los $130.000–$220.000. Una casa de familia puede ir desde $200.000 según el volumen. Los edificios sin ascensor pueden tener un costo algo mayor por la subida por escalera, contemplado en el presupuesto cerrado."
+        "text": "Un departamento de 2 ambientes en Parque Chacabuco se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. Los edificios sin ascensor pueden tener un costo algo mayor por la subida por escalera, contemplado en el presupuesto cerrado."
       }
     },
     {
@@ -128,7 +128,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Parque Chacabuco</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Parque Chacabuco?</h3>
-            <p>Un 2 ambientes ronda los $130.000–$220.000. Una casa de familia puede ir desde $200.000 según el volumen. Los edificios sin ascensor pueden tener un costo algo mayor contemplado en el presupuesto cerrado.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. Los edificios sin ascensor pueden tener un costo algo mayor contemplado en el presupuesto cerrado.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas de casas con jardín?</h3>
             <p>Sí, es la tipología más frecuente del barrio. Acceso por frente o lateral, traslado de muebles de jardín y parrillas incluido en el presupuesto cerrado.</p>

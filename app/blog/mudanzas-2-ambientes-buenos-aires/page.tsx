@@ -52,7 +52,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza de 2 ambientes en Buenos Aires ronda los $150.000–$250.000 con ascensor. Sin ascensor o en pisos altos puede subir a $200.000–$320.000 según el volumen y la distancia. El precio incluye camión, personal, desarmado y armado de muebles y embalaje de frágiles."
+        "text": "Una mudanza de 2 ambientes en Buenos Aires se cotiza según el caso con ascensor. Sin ascensor o en pisos altos puede subir a a consultar según el volumen y la distancia. El precio incluye camión, personal, desarmado y armado de muebles y embalaje de frágiles."
       }
     },
     {
@@ -120,17 +120,17 @@ export default function Page() {
                 <tbody>
                   <tr>
                     <td className="p-3 border border-border">2 amb. con ascensor</td>
-                    <td className="p-3 border border-border">$150.000 – $250.000</td>
+                    <td className="p-3 border border-border">a consultar</td>
                     <td className="p-3 border border-border">3 – 5 horas</td>
                   </tr>
                   <tr className="bg-muted/30">
                     <td className="p-3 border border-border">2 amb. sin ascensor (1° o 2°)</td>
-                    <td className="p-3 border border-border">$180.000 – $270.000</td>
+                    <td className="p-3 border border-border">a consultar</td>
                     <td className="p-3 border border-border">4 – 6 horas</td>
                   </tr>
                   <tr>
                     <td className="p-3 border border-border">2 amb. sin ascensor (3° o más)</td>
-                    <td className="p-3 border border-border">$220.000 – $320.000</td>
+                    <td className="p-3 border border-border">a consultar</td>
                     <td className="p-3 border border-border">5 – 7 horas</td>
                   </tr>
                 </tbody>
@@ -180,7 +180,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas de 2 ambientes</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires?</h3>
-            <p>Entre $150.000 y $250.000 con ascensor. Sin ascensor puede llegar a $320.000 según el piso. Pedí un presupuesto sin cargo con el detalle de tu departamento para un precio exacto.</p>
+            <p>Entre a consultar y a consultar con ascensor. Sin ascensor puede llegar a a consultar según el piso. Pedí un presupuesto sin cargo con el detalle de tu departamento para un precio exacto.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto tiempo lleva una mudanza de 2 ambientes?</h3>
             <p>Entre 3 y 5 horas con ascensor. Entre 5 y 7 horas sin ascensor. Con mucho mobiliario o pisos altos puede extenderse, pero siempre lo aclaramos al presupuestar.</p>

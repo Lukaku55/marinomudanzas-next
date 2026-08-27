@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en San Justo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en San Justo ronda los $130.000–$210.000. El precio final depende del piso, si hay ascensor y el volumen de muebles. El precio es cerrado desde el presupuesto: sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en San Justo se cotiza según el caso. El precio final depende del piso, si hay ascensor y el volumen de muebles. El precio es cerrado desde el presupuesto: sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -117,7 +117,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en San Justo</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en San Justo?</h3>
-            <p>Un departamento de 2 ambientes ronda los $130.000–$210.000. El precio varía según el piso, el ascensor y el volumen. El precio es cerrado desde el presupuesto: sin sorpresas el día de la mudanza.</p>
+            <p>Un departamento de 2 ambientes se cotiza según el caso. El precio varía según el piso, el ascensor y el volumen. El precio es cerrado desde el presupuesto: sin sorpresas el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo se accede a San Justo desde CABA?</h3>
             <p>Por Av. Rivadavia, Av. Crovara o la Autopista del Oeste (A1). El tiempo de traslado es de 25 a 40 minutos según el punto exacto y el tráfico. Coordinamos la ruta más eficiente para cada mudanza.</p>

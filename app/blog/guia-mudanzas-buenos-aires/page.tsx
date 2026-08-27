@@ -52,7 +52,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Buenos Aires?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza de monoambiente cuesta entre $80.000 y $150.000. Un 2 ambientes entre $150.000 y $250.000. Un 3 ambientes o más desde $250.000 en adelante. Los factores que más afectan el precio son el volumen de muebles, el piso, la presencia de ascensor y la distancia al destino."
+        "text": "Una mudanza de monoambiente se cotiza según el caso según el caso y a consultar. Un 2 ambientes a consultar según el caso y a consultar. Un 3 ambientes o más a consultar según el caso. Los factores que más afectan el precio son el volumen de muebles, el piso, la presencia de ascensor y la distancia al destino."
       }
     },
     {
@@ -129,7 +129,7 @@ export default function Page() {
             <p>Para trasladar objetos sueltos o pequeñas cantidades sin hacer una mudanza completa. Ideal para compras grandes, mudanzas de una sola habitación o traslados de electrodomésticos.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cuánto cuesta una mudanza en Buenos Aires?</h2>
-            <p>Los precios varían según varios factores. Esta es una guía orientativa para 2026:</p>
+            <p>Los precios varían según varios factores.</p>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse text-sm mt-4">
                 <thead>
@@ -139,10 +139,10 @@ export default function Page() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-border">
-                  <tr><td className="py-3 pr-4">Monoambiente</td><td className="py-3">$80.000 – $150.000</td></tr>
-                  <tr><td className="py-3 pr-4">2 ambientes</td><td className="py-3">$150.000 – $250.000</td></tr>
-                  <tr><td className="py-3 pr-4">3 ambientes</td><td className="py-3">$250.000 – $400.000</td></tr>
-                  <tr><td className="py-3 pr-4">Casa 4+ amb.</td><td className="py-3">$400.000 en adelante</td></tr>
+                  <tr><td className="py-3 pr-4">Monoambiente</td><td className="py-3">a consultar</td></tr>
+                  <tr><td className="py-3 pr-4">2 ambientes</td><td className="py-3">a consultar</td></tr>
+                  <tr><td className="py-3 pr-4">3 ambientes</td><td className="py-3">a consultar</td></tr>
+                  <tr><td className="py-3 pr-4">Casa 4+ amb.</td><td className="py-3">a consultar</td></tr>
                 </tbody>
               </table>
             </div>
@@ -213,7 +213,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Buenos Aires</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Buenos Aires?</h3>
-            <p>Depende del tamaño: monoambiente $80.000–$150.000, 2 ambientes $150.000–$250.000, 3 ambientes desde $250.000. El piso sin ascensor, la distancia y el volumen son los factores que más impactan el precio final.</p>
+            <p>El precio depende del tamaño del departamento, el piso, si hay ascensor y la distancia. Pedí tu presupuesto sin cargo para tu caso específico.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación hay que contratar?</h3>
             <p>Al menos 15 días. Para mudanzas de fin de mes o en temporada alta, 3 semanas. Cuanto antes coordinés con el consorcio, más tranquila sale la mudanza.</p>

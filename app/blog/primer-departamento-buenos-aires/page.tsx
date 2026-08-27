@@ -34,7 +34,7 @@ const faqSchema = {
       "name": "¿Cuánto cuesta mudarse a un primer departamento en Buenos Aires?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza de monoambiente o 1 dormitorio en Buenos Aires puede arrancar desde $60.000 pesos según la distancia, el piso y la cantidad de muebles. Si venís de la casa de tus padres con muebles básicos, es una de las mudanzas más económicas que existen."
+        "text": "Una mudanza de monoambiente o 1 dormitorio en Buenos Aires puede arrancar a consultar según el caso pesos según la distancia, el piso y la cantidad de muebles. Si venís de la casa de tus padres con muebles básicos, es una de las mudanzas más económicas que existen."
       }
     },
     {

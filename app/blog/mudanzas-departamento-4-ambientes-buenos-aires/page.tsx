@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza de 4 ambientes en Buenos Aires?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza de 4 ambientes en Buenos Aires ronda los $350.000–$550.000. El precio varía según el barrio, el piso, si hay ascensor, la cantidad de muebles y si se requiere embalaje especial. El precio es cerrado desde el presupuesto: sin costos adicionales el día de la mudanza."
+        "text": "Una mudanza de 4 ambientes en Buenos Aires se cotiza según el caso. El precio varía según el barrio, el piso, si hay ascensor, la cantidad de muebles y si se requiere embalaje especial. El precio es cerrado desde el presupuesto: sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -110,7 +110,7 @@ export default function Page() {
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cuánto cuesta una mudanza de 4 ambientes?</h2>
-            <p>El rango orientativo para una mudanza de 4 ambientes en CABA es de <strong>$350.000–$550.000</strong>. El precio final varía según:</p>
+            <p>El rango orientativo para una mudanza de 4 ambientes en CABA es de <strong>a consultar</strong>. El precio final varía según:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Barrio y distancia</strong> — mudanzas dentro de CABA, hacia el GBA o viceversa tienen costos distintos</li>
               <li><strong>Piso y ascensor</strong> — pisos altos sin ascensor o escaleras angostas aumentan el tiempo y el costo</li>
@@ -149,7 +149,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas de 4 ambientes</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza de 4 ambientes en Buenos Aires?</h3>
-            <p>Entre $350.000 y $550.000 según el barrio, el piso, el ascensor y el volumen. El precio es cerrado desde el presupuesto: sin sorpresas el día de la mudanza.</p>
+            <p>Entre a consultar y a consultar según el barrio, el piso, el ascensor y el volumen. El precio es cerrado desde el presupuesto: sin sorpresas el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Se puede hacer en un solo día?</h3>
             <p>En general sí, con 4 a 5 operarios. Cuando hay mucho volumen u objetos grandes, puede requerir dos jornadas o dos camiones. Lo evaluamos al presupuestar.</p>

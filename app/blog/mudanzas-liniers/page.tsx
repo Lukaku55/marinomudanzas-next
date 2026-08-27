@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Liniers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Liniers ronda los $150.000–$250.000. Una casa puede ir desde $280.000 según el volumen. Nuestra base está en Flores, a pocos minutos del barrio, lo que reduce los costos de traslado respecto a empresas del centro. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Liniers se cotiza según el caso. Una casa puede ir a consultar según el caso según el volumen. Nuestra base está en Flores, a pocos minutos del barrio, lo que reduce los costos de traslado respecto a empresas del centro. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -128,7 +128,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Liniers</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Liniers?</h3>
-            <p>Un 2 ambientes ronda los $150.000–$250.000. Una casa puede ir desde $280.000 según el volumen. Nuestra base en Flores nos permite llegar antes y con menor costo de traslado que empresas del centro.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Una casa puede ir a consultar según el caso según el volumen. Nuestra base en Flores nos permite llegar antes y con menor costo de traslado que empresas del centro.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo es el tráfico en la zona para los camiones?</h3>
             <p>Av. Rivadavia tiene tráfico intenso. Las calles internas son más accesibles. Coordinamos el horario de llegada para evitar los picos y elegimos el recorrido más eficiente para cada dirección.</p>

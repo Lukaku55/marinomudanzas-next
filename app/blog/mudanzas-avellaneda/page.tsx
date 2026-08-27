@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Avellaneda?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Avellaneda ronda los $170.000–$270.000. Una casa puede ir desde $280.000 según el volumen. El precio es cerrado desde el presupuesto e incluye el traslado desde o hacia CABA, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Avellaneda se cotiza según el caso. Una casa puede ir a consultar según el caso según el volumen. El precio es cerrado desde el presupuesto e incluye el traslado desde o hacia CABA, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -129,7 +129,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Avellaneda</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Avellaneda?</h3>
-            <p>Un 2 ambientes ronda los $170.000–$270.000. Una casa puede ir desde $280.000 según el volumen. Precio cerrado que incluye el traslado desde o hacia CABA.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Una casa puede ir a consultar según el caso según el volumen. Precio cerrado que incluye el traslado desde o hacia CABA.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo es el acceso para camiones?</h3>
             <p>Desde CABA por Puente Pueyrredón o la autopista. En Av. Mitre hay restricciones de carga que coordinamos. Las calles internas tienen buen acceso.</p>

@@ -61,7 +61,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Chacarita?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes ronda los $150.000–$250.000. Una PH o casa puede ir desde $250.000 según el volumen y el acceso. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí el tuyo sin cargo."
+        "text": "Un departamento de 2 ambientes se cotiza según el caso. Una PH o casa puede ir a consultar según el caso según el volumen y el acceso. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí el tuyo sin cargo."
       }
     },
     {
@@ -136,7 +136,7 @@ export default function Page() {
             <p>Con personal extra y, cuando el mueble no pasa por la escalera, elevamos por soga desde el exterior. Es algo frecuente en los edificios de los 50-60 de Chacarita y está incluido en el presupuesto cerrado.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Chacarita?</h3>
-            <p>Un 2 ambientes ronda los $150.000–$250.000. Una PH o casa puede ir desde $250.000 según el volumen y el acceso. Precio cerrado desde el presupuesto sin costos adicionales el día de la mudanza.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Una PH o casa puede ir a consultar según el caso según el volumen y el acceso. Precio cerrado desde el presupuesto sin costos adicionales el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación hay que reservar?</h3>
             <p>Al menos una semana. Para fin de mes o sábados, 10–15 días. La zona de Corrientes tiene alta rotación y los turnos se llenan rápido.</p>

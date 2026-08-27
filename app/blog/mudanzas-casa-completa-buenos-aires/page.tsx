@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta mudar una casa completa en Buenos Aires?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza de casa completa en Buenos Aires varía mucho según la cantidad de ambientes y objetos. Una casa de 3-4 ambientes ronda los $380.000–$600.000. Casas grandes de 5 o más ambientes con jardín, depósito y cochera pueden superar los $700.000. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Una mudanza de casa completa en Buenos Aires varía mucho según la cantidad de ambientes y objetos. Una casa de 3-4 ambientes se cotiza según el caso. Casas grandes de 5 o más ambientes con jardín, depósito y cochera pueden superar los a consultar. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -111,8 +111,8 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cuánto cuesta mudar una casa completa?</h2>
             <p>Los rangos orientativos para casas en Buenos Aires:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Casa de 3-4 ambientes</strong> — $380.000–$600.000 según el volumen y la distancia</li>
-              <li><strong>Casa de 5 ambientes o más</strong> — desde $600.000, dependiendo del volumen y el equipo necesario</li>
+              <li><strong>Casa de 3-4 ambientes</strong> — a consultar según el volumen y la distancia</li>
+              <li><strong>Casa de 5 ambientes o más</strong> — a consultar según el caso, dependiendo del volumen y el equipo necesario</li>
               <li><strong>Casa en country o zona GBA</strong> — se suma la distancia desde nuestra base en Flores. Para el norte del GBA (Tigre, Pilar, San Isidro) el precio incluye el traslado.</li>
             </ul>
             <p>El precio es cerrado desde el presupuesto. No hay costos adicionales el día de la mudanza.</p>
@@ -149,7 +149,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas de casas completas</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta mudar una casa completa en Buenos Aires?</h3>
-            <p>Una casa de 3-4 ambientes ronda los $380.000–$600.000. Casas grandes de 5 o más ambientes pueden superar los $700.000. Precio cerrado desde el presupuesto.</p>
+            <p>Una casa de 3-4 ambientes se cotiza según el caso. Casas grandes de 5 o más ambientes pueden superar los a consultar. Precio cerrado desde el presupuesto.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuántas personas se necesitan?</h3>
             <p>Entre 4 y 6 operarios según el volumen. El objetivo es completar la mudanza en una jornada.</p>

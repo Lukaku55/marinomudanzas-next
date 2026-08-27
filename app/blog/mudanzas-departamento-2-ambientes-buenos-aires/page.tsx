@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mudanza de 2 Ambientes en Buenos Aires: Precio y Guía | Marino Mudanzas",
-  description: "¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires? Precios orientativos $150.000–$250.000, cuánto tarda, cuántos operarios y qué incluye el servicio.",
+  description: "¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires? Precios orientativos a consultar, cuánto tarda, cuántos operarios y qué incluye el servicio.",
 };
 
 const breadcrumb = {
@@ -23,7 +23,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Mudanza de 2 Ambientes en Buenos Aires: Precio y Guía | Marino Mudanzas",
-  "description": "¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires? Precios orientativos $150.000–$250.000, cuánto tarda, cuántos operarios y qué incluye el servicio.",
+  "description": "¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires? Precios orientativos a consultar, cuánto tarda, cuántos operarios y qué incluye el servicio.",
   "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-departamento-2-ambientes-buenos-aires",
   "datePublished": "2026-08-05",
   "dateModified": "2026-08-05",
@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "El precio orientativo para una mudanza de 2 ambientes en CABA o GBA ronda los $150.000 a $250.000. El valor final depende del barrio, el piso, si hay ascensor, la distancia entre el origen y el destino, y si se requiere embalaje adicional. En Marino Mudanzas damos un precio cerrado desde el presupuesto, sin adicionales el día de la mudanza."
+        "text": "El precio orientativo para una mudanza de 2 ambientes en CABA o GBA se cotiza según el caso a a consultar. El valor final depende del barrio, el piso, si hay ascensor, la distancia entre el origen y el destino, y si se requiere embalaje adicional. En Marino Mudanzas damos un precio cerrado desde el presupuesto, sin adicionales el día de la mudanza."
       }
     },
     {
@@ -100,7 +100,7 @@ export default function Page() {
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Precio orientativo de una mudanza de 2 ambientes</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Rango general</strong> — $150.000 a $250.000 en CABA y GBA para una mudanza estándar de 2 ambientes.</li>
+              <li><strong>Rango general</strong> — a consultar a a consultar en CABA y GBA para una mudanza estándar de 2 ambientes.</li>
               <li><strong>Barrios de alta complejidad</strong> — Puerto Madero, Recoleta, Palermo Chico o edificios con consorcios estrictos pueden superar ese rango.</li>
               <li><strong>Piso alto sin ascensor</strong> — suma tiempo y esfuerzo, lo que puede incrementar el precio un 15–25%.</li>
               <li><strong>Distancia</strong> — una mudanza dentro del mismo barrio es más barata que cruzar la ciudad o ir a GBA.</li>
@@ -118,9 +118,9 @@ export default function Page() {
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Comparación con otros tamaños</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Monoambiente</strong> — menor volumen, 2 operarios, 2–3 horas, precio desde $80.000–$150.000</li>
-              <li><strong>2 ambientes</strong> — volumen medio, 2–3 operarios, 3–5 horas, precio $150.000–$250.000</li>
-              <li><strong>3 ambientes o más</strong> — mayor volumen, 3–4 operarios, 5–8 horas o más, precio desde $250.000 en adelante</li>
+              <li><strong>Monoambiente</strong> — menor volumen, 2 operarios, 2–3 horas, precio a consultar según el caso</li>
+              <li><strong>2 ambientes</strong> — volumen medio, 2–3 operarios, 3–5 horas, precio a consultar</li>
+              <li><strong>3 ambientes o más</strong> — mayor volumen, 3–4 operarios, 5–8 horas o más, precio a consultar según el caso</li>
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué incluye nuestro servicio?</h2>
@@ -134,7 +134,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires?</h3>
-            <p>El precio orientativo ronda los $150.000 a $250.000. El valor final depende del barrio, el piso, si hay ascensor y la distancia. En Marino damos precio cerrado desde el presupuesto.</p>
+            <p>El precio orientativo se cotiza según el caso a a consultar. El valor final depende del barrio, el piso, si hay ascensor y la distancia. En Marino damos precio cerrado desde el presupuesto.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto tarda una mudanza de 2 ambientes?</h3>
             <p>Entre 3 y 5 horas en la mayoría de los casos. Pisos altos sin ascensor, muchas cajas o distancias largas pueden extender ese tiempo.</p>

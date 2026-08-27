@@ -53,7 +53,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en San Isidro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una casa de gran porte en San Isidro, Beccar o Martínez puede ir desde $400.000 según el volumen. Un departamento de 2 ambientes ronda los $180.000–$280.000. El precio es cerrado desde el presupuesto e incluye el traslado desde o hacia CABA, sin costos adicionales el día de la mudanza."
+        "text": "Una casa de gran porte en San Isidro, Beccar o Martínez puede ir a consultar según el caso según el volumen. Un departamento de 2 ambientes se cotiza según el caso. El precio es cerrado desde el presupuesto e incluye el traslado desde o hacia CABA, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -132,7 +132,7 @@ export default function Page() {
             <p>Sí. Coordinamos el acceso previamente: documentación del personal, datos del vehículo y turno asignado. Todo acordado antes del día para no tener demoras en el ingreso.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en San Isidro?</h3>
-            <p>Una casa de gran porte puede ir desde $400.000 según el volumen. Un 2 ambientes ronda los $180.000–$280.000. El precio es cerrado e incluye el traslado desde o hacia CABA.</p>
+            <p>Una casa de gran porte puede ir a consultar según el caso según el volumen. Un 2 ambientes se cotiza según el caso. El precio es cerrado e incluye el traslado desde o hacia CABA.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Manejan muebles de alto valor o antigüedades?</h3>
             <p>Sí. Embalamos con materiales especiales, mantas acolchadas y film stretch. Para piezas muy delicadas también coordinamos embalaje con caja de madera.</p>

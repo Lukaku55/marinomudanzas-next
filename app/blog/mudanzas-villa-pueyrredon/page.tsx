@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Villa Pueyrredón?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Villa Pueyrredón ronda los $140.000–$230.000. Una casa de familia puede ir desde $200.000 según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Villa Pueyrredón se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -128,7 +128,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Villa Pueyrredón</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Villa Pueyrredón?</h3>
-            <p>Un 2 ambientes ronda los $140.000–$230.000. Una casa de familia puede ir desde $200.000 según el volumen. Precio cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. Precio cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas de casas con jardín?</h3>
             <p>Sí, es la tipología más frecuente del barrio. Traslado de muebles de jardín y parrillas incluido. Acceso por frente o lateral según la disposición de la propiedad.</p>
