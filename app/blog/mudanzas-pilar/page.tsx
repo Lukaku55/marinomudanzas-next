@@ -53,7 +53,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Pilar?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza en Pilar incluye la distancia desde nuestra base en Flores. Una casa en country puede ir desde $450.000 según el volumen. Un departamento o casa urbana ronda los $250.000–$380.000. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Una mudanza en Pilar incluye la distancia desde nuestra base en Flores. Una casa en country puede ir a consultar según el caso según el volumen. Un departamento o casa urbana se cotiza según el caso. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -132,7 +132,7 @@ export default function Page() {
             <p>Sí. Coordinamos el acceso previamente: documentación, datos del vehículo y turno asignado. Todo acordado antes del día para no tener demoras.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Pilar?</h3>
-            <p>Una casa en country puede ir desde $450.000. Un departamento o casa urbana ronda los $250.000–$380.000. El precio incluye la distancia y es cerrado desde el presupuesto.</p>
+            <p>Una casa en country puede ir a consultar según el caso. Un departamento o casa urbana se cotiza según el caso. El precio incluye la distancia y es cerrado desde el presupuesto.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación hay que reservar?</h3>
             <p>Para countries, al menos 2 semanas para gestionar los permisos de ingreso. Para casas y departamentos urbanos, 10–15 días.</p>

@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Coghlan?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una casa de 3 ambientes en Coghlan ronda los $220.000–$380.000. Al tratarse de un barrio con predominio de casas bajas, el acceso suele ser fácil y no hay demoras por consorcios o turnos de montacargas, lo que simplifica la logística. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Una casa de 3 ambientes en Coghlan se cotiza según el caso. Al tratarse de un barrio con predominio de casas bajas, el acceso suele ser fácil y no hay demoras por consorcios o turnos de montacargas, lo que simplifica la logística. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -120,7 +120,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Coghlan</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Coghlan?</h3>
-            <p>Una casa de 3 ambientes ronda los $220.000–$380.000. Al no haber demoras por consorcios ni montacargas, el tiempo de trabajo suele ser más predecible. El precio es siempre cerrado desde el presupuesto.</p>
+            <p>Una casa de 3 ambientes se cotiza según el caso. Al no haber demoras por consorcios ni montacargas, el tiempo de trabajo suele ser más predecible. El precio es siempre cerrado desde el presupuesto.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo son los accesos para el camión?</h3>
             <p>Coghlan tiene calles muy tranquilas con bajo tráfico. El camión puede estacionar directamente frente a la propiedad en casi todos los casos. Es uno de los barrios con mejor acceso vehicular del norte de CABA.</p>

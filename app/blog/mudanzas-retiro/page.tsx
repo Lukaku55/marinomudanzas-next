@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Retiro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Retiro ronda los $150.000–$250.000. Las Torres del Bajo y los edificios premium con consorcios estrictos pueden tener un costo algo mayor por los tiempos de coordinación previa. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Retiro se cotiza según el caso. Las Torres del Bajo y los edificios premium con consorcios estrictos pueden tener un costo algo mayor por los tiempos de coordinación previa. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -128,7 +128,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Retiro</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Retiro?</h3>
-            <p>Un 2 ambientes ronda los $150.000–$250.000. Los edificios premium con consorcios estrictos pueden tener un costo algo mayor por los tiempos de coordinación previa, contemplado desde el presupuesto cerrado.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Los edificios premium con consorcios estrictos pueden tener un costo algo mayor por los tiempos de coordinación previa, contemplado desde el presupuesto cerrado.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo manejan los consorcios estrictos?</h3>
             <p>Coordinamos con anticipación el turno de montacargas, la protección de hall y los requisitos de cada edificio. Todo queda claro antes del día de la mudanza.</p>

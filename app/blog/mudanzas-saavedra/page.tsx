@@ -53,7 +53,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Saavedra?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una casa con jardín en Saavedra puede ir desde $300.000 según el volumen. Un departamento de 2 ambientes ronda los $150.000–$250.000. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí el tuyo sin cargo."
+        "text": "Una casa con jardín en Saavedra puede ir a consultar según el caso según el volumen. Un departamento de 2 ambientes se cotiza según el caso. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí el tuyo sin cargo."
       }
     },
     {
@@ -131,7 +131,7 @@ export default function Page() {
             <p>Muy bueno. Las avenidas principales permiten camiones de todos los tamaños y las calles internas son amplias. Es uno de los barrios con mejor logística de acceso de toda CABA.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Saavedra?</h3>
-            <p>Una casa con jardín puede ir desde $300.000 según el volumen. Un departamento de 2 ambientes ronda los $150.000–$250.000. Precio cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
+            <p>Una casa con jardín puede ir a consultar según el caso según el volumen. Un departamento de 2 ambientes se cotiza según el caso. Precio cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas de casas grandes con mucho volumen?</h3>
             <p>Sí, es lo más frecuente en Saavedra. Contamos con camiones de mayor capacidad y el personal necesario para casas de dos plantas con jardín. El presupuesto se ajusta al volumen real.</p>

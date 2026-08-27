@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta mudarse solo por primera vez en Buenos Aires?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Si te mudás a un monoambiente, el precio orientativo es de $80.000 a $150.000. Si es un 2 ambientes, ronda los $150.000 a $250.000. El valor depende del volumen de muebles, el piso, la distancia y si necesitás embalaje adicional. En Marino Mudanzas damos un precio cerrado desde el presupuesto, sin sorpresas el día de la mudanza."
+        "text": "Si te mudás a un monoambiente, el precio orientativo es de a consultar a a consultar. Si es un 2 ambientes, se cotiza según el caso a a consultar. El valor depende del volumen de muebles, el piso, la distancia y si necesitás embalaje adicional. En Marino Mudanzas damos un precio cerrado desde el presupuesto, sin sorpresas el día de la mudanza."
       }
     },
     {
@@ -116,8 +116,8 @@ export default function Page() {
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cuánto cuesta la mudanza cuando te vas solo</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Monoambiente</strong> — si llevás lo mínimo (cama, mesa, cajas de ropa), el precio arranca en $80.000–$150.000 con un flete y 2 operarios.</li>
-              <li><strong>2 ambientes</strong> — si ya tenés más muebles o venís de vivir con alguien, el precio orientativo es $150.000–$250.000.</li>
+              <li><strong>Monoambiente</strong> — si llevás lo mínimo (cama, mesa, cajas de ropa), el precio se cotiza según el caso con un flete y 2 operarios.</li>
+              <li><strong>2 ambientes</strong> — si ya tenés más muebles o venís de vivir con alguien, el precio orientativo es a consultar</li>
               <li><strong>Embalaje</strong> — el básico (frágiles y cuadros) está incluido. Si querés que embalemos toda la ropa y los libros también, lo cotizamos aparte.</li>
             </ul>
 
@@ -140,7 +140,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta mudarse solo por primera vez en Buenos Aires?</h3>
-            <p>Un monoambiente ronda los $80.000–$150.000 y un 2 ambientes los $150.000–$250.000. El precio depende del volumen, el piso y la distancia. Damos precio cerrado desde el presupuesto.</p>
+            <p>Un monoambiente se cotiza según el caso y un 2 ambientes los a consultar. El precio depende del volumen, el piso y la distancia. Damos precio cerrado desde el presupuesto.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Conviene contratar una empresa o ir de a poco con autos?</h3>
             <p>Si tenés muebles, contratar una empresa es casi siempre más conveniente. Ir de a poco con autos lleva muchos más viajes, más tiempo y más riesgo de roturas. Un flete pequeño cubre un monoambiente en un solo viaje.</p>

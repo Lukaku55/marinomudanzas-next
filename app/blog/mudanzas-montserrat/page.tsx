@@ -53,7 +53,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Montserrat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Montserrat ronda los $150.000–$250.000. Los edificios históricos con ascensores pequeños o sin ascensor pueden tener un costo algo mayor por el trabajo adicional de escalera. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Montserrat se cotiza según el caso. Los edificios históricos con ascensores pequeños o sin ascensor pueden tener un costo algo mayor por el trabajo adicional de escalera. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -131,7 +131,7 @@ export default function Page() {
             <p>Coordinamos el acceso en los horarios permitidos y evaluamos qué vehículo usar para cada calle. La planificación previa evita multas y demoras el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Montserrat?</h3>
-            <p>Un 2 ambientes ronda los $150.000–$250.000. Los edificios con escalera o ascensores muy pequeños pueden tener un costo adicional contemplado desde el presupuesto cerrado.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Los edificios con escalera o ascensores muy pequeños pueden tener un costo adicional contemplado desde el presupuesto cerrado.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Tienen experiencia en edificios históricos con ascensores de reja?</h3>
             <p>Sí. Es una de nuestras especialidades. Sabemos qué entra parado y qué hay que inclinar o subir por escalera, y todo queda claro en el presupuesto antes del día.</p>

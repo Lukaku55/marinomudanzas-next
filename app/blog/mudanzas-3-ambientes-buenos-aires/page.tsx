@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza de 3 ambientes en Buenos Aires?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza de 3 ambientes en Buenos Aires ronda los $280.000–$420.000. El precio varía según el piso, si hay ascensor, la cantidad de muebles y si el destino está en CABA o GBA. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Una mudanza de 3 ambientes en Buenos Aires se cotiza según el caso. El precio varía según el piso, si hay ascensor, la cantidad de muebles y si el destino está en CABA o GBA. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -109,7 +109,7 @@ export default function Page() {
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cuánto cuesta una mudanza de 3 ambientes?</h2>
-            <p>El rango para una mudanza de 3 ambientes en CABA es de <strong>$280.000–$420.000</strong>. El precio varía según:</p>
+            <p>El rango para una mudanza de 3 ambientes en CABA es de <strong>a consultar</strong>. El precio varía según:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Piso y ascensor</strong> — un 7° piso sin ascensor tiene un costo mayor que un 2° con ascensor amplio</li>
               <li><strong>Cantidad de muebles</strong> — un 3 ambientes con biblioteca de pared completa tiene más volumen que uno con pocos muebles</li>
@@ -150,7 +150,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas de 3 ambientes</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza de 3 ambientes en Buenos Aires?</h3>
-            <p>Entre $280.000 y $420.000 según el piso, el ascensor y la cantidad de muebles. El precio es cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
+            <p>Entre a consultar y a consultar según el piso, el ascensor y la cantidad de muebles. El precio es cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuántas personas se necesitan?</h3>
             <p>En general 3 a 4 operarios más el conductor. Si hay escalera sin ascensor o piso alto, se suma personal extra. Contemplado en el presupuesto.</p>

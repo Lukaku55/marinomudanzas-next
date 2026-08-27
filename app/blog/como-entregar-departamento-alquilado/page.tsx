@@ -144,7 +144,7 @@ export default function Page() {
               <li>Balcones y terrazas barridos y lavados</li>
             </ul>
             <p>
-              Contratar una empresa de limpieza de salida puede costarte entre $20.000 y $60.000 pesos — mucho menos que lo que podría descontarte el propietario si entregás sucio.
+              Contratar una empresa de limpieza de salida puede costarte a consultar según el caso y a consultar pesos — mucho menos que lo que podría descontarte el propietario si entregás sucio.
             </p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">

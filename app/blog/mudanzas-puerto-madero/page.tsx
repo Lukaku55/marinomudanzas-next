@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Puerto Madero?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Puerto Madero ronda los $250.000–$400.000. El precio es mayor al promedio del resto de CABA porque los edificios requieren coordinación anticipada con el consorcio, protección premium de áreas comunes y personal con experiencia en edificios exclusivos. El precio es cerrado desde el presupuesto, sin adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Puerto Madero se cotiza según el caso. El precio es mayor al promedio del resto de CABA porque los edificios requieren coordinación anticipada con el consorcio, protección premium de áreas comunes y personal con experiencia en edificios exclusivos. El precio es cerrado desde el presupuesto, sin adicionales el día de la mudanza."
       }
     },
     {
@@ -104,7 +104,7 @@ export default function Page() {
               <li><strong>Acceso vehicular con barreras</strong> — los ingresos están controlados. El camión debe tener los datos previos para pasar el control. Elegimos el vehículo adecuado para cada acceso.</li>
               <li><strong>Muebles de alto valor</strong> — en Puerto Madero es habitual el traslado de mobiliario de diseño, obras de arte, electrodomésticos de gama alta y equipamiento especial. Aplicamos protección premium en cada pieza.</li>
               <li><strong>Edificios corporativos</strong> — además de las torres residenciales, el barrio concentra oficinas de grandes empresas. Hacemos mudanzas comerciales coordinadas fuera de horario.</li>
-              <li><strong>Precios más altos del mercado</strong> — un 2 ambientes en Puerto Madero ronda los $250.000–$400.000, reflejando la complejidad logística y el nivel de servicio requerido.</li>
+              <li><strong>Precios más altos del mercado</strong> — un 2 ambientes en Puerto Madero se cotiza según el caso, reflejando la complejidad logística y el nivel de servicio requerido.</li>
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué incluye nuestro servicio en Puerto Madero?</h2>
@@ -121,7 +121,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Puerto Madero</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Puerto Madero?</h3>
-            <p>Un departamento de 2 ambientes ronda los $250.000–$400.000, más que el promedio de CABA por la complejidad logística y el nivel de servicio. El precio es cerrado desde el presupuesto, sin adicionales el día de la mudanza.</p>
+            <p>Un departamento de 2 ambientes se cotiza según el caso, más que el promedio de CABA por la complejidad logística y el nivel de servicio. El precio es cerrado desde el presupuesto, sin adicionales el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo se tramita el turno de montacargas?</h3>
             <p>Coordinamos directamente con el encargado o la administración. Muchos edificios de Puerto Madero requieren solicitud formal con 15 a 30 días de anticipación. Por eso recomendamos contactarnos lo antes posible una vez que tenés la fecha.</p>

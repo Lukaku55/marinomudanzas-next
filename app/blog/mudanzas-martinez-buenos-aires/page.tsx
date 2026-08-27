@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Martínez?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una casa grande en Martínez puede ir desde $350.000 hasta $600.000 según el volumen y la cantidad de ambientes. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí tu presupuesto sin cargo llamando al 4611-1818."
+        "text": "Una casa grande en Martínez puede ir a consultar según el caso hasta a consultar según el volumen y la cantidad de ambientes. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí tu presupuesto sin cargo llamando al 4611-1818."
       }
     },
     {
@@ -118,7 +118,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Martínez</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Martínez?</h3>
-            <p>Una casa grande puede ir desde $350.000 hasta $600.000 según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí tu presupuesto sin cargo llamando al 4611-1818.</p>
+            <p>Una casa grande puede ir a consultar según el caso hasta a consultar según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí tu presupuesto sin cargo llamando al 4611-1818.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto se tarda en llegar desde CABA a Martínez?</h3>
             <p>Entre 30 y 40 minutos sin tráfico por Acceso Norte. El traslado desde o hacia CABA está incluido en el precio cerrado, sin cargos adicionales por distancia.</p>

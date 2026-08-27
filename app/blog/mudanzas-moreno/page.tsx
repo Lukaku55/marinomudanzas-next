@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Moreno?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza en Moreno tiene un costo que incluye la distancia desde nuestra base en Flores. Un departamento de 2 ambientes ronda los $200.000–$320.000 y una casa puede ir desde $320.000 según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Una mudanza en Moreno tiene un costo que incluye la distancia desde nuestra base en Flores. Un departamento de 2 ambientes se cotiza según el caso y una casa puede ir a consultar según el caso según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -129,7 +129,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Moreno</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Moreno?</h3>
-            <p>Un 2 ambientes ronda los $200.000–$320.000 y una casa desde $320.000 según el volumen. El precio incluye la distancia desde nuestra base y es cerrado desde el presupuesto.</p>
+            <p>Un 2 ambientes se cotiza según el caso y una casa a consultar según el caso según el volumen. El precio incluye la distancia desde nuestra base y es cerrado desde el presupuesto.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cubren todo el partido de Moreno?</h3>
             <p>Sí, todo: Moreno centro, Francisco Álvarez, La Reja, Cuartel V y Trujui. Precio cerrado incluyendo la distancia.</p>

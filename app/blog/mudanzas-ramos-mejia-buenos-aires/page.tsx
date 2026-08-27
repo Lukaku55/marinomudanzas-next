@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Ramos Mejía?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Ramos Mejía ronda los $140.000–$220.000. Una casa de familia puede ir desde $250.000 hasta $420.000 según el volumen y la cantidad de ambientes. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Ramos Mejía se cotiza según el caso. Una casa de familia puede ir a consultar según el caso hasta a consultar según el volumen y la cantidad de ambientes. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -118,7 +118,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Ramos Mejía</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Ramos Mejía?</h3>
-            <p>Un departamento de 2 ambientes ronda los $140.000–$220.000. Una casa puede ir desde $250.000 hasta $420.000 según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
+            <p>Un departamento de 2 ambientes se cotiza según el caso. Una casa puede ir a consultar según el caso hasta a consultar según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo se llega desde CABA a Ramos Mejía?</h3>
             <p>En 20 a 30 minutos por Av. Rivadavia o por la A1 (Autopista del Oeste). El traslado desde o hacia CABA está incluido en el precio cerrado del presupuesto, sin cargos adicionales por distancia.</p>

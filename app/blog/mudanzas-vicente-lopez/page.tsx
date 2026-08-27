@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Vicente López?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una casa de gran porte en Olivos o La Lucila puede ir desde $400.000 según el volumen. Un departamento de 2 ambientes ronda los $180.000–$280.000. El precio incluye el traslado desde y hacia CABA y es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Una casa de gran porte en Olivos o La Lucila puede ir a consultar según el caso según el volumen. Un departamento de 2 ambientes se cotiza según el caso. El precio incluye el traslado desde y hacia CABA y es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -130,7 +130,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Vicente López</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Vicente López?</h3>
-            <p>Una casa de gran porte en Olivos o La Lucila puede ir desde $400.000 según el volumen. Un 2 ambientes ronda los $180.000–$280.000. Precio cerrado que incluye el traslado desde o hacia CABA.</p>
+            <p>Una casa de gran porte en Olivos o La Lucila puede ir a consultar según el caso según el volumen. Un 2 ambientes se cotiza según el caso. Precio cerrado que incluye el traslado desde o hacia CABA.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Tienen restricciones de carga en Av. del Libertador?</h3>
             <p>Sí, hay restricciones en horarios pico y algunos tramos. Coordinamos el horario y la logística para evitar problemas. Para los edificios sobre Libertador usamos siempre el espacio de carga designado.</p>

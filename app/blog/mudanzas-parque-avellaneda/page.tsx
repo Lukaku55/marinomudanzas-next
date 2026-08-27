@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Parque Avellaneda?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Parque Avellaneda ronda los $130.000–$210.000. Las casas bajas de familia, que son frecuentes en el barrio, pueden ir desde $200.000 según el volumen. El precio es siempre cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Parque Avellaneda se cotiza según el caso. Las casas bajas de familia, que son frecuentes en el barrio, pueden ir a consultar según el caso según el volumen. El precio es siempre cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -120,7 +120,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Parque Avellaneda</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Parque Avellaneda?</h3>
-            <p>Un departamento de 2 ambientes ronda los $130.000–$210.000. Una casa de familia puede ir desde $200.000 según el volumen. El precio es siempre cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
+            <p>Un departamento de 2 ambientes se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. El precio es siempre cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué tipo de viviendas predominan en el barrio?</h3>
             <p>Un mix de casas bajas con jardín en las calles internas y edificios de 4 a 5 pisos sobre las avenidas. Es un barrio de propietarios y nuevas familias con buena estabilidad residencial.</p>

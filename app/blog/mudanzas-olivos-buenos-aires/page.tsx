@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Olivos?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una casa de alto nivel en Olivos puede ir desde $300.000 hasta $550.000 según el volumen y el tipo de propiedad. Un departamento de 2 ambientes ronda los $180.000–$280.000. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Una casa de alto nivel en Olivos puede ir a consultar según el caso hasta a consultar según el volumen y el tipo de propiedad. Un departamento de 2 ambientes se cotiza según el caso. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -118,7 +118,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Olivos</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Olivos?</h3>
-            <p>Una casa de alto nivel puede ir desde $300.000 hasta $550.000 según el volumen. Un 2 ambientes ronda los $180.000–$280.000. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
+            <p>Una casa de alto nivel puede ir a consultar según el caso hasta a consultar según el volumen. Un 2 ambientes se cotiza según el caso. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto se tarda en llegar desde CABA a Olivos?</h3>
             <p>Entre 20 y 30 minutos por Acceso Norte o por la costera (continuación de Av. del Libertador). El traslado está incluido en el precio cerrado del presupuesto, sin costos adicionales por distancia.</p>

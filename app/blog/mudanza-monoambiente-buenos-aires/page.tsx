@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza de monoambiente en Buenos Aires?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza de monoambiente en Buenos Aires ronda los $80.000–$140.000. El precio varía según el piso, si hay ascensor y la distancia entre origen y destino. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Una mudanza de monoambiente en Buenos Aires se cotiza según el caso. El precio varía según el piso, si hay ascensor y la distancia entre origen y destino. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -110,7 +110,7 @@ export default function Page() {
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cuánto cuesta y cuánto tarda?</h2>
-            <p>Una mudanza de monoambiente en Buenos Aires tiene un costo de <strong>$80.000–$140.000</strong>. El precio varía según el piso (con o sin ascensor), la cantidad de muebles y la distancia entre origen y destino.</p>
+            <p>Una mudanza de monoambiente en Buenos Aires tiene un costo de <strong>a consultar</strong>. El precio varía según el piso (con o sin ascensor), la cantidad de muebles y la distancia entre origen y destino.</p>
             <p>En cuanto al tiempo, la mayoría de los monoambientes se completan en <strong>2 a 3 horas</strong>. El operativo incluye 2 operarios más el conductor y un utilitario o camioneta según el volumen.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Flete o mudanza completa para un monoambiente?</h2>
@@ -141,7 +141,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas de monoambiente</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza de monoambiente en Buenos Aires?</h3>
-            <p>Entre $80.000 y $140.000 según el piso, el ascensor y la cantidad de muebles. El precio es cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
+            <p>Entre a consultar y a consultar según el piso, el ascensor y la cantidad de muebles. El precio es cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto tarda una mudanza de monoambiente?</h3>
             <p>Entre 2 y 3 horas en la mayoría de los casos. Con escalera sin ascensor o muchas cajas puede llegar a 4 horas, pero rara vez más.</p>

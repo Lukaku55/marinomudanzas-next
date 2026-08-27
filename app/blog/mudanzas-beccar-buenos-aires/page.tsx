@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Béccar?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una casa en Béccar puede ir desde $280.000 hasta $480.000 según el volumen y la cantidad de ambientes. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí tu presupuesto sin cargo llamando al 4611-1818."
+        "text": "Una casa en Béccar puede ir a consultar según el caso hasta a consultar según el volumen y la cantidad de ambientes. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí tu presupuesto sin cargo llamando al 4611-1818."
       }
     },
     {
@@ -118,7 +118,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Béccar</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Béccar?</h3>
-            <p>Una casa puede ir desde $280.000 hasta $480.000 según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí tu presupuesto sin cargo llamando al 4611-1818.</p>
+            <p>Una casa puede ir a consultar según el caso hasta a consultar según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza. Pedí tu presupuesto sin cargo llamando al 4611-1818.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cubrís Béccar con el servicio de mudanzas?</h3>
             <p>Sí, Béccar es una zona habitual de trabajo. La cubrimos regularmente junto a San Isidro, Martínez y Acassuso. El traslado desde o hacia CABA está incluido en el precio cerrado.</p>
