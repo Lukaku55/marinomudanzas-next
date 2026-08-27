@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Parque Patricios?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Parque Patricios ronda los $140.000–$240.000. Los edificios nuevos del Distrito Tecnológico tienen buenas condiciones de acceso y no generan costos adicionales. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Parque Patricios se cotiza según el caso. Los edificios nuevos del Distrito Tecnológico tienen buenas condiciones de acceso y no generan costos adicionales. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -128,7 +128,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Parque Patricios</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Parque Patricios?</h3>
-            <p>Un 2 ambientes ronda los $140.000–$240.000. Los edificios nuevos tienen buenas condiciones de acceso que no generan costos adicionales. Precio cerrado desde el presupuesto.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Los edificios nuevos tienen buenas condiciones de acceso que no generan costos adicionales. Precio cerrado desde el presupuesto.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Tienen experiencia en los edificios nuevos del Distrito Tecnológico?</h3>
             <p>Sí. Ascensores amplios, montacargas y buenos accesos. Coordinamos con el encargado para cumplir con los horarios y requisitos del consorcio.</p>

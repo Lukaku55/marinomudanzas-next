@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Morón?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Morón ronda los $170.000–$270.000. Una casa puede ir desde $280.000 según el volumen. Nuestra base en Flores permite llegar al corredor oeste rápidamente y a menor costo que empresas ubicadas en el centro o norte de CABA. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Morón se cotiza según el caso. Una casa puede ir a consultar según el caso según el volumen. Nuestra base en Flores permite llegar al corredor oeste rápidamente y a menor costo que empresas ubicadas en el centro o norte de CABA. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -129,7 +129,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Morón</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Morón?</h3>
-            <p>Un 2 ambientes ronda los $170.000–$270.000. Una casa puede ir desde $280.000 según el volumen. Nuestra base en Flores permite llegar más rápido y a menor costo que empresas del centro de CABA.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Una casa puede ir a consultar según el caso según el volumen. Nuestra base en Flores permite llegar más rápido y a menor costo que empresas del centro de CABA.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación hay que reservar?</h3>
             <p>Al menos una semana. Para fin de mes o sábados, 10–15 días. Morón centro tiene alta rotación y los turnos de fin de mes se llenan rápido.</p>

@@ -53,7 +53,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Nordelta?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Las mudanzas en Nordelta van desde $400.000 en adelante, pudiendo superar los $800.000 en casas de gran porte con mucho volumen. El precio exacto depende de la cantidad de ambientes, el volumen de muebles y enseres, y si se requiere embalaje especial. Pedí tu presupuesto sin cargo llamando al 4611-1818."
+        "text": "Las mudanzas en Nordelta van a consultar según el caso, pudiendo superar los a consultar en casas de gran porte con mucho volumen. El precio exacto depende de la cantidad de ambientes, el volumen de muebles y enseres, y si se requiere embalaje especial. Pedí tu presupuesto sin cargo llamando al 4611-1818."
       }
     },
     {
@@ -124,7 +124,7 @@ export default function Page() {
             <p>El propietario debe autorizarnos en la seguridad del barrio interno antes del día de la mudanza, con los datos del personal y la patente del camión. Sin esa autorización previa, no se permite el acceso. Te guiamos en todo el proceso desde que contratás.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Nordelta?</h3>
-            <p>Las mudanzas en Nordelta van desde $400.000 en adelante, pudiendo superar los $800.000 en casas de gran porte. El precio exacto depende del volumen y si se requiere embalaje especial. Pedí tu presupuesto sin cargo llamando al 4611-1818.</p>
+            <p>Las mudanzas en Nordelta van a consultar según el caso, pudiendo superar los a consultar en casas de gran porte. El precio exacto depende del volumen y si se requiere embalaje especial. Pedí tu presupuesto sin cargo llamando al 4611-1818.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto tiempo lleva llegar desde CABA a Nordelta?</h3>
             <p>Entre 45 y 60 minutos por Acceso Norte tomando el desvío hacia Nordelta. El tiempo puede variar según el horario y el tráfico. El traslado está incluido en el precio cerrado del presupuesto.</p>

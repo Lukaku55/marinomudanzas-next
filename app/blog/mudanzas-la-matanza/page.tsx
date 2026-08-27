@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en La Matanza?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en La Matanza ronda los $170.000–$270.000. Una casa puede ir desde $280.000 según el volumen. Nuestra base en Flores tiene acceso directo al partido por Av. General Paz, lo que reduce los tiempos de llegada. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en La Matanza se cotiza según el caso. Una casa puede ir a consultar según el caso según el volumen. Nuestra base en Flores tiene acceso directo al partido por Av. General Paz, lo que reduce los tiempos de llegada. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -130,7 +130,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en La Matanza</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en La Matanza?</h3>
-            <p>Un 2 ambientes ronda los $170.000–$270.000. Una casa puede ir desde $280.000 según el volumen. Nuestra base en Flores tiene acceso directo al partido por Av. General Paz, lo que reduce los tiempos de llegada.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Una casa puede ir a consultar según el caso según el volumen. Nuestra base en Flores tiene acceso directo al partido por Av. General Paz, lo que reduce los tiempos de llegada.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cubren toda La Matanza?</h3>
             <p>Sí, todo el partido: Ramos Mejía, San Justo, Isidro Casanova, González Catán, Ciudad Evita, Villa Luzuriaga y todas las localidades. Precio cerrado sin importar la localidad.</p>

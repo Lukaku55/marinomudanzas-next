@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Barracas?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Barracas ronda los $140.000–$230.000. Los lofts en galpones reconvertidos pueden tener particularidades de acceso que contemplamos en el presupuesto cerrado. El precio es fijo desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Barracas se cotiza según el caso. Los lofts en galpones reconvertidos pueden tener particularidades de acceso que contemplamos en el presupuesto cerrado. El precio es fijo desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -128,7 +128,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Barracas</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Barracas?</h3>
-            <p>Un 2 ambientes ronda los $140.000–$230.000. Los lofts con particularidades de acceso se evalúan antes del día de la mudanza y el costo queda contemplado en el presupuesto cerrado.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Los lofts con particularidades de acceso se evalúan antes del día de la mudanza y el costo queda contemplado en el presupuesto cerrado.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Tienen experiencia en lofts y galpones reconvertidos?</h3>
             <p>Sí. Plantas abiertas con techos altos y accesos no convencionales son frecuentes en Barracas. Evaluamos antes del día de la mudanza para no tener sorpresas.</p>

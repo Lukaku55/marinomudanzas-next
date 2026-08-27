@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en General Paz?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Las mudanzas en General Paz son principalmente de casas bajas, que tienen un volumen mayor que los departamentos. El costo ronda los $180.000–$300.000 según el contenido de la propiedad. El precio es siempre cerrado desde el presupuesto, sin sorpresas ni costos adicionales el día de la mudanza."
+        "text": "Las mudanzas en General Paz son principalmente de casas bajas, que tienen un volumen mayor que los departamentos. El costo se cotiza según el caso según el contenido de la propiedad. El precio es siempre cerrado desde el presupuesto, sin sorpresas ni costos adicionales el día de la mudanza."
       }
     },
     {
@@ -120,7 +120,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en General Paz</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en General Paz?</h3>
-            <p>Las mudanzas son principalmente de casas bajas, con mayor volumen que los departamentos. El costo ronda los $180.000–$300.000 según el contenido de la propiedad. El precio es siempre cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
+            <p>Las mudanzas son principalmente de casas bajas, con mayor volumen que los departamentos. El costo se cotiza según el caso según el contenido de la propiedad. El precio es siempre cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo es el acceso para el camión?</h3>
             <p>Excelente. Tráfico mínimo, calles despejadas y amplias. El camión puede estacionar directamente frente a la propiedad en prácticamente todos los casos, sin coordinaciones especiales. Es uno de los barrios con mejor logística para mudanzas del sur de CABA.</p>

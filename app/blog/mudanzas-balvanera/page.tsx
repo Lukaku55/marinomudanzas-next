@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Balvanera?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Balvanera ronda los $150.000–$250.000. Los edificios sin ascensor o con ascensores pequeños de los años 40-60 pueden tener un costo algo mayor por el trabajo adicional de escalera. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Balvanera se cotiza según el caso. Los edificios sin ascensor o con ascensores pequeños de los años 40-60 pueden tener un costo algo mayor por el trabajo adicional de escalera. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -128,7 +128,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Balvanera</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Balvanera?</h3>
-            <p>Un 2 ambientes ronda los $150.000–$250.000. Edificios sin ascensor o con escaleras largas pueden tener costo adicional contemplado desde el presupuesto cerrado.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Edificios sin ascensor o con escaleras largas pueden tener costo adicional contemplado desde el presupuesto cerrado.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo manejan los edificios sin ascensor de Once?</h3>
             <p>Con personal especializado en subida por escalera. Cuando los muebles no pasan, usamos soga desde el exterior. Está contemplado en el presupuesto antes del día.</p>

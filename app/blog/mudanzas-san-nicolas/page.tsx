@@ -69,7 +69,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza de oficina en San Nicolás?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "El costo de una mudanza de oficina en San Nicolás depende del volumen de mobiliario, equipos y cajas de archivo, y del piso desde donde se retira. Una oficina pequeña de hasta 10 puestos puede rondar los $280.000–$450.000. Damos presupuesto sin cargo tras un relevamiento de las características del espacio."
+        "text": "El costo de una mudanza de oficina en San Nicolás depende del volumen de mobiliario, equipos y cajas de archivo, y del piso desde donde se retira. Una oficina pequeña de hasta 10 puestos puede rondar los a consultar. Damos presupuesto sin cargo tras un relevamiento de las características del espacio."
       }
     },
     {
@@ -129,7 +129,7 @@ export default function Page() {
             <p>Generalmente antes de las 8hs o después de las 20hs en las zonas más restringidas. Algunos edificios tienen muelles propios con más flexibilidad. Relevamos las restricciones específicas de cada dirección antes de confirmar la fecha.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza de oficina en San Nicolás?</h3>
-            <p>Una oficina pequeña de hasta 10 puestos puede rondar los $280.000–$450.000. El costo depende del volumen de mobiliario, equipos y cajas, y del piso desde donde se retira. Damos presupuesto sin cargo tras un relevamiento del espacio.</p>
+            <p>Una oficina pequeña de hasta 10 puestos puede rondar los a consultar. El costo depende del volumen de mobiliario, equipos y cajas, y del piso desde donde se retira. Damos presupuesto sin cargo tras un relevamiento del espacio.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo coordinan el acceso en edificios corporativos?</h3>
             <p>Coordinamos previamente con el encargado el uso del montacargas o ascensor de servicio, el acceso al muelle de carga y la reserva de espacio en la vía pública. Conocemos los protocolos de los edificios más importantes del microcentro.</p>

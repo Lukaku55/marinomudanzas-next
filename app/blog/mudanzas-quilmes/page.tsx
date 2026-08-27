@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Quilmes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Quilmes centro ronda los $180.000–$280.000. Una casa puede ir desde $290.000 según el volumen. El precio es cerrado desde el presupuesto e incluye el traslado desde o hacia CABA, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Quilmes centro se cotiza según el caso. Una casa puede ir a consultar según el caso según el volumen. El precio es cerrado desde el presupuesto e incluye el traslado desde o hacia CABA, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -129,7 +129,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Quilmes</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Quilmes?</h3>
-            <p>Un 2 ambientes en Quilmes centro ronda los $180.000–$280.000. Una casa puede ir desde $290.000 según el volumen. Precio cerrado que incluye el traslado desde o hacia CABA.</p>
+            <p>Un 2 ambientes en Quilmes centro se cotiza según el caso. Una casa puede ir a consultar según el caso según el volumen. Precio cerrado que incluye el traslado desde o hacia CABA.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo acceden a Quilmes desde CABA?</h3>
             <p>Por la Autopista Buenos Aires-La Plata, que es rápida y directa. Para zonas más cercanas también por Av. Mitre a través de Avellaneda. Elegimos la ruta más eficiente para cada dirección.</p>

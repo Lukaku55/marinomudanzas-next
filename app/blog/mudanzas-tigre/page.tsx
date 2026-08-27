@@ -53,7 +53,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Tigre?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza en Tigre incluye la distancia desde nuestra base en Flores. Una casa en Nordelta o country puede ir desde $450.000 según el volumen. Una casa o departamento en Tigre urbano ronda los $250.000–$380.000. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Una mudanza en Tigre incluye la distancia desde nuestra base en Flores. Una casa en Nordelta o country puede ir a consultar según el caso según el volumen. Una casa o departamento en Tigre urbano se cotiza según el caso. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -132,7 +132,7 @@ export default function Page() {
             <p>Sí. Nordelta requiere registro previo de proveedores y turno asignado. Lo gestionamos nosotros. Todo queda listo antes del día de la mudanza para no tener demoras en el ingreso.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Tigre?</h3>
-            <p>Una casa en Nordelta o country puede ir desde $450.000 según el volumen. Tigre urbano ronda los $250.000–$380.000. El precio incluye la distancia y es cerrado desde el presupuesto.</p>
+            <p>Una casa en Nordelta o country puede ir a consultar según el caso según el volumen. Tigre urbano se cotiza según el caso. El precio incluye la distancia y es cerrado desde el presupuesto.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Pueden ingresar a todos los countries de Tigre?</h3>
             <p>Sí. Coordinamos el acceso con la administración de cada barrio privado. Cada urbanización tiene sus propias reglas y las gestionamos nosotros.</p>

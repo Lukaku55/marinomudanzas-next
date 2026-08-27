@@ -61,7 +61,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Parque Chas?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Al tratarse casi exclusivamente de casas de familia —muchas de tamaño mediano a grande—, las mudanzas en Parque Chas tienen un volumen mayor que el promedio. El costo ronda los $200.000–$350.000 según el contenido de la casa. El precio es cerrado desde el presupuesto, sin sorpresas el día de la mudanza."
+        "text": "Al tratarse casi exclusivamente de casas de familia —muchas de tamaño mediano a grande—, las mudanzas en Parque Chas tienen un volumen mayor que el promedio. El costo se cotiza según el caso según el contenido de la casa. El precio es cerrado desde el presupuesto, sin sorpresas el día de la mudanza."
       }
     },
     {
@@ -126,7 +126,7 @@ export default function Page() {
             <p>Casi exclusivamente casas unifamiliares de los años 40. No hay edificios de departamentos. Las casas suelen tener patio o jardín, lo que simplifica el traslado: sin ascensor, sin consorcio, sin restricciones de horario.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Parque Chas?</h3>
-            <p>Al tratarse de casas de familia de tamaño mediano a grande, el costo ronda los $200.000–$350.000 según el contenido. El precio es siempre cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
+            <p>Al tratarse de casas de familia de tamaño mediano a grande, el costo se cotiza según el caso según el contenido. El precio es siempre cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿El camión puede entrar a las calles angostas?</h3>
             <p>Sí, con planificación previa. Seleccionamos el camión adecuado según la calle de acceso relevada con anticipación. En casos de calles muy angostas usamos un vehículo más chico o realizamos el traslado en dos viajes.</p>

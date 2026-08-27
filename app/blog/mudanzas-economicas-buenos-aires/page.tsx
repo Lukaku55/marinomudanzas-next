@@ -52,7 +52,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza económica en Buenos Aires?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una mudanza de monoambiente puede costar desde $80.000 a $150.000 según el piso y la distancia. Un 2 ambientes ronda los $150.000–$250.000. Un 3 ambientes o más puede ir de $250.000 a $450.000 o más. Los precios varían por volumen, piso, ascensor y distancia."
+        "text": "Una mudanza de monoambiente puede costar a consultar según el caso a a consultar según el piso y la distancia. Un 2 ambientes se cotiza según el caso. Un 3 ambientes o más puede ir de a consultar a a consultar o más. Los precios varían por volumen, piso, ascensor y distancia."
       }
     },
     {
@@ -147,7 +147,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas económicas en Buenos Aires</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza económica en Buenos Aires?</h3>
-            <p>Una mudanza de monoambiente puede costar desde $80.000 a $150.000 según el piso y la distancia. Un 2 ambientes ronda los $150.000–$250.000. Un 3 ambientes puede ir de $250.000 en adelante. Los precios varían por volumen, piso, ascensor y distancia. Pedí siempre presupuesto detallado.</p>
+            <p>Una mudanza de monoambiente puede costar a consultar según el caso a a consultar según el piso y la distancia. Un 2 ambientes se cotiza según el caso. Un 3 ambientes puede ir de a consultar. Los precios varían por volumen, piso, ascensor y distancia. Pedí siempre presupuesto detallado.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo puedo reducir el costo de mi mudanza?</h3>
             <p>Embalando las cajas pequeñas vos mismo, eligiendo un día de semana, evitando el fin de mes y reduciendo el volumen (donando o vendiendo lo que no usás) podés reducir el costo considerablemente sin sacrificar calidad.</p>

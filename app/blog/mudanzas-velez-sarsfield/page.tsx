@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Vélez Sársfield?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Vélez Sársfield ronda los $140.000–$220.000. Una casa de familia puede ir desde $210.000 según el volumen. El precio es siempre cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Vélez Sársfield se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. El precio es siempre cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -120,7 +120,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Vélez Sársfield</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Vélez Sársfield?</h3>
-            <p>Un departamento de 2 ambientes ronda los $140.000–$220.000. Una casa de familia puede ir desde $210.000 según el volumen. El precio es siempre cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
+            <p>Un departamento de 2 ambientes se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. El precio es siempre cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué tipo de propiedades hay en el barrio?</h3>
             <p>Predominio de casas de familia con jardín y garaje. También hay edificios bajos de 3 a 5 pisos en las avenidas principales. Barrio consolidado y tranquilo con baja rotación residencial.</p>

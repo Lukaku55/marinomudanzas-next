@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Villa Devoto?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una casa de dos plantas en Villa Devoto puede ir desde $300.000 según el volumen. Un departamento de 2 ambientes ronda los $150.000–$250.000. Nuestra base está en Flores, a pocos minutos del barrio, lo que reduce los costos de traslado respecto a empresas del centro. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Una casa de dos plantas en Villa Devoto puede ir a consultar según el caso según el volumen. Un departamento de 2 ambientes se cotiza según el caso. Nuestra base está en Flores, a pocos minutos del barrio, lo que reduce los costos de traslado respecto a empresas del centro. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -129,7 +129,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Villa Devoto</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Villa Devoto?</h3>
-            <p>Una casa de dos plantas puede ir desde $300.000 según el volumen. Un 2 ambientes ronda los $150.000–$250.000. Nuestra base está en Flores, a minutos del barrio, lo que reduce el costo de traslado respecto a empresas del centro.</p>
+            <p>Una casa de dos plantas puede ir a consultar según el caso según el volumen. Un 2 ambientes se cotiza según el caso. Nuestra base está en Flores, a minutos del barrio, lo que reduce el costo de traslado respecto a empresas del centro.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo es el acceso para camiones en Villa Devoto?</h3>
             <p>Muy bueno. Las avenidas principales permiten camiones de todos los tamaños y las calles internas son amplias y tranquilas. No hay los problemas de tráfico ni las restricciones de estacionamiento de barrios más céntricos.</p>

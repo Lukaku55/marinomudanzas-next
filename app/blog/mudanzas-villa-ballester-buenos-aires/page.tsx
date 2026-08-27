@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Villa Ballester?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Villa Ballester ronda los $140.000–$220.000. El precio final depende del piso, si hay ascensor y el volumen de muebles. El precio es cerrado desde el presupuesto: no hay costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Villa Ballester se cotiza según el caso. El precio final depende del piso, si hay ascensor y el volumen de muebles. El precio es cerrado desde el presupuesto: no hay costos adicionales el día de la mudanza."
       }
     },
     {
@@ -117,7 +117,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Villa Ballester</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Villa Ballester?</h3>
-            <p>Un departamento de 2 ambientes ronda los $140.000–$220.000. El precio final varía según el piso, si hay ascensor y el volumen total. El precio es cerrado desde el presupuesto: sin sorpresas el día de la mudanza.</p>
+            <p>Un departamento de 2 ambientes se cotiza según el caso. El precio final varía según el piso, si hay ascensor y el volumen total. El precio es cerrado desde el presupuesto: sin sorpresas el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto tarda el acceso desde CABA?</h3>
             <p>Entre 20 y 30 minutos por la General Paz y Av. Constituyentes, o por el Acceso Norte. Coordinamos la ruta más eficiente según el horario y el punto exacto de la mudanza.</p>

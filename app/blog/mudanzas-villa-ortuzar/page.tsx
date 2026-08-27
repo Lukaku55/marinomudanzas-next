@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Villa Ortúzar?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Villa Ortúzar ronda los $130.000–$220.000. Una casa de familia puede ir desde $190.000 según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Villa Ortúzar se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. El precio es cerrado desde el presupuesto, sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -128,7 +128,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Villa Ortúzar</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Villa Ortúzar?</h3>
-            <p>Un 2 ambientes ronda los $130.000–$220.000. Una casa de familia puede ir desde $190.000 según el volumen. Precio cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
+            <p>Un 2 ambientes se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. Precio cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas de casas bajas en el barrio?</h3>
             <p>Sí, es la tipología más frecuente. Acceso por frente o lateral, traslado de muebles de jardín incluido en el presupuesto cerrado.</p>

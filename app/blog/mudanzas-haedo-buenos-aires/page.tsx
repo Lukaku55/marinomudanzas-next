@@ -45,7 +45,7 @@ const faqLd = {
       "name": "¿Cuánto cuesta una mudanza en Haedo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un departamento de 2 ambientes en Haedo ronda los $130.000–$210.000. El precio final varía según el piso, si hay ascensor y la cantidad de muebles. El precio es cerrado desde el presupuesto: sin costos adicionales el día de la mudanza."
+        "text": "Un departamento de 2 ambientes en Haedo se cotiza según el caso. El precio final varía según el piso, si hay ascensor y la cantidad de muebles. El precio es cerrado desde el presupuesto: sin costos adicionales el día de la mudanza."
       }
     },
     {
@@ -117,7 +117,7 @@ export default function Page() {
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Haedo</h2>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Haedo?</h3>
-            <p>Un departamento de 2 ambientes ronda los $130.000–$210.000. El precio varía según el piso, el ascensor y el volumen de muebles. El precio es cerrado desde el presupuesto: sin sorpresas el día de la mudanza.</p>
+            <p>Un departamento de 2 ambientes se cotiza según el caso. El precio varía según el piso, el ascensor y el volumen de muebles. El precio es cerrado desde el presupuesto: sin sorpresas el día de la mudanza.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto tiempo lleva ir desde CABA hasta Haedo?</h3>
             <p>Entre 25 y 35 minutos por Av. Rivadavia o la Autopista del Oeste (A1). Desde nuestra base en Flores el acceso es directo. Coordinamos la ruta más eficiente para cada caso.</p>
