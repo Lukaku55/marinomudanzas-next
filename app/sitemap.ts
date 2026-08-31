@@ -108,6 +108,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-economicas-buenos-aires",
     "cuanto-tiempo-dura-una-mudanza",
     "mudanzas-monoambiente-buenos-aires",
+    "mudanzas-san-cristobal",
   ];
 
   return [
