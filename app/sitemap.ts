@@ -109,6 +109,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "cuanto-tiempo-dura-una-mudanza",
     "mudanzas-monoambiente-buenos-aires",
     "mudanzas-san-cristobal",
+    "mudanzas-san-nicolas",
   ];
 
   return [
