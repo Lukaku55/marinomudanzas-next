@@ -110,6 +110,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-monoambiente-buenos-aires",
     "mudanzas-san-cristobal",
     "mudanzas-san-nicolas",
+    "mudanzas-parque-avellaneda",
   ];
 
   return [

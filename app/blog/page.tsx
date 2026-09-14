@@ -133,6 +133,7 @@ const articles = [
   {slug:'mudanzas-coghlan',title:'Mudanzas en Coghlan Buenos Aires',excerpt:'Servicio de mudanzas en Coghlan. Barrio tranquilo del norte de CABA con predominio de casas bajas y calles arboladas. Embalaje incluido y presupuesto sin cargo.',date:'2026-08-05'},
   {slug:'mudanzas-san-cristobal',title:"Mudanzas en San Cristóbal Buenos Aires",excerpt:"Servicio de mudanzas en San Cristóbal. Barrio obrero del sur de CABA con edificios de época y casas bajas. Embalaje incluido y presupuesto sin cargo.",date:'2026-08-31'},
   {slug:'mudanzas-san-nicolas',title:"Mudanzas en San Nicolás Buenos Aires",excerpt:"Mudanzas y traslados de oficinas en San Nicolás, el microcentro porteño. Coordinación con restricciones de tránsito y horarios permitidos. Presupuesto sin cargo.",date:'2026-09-07'},
+  {slug:'mudanzas-parque-avellaneda',title:"Mudanzas en Parque Avellaneda Buenos Aires",excerpt:"Servicio de mudanzas en Parque Avellaneda. Barrio tranquilo del oeste de CABA con casas bajas y buen acceso vehicular. Embalaje incluido y presupuesto sin cargo.",date:'2026-09-14'},
 ];
 
 const itemListSchema = {
