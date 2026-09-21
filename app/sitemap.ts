@@ -111,6 +111,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-san-cristobal",
     "mudanzas-san-nicolas",
     "mudanzas-parque-avellaneda",
+    "mudanzas-parque-chas",
   ];
 
   return [
