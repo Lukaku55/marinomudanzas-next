@@ -18,13 +18,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mudanzasmarino.com.ar"),
-  title: "Mudanzas en Buenos Aires | Marino Mudanzas | Desde 1950",
-  description: "Empresa de mudanzas en Buenos Aires con más de 80 años de experiencia. Mudanzas residenciales, de oficinas y guardamuebles en CABA y GBA. Presupuesto sin cargo. Llamanos al 4611-1818.",
+  title: "Mudanzas en Buenos Aires | Precio Cerrado | Marino Mudanzas",
+  description: "Empresa de mudanzas en Buenos Aires con más de 80 años de experiencia. Precio cerrado, presupuesto sin cargo. Mudanzas residenciales, oficinas y guardamuebles en CABA y GBA. Tel 4611-1818.",
   keywords: "mudanzas Buenos Aires, empresa de mudanzas CABA, mudanzas residenciales, mudanzas oficinas, guardamuebles Buenos Aires",
   icons: { icon: "/logo-marino-nuevo.png" },
   openGraph: {
-    title: "Mudanzas en Buenos Aires | Marino Mudanzas | Desde 1950",
-    description: "Más de 80 años moviendo Buenos Aires. Mudanzas residenciales, de oficinas y guardamuebles en CABA y GBA.",
+    title: "Mudanzas en Buenos Aires | Precio Cerrado | Marino Mudanzas",
+    description: "Precio cerrado, presupuesto sin cargo. Más de 80 años moviendo Buenos Aires. Mudanzas residenciales, de oficinas y guardamuebles en CABA y GBA.",
     url: "https://www.mudanzasmarino.com.ar",
     siteName: "Marino Mudanzas",
     locale: "es_AR",
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mudanzas en Buenos Aires | Marino Mudanzas | Desde 1950",
-    description: "Más de 80 años moviendo Buenos Aires. Mudanzas residenciales, de oficinas y guardamuebles en CABA y GBA.",
+    title: "Mudanzas en Buenos Aires | Precio Cerrado | Marino Mudanzas",
+    description: "Precio cerrado, presupuesto sin cargo. Más de 80 años moviendo Buenos Aires. Mudanzas residenciales, de oficinas y guardamuebles en CABA y GBA.",
   },
 };
 
@@ -64,7 +64,7 @@ const localBusinessSchema = {
   ],
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.7",
+    "ratingValue": "4.8",
     "reviewCount": "370",
     "bestRating": "5",
     "worstRating": "1"
