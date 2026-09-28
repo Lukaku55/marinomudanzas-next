@@ -112,6 +112,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-san-nicolas",
     "mudanzas-parque-avellaneda",
     "mudanzas-parque-chas",
+    "mudanzas-velez-sarsfield",
   ];
 
   return [
