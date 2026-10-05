@@ -79,21 +79,21 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">← Volver al blog</Link>
 
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="article-title">
             ¿Cuánto cuesta una mudanza en Buenos Aires en 2026?
           </h1>
           <time className="font-body text-muted-foreground text-sm">10 de marzo de 2026 · Actualizado junio 2026</time>
 
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+          <div className="article-body">
             <p>
               El costo de una mudanza en Buenos Aires depende principalmente del volumen de pertenencias, el piso, la distancia entre origen y destino, y los servicios requeridos. Un monoambiente sin complicaciones es el traslado más económico; una casa completa con maniobras por soga y embalaje premium puede multiplicar varias veces ese valor. La única forma de obtener un precio exacto es con un presupuesto personalizado — en Marino Mudanzas lo damos sin cargo y sin compromiso.
             </p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Factores que determinan el precio de una mudanza</h2>
+            <h2 className="article-h2">Factores que determinan el precio de una mudanza</h2>
 
             <p><strong className="text-foreground">1. Volumen de la mudanza:</strong> Es el factor más determinante. Se mide en metros cúbicos y depende de la cantidad de muebles, electrodomésticos y cajas. Un monoambiente tiene un volumen promedio de 15-20 m³, un departamento de 3 ambientes puede llegar a 40-50 m³, y una casa completa puede superar los 80 m³.</p>
 
@@ -105,8 +105,8 @@ export default function Page() {
 
             <p><strong className="text-foreground">5. Fecha y horario:</strong> Mudarse a fin de mes o los sábados suele tener mayor demanda. Elegir entre semana y en los primeros 15 días del mes es más conveniente.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Factores que incrementan el costo</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Factores que incrementan el costo</h2>
+            <ul className="article-list">
               <li>Piso alto sin ascensor (mayor esfuerzo de los operarios)</li>
               <li>Muebles muy grandes que requieren elevación por soga</li>
               <li>Gran volumen de pertenencias (necesidad de camión más grande o dos viajes)</li>
@@ -115,20 +115,20 @@ export default function Page() {
               <li>Distancia larga entre origen y destino en GBA</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cómo obtener el mejor precio para tu mudanza?</h2>
+            <h2 className="article-h2">¿Cómo obtener el mejor precio para tu mudanza?</h2>
             <p>Pedí un presupuesto personalizado. En Marino Mudanzas hacemos una evaluación telefónica o por WhatsApp para dimensionar correctamente tu mudanza y darte un precio cerrado, sin sorpresas. Con más de 80 años de experiencia, garantizamos transparencia en cada presupuesto.</p>
 
             <p>Un presupuesto profesional debe especificar: cantidad de operarios, tamaño del camión, materiales de embalaje incluidos y horario estimado de trabajo. Desconfiá de presupuestos muy vagos o que no detallen los servicios incluidos.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre el costo de una mudanza</h2>
+            <h2 className="article-h2">Preguntas frecuentes sobre el costo de una mudanza</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué incluye el precio de una mudanza profesional?</h3>
+            <h3 className="article-h3">¿Qué incluye el precio de una mudanza profesional?</h3>
             <p>Incluye: embalaje de muebles con mantas y film stretch, desarmado y armado de muebles, carga y descarga, transporte en camión propio, y coordinación con el consorcio. El embalaje de objetos frágiles y el guardamuebles son servicios adicionales.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué factores encarecen el precio?</h3>
+            <h3 className="article-h3">¿Qué factores encarecen el precio?</h3>
             <p>Piso alto sin ascensor, necesidad de elevar muebles por soga, gran volumen de pertenencias, mudanza a fin de mes o sábados, y distancia larga entre origen y destino.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo puedo reducir el costo de mi mudanza?</h3>
+            <h3 className="article-h3">¿Cómo puedo reducir el costo de mi mudanza?</h3>
             <p>Elegí una fecha entre semana y en los primeros 15 días del mes, embalá vos mismo lo que podás, descartá objetos que no necesitás, y reservá con anticipación para tener más opciones de fecha.</p>
           </div>
 
@@ -137,27 +137,27 @@ export default function Page() {
               href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20solicitar%20un%20presupuesto%20de%20mudanza%20sin%20cargo"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 bg-green-600 text-white px-8 py-4 rounded-lg font-body font-bold text-lg hover:opacity-90 transition-opacity shadow-xl"
+              className="btn-whatsapp btn-shimmer !px-8 !py-4 text-lg font-bold"
             >
               <MessageCircle className="w-6 h-6" />
               Pedí tu presupuesto gratis
             </a>
             <a
               href="tel:+541146111818"
-              className="flex items-center gap-3 bg-navy text-white px-8 py-4 rounded-lg font-body font-bold text-lg hover:opacity-90 transition-opacity shadow-xl"
+              className="btn-navy !px-8 !py-4 text-lg font-bold"
             >
               <Phone className="w-6 h-6" />
               Llamanos: 4611-1818
             </a>
           </div>
 
-          <div className="mt-12 pt-8 border-t border-border">
-            <h3 className="font-display text-lg font-bold text-foreground mb-4">Artículos relacionados</h3>
+          <div className="article-related">
+            <h3 className="article-related-title">Artículos relacionados</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              <Link href="/blog/que-incluye-una-mudanza" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">¿Qué incluye un servicio de mudanza?</Link>
-              <Link href="/blog/empresa-mudanzas-confiable-buenos-aires" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Cómo elegir una empresa confiable</Link>
-              <Link href="/blog/checklist-mudanza" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Checklist completo de mudanza</Link>
-              <Link href="/mudanzas-residenciales" className="bg-card border border-border rounded-lg px-4 py-3 font-body text-sm font-semibold text-foreground hover:border-gold/40 hover:text-gold transition-colors">Mudanzas Residenciales</Link>
+              <Link href="/blog/que-incluye-una-mudanza" className="article-related-link">¿Qué incluye un servicio de mudanza?</Link>
+              <Link href="/blog/empresa-mudanzas-confiable-buenos-aires" className="article-related-link">Cómo elegir una empresa confiable</Link>
+              <Link href="/blog/checklist-mudanza" className="article-related-link">Checklist completo de mudanza</Link>
+              <Link href="/mudanzas-residenciales" className="article-related-link">Mudanzas Residenciales</Link>
             </div>
           </div>
         </article>

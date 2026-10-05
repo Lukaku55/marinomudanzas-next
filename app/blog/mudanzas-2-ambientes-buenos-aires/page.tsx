@@ -97,15 +97,15 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanza de 2 ambientes en Buenos Aires</h1>
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">← Volver al blog</Link>
+          <h1 className="article-title">Mudanza de 2 ambientes en Buenos Aires</h1>
+          <div className="article-body">
 
             <p>El departamento de 2 ambientes es el tipo de vivienda más común en CABA y, por eso, el tipo de mudanza que más realizamos. Ya sea un departamento en un edificio de los años 50 sin ascensor o uno moderno en Palermo con elevador de servicio, en Marino Mudanzas tenemos el equipo y el camión del tamaño justo para cada situación.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires?</h2>
+            <h2 className="article-h2">¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires?</h2>
             <p>El precio depende principalmente de tres factores: si hay ascensor o no, el piso, y el volumen real de muebles y cajas. Como referencia para 2026:</p>
 
             <div className="overflow-x-auto mt-4">
@@ -138,9 +138,9 @@ export default function Page() {
             </div>
             <p className="text-sm">Precios orientativos para CABA. El presupuesto final se define según el inventario real de tu departamento.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué camión necesitás para un 2 ambientes?</h2>
+            <h2 className="article-h2">¿Qué camión necesitás para un 2 ambientes?</h2>
             <p>Para un departamento de 2 ambientes estándar usamos una camioneta grande o camión chico (20–30 m³ de capacidad). Eso es suficiente para:</p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li>Cama matrimonial + placar + mesitas de noche</li>
               <li>Sillones, mesa y sillas de comedor</li>
               <li>Escritorio, biblioteca, televisor</li>
@@ -149,8 +149,8 @@ export default function Page() {
             </ul>
             <p>Si acumulaste mucho durante años (muchos libros, ropa extra, herramientas, muebles de más) es posible que necesitemos un camión mediano o dos viajes. Lo evaluamos al presupuestar para que no haya sorpresas el día de la mudanza.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Qué incluye el servicio para un 2 ambientes</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Qué incluye el servicio para un 2 ambientes</h2>
+            <ul className="article-list">
               <li><strong>Desarmado y armado de muebles</strong> — placares, camas de dos plazas, escritorios con estructura metálica</li>
               <li><strong>Embalaje de frágiles</strong> — vajilla, cuadros, pantallas y objetos decorativos</li>
               <li><strong>Traslado de electrodomésticos</strong> — lavarropas, heladera, microondas, televisor</li>
@@ -158,17 +158,17 @@ export default function Page() {
               <li><strong>Precio cerrado</strong> — el precio que presupuestamos es el que pagás, sin extras</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Lo que complica una mudanza de 2 ambientes</h2>
+            <h2 className="article-h2">Lo que complica una mudanza de 2 ambientes</h2>
             <p>La mayoría de los imprevistos en mudanzas de 2 ambientes vienen de los mismos puntos:</p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li><strong>El lavarropas</strong> — pesa entre 70 y 90 kg. Sin ascensor y en pisos altos suma tiempo y esfuerzo. Siempre lo contemplamos en el presupuesto.</li>
               <li><strong>El placar empotrado</strong> — si el placar es demasiado grande para salir entero por la puerta, hay que desarmarlo por paneles. Es trabajo extra que hay que prever.</li>
               <li><strong>La cantidad de cajas</strong> — la gente suele subestimar cuántas cajas tiene. Recomendamos empacar antes de que lleguemos para no perder tiempo el día de la mudanza.</li>
               <li><strong>El horario del consorcio</strong> — muchos edificios tienen restricciones de horario para mudanzas (generalmente 8 a 18hs, algunos hasta las 20hs). Verificar antes evita problemas.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Checklist para preparar tu mudanza de 2 ambientes</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Checklist para preparar tu mudanza de 2 ambientes</h2>
+            <ul className="article-list">
               <li>Consultar al consorcio el horario permitido para mudanzas</li>
               <li>Reservar el ascensor o la planta baja con el encargado</li>
               <li>Tener todo embalado en cajas antes de que llegue el camión</li>
@@ -177,38 +177,38 @@ export default function Page() {
               <li>Confirmar si el nuevo domicilio también tiene restricciones de consorcio</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas de 2 ambientes</h2>
+            <h2 className="article-h2">Preguntas frecuentes sobre mudanzas de 2 ambientes</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires?</h3>
+            <h3 className="article-h3">¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires?</h3>
             <p>Entre a consultar y a consultar con ascensor. Sin ascensor puede llegar a a consultar según el piso. Pedí un presupuesto sin cargo con el detalle de tu departamento para un precio exacto.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto tiempo lleva una mudanza de 2 ambientes?</h3>
+            <h3 className="article-h3">¿Cuánto tiempo lleva una mudanza de 2 ambientes?</h3>
             <p>Entre 3 y 5 horas con ascensor. Entre 5 y 7 horas sin ascensor. Con mucho mobiliario o pisos altos puede extenderse, pero siempre lo aclaramos al presupuestar.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué camión se necesita para un 2 ambientes?</h3>
+            <h3 className="article-h3">¿Qué camión se necesita para un 2 ambientes?</h3>
             <p>Una camioneta grande o camión chico (20–30 m³) en la mayoría de los casos. Si el volumen es mayor al promedio, usamos un camión mediano o planificamos dos viajes.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación hay que reservar?</h3>
+            <h3 className="article-h3">¿Con cuánta anticipación hay que reservar?</h3>
             <p>Mínimo 5–7 días. Para fin de mes o sábados, 10–15 días. Los últimos días del mes tienen mucha demanda y los turnos se llenan rápido.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué incluye el servicio?</h3>
+            <h3 className="article-h3">¿Qué incluye el servicio?</h3>
             <p>Carga y descarga, desarmado y armado de muebles, embalaje de frágiles, traslado de electrodomésticos y colocación en destino. Precio cerrado, sin sorpresas.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <h2 className="article-h2">Solicitá tu presupuesto sin cargo</h2>
             <p>Contanos el barrio de origen, el barrio de destino, el piso y si hay ascensor. Con eso te damos un precio cerrado en el día. Trabajamos de lunes a sábado de 8 a 18hs.</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            <div className="article-cta">
+              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-shimmer">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="btn-navy">Llamanos: 4611-1818</a>
             </div>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">También puede interesarte</h2>
+            <h2 className="article-h2">También puede interesarte</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
-              <Link href="/blog/mudanzas-monoambiente-buenos-aires" className="text-gold hover:underline text-sm">Mudanza de monoambiente</Link>
-              <Link href="/blog/cuanto-cuesta-mudanza-buenos-aires" className="text-gold hover:underline text-sm">¿Cuánto cuesta una mudanza?</Link>
-              <Link href="/blog/cuanto-tiempo-dura-una-mudanza" className="text-gold hover:underline text-sm">¿Cuánto tiempo dura?</Link>
-              <Link href="/blog/mudanzas-con-y-sin-ascensor" className="text-gold hover:underline text-sm">Con y sin ascensor</Link>
-              <Link href="/blog/checklist-mudanza" className="text-gold hover:underline text-sm">Checklist de mudanza</Link>
-              <Link href="/mudanzas-residenciales" className="text-gold hover:underline text-sm">Mudanzas residenciales</Link>
+              <Link href="/blog/mudanzas-monoambiente-buenos-aires" className="article-chip">Mudanza de monoambiente</Link>
+              <Link href="/blog/cuanto-cuesta-mudanza-buenos-aires" className="article-chip">¿Cuánto cuesta una mudanza?</Link>
+              <Link href="/blog/cuanto-tiempo-dura-una-mudanza" className="article-chip">¿Cuánto tiempo dura?</Link>
+              <Link href="/blog/mudanzas-con-y-sin-ascensor" className="article-chip">Con y sin ascensor</Link>
+              <Link href="/blog/checklist-mudanza" className="article-chip">Checklist de mudanza</Link>
+              <Link href="/mudanzas-residenciales" className="article-chip">Mudanzas residenciales</Link>
             </div>
           </div>
         </article>

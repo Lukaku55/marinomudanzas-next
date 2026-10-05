@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Galería de Trabajos | Fotos Reales de Mudanzas | Marino Mudanzas",
@@ -39,76 +40,98 @@ export default function Page() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gallerySchema) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <div className="container mx-auto px-4 max-w-5xl">
-
-          <div className="text-center mb-12">
-            <Link href="/" className="font-body text-gold hover:underline text-sm mb-6 inline-block">
+      <main className="pb-24">
+        <section className="page-hero grain pb-24 pt-36 md:pb-28 md:pt-44">
+          <div aria-hidden className="absolute inset-0 grid-lines" />
+          <div aria-hidden className="aura -left-24 top-10 h-96 w-96 aura-blue" />
+          <div className="container relative mx-auto px-4 max-w-5xl text-center">
+            <Link
+              href="/"
+              className="group mb-8 inline-flex items-center gap-2 font-body text-sm font-medium text-gold transition-[gap,color] duration-500 hover:gap-3 hover:text-gold-light"
+              style={{ animation: "fade-up 0.9s var(--ease-out-expo) both" }}
+            >
               ← Volver al inicio
             </Link>
-            <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
+            <h1
+              className="font-display text-4xl md:text-6xl font-bold text-primary-foreground mb-6"
+              style={{ animation: "fade-up 1s 0.1s var(--ease-out-expo) both" }}
+            >
               Galería de Trabajos
             </h1>
-            <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
+            <p
+              className="font-body text-primary-foreground/75 text-lg max-w-2xl mx-auto"
+              style={{ animation: "fade-up 1s 0.25s var(--ease-out-expo) both" }}
+            >
               Más de 80 años mudando familias y empresas en Buenos Aires. Estas son algunas de las mudanzas realizadas por nuestro equipo en CABA y GBA.
             </p>
           </div>
+        </section>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="container mx-auto px-4 max-w-6xl -mt-12 relative">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4" data-reveal-stagger="90">
             {photos.map((photo, i) => (
               <a
                 key={i}
                 href={`https://drive.google.com/file/d/${photo.id}/view`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block aspect-square overflow-hidden rounded-xl bg-muted shadow-sm hover:shadow-xl transition-all duration-300"
+                data-reveal="clip"
+                className={`group relative block overflow-hidden rounded-2xl bg-muted shadow-[0_20px_40px_-30px_hsl(var(--navy)/0.6)] ${
+                  i === 0 || i === 4 ? "md:col-span-2 md:row-span-2 aspect-square md:aspect-auto" : "aspect-square"
+                }`}
                 title={photo.alt}
               >
                 <img
                   src={`https://drive.google.com/thumbnail?id=${photo.id}&sz=w800`}
                   alt={photo.alt}
                   loading={i < 3 ? "eager" : "lazy"}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover scale-105 transition-transform duration-[1.4s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.15]"
                 />
+                <span aria-hidden className="absolute inset-0 bg-gradient-to-t from-navy/70 via-navy/10 to-transparent opacity-0 transition-opacity duration-700 group-hover:opacity-100" />
+                <span aria-hidden className="absolute inset-3 rounded-xl border border-gold/0 scale-95 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-100 group-hover:border-gold/80" />
+                <span aria-hidden className="absolute bottom-5 right-5 flex h-10 w-10 items-center justify-center rounded-full bg-gold text-navy opacity-0 translate-y-3 transition-all duration-700 group-hover:opacity-100 group-hover:translate-y-0"><ArrowUpRight className="h-5 w-5" /></span>
               </a>
             ))}
           </div>
 
-          <div className="bg-muted rounded-xl p-8 mt-16 text-center">
-            <h2 className="font-display text-2xl font-bold text-foreground mb-3">
-              ¿Querés que hagamos tu mudanza?
-            </h2>
-            <p className="font-body text-muted-foreground mb-6">
-              Pedí un presupuesto sin cargo. Trabajamos de lunes a sábado de 8 a 18hs en toda CABA y GBA.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://wa.me/5491154507435"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
-              >
-                Pedí presupuesto por WhatsApp
-              </a>
-              <a
-                href="tel:+541146111818"
-                className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
-              >
-                Llamanos: 4611-1818
-              </a>
+          <div data-reveal="up" className="relative overflow-hidden rounded-[2rem] bg-navy grain p-10 md:p-14 mt-20 text-center">
+            <div aria-hidden className="absolute inset-0 grid-lines" />
+            <div aria-hidden className="pointer-events-none absolute left-1/2 top-1/2 -ml-48 -mt-48 h-96 w-96 rounded-full border border-gold/20 animate-ping-ring" style={{ animationDuration: "6s" }} />
+            <div className="relative">
+              <h2 className="font-display text-2xl md:text-4xl font-bold text-primary-foreground mb-4">
+                ¿Querés que hagamos tu mudanza?
+              </h2>
+              <p className="font-body text-primary-foreground/75 mb-8">
+                Pedí un presupuesto sin cargo. Trabajamos de lunes a sábado de 8 a 18hs en toda CABA y GBA.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="https://wa.me/5491154507435"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-whatsapp btn-shimmer"
+                >
+                  <span className="relative z-[2]">Pedí presupuesto por WhatsApp</span>
+                </a>
+                <a
+                  href="tel:+541146111818"
+                  className="btn-ghost"
+                >
+                  Llamanos: 4611-1818
+                </a>
+              </div>
             </div>
           </div>
 
-          <div className="mt-12 pt-8 border-t border-border text-center">
-            <p className="font-body text-muted-foreground text-sm mb-4">¿Necesitás más información?</p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/mudanzas-residenciales" className="font-body text-gold hover:underline text-sm font-medium">Mudanzas residenciales</Link>
-              <Link href="/mudanzas-oficinas" className="font-body text-gold hover:underline text-sm font-medium">Mudanzas de oficinas</Link>
-              <Link href="/guardamuebles" className="font-body text-gold hover:underline text-sm font-medium">Guardamuebles</Link>
-              <Link href="/blog" className="font-body text-gold hover:underline text-sm font-medium">Blog de consejos</Link>
+          <div className="mt-14 pt-10 border-t border-border text-center" data-reveal="up">
+            <p className="font-body text-muted-foreground text-sm mb-5">¿Necesitás más información?</p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <Link href="/mudanzas-residenciales" className="article-chip">Mudanzas residenciales</Link>
+              <Link href="/mudanzas-oficinas" className="article-chip">Mudanzas de oficinas</Link>
+              <Link href="/guardamuebles" className="article-chip">Guardamuebles</Link>
+              <Link href="/blog" className="article-chip">Blog de consejos</Link>
             </div>
           </div>
-
         </div>
       </main>
       <Footer />

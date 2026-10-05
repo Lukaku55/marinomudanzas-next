@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cinzel, Inter } from "next/font/google";
 import "./globals.css";
+import SiteFx from "@/components/fx/SiteFx";
 
 const cinzel = Cinzel({
   subsets: ["latin"],
@@ -129,14 +130,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es">
+    <html lang="es" suppressHydrationWarning>
       <head>
+        {/* Hide [data-reveal] elements before first paint; failsafe shows everything if JS never boots */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "document.documentElement.classList.add('js-reveal');setTimeout(function(){if(!window.__revealReady)document.documentElement.classList.remove('js-reveal')},3000);",
+          }}
+        />
         <link rel="preload" as="image" href="/hero-mudanzas.webp" type="image/webp" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
         <meta name="google-site-verification" content="rk9l8EzMSLczWXE-YqyLiFk9b9lAOG3iaIxc7GHApaQ" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       </head>
-      <body className={`${cinzel.variable} ${inter.variable}`}>{children}</body>
+      <body className={`${cinzel.variable} ${inter.variable}`}>
+        {children}
+        <SiteFx />
+      </body>
     </html>
   );
 }

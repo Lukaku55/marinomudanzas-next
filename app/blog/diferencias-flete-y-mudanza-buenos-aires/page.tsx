@@ -90,84 +90,84 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">¿Flete o Mudanza? Diferencias y Cuándo Conviene Cada Uno</h1>
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">← Volver al blog</Link>
+          <h1 className="article-title">¿Flete o Mudanza? Diferencias y Cuándo Conviene Cada Uno</h1>
+          <div className="article-body">
 
             <p>Cuando llegó el momento de mudarse, una de las primeras decisiones es elegir entre un flete y una mudanza completa. La confusión es frecuente: mucha gente usa los términos como si fueran sinónimos, pero no lo son. Acá te explicamos las diferencias reales, los precios y cómo saber cuál necesitás.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué es un flete?</h2>
+            <h2 className="article-h2">¿Qué es un flete?</h2>
             <p>Un flete básico incluye el <strong>vehículo y el conductor</strong>. El chofer maneja, pero la carga y la descarga corren por cuenta del cliente. Si pedís un flete, vos (o las personas que te ayuden) van a cargar los muebles en el camión y descargarlos en destino. El conductor no está obligado a ayudar con la carga.</p>
             <p>El flete conviene cuando:</p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li>Tenés pocas cosas y sin muebles grandes o pesados</li>
               <li>La distancia es corta y podés armar un equipo de amigos para cargar</li>
               <li>No hay escaleras complicadas ni pisos altos</li>
               <li>Querés reducir el costo al mínimo y asumís el trabajo físico</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué es una mudanza completa?</h2>
+            <h2 className="article-h2">¿Qué es una mudanza completa?</h2>
             <p>Una mudanza completa incluye <strong>operarios especializados que cargan, descargan, desarman y arman los muebles</strong>, y embalan los objetos frágiles (vajilla, cuadros, televisores, espejos). Vos no tenés que hacer esfuerzo físico: el equipo se encarga de todo desde que llegan hasta que el último mueble está armado en destino.</p>
             <p>La mudanza completa conviene cuando:</p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li>Tenés un departamento completo con muebles grandes (placard, cama matrimonial, biblioteca)</li>
               <li>Vivís en un piso alto con escalera o ascensor angosto</li>
               <li>Tenés objetos frágiles o de valor que requieren embalaje profesional</li>
               <li>No tenés quién te ayude con la carga o no querés depender de favores</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Mudanza con embalaje completo</h2>
+            <h2 className="article-h2">Mudanza con embalaje completo</h2>
             <p>El nivel más completo del servicio. Además de todo lo que incluye la mudanza completa, el equipo de embalajistas llega el día anterior (o el mismo día) y embala toda la vajilla, la ropa colgada, los libros, los cuadros y los objetos delicados. Ideal para mudanzas de 4 ambientes en adelante o cuando hay mucha vajilla y objetos de valor.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Comparativa rápida</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Comparativa rápida</h2>
+            <ul className="article-list">
               <li><strong>Flete básico</strong> — solo transporte, vos cargás, precio menor, mayor riesgo de rotura sin embalaje profesional</li>
               <li><strong>Mudanza completa</strong> — operarios + transporte + desarmado y embalaje de frágiles, precio mayor, mínimo esfuerzo del cliente</li>
               <li><strong>Mudanza con embalaje total</strong> — todo lo anterior más embalaje previo de toda la vivienda, ideal para casas grandes o cuando no tenés tiempo de embalar</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué incluye nuestro servicio?</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">¿Qué incluye nuestro servicio?</h2>
+            <ul className="article-list">
               <li>Desarmado y armado de muebles</li>
               <li>Embalaje de objetos frágiles, vajilla y cuadros</li>
               <li>Vehículo del tamaño adecuado</li>
               <li>Presupuesto sin cargo y precio cerrado</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre flete vs mudanza</h2>
+            <h2 className="article-h2">Preguntas frecuentes sobre flete vs mudanza</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuál es la diferencia de precio entre un flete y una mudanza completa?</h3>
+            <h3 className="article-h3">¿Cuál es la diferencia de precio entre un flete y una mudanza completa?</h3>
             <p>Un flete básico puede costar entre un 40 y un 60% menos que una mudanza completa, pero no incluye operarios. La mudanza tiene un costo mayor pero incluye personal, desarmado y armado, y embalaje de frágiles.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿El flete incluye operarios?</h3>
+            <h3 className="article-h3">¿El flete incluye operarios?</h3>
             <p>En un flete básico, no. Solo incluye el vehículo y el conductor. La carga y descarga corre por cuenta del cliente.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuándo vale la pena pagar más por una mudanza completa?</h3>
+            <h3 className="article-h3">¿Cuándo vale la pena pagar más por una mudanza completa?</h3>
             <p>Cuando tenés muebles grandes, vivís en un piso alto, tenés objetos frágiles o querés evitar el esfuerzo físico y el riesgo de roturas. Para un departamento completo, siempre es la mejor opción.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Marino Mudanzas hace fletes?</h3>
+            <h3 className="article-h3">¿Marino Mudanzas hace fletes?</h3>
             <p>Sí. Hacemos tanto fletes como mudanzas completas. Consultanos y te recomendamos el servicio más conveniente según lo que necesitás mover.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo sé qué servicio necesito?</h3>
+            <h3 className="article-h3">¿Cómo sé qué servicio necesito?</h3>
             <p>Si solo movés pocas cosas sin muebles grandes y podés cargar vos mismo, un flete alcanza. Si tenés muebles, muchas cajas o escaleras, una mudanza completa es la opción más conveniente. Pedinos un presupuesto sin cargo y te asesoramos.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <h2 className="article-h2">Solicitá tu presupuesto sin cargo</h2>
             <p>Contanos tu situación y te damos un precio cerrado en el día. Trabajamos de lunes a sábado de 8 a 18hs.</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            <div className="article-cta">
+              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-shimmer">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="btn-navy">Llamanos: 4611-1818</a>
             </div>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">También te puede interesar</h2>
+            <h2 className="article-h2">También te puede interesar</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
-              <Link href="/blog/fletes-buenos-aires" className="text-gold hover:underline text-sm">Fletes en Buenos Aires</Link>
-              <Link href="/blog/mudanzas-departamentos-buenos-aires" className="text-gold hover:underline text-sm">Mudanzas de departamentos</Link>
-              <Link href="/blog/mudanzas-edificios-buenos-aires" className="text-gold hover:underline text-sm">Mudanzas en edificios</Link>
-              <Link href="/blog/cuanto-tarda-una-mudanza-buenos-aires" className="text-gold hover:underline text-sm">¿Cuánto tarda una mudanza?</Link>
-              <Link href="/blog/cuanto-cuesta-mudanza-buenos-aires" className="text-gold hover:underline text-sm">¿Cuánto cuesta una mudanza?</Link>
-              <Link href="/blog/mudanza-monoambiente-buenos-aires" className="text-gold hover:underline text-sm">Mudanza de monoambiente</Link>
+              <Link href="/blog/fletes-buenos-aires" className="article-chip">Fletes en Buenos Aires</Link>
+              <Link href="/blog/mudanzas-departamentos-buenos-aires" className="article-chip">Mudanzas de departamentos</Link>
+              <Link href="/blog/mudanzas-edificios-buenos-aires" className="article-chip">Mudanzas en edificios</Link>
+              <Link href="/blog/cuanto-tarda-una-mudanza-buenos-aires" className="article-chip">¿Cuánto tarda una mudanza?</Link>
+              <Link href="/blog/cuanto-cuesta-mudanza-buenos-aires" className="article-chip">¿Cuánto cuesta una mudanza?</Link>
+              <Link href="/blog/mudanza-monoambiente-buenos-aires" className="article-chip">Mudanza de monoambiente</Link>
             </div>
           </div>
         </article>

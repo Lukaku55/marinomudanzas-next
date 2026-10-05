@@ -13,24 +13,24 @@ export default function Page() {
   return (
     <>
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas en Villa del Parque</h1>
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">← Volver al blog</Link>
+          <h1 className="article-title">Mudanzas en Villa del Parque</h1>
+          <div className="article-body">
             <p>Villa del Parque es uno de los barrios más tranquilos y residenciales del oeste de la Ciudad Autónoma de Buenos Aires. Con calles arboladas, casas de familia y una gran cantidad de edificios de mediana altura, es un barrio donde las mudanzas requieren conocimiento local y experiencia en distintos tipos de accesos. En Marino Mudanzas realizamos mudanzas en Villa del Parque con más de 80 años de experiencia en CABA.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Características de las mudanzas en Villa del Parque</h2>
+            <h2 className="article-h2">Características de las mudanzas en Villa del Parque</h2>
             <p>Villa del Parque tiene una mezcla particular de propiedades — casas bajas con jardín, PHs de dos plantas y edificios de 4 a 8 pisos sin ascensor en su mayoría. Esto hace que muchas mudanzas en el barrio requieran técnicas especiales como movimientos por soga o escalera para muebles de gran tamaño.</p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li>Gran cantidad de edificios sin ascensor — experiencia en escaleras angostas</li>
               <li>Casas con jardín y pasillos laterales — accesos alternativos para muebles grandes</li>
               <li>Calles internas con poco tráfico — fácilita la carga y descarga</li>
               <li>PHs de dos plantas — coordinación especial para muebles voluminosos</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Nuestro servicio de mudanzas en Villa del Parque</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Nuestro servicio de mudanzas en Villa del Parque</h2>
+            <ul className="article-list">
               <li><strong>Embalaje profesional incluido:</strong> protegemos cada mueble con mantas acolchadas y film stretch.</li>
               <li><strong>Desarmado y armado de muebles:</strong> camas, placards, bibliotecas y todo lo necesario sin cargo adicional.</li>
               <li><strong>Mudanzas por soga:</strong> para muebles que no entran por escalera o cuando no hay ascensor.</li>
@@ -39,28 +39,28 @@ export default function Page() {
               <li><strong>Flota propia:</strong> camiónes de distintos tamaños para adaptarnos a cada mudanza.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Villa del Parque donde operamos</h2>
+            <h2 className="article-h2">Zonas de Villa del Parque donde operamos</h2>
             <p>Cubrimos todo el barrio de Villa del Parque y las zonas limítrofes — Villa del Parque propiamente dicho, las áreas cercanas a la Av. San Martín, Av. Nazca, Av. Francisco Beiró y todo el perímetro del barrio incluyendo los límites con Villa Devoto, Agronomía y Villa Pueyrredón.</p>
 
 
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Villa del Parque</h2>
+            <h2 className="article-h2">Preguntas frecuentes sobre mudanzas en Villa del Parque</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas en edificios sin ascensor en Villa del Parque?</h3>
+            <h3 className="article-h3">¿Hacen mudanzas en edificios sin ascensor en Villa del Parque?</h3>
             <p>Sí, tenemos amplia experiencia en edificios sin ascensor. Nuestro equipo está capacitado para trabajar en escaleras angostas y en casos donde los muebles no pasan, utilizamos técnicas de soga por el exterior.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación tengo que reservar?</h3>
+            <h3 className="article-h3">¿Con cuánta anticipación tengo que reservar?</h3>
             <p>Recomendamos reservar con al menos 10 a 15 días de anticipación. Para mudanzas a fin de mes, lo ideal es reservar con 3 semanas.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿También hacen mudanzas desde Villa del Parque hacia otros barrios o el GBA?</h3>
+            <h3 className="article-h3">¿También hacen mudanzas desde Villa del Parque hacia otros barrios o el GBA?</h3>
             <p>Sí, cubrimos mudanzas desde y hacia cualquier barrio de CABA y todo el Gran Buenos Aires. También realizamos mudanzas al interior del país.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Trabajan los sábados?</h3>
+            <h3 className="article-h3">¿Trabajan los sábados?</h3>
             <p>Sí, trabajamos de lunes a sábado de 8 a 18hs.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Barrios cercanos donde también operamos</h2>
+            <h2 className="article-h2">Barrios cercanos donde también operamos</h2>
             <p>Si tu mudanza involucra barrios limítrofes, también cubrimos:</p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li><a href="/blog/mudanzas-villa-devoto" className="text-gold hover:underline">Mudanzas en Villa Devoto</a></li>
               <li><a href="/blog/mudanzas-paternal" className="text-gold hover:underline">Mudanzas en Paternal</a></li>
               <li><a href="/blog/mudanzas-agronomia" className="text-gold hover:underline">Mudanzas en Agronomía</a></li>
@@ -68,11 +68,11 @@ export default function Page() {
               <li><a href="/blog/mudanzas-villa-pueyrredon" className="text-gold hover:underline">Mudanzas en Villa Pueyrredón</a></li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Contactános para tu mudanza en Villa del Parque</h2>
+            <h2 className="article-h2">Contactános para tu mudanza en Villa del Parque</h2>
             <p>Pedí tu presupuesto sin cargo hoy. Respondemos de inmediato por WhatsApp o teléfono.</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">WhatsApp: 11-5450-7435</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
+            <div className="article-cta">
+              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-shimmer">WhatsApp: 11-5450-7435</a>
+              <a href="tel:+541146111818" className="btn-navy">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

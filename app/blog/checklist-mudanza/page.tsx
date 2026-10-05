@@ -35,15 +35,15 @@ export default function Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">Volver al blog</Link>
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Checklist de Mudanza Completo 2026</h1>
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">Volver al blog</Link>
+          <h1 className="article-title">Checklist de Mudanza Completo 2026</h1>
+          <div className="article-body">
             <p>Una mudanza bien planificada es una mudanza exitosa. En Marino Mudanzas, con más de 80 años de experiencia, sabemos que la organizacion previa es clave para evitar el estres y los imprevistos. Por eso preparamos este checklist completo para que no te olvides de nada.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">4 semanas antes de la mudanza</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">4 semanas antes de la mudanza</h2>
+            <ul className="article-list">
               <li>Contratar la empresa de mudanzas y coordinar la fecha</li>
               <li>Avisar al consorcio del edificio de origen y destino</li>
               <li>Solicitar el permiso de carga y descarga si es necesario</li>
@@ -54,8 +54,8 @@ export default function Page() {
               <li>Avisar el cambio de domicilio al trabajo, banco y organismos oficiales</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">2 semanas antes de la mudanza</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">2 semanas antes de la mudanza</h2>
+            <ul className="article-list">
               <li>Empezar a embalar libros, adornos y objetos que no uses</li>
               <li>Etiquetar cada caja con su contenido y el cuarto de destino</li>
               <li>Separar los objetos fragiles para embalarlos con cuidado especial</li>
@@ -65,8 +65,8 @@ export default function Page() {
               <li>Hacer una lista de los muebles que necesitan desarmarse</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">1 semana antes de la mudanza</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">1 semana antes de la mudanza</h2>
+            <ul className="article-list">
               <li>Terminar de embalar todo excepto lo de uso diario</li>
               <li>Confirmar horario y detalles con la empresa de mudanzas</li>
               <li>Preparar una caja de "primer dia" con lo esencial: ropa, documentos, medicamentos, cargadores</li>
@@ -74,8 +74,8 @@ export default function Page() {
               <li>Confirmar el acceso al ascensor en ambos edificios</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">El dia de la mudanza</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">El dia de la mudanza</h2>
+            <ul className="article-list">
               <li>Estar presente desde el inicio para supervisar</li>
               <li>Tener a mano el inventario de muebles y cajas</li>
               <li>Proteger los pisos y marcos de puertas en ambas propiedades</li>
@@ -85,8 +85,8 @@ export default function Page() {
               <li>Firmar la conformidad del servicio con la empresa de mudanzas</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Despues de la mudanza</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Despues de la mudanza</h2>
+            <ul className="article-list">
               <li>Cambiar las cerraduras del nuevo hogar</li>
               <li>Dar de alta los servicios en el nuevo domicilio</li>
               <li>Actualizar el domicilio en el DNI y todos los documentos</li>
@@ -94,11 +94,11 @@ export default function Page() {
               <li>Conocer las normas del nuevo consorcio</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <h2 className="article-h2">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactános por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sabado de 8 a 18hs.</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamános: 4611-1818</a>
+            <div className="article-cta">
+              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-shimmer">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="btn-navy">Llamános: 4611-1818</a>
             </div>
           </div>
         </article>

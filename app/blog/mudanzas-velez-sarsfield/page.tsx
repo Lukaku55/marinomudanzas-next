@@ -90,16 +90,16 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas en Vélez Sársfield</h1>
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">← Volver al blog</Link>
+          <h1 className="article-title">Mudanzas en Vélez Sársfield</h1>
+          <div className="article-body">
 
             <p>Vélez Sársfield es un barrio tranquilo del oeste de Buenos Aires, conocido por el estadio del club homónimo y por sus calles residenciales con predominio de casas de familia. Con Av. Perito Moreno y Av. Segurola como ejes principales, el barrio tiene buen acceso vehicular y calles internas sin los congestionamientos de las zonas más céntricas. Un detalle a considerar: los días de partido en el estadio José Amalfitani pueden generar restricciones de tránsito en las inmediaciones. En Marino Mudanzas lo contemplamos al planificar cada mudanza en el barrio.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cómo son las mudanzas en Vélez Sársfield</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Cómo son las mudanzas en Vélez Sársfield</h2>
+            <ul className="article-list">
               <li><strong>Predominio de casas de familia</strong> — muchas con jardín, garaje y patio. Buen acceso para muebles de gran tamaño sin las complicaciones de consorcios ni ascensores.</li>
               <li><strong>Edificios bajos sobre avenidas</strong> — en Perito Moreno y Segurola hay edificios de 3 a 5 pisos, algunos con ascensor. Coordinamos el acceso y el uso de áreas comunes con anticipación.</li>
               <li><strong>Calles tranquilas con buen acceso vehicular</strong> — tráfico reducido que permite estacionar el camión directamente frente a la propiedad en la mayoría de los casos.</li>
@@ -107,8 +107,8 @@ export default function Page() {
               <li><strong>Barrio consolidado y tranquilo</strong> — baja rotación residencial con propietarios estables. La demanda de mudanzas es moderada y permite más flexibilidad en la elección de fechas.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué incluye nuestro servicio de mudanzas en Vélez Sársfield?</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">¿Qué incluye nuestro servicio de mudanzas en Vélez Sársfield?</h2>
+            <ul className="article-list">
               <li>Desarmado y armado de muebles (placares, camas, escritorios)</li>
               <li>Embalaje de objetos frágiles, vajilla y cuadros</li>
               <li>Traslado de muebles de jardín, parrillas y objetos de exterior</li>
@@ -117,38 +117,38 @@ export default function Page() {
               <li>Coordinación de fecha considerando el calendario de partidos</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Vélez Sársfield</h2>
+            <h2 className="article-h2">Preguntas frecuentes sobre mudanzas en Vélez Sársfield</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Vélez Sársfield?</h3>
+            <h3 className="article-h3">¿Cuánto cuesta una mudanza en Vélez Sársfield?</h3>
             <p>Un departamento de 2 ambientes se cotiza según el caso. Una casa de familia puede ir a consultar según el caso según el volumen. El precio es siempre cerrado desde el presupuesto, sin costos adicionales el día de la mudanza.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué tipo de propiedades hay en el barrio?</h3>
+            <h3 className="article-h3">¿Qué tipo de propiedades hay en el barrio?</h3>
             <p>Predominio de casas de familia con jardín y garaje. También hay edificios bajos de 3 a 5 pisos en las avenidas principales. Barrio consolidado y tranquilo con baja rotación residencial.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Es fácil el acceso para el camión?</h3>
+            <h3 className="article-h3">¿Es fácil el acceso para el camión?</h3>
             <p>Sí. Calles internas tranquilas que permiten estacionar directamente frente a la propiedad. Av. Perito Moreno y Av. Segurola tienen buena circulación. No hay restricciones de carga especiales en el barrio.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Los días de partido afectan las mudanzas?</h3>
+            <h3 className="article-h3">¿Los días de partido afectan las mudanzas?</h3>
             <p>Sí. Los partidos en el estadio José Amalfitani pueden generar cortes y desvíos en las inmediaciones. Recomendamos verificar el fixture antes de elegir la fecha. Si el turno ya está pactado, coordinaremos el acceso por las calles alternativas.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué incluye el servicio?</h3>
+            <h3 className="article-h3">¿Qué incluye el servicio?</h3>
             <p>Desarmado y armado de muebles, embalaje de frágiles, traslado de objetos de jardín y exterior, vehículo adecuado al tipo de propiedad y precio cerrado desde el presupuesto sin cargo. Sin extras el día de la mudanza.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <h2 className="article-h2">Solicitá tu presupuesto sin cargo</h2>
             <p>Contanos el tipo de propiedad y a dónde te mudás. Te damos un precio cerrado en el día. Trabajamos de lunes a sábado de 8 a 18hs.</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            <div className="article-cta">
+              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-shimmer">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="btn-navy">Llamanos: 4611-1818</a>
             </div>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">También hacemos mudanzas en barrios cercanos</h2>
+            <h2 className="article-h2">También hacemos mudanzas en barrios cercanos</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
-              <Link href="/blog/mudanzas-liniers" className="text-gold hover:underline text-sm">Liniers</Link>
-              <Link href="/blog/mudanzas-mataderos" className="text-gold hover:underline text-sm">Mataderos</Link>
-              <Link href="/blog/mudanzas-floresta" className="text-gold hover:underline text-sm">Floresta</Link>
-              <Link href="/blog/mudanzas-monte-castro" className="text-gold hover:underline text-sm">Monte Castro</Link>
-              <Link href="/blog/mudanzas-parque-avellaneda" className="text-gold hover:underline text-sm">Parque Avellaneda</Link>
-              <Link href="/blog/mudanzas-villa-luro" className="text-gold hover:underline text-sm">Villa Luro</Link>
+              <Link href="/blog/mudanzas-liniers" className="article-chip">Liniers</Link>
+              <Link href="/blog/mudanzas-mataderos" className="article-chip">Mataderos</Link>
+              <Link href="/blog/mudanzas-floresta" className="article-chip">Floresta</Link>
+              <Link href="/blog/mudanzas-monte-castro" className="article-chip">Monte Castro</Link>
+              <Link href="/blog/mudanzas-parque-avellaneda" className="article-chip">Parque Avellaneda</Link>
+              <Link href="/blog/mudanzas-villa-luro" className="article-chip">Villa Luro</Link>
             </div>
           </div>
         </article>

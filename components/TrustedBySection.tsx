@@ -7,26 +7,36 @@ const companies = [
   { name: "Embajada de Francia", alt: "Servicio de mudanza para la Embajada de Francia por Marino Mudanzas" },
 ];
 
+type Company = (typeof companies)[number];
+
+const CompanyName = ({ company }: { company: Company }) => (
+  <div className="group flex items-center" title={company.alt}>
+    <span className="font-display text-2xl md:text-4xl font-bold text-foreground/35 whitespace-nowrap select-none px-8 md:px-12 transition-colors duration-500 group-hover:text-navy">
+      {company.name}
+    </span>
+    <span aria-hidden className="diamond opacity-60 transition-transform duration-500 group-hover:rotate-[225deg] group-hover:scale-150" />
+  </div>
+);
+
 const TrustedBySection = () => {
   return (
-    <section className="py-16 md:py-20 bg-secondary border-b border-border">
+    <section className="relative overflow-hidden py-20 md:py-24 bg-secondary border-y border-border">
       <div className="container mx-auto px-4">
-        <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground text-center mb-12">
+        <h2 data-reveal="up" className="font-display text-2xl md:text-3xl font-bold text-foreground text-center mb-12">
           Empresas que Confiaron en Nosotros
         </h2>
+      </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
+      <div data-reveal="up" className="marquee delay-reveal-1" style={{ ["--marquee-duration" as string]: "35s" }}>
+        <div className="marquee-track items-center py-4">
           {companies.map((company) => (
-            <div
-              key={company.name}
-              className="flex items-center justify-center h-20 w-full px-4 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
-              title={company.alt}
-            >
-              <span className="font-display text-lg md:text-xl font-bold text-foreground/70 text-center select-none">
-                {company.name}
-              </span>
-            </div>
+            <CompanyName key={company.name} company={company} />
           ))}
+          <div aria-hidden className="flex items-center" data-nosnippet>
+            {companies.map((company) => (
+              <CompanyName key={`dup-${company.name}`} company={company} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

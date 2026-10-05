@@ -70,47 +70,47 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">
             ← Volver al blog
           </Link>
 
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="article-title">
             Mudanzas en Verano en Buenos Aires: Guía Completa
           </h1>
           <p className="text-sm text-muted-foreground mb-8 font-body">10 de junio de 2026 · Marino Mudanzas</p>
 
-          <div className="prose prose-lg mt-4 font-body text-muted-foreground leading-relaxed space-y-6">
+          <div className="article-body">
 
             <p>
               El verano porteño trae calor intenso, días largos y — para muchos — el momento ideal para mudarse. Diciembre, enero y febrero son los meses de mayor movimiento en el mercado inmobiliario de Buenos Aires: se vencen contratos, se estrenan departamentos y la gente aprovecha las vacaciones para hacer el cambio. En Marino Mudanzas operamos durante todo el verano y sabemos exactamente qué desafíos trae esta época del año.
             </p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
+            <h2 className="article-h2">
               Ventajas de mudarse en verano
             </h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li><strong>Días más largos:</strong> el sol sale temprano y se pone tarde, lo que da mucho más tiempo útil para trabajar con luz natural.</li>
               <li><strong>Vacaciones escolares:</strong> si tenés hijos, el verano es el momento de menor disrupción para ellos — no hay que interrumpir el año escolar.</li>
               <li><strong>Mercado activo:</strong> hay más oferta de propiedades y mayor movimiento, lo que facilita coordinar salida y entrada en fechas convenientes.</li>
               <li><strong>Clima seco en algunos períodos:</strong> a diferencia del invierno, la preocupación principal no es la lluvia sino el calor — que es más predecible y manejable.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
+            <h2 className="article-h2">
               Desafíos del calor y cómo manejarlos
             </h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li><strong>Fatiga de los operarios:</strong> trabajar cargando muebles bajo 35°C es agotador. En Marino Mudanzas nos hidratamos constantemente y ajustamos el ritmo de trabajo para garantizar seguridad y cuidado en cada pieza.</li>
               <li><strong>Calor en el camión:</strong> el interior de un camión cerrado puede alcanzar temperaturas muy altas. Planificamos los tiempos de carga y descarga para minimizar la exposición de objetos sensibles.</li>
               <li><strong>Electrodomésticos:</strong> heladera, lavarropas y microondas necesitan cuidados especiales bajo el calor — ver sección más abajo.</li>
               <li><strong>Mayor demanda:</strong> enero y febrero son los meses más ocupados del año. Conviene reservar con al menos 2-3 semanas de anticipación.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
+            <h2 className="article-h2">
               Consejos para el día de la mudanza en verano
             </h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li><strong>Empezá lo más temprano posible:</strong> las primeras horas de la mañana son las más frescas. Arrancar a las 7 u 8hs hace una gran diferencia respecto a las 11hs.</li>
               <li><strong>Tené agua y bebidas frescas disponibles:</strong> para vos y para el equipo. Un termo con agua fría o bebidas isotónicas ayuda mucho en días calurosos.</li>
               <li><strong>Ventilá el nuevo hogar antes de que lleguen los muebles:</strong> abrí ventanas y ponés el aire acondicionado para que el ambiente esté fresco al momento de empezar a organizar.</li>
@@ -118,13 +118,13 @@ export default function Page() {
               <li><strong>Usá ropa cómoda y liviana:</strong> si vas a ayudar con la mudanza, vestite para el calor y usá protector solar.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
+            <h2 className="article-h2">
               Cómo proteger tus plantas en verano
             </h2>
             <p>
               Las plantas son uno de los elementos más vulnerables en una mudanza de verano. Estas son nuestras recomendaciones:
             </p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li>Lo ideal es trasladarlas en tu propio auto con aire acondicionado — el camión puede volverse un horno.</li>
               <li>No las riegues el día anterior para evitar que se ensucien o vuelquen durante el traslado.</li>
               <li>Si van en el camión, afianzalas bien para que no se caigan y asegurate de que el trayecto sea lo más corto posible.</li>
@@ -132,33 +132,33 @@ export default function Page() {
               <li>Las plantas grandes o muy delicadas pueden quedarse en la vieja casa y trasladarse en un segundo viaje si es necesario.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
+            <h2 className="article-h2">
               Electrodomésticos: cuidados especiales en verano
             </h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li><strong>Heladera:</strong> descongelá y secá completamente el día anterior. En verano esto es más rápido. Al llegar, esperá al menos 2 horas antes de enchufarla para que el aceite del compresor se acomode.</li>
               <li><strong>Lavarropas:</strong> desconectá el agua y el desagüe, y asegurate de que el tambor esté bloqueado para el transporte.</li>
               <li><strong>Aire acondicionado:</strong> si lo desmontás, necesitás un técnico autorizado para hacerlo correctamente — sobre todo para el split. Coordinalo con anticipación.</li>
               <li><strong>TV y electrónicos:</strong> el calor extremo puede dañar pantallas y componentes electrónicos. Si van en el camión, asegurate de que no estén expuestos al sol directo.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
+            <h2 className="article-h2">
               Reservar en temporada alta: ¿con cuánto tiempo?
             </h2>
             <p>
               Enero y febrero son los meses de mayor demanda del año para las empresas de mudanzas en Buenos Aires. Estas son las reglas generales para reservar:
             </p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li><strong>Fechas a fin de mes (25-31):</strong> reservá con al menos 3 semanas de anticipación — estas fechas se agotan rápido todo el año, pero en verano se complican aún más.</li>
               <li><strong>Enero y febrero en general:</strong> con 2 semanas de anticipación tenés buenas posibilidades, aunque a veces hay que ajustar el día o el horario.</li>
               <li><strong>Diciembre:</strong> la primera quincena tiene buena disponibilidad; la segunda (antes de las fiestas) se complica bastante.</li>
               <li>En Marino Mudanzas podés pedir un presupuesto sin cargo y, si te cierra, reservar la fecha con anticipo.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
+            <h2 className="article-h2">
               Objetos que no deben viajar en el camión en días de calor extremo
             </h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li>Medicamentos (especialmente los que requieren cadena de frío)</li>
               <li>Velas y productos de cera</li>
               <li>Perfumes y cosméticos</li>
@@ -170,7 +170,7 @@ export default function Page() {
               Todos estos objetos conviene llevarlos en tu propio auto con aire acondicionado.
             </p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
+            <h2 className="article-h2">
               Conclusión
             </h2>
             <p>
@@ -189,13 +189,13 @@ export default function Page() {
                   href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
+                  className="btn-whatsapp btn-shimmer"
                 >
                   Pedí presupuesto por WhatsApp
                 </a>
                 <a
                   href="tel:+541146111818"
-                  className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
+                  className="btn-navy"
                 >
                   Llamanos: 4611-1818
                 </a>
@@ -203,7 +203,7 @@ export default function Page() {
             </div>
 
             <div className="border border-border rounded-xl p-6 mt-8">
-              <h3 className="font-display text-lg font-bold text-foreground mb-4">
+              <h3 className="article-related-title">
                 Conocé nuestros servicios
               </h3>
               <ul className="space-y-2">
@@ -229,7 +229,7 @@ export default function Page() {
             </div>
 
             <div className="border border-border rounded-xl p-6 mt-4">
-              <h3 className="font-display text-lg font-bold text-foreground mb-4">
+              <h3 className="article-related-title">
                 Artículos relacionados
               </h3>
               <ul className="space-y-2">

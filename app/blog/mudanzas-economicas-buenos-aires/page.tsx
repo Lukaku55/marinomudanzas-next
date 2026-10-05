@@ -97,17 +97,17 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas Económicas en Buenos Aires</h1>
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">← Volver al blog</Link>
+          <h1 className="article-title">Mudanzas Económicas en Buenos Aires</h1>
+          <div className="article-body">
 
             <p>Buscar una mudanza económica en Buenos Aires no significa conformarse con menos — significa pagar lo justo por un servicio que realmente cumple. El problema es que en el mercado conviven empresas serias con precios razonables y empresas informales que ofrecen precios muy bajos pero terminan cobrando adicionales el día de la mudanza o, peor, dañando tus muebles. Esta guía te ayuda a encontrar la opción correcta.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué determina el costo de una mudanza?</h2>
+            <h2 className="article-h2">¿Qué determina el costo de una mudanza?</h2>
             <p>Antes de comparar precios, entendé qué variables mueven el presupuesto:</p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li><strong>Volumen de muebles</strong> — la cantidad de ambientes y el peso de los muebles determinan el tamaño del camión necesario y cuántas personas se requieren.</li>
               <li><strong>Piso y ascensor</strong> — bajar desde un 7° piso sin ascensor lleva el doble de tiempo que desde un 2° con ascensor. Eso impacta directamente en el precio.</li>
               <li><strong>Distancia</strong> — una mudanza dentro del mismo barrio cuesta menos que una mudanza desde CABA a GBA o entre partidos lejanos.</li>
@@ -115,8 +115,8 @@ export default function Page() {
               <li><strong>Fecha</strong> — los fines de mes y los sábados son más caros por mayor demanda. Un miércoles de mitad de mes puede costar significativamente menos.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cómo reducir el costo de tu mudanza</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Cómo reducir el costo de tu mudanza</h2>
+            <ul className="article-list">
               <li><strong>Donó o vendé lo que no llevás</strong> — menos volumen = camión más chico = precio menor. Antes de la mudanza es el momento ideal para deshacerse de lo que ya no usás.</li>
               <li><strong>Embalá vos las cajas pequeñas</strong> — libros, ropa, vajilla. Dejale a la empresa solo lo que requiere técnica: muebles, electrodomésticos, cuadros.</li>
               <li><strong>Elegí un día de semana</strong> — lunes a jueves suelen tener mejor disponibilidad y precios más bajos que los viernes y sábados.</li>
@@ -124,9 +124,9 @@ export default function Page() {
               <li><strong>Tené todo listo antes de que llegue el camión</strong> — el tiempo de espera mientras seguís embalando cosas suma a la hora trabajada.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cómo comparar presupuestos correctamente</h2>
+            <h2 className="article-h2">Cómo comparar presupuestos correctamente</h2>
             <p>No compares solo el número final. Preguntá siempre qué incluye cada presupuesto:</p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li>¿Cuántas personas vienen?</li>
               <li>¿Qué tamaño de camión? ¿Es suficiente para mi mudanza?</li>
               <li>¿El embalaje está incluido o es adicional?</li>
@@ -135,8 +135,8 @@ export default function Page() {
             </ul>
             <p>Un presupuesto que parece más caro pero incluye todo puede ser mucho más conveniente que uno barato con cargos ocultos.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Señales de alarma que debés evitar</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Señales de alarma que debés evitar</h2>
+            <ul className="article-list">
               <li>No tienen dirección física verificable</li>
               <li>Presupuestan sin ver los muebles o sin preguntar por el piso y el ascensor</li>
               <li>No mencionan seguro de responsabilidad civil</li>
@@ -144,38 +144,38 @@ export default function Page() {
               <li>No hay rastro de reseñas reales ni referencias</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas económicas en Buenos Aires</h2>
+            <h2 className="article-h2">Preguntas frecuentes sobre mudanzas económicas en Buenos Aires</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza económica en Buenos Aires?</h3>
+            <h3 className="article-h3">¿Cuánto cuesta una mudanza económica en Buenos Aires?</h3>
             <p>Una mudanza de monoambiente puede costar a consultar según el caso a a consultar según el piso y la distancia. Un 2 ambientes se cotiza según el caso. Un 3 ambientes puede ir de a consultar. Los precios varían por volumen, piso, ascensor y distancia. Pedí siempre presupuesto detallado.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo puedo reducir el costo de mi mudanza?</h3>
+            <h3 className="article-h3">¿Cómo puedo reducir el costo de mi mudanza?</h3>
             <p>Embalando las cajas pequeñas vos mismo, eligiendo un día de semana, evitando el fin de mes y reduciendo el volumen (donando o vendiendo lo que no usás) podés reducir el costo considerablemente sin sacrificar calidad.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Una mudanza barata es confiable?</h3>
+            <h3 className="article-h3">¿Una mudanza barata es confiable?</h3>
             <p>No siempre. Las empresas muy baratas suelen trabajar sin seguro o con personal sin experiencia. Verificá que tengan dirección física, seguro de responsabilidad civil y referencias verificables antes de contratar.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué incluye un presupuesto de mudanza económica?</h3>
+            <h3 className="article-h3">¿Qué incluye un presupuesto de mudanza económica?</h3>
             <p>Un presupuesto serio debe detallar personal, tamaño del camión, tiempo estimado y si el embalaje está incluido. Los cargos ocultos más comunes son: bajada de pisos sin ascensor, horas extra y materiales de embalaje no mencionados.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Vale la pena contratar una empresa para una mudanza pequeña?</h3>
+            <h3 className="article-h3">¿Vale la pena contratar una empresa para una mudanza pequeña?</h3>
             <p>Sí. Incluso para mudanzas de monoambiente o mudanzas internas, una empresa profesional ahorra tiempo, protege tus muebles y evita lesiones. El costo es accesible y el resultado es muy diferente al de un flete informal.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Pedí tu presupuesto sin cargo</h2>
+            <h2 className="article-h2">Pedí tu presupuesto sin cargo</h2>
             <p>En Marino Mudanzas ofrecemos presupuesto detallado sin cargo y sin compromiso. Sin cargos ocultos, sin sorpresas el día de la mudanza. Más de 80 años de experiencia en Buenos Aires.</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            <div className="article-cta">
+              <a href="https://wa.me/5491154507435" target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-shimmer">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="btn-navy">Llamanos: 4611-1818</a>
             </div>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">También te puede interesar</h2>
+            <h2 className="article-h2">También te puede interesar</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
-              <Link href="/blog/cuanto-cuesta-mudanza-buenos-aires" className="text-gold hover:underline text-sm">¿Cuánto cuesta una mudanza?</Link>
-              <Link href="/blog/que-preguntar-antes-de-contratar-mudanza" className="text-gold hover:underline text-sm">Preguntas antes de contratar</Link>
-              <Link href="/blog/empresa-mudanzas-confiable-buenos-aires" className="text-gold hover:underline text-sm">Cómo elegir empresa confiable</Link>
-              <Link href="/blog/checklist-mudanza" className="text-gold hover:underline text-sm">Checklist de mudanza</Link>
-              <Link href="/blog/mudanzas-monoambiente-buenos-aires" className="text-gold hover:underline text-sm">Mudanzas de monoambiente</Link>
-              <Link href="/mudanzas-residenciales" className="text-gold hover:underline text-sm">Mudanzas residenciales</Link>
+              <Link href="/blog/cuanto-cuesta-mudanza-buenos-aires" className="article-chip">¿Cuánto cuesta una mudanza?</Link>
+              <Link href="/blog/que-preguntar-antes-de-contratar-mudanza" className="article-chip">Preguntas antes de contratar</Link>
+              <Link href="/blog/empresa-mudanzas-confiable-buenos-aires" className="article-chip">Cómo elegir empresa confiable</Link>
+              <Link href="/blog/checklist-mudanza" className="article-chip">Checklist de mudanza</Link>
+              <Link href="/blog/mudanzas-monoambiente-buenos-aires" className="article-chip">Mudanzas de monoambiente</Link>
+              <Link href="/mudanzas-residenciales" className="article-chip">Mudanzas residenciales</Link>
             </div>
           </div>
         </article>

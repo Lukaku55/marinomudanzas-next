@@ -154,23 +154,48 @@ export default function Blog() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
       <Header />
-      <main className="pt-24 pb-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
+      <main className="pb-24">
+        <section className="page-hero grain pb-24 pt-40 md:pb-28 md:pt-48">
+          <div aria-hidden className="absolute inset-0 grid-lines" />
+          <div aria-hidden className="aura -right-24 top-10 h-96 w-96 aura-blue" />
+          <div className="container relative mx-auto px-4 text-center">
+            <span aria-hidden className="ornament mb-8" style={{ animation: "fade-up 0.9s var(--ease-out-expo) both" }}><i /></span>
+            <h1
+              className="font-display text-4xl md:text-6xl font-bold text-primary-foreground mb-6"
+              style={{ animation: "fade-up 1s 0.1s var(--ease-out-expo) both" }}
+            >
               Consejos de Mudanza
             </h1>
-            <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
+            <p
+              className="font-body text-primary-foreground/75 text-lg max-w-2xl mx-auto"
+              style={{ animation: "fade-up 1s 0.25s var(--ease-out-expo) both" }}
+            >
               Guías prácticas y consejos de nuestros expertos con más de 80 años de experiencia en mudanzas.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {articles.map((article) => (
-              <Link key={article.slug} href={`/blog/${article.slug}`} className="bg-card rounded-xl border border-border p-6 hover:shadow-lg hover:border-gold/40 transition-all group">
-                <time className="font-body text-sm text-muted-foreground">{new Date(article.date).toLocaleDateString("es-AR", { year: "numeric", month: "long", day: "numeric" })}</time>
-                <h2 className="font-display text-xl font-bold text-foreground mt-2 mb-3 group-hover:text-gold transition-colors">{article.title}</h2>
-                <p className="font-body text-muted-foreground text-sm leading-relaxed mb-4">{article.excerpt}</p>
-                <span className="flex items-center gap-1 font-body text-gold font-semibold text-sm">Leer más <ArrowRight className="w-4 h-4" /></span>
+        </section>
+
+        <div className="container mx-auto px-4 -mt-12 relative">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            {articles.map((article, i) => (
+              <Link
+                key={`${article.slug}-${i}`}
+                href={`/blog/${article.slug}`}
+                data-reveal="up"
+                style={{ ["--reveal-delay" as string]: `${(i % 3) * 90}ms` }}
+                className="group spotlight relative flex flex-col overflow-hidden rounded-2xl border border-border bg-card p-7 shadow-[0_20px_40px_-30px_hsl(var(--navy)/0.4)] transition-[transform,border-color,box-shadow] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-2 hover:border-gold/50 hover:shadow-[0_30px_60px_-30px_hsl(var(--navy)/0.5)]"
+              >
+                {/* Gold bar that draws across the top on hover */}
+                <span aria-hidden className="absolute inset-x-0 top-0 h-[3px] origin-left scale-x-0 bg-gradient-to-r from-gold to-gold-light transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-x-100" />
+                <time className="relative font-body text-xs uppercase tracking-[0.16em] text-gold">{new Date(article.date).toLocaleDateString("es-AR", { year: "numeric", month: "long", day: "numeric" })}</time>
+                <h2 className="relative font-display text-xl font-bold text-foreground mt-3 mb-3 leading-snug transition-colors duration-500 group-hover:text-navy-light">{article.title}</h2>
+                <p className="relative font-body text-muted-foreground text-sm leading-relaxed mb-6 flex-1">{article.excerpt}</p>
+                <span className="relative flex items-center gap-2 font-body text-gold font-semibold text-sm">
+                  Leer más
+                  <span className="flex h-7 w-7 items-center justify-center rounded-full border border-gold/40 transition-all duration-500 group-hover:translate-x-1 group-hover:bg-gold group-hover:text-navy">
+                    <ArrowRight className="w-4 h-4" />
+                  </span>
+                </span>
               </Link>
             ))}
           </div>

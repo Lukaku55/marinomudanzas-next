@@ -114,8 +114,8 @@ export default function InventarioForm() {
 
   if (enviado) {
     return (
-      <div className="bg-card border border-border rounded-xl p-8 text-center">
-        <div className="text-4xl mb-4">✅</div>
+      <div className="bg-card border border-gold/40 rounded-[2rem] p-10 text-center shadow-[0_30px_60px_-30px_hsl(var(--navy)/0.5)]" style={{ animation: "reveal-scale 0.8s var(--ease-out-expo) both" }}>
+        <div className="text-4xl mb-4 animate-float">✅</div>
         <h2 className="font-display text-2xl font-bold text-foreground mb-2">¡Inventario enviado!</h2>
         <p className="font-body text-muted-foreground">Te vamos a contactar a la brevedad para coordinar el guardamuebles.</p>
       </div>
@@ -125,41 +125,41 @@ export default function InventarioForm() {
   return (
     <div className="space-y-8">
       {/* Datos del cliente */}
-      <div className="bg-card border border-border rounded-xl p-6 space-y-4">
-        <h2 className="font-display text-xl font-bold text-foreground">Tus datos</h2>
+      <div data-reveal="up" className="group/card bg-card border border-border rounded-xl p-6 sm:p-8 space-y-4 rounded-2xl shadow-[0_20px_40px_-30px_hsl(var(--navy)/0.4)] transition-colors duration-500 hover:border-gold/40">
+        <h2 className="flex items-center gap-3 font-display text-xl font-bold text-foreground"><span aria-hidden className="diamond transition-transform duration-500 group-hover/card:rotate-[225deg]" />Tus datos</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="font-body text-sm text-muted-foreground block mb-1">Nombre y apellido *</label>
             <input type="text" value={nombre} onChange={(e) => setNombre(e.target.value)}
-              className="w-full border border-border rounded-lg px-4 py-2 bg-background text-foreground font-body focus:outline-none focus:border-gold"
+              className="field !py-2.5"
               placeholder="Juan García" />
           </div>
           <div>
             <label className="font-body text-sm text-muted-foreground block mb-1">Teléfono *</label>
             <input type="tel" value={telefono} onChange={(e) => setTelefono(e.target.value)}
-              className="w-full border border-border rounded-lg px-4 py-2 bg-background text-foreground font-body focus:outline-none focus:border-gold"
+              className="field !py-2.5"
               placeholder="11-1234-5678" />
           </div>
           <div className="sm:col-span-2">
             <label className="font-body text-sm text-muted-foreground block mb-1">Email</label>
             <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}
-              className="w-full border border-border rounded-lg px-4 py-2 bg-background text-foreground font-body focus:outline-none focus:border-gold"
+              className="field !py-2.5"
               placeholder="juan@email.com" />
           </div>
         </div>
       </div>
 
       {/* Materiales */}
-      <div className="bg-card border border-border rounded-xl p-6">
-        <h2 className="font-display text-xl font-bold text-foreground mb-2">Materiales de tus muebles</h2>
+      <div data-reveal="up" className="group/card bg-card border border-border rounded-xl p-6 sm:p-8 rounded-2xl shadow-[0_20px_40px_-30px_hsl(var(--navy)/0.4)] transition-colors duration-500 hover:border-gold/40">
+        <h2 className="flex items-center gap-3 font-display text-xl font-bold text-foreground mb-2"><span aria-hidden className="diamond transition-transform duration-500 group-hover/card:rotate-[225deg]" />Materiales de tus muebles</h2>
         <p className="font-body text-muted-foreground text-sm mb-4">Seleccioná los materiales que tienen tus muebles. Si hay alguno delicado como mármol o cristal, especificá qué mueble es para que lo tratemos con cuidado especial.</p>
         <div className="flex flex-wrap gap-2 mb-4">
           {materiales.map((mat) => (
             <button key={mat} onClick={() => toggleMaterial(mat)}
-              className={`px-4 py-2 rounded-lg font-body text-sm border transition-colors ${
+              className={`px-4 py-2 rounded-full font-body text-sm border transition-all duration-300 active:scale-95 ${
                 materialesSeleccionados.includes(mat)
-                  ? "bg-gold text-black border-gold font-semibold"
-                  : "border-border text-muted-foreground hover:border-gold"
+                  ? "bg-gold text-black border-gold font-semibold shadow-[0_8px_20px_-8px_hsl(var(--gold))]"
+                  : "border-border text-muted-foreground hover:border-gold hover:text-foreground hover:-translate-y-0.5"
               }`}>
               {mat}
             </button>
@@ -176,7 +176,7 @@ export default function InventarioForm() {
                   type="text"
                   value={detallesMateriales[mat] || ""}
                   onChange={(e) => updateDetalleMaterial(mat, e.target.value)}
-                  className="flex-1 border border-border rounded-lg px-3 py-1.5 bg-background text-foreground font-body text-sm focus:outline-none focus:border-gold"
+                  className="field flex-1 !px-3 !py-1.5 text-sm"
                   placeholder={`Ej: ${mat === "Mármol" ? "mesa de comedor, encimera" : mat === "Cristal / Vidrio" ? "vitrina, mesa de centro" : mat === "Cuero" ? "sofá, sillón" : "especificá el mueble..."}`}
                 />
               </div>
@@ -187,8 +187,8 @@ export default function InventarioForm() {
 
       {/* Inventario por ambiente */}
       {ambientes.map(({ nombre: amb, muebles }) => (
-        <div key={amb} className="bg-card border border-border rounded-xl p-6">
-          <h2 className="font-display text-xl font-bold text-foreground mb-4">{amb}</h2>
+        <div key={amb} data-reveal="up" className="group/card bg-card border border-border rounded-xl p-6 sm:p-8 rounded-2xl shadow-[0_20px_40px_-30px_hsl(var(--navy)/0.4)] transition-colors duration-500 hover:border-gold/40">
+          <h2 className="flex items-center gap-3 font-display text-xl font-bold text-foreground mb-5"><span aria-hidden className="diamond transition-transform duration-500 group-hover/card:rotate-[225deg]" />{amb}</h2>
           <div className="space-y-4">
             {muebles.map((mueble) => {
               const cantidad = inventario[amb]?.[mueble]?.cantidad || 0;
@@ -200,15 +200,15 @@ export default function InventarioForm() {
                     <span className="font-body text-foreground text-sm w-48 shrink-0">{mueble}</span>
                     <div className="flex items-center gap-2">
                       <button onClick={() => updateItem(amb, mueble, "cantidad", Math.max(0, cantidad - 1))}
-                        className="w-8 h-8 rounded-lg border border-border text-foreground hover:border-gold transition-colors font-bold">−</button>
-                      <span className="w-8 text-center font-body text-foreground">{cantidad}</span>
+                        className="w-8 h-8 rounded-full border border-border text-foreground hover:border-gold hover:bg-gold/10 active:scale-90 transition-all font-bold">−</button>
+                      <span key={cantidad} className={`w-8 text-center font-body tabular-nums ${cantidad > 0 ? "text-gold font-bold" : "text-foreground"}`} style={{ animation: "reveal-scale 0.35s var(--ease-out-expo) both" }}>{cantidad}</span>
                       <button onClick={() => updateItem(amb, mueble, "cantidad", cantidad + 1)}
-                        className="w-8 h-8 rounded-lg border border-border text-foreground hover:border-gold transition-colors font-bold">+</button>
+                        className="w-8 h-8 rounded-full border border-border text-foreground hover:border-gold hover:bg-gold hover:text-navy active:scale-90 transition-all font-bold">+</button>
                     </div>
                     {cantidad > 0 && (
                       <input type="text" value={observacion}
                         onChange={(e) => updateItem(amb, mueble, "observacion", e.target.value)}
-                        className="flex-1 border border-border rounded-lg px-3 py-1 bg-background text-foreground font-body text-sm focus:outline-none focus:border-gold"
+                        className="field flex-1 !px-3 !py-1.5 text-sm"
                         placeholder="Observación (opcional)" />
                     )}
                   </div>
@@ -216,7 +216,7 @@ export default function InventarioForm() {
                     <div className="ml-0 sm:ml-52">
                       <input type="text" value={descripcion}
                         onChange={(e) => updateItem(amb, mueble, "descripcion", e.target.value)}
-                        className="w-full border border-gold rounded-lg px-3 py-1 bg-background text-foreground font-body text-sm focus:outline-none focus:border-gold"
+                        className="field !border-gold !px-3 !py-1.5 text-sm"
                         placeholder="¿Qué mueble es? Ej: vitrina, baúl, hamaca..." />
                     </div>
                   )}
@@ -229,8 +229,8 @@ export default function InventarioForm() {
 
       {/* Botón enviar */}
       <button onClick={handleSubmit} disabled={enviando}
-        className="w-full flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-4 rounded-xl font-body font-bold text-lg hover:opacity-90 transition-opacity disabled:opacity-50">
-        {enviando ? "Enviando..." : "Enviar inventario por WhatsApp"}
+        className="btn-whatsapp btn-shimmer w-full !py-4 text-lg font-bold disabled:opacity-50">
+        <span className="relative z-[2]">{enviando ? "Enviando..." : "Enviar inventario por WhatsApp"}</span>
       </button>
       <p className="font-body text-muted-foreground text-sm text-center">
         Al enviar, se va a abrir WhatsApp con el resumen de tu inventario para que lo mandés directamente a nuestro equipo.

@@ -90,89 +90,89 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Cómo Transportar Plantas en tu Mudanza</h1>
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">← Volver al blog</Link>
+          <h1 className="article-title">Cómo Transportar Plantas en tu Mudanza</h1>
+          <div className="article-body">
 
             <p>Las plantas son uno de los objetos que más dudas generan a la hora de mudarse: ¿van en el camión? ¿cómo se embalan las macetas? ¿qué pasa si hace mucho calor? La buena noticia es que la mayoría de las plantas aguantan perfectamente el traslado en camión si las preparás bien. Acá te contamos cómo hacerlo.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Plantas que aguantan bien el camión</h2>
+            <h2 className="article-h2">Plantas que aguantan bien el camión</h2>
             <p>Estas variedades toleran sin problemas un traslado en camión cerrado de hasta 3 horas:</p>
-            <ul className="list-disc pl-6 space-y-2">
+            <ul className="article-list">
               <li><strong>Cactus y suculentas</strong> — muy resistentes, no les afecta la oscuridad ni los cambios de temperatura moderados</li>
               <li><strong>Plantas de interior resistentes</strong> — pothos, sansevieria, drácena, ficus rubber</li>
               <li><strong>Plantas de hoja dura</strong> — aglaonema, zamioculca, filodendro</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Plantas que NO deben ir más de 2 horas en camión cerrado</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Plantas que NO deben ir más de 2 horas en camión cerrado</h2>
+            <ul className="article-list">
               <li><strong>Plantas tropicales sensibles al calor extremo</strong> — calatheas, marantas, helechos, orquídeas</li>
               <li><strong>Cactus frágiles o columnares muy altos</strong> — pueden volcarse o romperse con el movimiento</li>
               <li><strong>Plantas en período de floración</strong> — el estrés del traslado puede hacerles caer las flores</li>
             </ul>
             <p>Para estas plantas, si el traslado es largo o es un día de mucho calor, lo ideal es llevarlas en el asiento trasero del auto propio.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cómo embalar las macetas según el material</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Cómo embalar las macetas según el material</h2>
+            <ul className="article-list">
               <li><strong>Macetas plásticas</strong> — metelas en una bolsa de residuos resistente atada al tronco para que no se vuelque la tierra, y atá las ramas con un hilo suave si son largas</li>
               <li><strong>Macetas de barro o cerámica</strong> — envolvelas en papel burbuja para evitar que se rompan con los golpes del camión</li>
               <li><strong>Tierra muy húmeda</strong> — no riegues las plantas en las 48 horas previas a la mudanza para que la tierra no esté encharcada ni pese de más</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Plantas grandes: ¿camión o auto propio?</h2>
+            <h2 className="article-h2">Plantas grandes: ¿camión o auto propio?</h2>
             <p>Las plantas de más de 1,5 metros o las que tienen raíces muy frágiles convienen ir en el asiento trasero del auto. El movimiento constante del camión y la oscuridad pueden estresarlas más que un viaje corto en auto con luz y ventilación.</p>
             <p>Si no tenés auto o son demasiadas plantas grandes, <strong>avisanos al momento de coordinar la mudanza</strong> para que reservemos espacio adecuado dentro del camión y no queden aplastadas por cajas.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Consejos generales para el traslado de plantas</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Consejos generales para el traslado de plantas</h2>
+            <ul className="article-list">
               <li>No riegues en las 48 horas previas — tierra seca pesa menos y no se derrama</li>
               <li>Ubicá las plantas en un lugar ventilado del camión, lejos de cajas pesadas que puedan caerse</li>
               <li>En verano con mucho calor, preferí llevarlas en el auto propio con el aire acondicionado puesto</li>
               <li>Al llegar al nuevo lugar, sacalas del camión antes que el resto para que recuperen la luz lo antes posible</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué incluye nuestro servicio?</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">¿Qué incluye nuestro servicio?</h2>
+            <ul className="article-list">
               <li>Desarmado y armado de muebles</li>
               <li>Embalaje de objetos frágiles, vajilla y cuadros</li>
               <li>Vehículo del tamaño adecuado</li>
               <li>Presupuesto sin cargo y precio cerrado</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre plantas en la mudanza</h2>
+            <h2 className="article-h2">Preguntas frecuentes sobre plantas en la mudanza</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Se pueden llevar plantas en el camión de mudanza?</h3>
+            <h3 className="article-h3">¿Se pueden llevar plantas en el camión de mudanza?</h3>
             <p>Sí, con los cuidados adecuados. Las plantas robustas aguantan bien. Las tropicales y delicadas convienen ir en el auto propio si el viaje es largo.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuántas plantas entran en el camión?</h3>
+            <h3 className="article-h3">¿Cuántas plantas entran en el camión?</h3>
             <p>Depende del tamaño del camión y del resto de la mudanza. Si tenés muchas plantas grandes, avisanos al coordinar el presupuesto para reservar el espacio necesario.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Las plantas se pueden dañar en el traslado?</h3>
+            <h3 className="article-h3">¿Las plantas se pueden dañar en el traslado?</h3>
             <p>Es posible, especialmente en días de mucho calor o en viajes de más de 2 horas. Las plantas tropicales son las más sensibles. Para esos casos, el auto propio es la mejor opción.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué hago con plantas muy grandes?</h3>
+            <h3 className="article-h3">¿Qué hago con plantas muy grandes?</h3>
             <p>Llevárselas en el auto propio es lo ideal. Si no es posible, avisanos con anticipación para reservar espacio especial en el camión.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo protejo mis plantas delicadas?</h3>
+            <h3 className="article-h3">¿Cómo protejo mis plantas delicadas?</h3>
             <p>No riegues 48hs antes, envolvé las macetas de barro en papel burbuja y ubicalas en un lugar ventilado del camión, lejos de cajas pesadas.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <h2 className="article-h2">Solicitá tu presupuesto sin cargo</h2>
             <p>Contanos tu situación y te damos un precio cerrado en el día. Trabajamos de lunes a sábado de 8 a 18hs.</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            <div className="article-cta">
+              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-shimmer">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="btn-navy">Llamanos: 4611-1818</a>
             </div>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">También te puede interesar</h2>
+            <h2 className="article-h2">También te puede interesar</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
-              <Link href="/blog/mudanzas-en-verano" className="text-gold hover:underline text-sm">Mudanzas en verano</Link>
-              <Link href="/blog/mudanzas-en-invierno" className="text-gold hover:underline text-sm">Mudanzas en invierno</Link>
-              <Link href="/blog/como-preparar-electrodomesticos-mudanza" className="text-gold hover:underline text-sm">Cómo preparar electrodomésticos</Link>
-              <Link href="/blog/mudanzas-fin-de-ano-buenos-aires" className="text-gold hover:underline text-sm">Mudanzas a fin de año</Link>
-              <Link href="/blog/mudanzas-casa-completa-buenos-aires" className="text-gold hover:underline text-sm">Mudanza de casa completa</Link>
-              <Link href="/blog/checklist-mudanza" className="text-gold hover:underline text-sm">Checklist de mudanza</Link>
+              <Link href="/blog/mudanzas-en-verano" className="article-chip">Mudanzas en verano</Link>
+              <Link href="/blog/mudanzas-en-invierno" className="article-chip">Mudanzas en invierno</Link>
+              <Link href="/blog/como-preparar-electrodomesticos-mudanza" className="article-chip">Cómo preparar electrodomésticos</Link>
+              <Link href="/blog/mudanzas-fin-de-ano-buenos-aires" className="article-chip">Mudanzas a fin de año</Link>
+              <Link href="/blog/mudanzas-casa-completa-buenos-aires" className="article-chip">Mudanza de casa completa</Link>
+              <Link href="/blog/checklist-mudanza" className="article-chip">Checklist de mudanza</Link>
             </div>
           </div>
         </article>

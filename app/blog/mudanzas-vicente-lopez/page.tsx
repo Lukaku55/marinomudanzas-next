@@ -90,16 +90,16 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas en Vicente López</h1>
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">← Volver al blog</Link>
+          <h1 className="article-title">Mudanzas en Vicente López</h1>
+          <div className="article-body">
 
             <p>Vicente López es uno de los partidos más residenciales del norte del Gran Buenos Aires, con una mezcla de casas de gran porte en Olivos y La Lucila, edificios modernos en Florida y Munro, y una conexión directa con los barrios del norte de CABA por Av. del Libertador. Es una de las rutas de mudanza más demandadas que realizamos desde nuestra base en Flores, con precio cerrado que incluye el traslado sin costos adicionales.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cómo son las mudanzas en Vicente López</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Cómo son las mudanzas en Vicente López</h2>
+            <ul className="article-list">
               <li><strong>Casas de gran porte en Olivos y La Lucila</strong> — propiedades amplias con jardín, garaje, dos plantas y muebles de alto valor. Requieren camiones de mayor capacidad y personal extra.</li>
               <li><strong>Edificios modernos en Florida y Munro</strong> — buenas instalaciones con ascensor y espacios de carga. Consorcios con reglas claras que coordinamos previamente.</li>
               <li><strong>Restricciones en avenidas principales</strong> — Av. del Libertador y Av. Maipú tienen restricciones de carga. Planificamos el horario y la logística para evitar multas.</li>
@@ -107,8 +107,8 @@ export default function Page() {
               <li><strong>Boulogne</strong> — zona de transición con mayor accesibilidad y propiedades de distinto porte.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué incluye nuestro servicio de mudanzas en Vicente López?</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">¿Qué incluye nuestro servicio de mudanzas en Vicente López?</h2>
+            <ul className="article-list">
               <li>Desarmado y armado de muebles de gran porte</li>
               <li>Embalaje de objetos frágiles, vajilla, cuadros y obras de arte</li>
               <li>Coordinación previa con el consorcio o el encargado del edificio</li>
@@ -117,8 +117,8 @@ export default function Page() {
               <li>Presupuesto sin cargo y precio cerrado sin sorpresas</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Localidades de Vicente López que cubrimos</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Localidades de Vicente López que cubrimos</h2>
+            <ul className="article-list">
               <li><strong>Olivos</strong> — zona residencial premium con casas de gran porte y alto valor</li>
               <li><strong>La Lucila</strong> — barrio tranquilo cerca del río, con propiedades exclusivas</li>
               <li><strong>Florida</strong> — zona familiar con casas y edificios de departamentos</li>
@@ -127,38 +127,38 @@ export default function Page() {
               <li><strong>Boulogne</strong> — sector con mayor mezcla de tipologías</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Vicente López</h2>
+            <h2 className="article-h2">Preguntas frecuentes sobre mudanzas en Vicente López</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Vicente López?</h3>
+            <h3 className="article-h3">¿Cuánto cuesta una mudanza en Vicente López?</h3>
             <p>Una casa de gran porte en Olivos o La Lucila puede ir a consultar según el caso según el volumen. Un 2 ambientes se cotiza según el caso. Precio cerrado que incluye el traslado desde o hacia CABA.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Tienen restricciones de carga en Av. del Libertador?</h3>
+            <h3 className="article-h3">¿Tienen restricciones de carga en Av. del Libertador?</h3>
             <p>Sí, hay restricciones en horarios pico y algunos tramos. Coordinamos el horario y la logística para evitar problemas. Para los edificios sobre Libertador usamos siempre el espacio de carga designado.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas de casas de gran porte en Olivos?</h3>
+            <h3 className="article-h3">¿Hacen mudanzas de casas de gran porte en Olivos?</h3>
             <p>Sí, es una de nuestras especialidades. Casas con jardín, dos plantas y muebles de alto valor. Personal y vehículo del tamaño adecuado al volumen real.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación hay que reservar?</h3>
+            <h3 className="article-h3">¿Con cuánta anticipación hay que reservar?</h3>
             <p>Al menos una semana. Para casas grandes o edificios con consorcio estricto, 10–15 días. Los turnos de fin de mes en Florida y Munro se llenan rápido.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Trabajan los sábados en Vicente López?</h3>
+            <h3 className="article-h3">¿Trabajan los sábados en Vicente López?</h3>
             <p>Sí, de lunes a sábado de 8 a 18hs. Verificamos antes si el edificio permite mudanzas en sábado y coordinamos el turno necesario.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <h2 className="article-h2">Solicitá tu presupuesto sin cargo</h2>
             <p>Contanos el tipo de propiedad, el piso y si hay ascensor. Te damos un precio cerrado en el día. Trabajamos de lunes a sábado de 8 a 18hs.</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            <div className="article-cta">
+              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-shimmer">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="btn-navy">Llamanos: 4611-1818</a>
             </div>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">También hacemos mudanzas en zonas cercanas</h2>
+            <h2 className="article-h2">También hacemos mudanzas en zonas cercanas</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
-              <Link href="/blog/mudanzas-belgrano" className="text-gold hover:underline text-sm">Belgrano</Link>
-              <Link href="/blog/mudanzas-nunez" className="text-gold hover:underline text-sm">Núñez</Link>
-              <Link href="/blog/mudanzas-san-isidro" className="text-gold hover:underline text-sm">San Isidro</Link>
-              <Link href="/blog/mudanzas-saavedra" className="text-gold hover:underline text-sm">Saavedra</Link>
-              <Link href="/blog/mudanzas-tigre" className="text-gold hover:underline text-sm">Tigre</Link>
-              <Link href="/mudanzas-residenciales" className="text-gold hover:underline text-sm">Mudanzas residenciales</Link>
+              <Link href="/blog/mudanzas-belgrano" className="article-chip">Belgrano</Link>
+              <Link href="/blog/mudanzas-nunez" className="article-chip">Núñez</Link>
+              <Link href="/blog/mudanzas-san-isidro" className="article-chip">San Isidro</Link>
+              <Link href="/blog/mudanzas-saavedra" className="article-chip">Saavedra</Link>
+              <Link href="/blog/mudanzas-tigre" className="article-chip">Tigre</Link>
+              <Link href="/mudanzas-residenciales" className="article-chip">Mudanzas residenciales</Link>
             </div>
           </div>
         </article>

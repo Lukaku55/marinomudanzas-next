@@ -90,16 +90,16 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas en Parque Chas</h1>
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">← Volver al blog</Link>
+          <h1 className="article-title">Mudanzas en Parque Chas</h1>
+          <div className="article-body">
 
             <p>Parque Chas es el barrio más singular de Buenos Aires: sus calles tienen un trazado circular y radial —como una telaraña— único en toda la ciudad. Las calles llevan nombres de países y ciudades del mundo, son angostas, curvas y se repiten en distintos anillos de manera que resultan imposibles de navegar para quien no las conoce. El GPS falla con frecuencia. Predominan las casas unifamiliares de los años 40, sin edificios de departamentos. Barrio tranquilo, con casi nada de tráfico y propietarios que lo habitan hace décadas. Nosotros conocemos cada calle.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cómo son las mudanzas en Parque Chas</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Cómo son las mudanzas en Parque Chas</h2>
+            <ul className="article-list">
               <li><strong>Calles circulares que confunden al GPS</strong> — el trazado radial del barrio hace que los sistemas de navegación fallen o guíen por rutas imposibles. Nuestros choferes conocen el barrio de memoria y llegan al domicilio sin inconvenientes.</li>
               <li><strong>Calles angostas con nombres de ciudades del mundo</strong> — Madrid, Londres, Berlín, Tokio: las calles del barrio tienen nombres de ciudades y son estrechas y curvas. Seleccionamos el camión del tamaño correcto según la calle de acceso.</li>
               <li><strong>Solo casas unifamiliares de los años 40</strong> — no hay edificios de departamentos en el barrio. Todas las mudanzas son de casas, sin consorcios, sin ascensores ni turnos de montacargas. El acceso es siempre directo desde la vereda.</li>
@@ -107,8 +107,8 @@ export default function Page() {
               <li><strong>Casas de tamaño mediano a grande</strong> — muchas propiedades tienen patio, jardín y dependencias de servicio. Coordinamos el vaciado completo en una sola jornada con el personal y el vehículo adecuados.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué incluye nuestro servicio de mudanzas en Parque Chas?</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">¿Qué incluye nuestro servicio de mudanzas en Parque Chas?</h2>
+            <ul className="article-list">
               <li>Desarmado y armado de muebles (placares, camas, escritorios)</li>
               <li>Embalaje de objetos frágiles, vajilla y cuadros</li>
               <li>Traslado de muebles de jardín, parrillas y objetos de exterior</li>
@@ -117,38 +117,38 @@ export default function Page() {
               <li>Choferes con conocimiento detallado de las calles circulares del barrio</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en Parque Chas</h2>
+            <h2 className="article-h2">Preguntas frecuentes sobre mudanzas en Parque Chas</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Por qué es difícil llegar a Parque Chas con GPS?</h3>
+            <h3 className="article-h3">¿Por qué es difícil llegar a Parque Chas con GPS?</h3>
             <p>El trazado circular y radial del barrio confunde a los sistemas de navegación, que frecuentemente guían por rutas imposibles o sin salida. Nuestros choferes conocen el barrio de memoria y llegan al domicilio sin inconvenientes, independientemente de lo que indique el GPS.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Qué tipo de viviendas hay en Parque Chas?</h3>
+            <h3 className="article-h3">¿Qué tipo de viviendas hay en Parque Chas?</h3>
             <p>Casi exclusivamente casas unifamiliares de los años 40. No hay edificios de departamentos. Las casas suelen tener patio o jardín, lo que simplifica el traslado: sin ascensor, sin consorcio, sin restricciones de horario.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en Parque Chas?</h3>
+            <h3 className="article-h3">¿Cuánto cuesta una mudanza en Parque Chas?</h3>
             <p>Al tratarse de casas de familia de tamaño mediano a grande, el costo se cotiza según el caso según el contenido. El precio es siempre cerrado desde el presupuesto, sin sorpresas el día de la mudanza.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿El camión puede entrar a las calles angostas?</h3>
+            <h3 className="article-h3">¿El camión puede entrar a las calles angostas?</h3>
             <p>Sí, con planificación previa. Seleccionamos el camión adecuado según la calle de acceso relevada con anticipación. En casos de calles muy angostas usamos un vehículo más chico o realizamos el traslado en dos viajes.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación hay que reservar?</h3>
+            <h3 className="article-h3">¿Con cuánta anticipación hay que reservar?</h3>
             <p>7 días es suficiente en la mayoría de los casos. El barrio tiene baja rotación de propietarios, lo que da más flexibilidad. Para sábados o fin de mes, reservar con 10 a 15 días.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <h2 className="article-h2">Solicitá tu presupuesto sin cargo</h2>
             <p>Contanos el tipo de propiedad y a dónde te mudás. Te damos un precio cerrado en el día. Trabajamos de lunes a sábado de 8 a 18hs.</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            <div className="article-cta">
+              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-shimmer">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="btn-navy">Llamanos: 4611-1818</a>
             </div>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">También hacemos mudanzas en barrios cercanos</h2>
+            <h2 className="article-h2">También hacemos mudanzas en barrios cercanos</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
-              <Link href="/blog/mudanzas-saavedra" className="text-gold hover:underline text-sm">Saavedra</Link>
-              <Link href="/blog/mudanzas-villa-urquiza" className="text-gold hover:underline text-sm">Villa Urquiza</Link>
-              <Link href="/blog/mudanzas-villa-ortuzar" className="text-gold hover:underline text-sm">Villa Ortúzar</Link>
-              <Link href="/blog/mudanzas-paternal" className="text-gold hover:underline text-sm">Paternal</Link>
-              <Link href="/blog/mudanzas-coghlan" className="text-gold hover:underline text-sm">Coghlan</Link>
-              <Link href="/blog/mudanzas-chacarita" className="text-gold hover:underline text-sm">Chacarita</Link>
+              <Link href="/blog/mudanzas-saavedra" className="article-chip">Saavedra</Link>
+              <Link href="/blog/mudanzas-villa-urquiza" className="article-chip">Villa Urquiza</Link>
+              <Link href="/blog/mudanzas-villa-ortuzar" className="article-chip">Villa Ortúzar</Link>
+              <Link href="/blog/mudanzas-paternal" className="article-chip">Paternal</Link>
+              <Link href="/blog/mudanzas-coghlan" className="article-chip">Coghlan</Link>
+              <Link href="/blog/mudanzas-chacarita" className="article-chip">Chacarita</Link>
             </div>
           </div>
         </article>

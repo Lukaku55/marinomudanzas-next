@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
-import { Send } from "lucide-react";
+import { Send, ChevronDown } from "lucide-react";
+import { Ornament } from "@/components/fx/primitives";
 import { toast } from "sonner";
 
 const pisoOptions = Array.from({ length: 31 }, (_, i) => i); // 0 to 30
@@ -42,26 +43,38 @@ const ContactForm = () => {
     setForm({ nombre: "", telefono: "", origen: "", destino: "", pisoCarga: "0", pisoDescarga: "0", ascensor: "", mensaje: "" });
   };
 
-  const inputClass = "w-full rounded-lg border border-input bg-background px-4 py-3 font-body text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring";
-  const selectClass = "w-full rounded-lg border border-input bg-background px-4 py-3 font-body text-foreground focus:outline-none focus:ring-2 focus:ring-ring appearance-none";
+  const inputClass = "field";
+  const selectClass = "field appearance-none pr-10 cursor-pointer";
 
   return (
-    <section id="contacto" className="py-20 md:py-28 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="max-w-2xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
+    <section id="contacto" className="relative overflow-hidden py-24 md:py-32 bg-secondary">
+      <div aria-hidden className="aura -left-32 top-1/4 h-[28rem] w-[28rem] bg-gold/15" />
+      <div className="container relative mx-auto px-4">
+        <div className="mx-auto grid max-w-6xl items-start gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
+          <div className="text-center lg:sticky lg:top-32 lg:text-left">
+            <div data-reveal="up" className="mb-6"><Ornament /></div>
+            <h2 data-reveal="up" className="section-title text-3xl md:text-6xl text-foreground mb-5 delay-reveal-1">
               Pedí Tu Cotización
             </h2>
-            <p className="font-body text-muted-foreground text-lg">
+            <p data-reveal="up" className="font-body text-muted-foreground text-lg delay-reveal-2">
               Completá el formulario y te contactamos por WhatsApp con tu presupuesto
             </p>
+            {/* Decorative animated emblem */}
+            <div aria-hidden data-reveal="scale" className="relative mx-auto mt-14 hidden h-48 w-48 lg:mx-0 lg:block delay-reveal-3">
+              <div className="absolute inset-0 rounded-full border border-gold/30 animate-spin-slow" style={{ animationDuration: "30s" }}>
+                <span className="absolute left-1/2 top-0 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-gold" />
+              </div>
+              <div className="absolute inset-6 rounded-full border border-dashed border-navy/20 animate-spin-slow" style={{ animationDuration: "45s", animationDirection: "reverse" }} />
+              <div className="absolute inset-12 flex items-center justify-center rounded-full bg-navy shadow-[0_20px_40px_-20px_hsl(var(--navy))]">
+                <Send className="h-9 w-9 text-gold animate-float" strokeWidth={1.5} />
+              </div>
+            </div>
           </div>
 
-          <form onSubmit={handleSubmit} className="bg-card rounded-xl p-8 shadow-lg border border-border space-y-5">
+          <form onSubmit={handleSubmit} data-reveal="up" className="gold-border-spin relative bg-card rounded-[2rem] p-6 sm:p-10 shadow-[0_40px_80px_-40px_hsl(var(--navy)/0.45)] space-y-5 delay-reveal-2">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <div>
-                <label htmlFor="nombre" className="block font-body text-sm font-medium text-foreground mb-1.5">
+                <label htmlFor="nombre" className="block font-body text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 mb-2">
                   Nombre *
                 </label>
                 <input
@@ -76,7 +89,7 @@ const ContactForm = () => {
                 />
               </div>
               <div>
-                <label htmlFor="telefono" className="block font-body text-sm font-medium text-foreground mb-1.5">
+                <label htmlFor="telefono" className="block font-body text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 mb-2">
                   Teléfono *
                 </label>
                 <input
@@ -94,7 +107,7 @@ const ContactForm = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <div>
-                <label htmlFor="origen" className="block font-body text-sm font-medium text-foreground mb-1.5">
+                <label htmlFor="origen" className="block font-body text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 mb-2">
                   Dirección de Origen
                 </label>
                 <input
@@ -108,7 +121,7 @@ const ContactForm = () => {
                 />
               </div>
               <div>
-                <label htmlFor="destino" className="block font-body text-sm font-medium text-foreground mb-1.5">
+                <label htmlFor="destino" className="block font-body text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 mb-2">
                   Dirección de Destino
                 </label>
                 <input
@@ -124,8 +137,8 @@ const ContactForm = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              <div>
-                <label htmlFor="pisoCarga" className="block font-body text-sm font-medium text-foreground mb-1.5">
+              <div className="relative">
+                <label htmlFor="pisoCarga" className="block font-body text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 mb-2">
                   Piso de Carga (Origen) *
                 </label>
                 <select
@@ -141,9 +154,10 @@ const ContactForm = () => {
                     </option>
                   ))}
                 </select>
+                <ChevronDown aria-hidden className="pointer-events-none absolute right-4 bottom-3.5 h-4 w-4 text-gold" />
               </div>
-              <div>
-                <label htmlFor="pisoDescarga" className="block font-body text-sm font-medium text-foreground mb-1.5">
+              <div className="relative">
+                <label htmlFor="pisoDescarga" className="block font-body text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 mb-2">
                   Piso de Descarga (Destino) *
                 </label>
                 <select
@@ -159,9 +173,10 @@ const ContactForm = () => {
                     </option>
                   ))}
                 </select>
+                <ChevronDown aria-hidden className="pointer-events-none absolute right-4 bottom-3.5 h-4 w-4 text-gold" />
               </div>
-              <div className="sm:col-span-2 sm:max-w-md sm:mx-auto w-full">
-                <label htmlFor="ascensor" className="block font-body text-sm font-medium text-foreground mb-1.5">
+              <div className="relative sm:col-span-2 sm:max-w-md sm:mx-auto w-full">
+                <label htmlFor="ascensor" className="block font-body text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 mb-2">
                   ¿Cuenta con ascensor? *
                 </label>
                 <select
@@ -180,11 +195,12 @@ const ContactForm = () => {
                     </option>
                   ))}
                 </select>
+                <ChevronDown aria-hidden className="pointer-events-none absolute right-4 bottom-3.5 h-4 w-4 text-gold" />
               </div>
             </div>
 
             <div>
-              <label htmlFor="mensaje" className="block font-body text-sm font-medium text-foreground mb-1.5">
+              <label htmlFor="mensaje" className="block font-body text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 mb-2">
                 Detalles de la Mudanza
               </label>
               <textarea
@@ -200,10 +216,10 @@ const ContactForm = () => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full flex items-center justify-center gap-2 bg-gold text-accent-foreground px-6 py-4 rounded-lg font-body font-bold text-lg hover:opacity-90 transition-opacity disabled:opacity-50"
+              className="btn-gold btn-shimmer group/send w-full !py-4 text-lg font-bold disabled:opacity-50"
             >
-              <Send className="w-5 h-5" />
-              Enviar Cotización por WhatsApp
+              <Send className="relative z-[2] w-5 h-5 transition-transform duration-500 group-hover/send:translate-x-1 group-hover/send:-translate-y-1 group-hover/send:rotate-12" />
+              <span className="relative z-[2]">Enviar Cotización por WhatsApp</span>
             </button>
           </form>
         </div>

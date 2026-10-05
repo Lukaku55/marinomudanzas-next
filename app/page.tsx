@@ -6,6 +6,7 @@ import ServiceDetailResidencial from "@/components/ServiceDetailResidencial";
 import ServiceDetailComercial from "@/components/ServiceDetailComercial";
 import ServiceDetailGuardamuebles from "@/components/ServiceDetailGuardamuebles";
 import ServiceDetailInterior from "@/components/ServiceDetailInterior";
+import { ServiceStack } from "@/components/ServiceStack";
 import AboutSection from "@/components/AboutSection";
 import InnovationSection from "@/components/InnovationSection";
 import ZonasCoberturaFull from "@/components/ZonasCoberturaFull";
@@ -177,10 +178,12 @@ export default function Home() {
       <main>
         <HeroSection />
         <ServicesSection />
-        <ServiceDetailResidencial />
-        <ServiceDetailComercial />
-        <ServiceDetailGuardamuebles />
-        <ServiceDetailInterior />
+        <ServiceStack total={4}>
+          <ServiceDetailResidencial />
+          <ServiceDetailComercial />
+          <ServiceDetailGuardamuebles />
+          <ServiceDetailInterior />
+        </ServiceStack>
         <AboutSection />
         <InnovationSection />
         <ZonasCoberturaFull />

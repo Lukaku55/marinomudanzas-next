@@ -90,16 +90,16 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Header />
-      <main className="pt-24 pb-20">
-        <article className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas en San Cristóbal</h1>
-          <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
+      <main className="article-main">
+        <article className="article-shell container mx-auto px-4 max-w-3xl">
+          <Link href="/blog" className="article-back">← Volver al blog</Link>
+          <h1 className="article-title">Mudanzas en San Cristóbal</h1>
+          <div className="article-body">
 
             <p>San Cristóbal es un barrio obrero y popular del sur de Buenos Aires, delimitado por Boedo, Barracas y Constitución. Su tejido urbano está marcado por edificios de 4 a 6 pisos de los años 40 y 60 —la mayoría sin ascensor—, casas chorizo reformadas y antiguos conventillos convertidos en departamentos. Con Av. San Juan como eje principal y una alta densidad poblacional, el barrio tiene rotación constante de inquilinos. En Marino Mudanzas conocemos cada particularidad de San Cristóbal: los pasillos angostos, las escaleras empinadas y la escasez de estacionamiento en las calles internas.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Cómo son las mudanzas en San Cristóbal</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">Cómo son las mudanzas en San Cristóbal</h2>
+            <ul className="article-list">
               <li><strong>Edificios sin ascensor de los años 40-60</strong> — la tipología más frecuente del barrio. Personal especializado en subida por escalera y elevación por soga desde el exterior cuando los muebles no pasan por el hueco de la escalera.</li>
               <li><strong>Casas chorizo y conventillos reformados</strong> — pasillos y patios internos angostos que requieren planificación del acceso. Coordinamos el desarmado de muebles cuando el espacio lo exige.</li>
               <li><strong>Alta rotación de inquilinos</strong> — demanda concentrada a fin de mes. Es fundamental reservar con anticipación para asegurar el turno, especialmente los últimos días del mes.</li>
@@ -107,8 +107,8 @@ export default function Page() {
               <li><strong>Alta densidad, baja oferta de parking</strong> — coordinamos el corte temporario de calle o el estacionamiento en doble fila en los casos necesarios para no demorar la mudanza.</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">¿Qué incluye nuestro servicio de mudanzas en San Cristóbal?</h2>
-            <ul className="list-disc pl-6 space-y-2">
+            <h2 className="article-h2">¿Qué incluye nuestro servicio de mudanzas en San Cristóbal?</h2>
+            <ul className="article-list">
               <li>Desarmado y armado de muebles (placares, camas, escritorios)</li>
               <li>Embalaje de objetos frágiles, vajilla y cuadros</li>
               <li>Elevación por soga para muebles que no pasan por escalera</li>
@@ -117,38 +117,38 @@ export default function Page() {
               <li>Traslado de mobiliario y equipos de comercios</li>
             </ul>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Preguntas frecuentes sobre mudanzas en San Cristóbal</h2>
+            <h2 className="article-h2">Preguntas frecuentes sobre mudanzas en San Cristóbal</h2>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cuánto cuesta una mudanza en San Cristóbal?</h3>
+            <h3 className="article-h3">¿Cuánto cuesta una mudanza en San Cristóbal?</h3>
             <p>Un departamento de 2 ambientes se cotiza según el caso. Los edificios sin ascensor pueden tener un costo algo mayor por la subida por escalera o la elevación por soga, siempre contemplado en el presupuesto cerrado antes del día de la mudanza.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Cómo manejan los edificios sin ascensor?</h3>
+            <h3 className="article-h3">¿Cómo manejan los edificios sin ascensor?</h3>
             <p>Contamos con personal especializado en subida y bajada por escalera y equipo de elevación por soga desde el exterior para muebles que no pasan. Todo incluido en el presupuesto cerrado, sin costos adicionales el día de la mudanza.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Con cuánta anticipación hay que reservar?</h3>
+            <h3 className="article-h3">¿Con cuánta anticipación hay que reservar?</h3>
             <p>Al menos 10 días antes. A fin de mes, 15 días. El barrio tiene alta rotación de inquilinos y los turnos de fin de mes se llenan rápidamente, especialmente los sábados.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Piden permiso al consorcio?</h3>
+            <h3 className="article-h3">¿Piden permiso al consorcio?</h3>
             <p>Recomendamos consultar al administrador con anticipación y notificar a los vecinos, especialmente en edificios con escalera compartida. Coordinamos los horarios de acceso para evitar conflictos y respetar los reglamentos internos.</p>
 
-            <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">¿Hacen mudanzas de comercios en San Cristóbal?</h3>
+            <h3 className="article-h3">¿Hacen mudanzas de comercios en San Cristóbal?</h3>
             <p>Sí. Trasladamos comercios: mobiliario, equipos, cajas de archivo y góndolas. Coordinamos el acceso en horarios de baja circulación para minimizar interrupciones. Presupuesto sin cargo y precio cerrado.</p>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
+            <h2 className="article-h2">Solicitá tu presupuesto sin cargo</h2>
             <p>Contanos el tipo de propiedad y a dónde te mudás. Te damos un precio cerrado en el día. Trabajamos de lunes a sábado de 8 a 18hs.</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Pedí tu presupuesto por WhatsApp</a>
-              <a href="tel:+541146111818" className="flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Llamanos: 4611-1818</a>
+            <div className="article-cta">
+              <a href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20un%20presupuesto%20sin%20cargo%20para%20una%20mudanza" target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-shimmer">Pedí tu presupuesto por WhatsApp</a>
+              <a href="tel:+541146111818" className="btn-navy">Llamanos: 4611-1818</a>
             </div>
 
-            <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">También hacemos mudanzas en barrios cercanos</h2>
+            <h2 className="article-h2">También hacemos mudanzas en barrios cercanos</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-4">
-              <Link href="/blog/mudanzas-boedo" className="text-gold hover:underline text-sm">Boedo</Link>
-              <Link href="/blog/mudanzas-barracas" className="text-gold hover:underline text-sm">Barracas</Link>
-              <Link href="/blog/mudanzas-constitucion" className="text-gold hover:underline text-sm">Constitución</Link>
-              <Link href="/blog/mudanzas-nueva-pompeya" className="text-gold hover:underline text-sm">Nueva Pompeya</Link>
-              <Link href="/blog/mudanzas-balvanera" className="text-gold hover:underline text-sm">Balvanera</Link>
-              <Link href="/blog/mudanzas-parque-patricios" className="text-gold hover:underline text-sm">Parque Patricios</Link>
+              <Link href="/blog/mudanzas-boedo" className="article-chip">Boedo</Link>
+              <Link href="/blog/mudanzas-barracas" className="article-chip">Barracas</Link>
+              <Link href="/blog/mudanzas-constitucion" className="article-chip">Constitución</Link>
+              <Link href="/blog/mudanzas-nueva-pompeya" className="article-chip">Nueva Pompeya</Link>
+              <Link href="/blog/mudanzas-balvanera" className="article-chip">Balvanera</Link>
+              <Link href="/blog/mudanzas-parque-patricios" className="article-chip">Parque Patricios</Link>
             </div>
           </div>
         </article>
