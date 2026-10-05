@@ -95,7 +95,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "como-calcular-volumen-mudanza",
     "como-preparar-electrodomesticos-mudanza",
     "mudanzas-con-ninos",
-    "mudanzas-de-piano-buenos-aires",
     "que-no-transportan-las-empresas-de-mudanzas",
     "mudanzas-tortuguitas",
     "primer-departamento-buenos-aires",
