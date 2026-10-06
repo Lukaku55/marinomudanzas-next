@@ -1,6 +1,9 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import { Phone, Menu, X, ChevronDown } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { whatsappUrl } from "@/lib/cerebro";
 
 const serviciosMenu = [
   { label: "Mudanzas Residenciales", href: "/mudanzas-residenciales" },
@@ -35,18 +38,19 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-navy shadow-lg">
       <div className="container mx-auto flex items-center justify-between py-3 px-4">
-        <a href="/#inicio" className="flex items-center gap-3">
-          <img src="/logo-marino-nuevo.png" alt="Logo de Marino Mudanzas" className="h-12 w-12 rounded-full bg-background p-1" />
+        <Link href="/#inicio" className="flex items-center gap-3">
+          <Image src="/logo-marino-nuevo.png" alt="Logo de Marino Mudanzas" width={48} height={48} priority className="h-12 w-12 rounded-full bg-background p-1 object-contain" />
           <span className="font-display text-2xl font-bold text-primary-foreground tracking-wide hidden sm:inline">
             Marino Mudanzas
           </span>
-        </a>
+        </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          <a href="/#inicio" className="text-primary-foreground/80 hover:text-gold transition-colors font-body text-sm uppercase tracking-wider">Inicio</a>
+          <Link href="/#inicio" className="text-primary-foreground/80 hover:text-gold transition-colors font-body text-sm uppercase tracking-wider">Inicio</Link>
           <div className="relative" ref={dropdownRef}>
             <button
               onClick={() => setServiciosOpen(!serviciosOpen)}
+              aria-expanded={serviciosOpen}
               className="flex items-center gap-1 text-primary-foreground/80 hover:text-gold transition-colors font-body text-sm uppercase tracking-wider"
             >
               Servicios
@@ -80,7 +84,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20cotizar%20una%20mudanza"
+          href={whatsappUrl()}
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 bg-gold text-accent-foreground px-5 py-2.5 rounded-lg font-body font-semibold text-sm hover:opacity-90 transition-opacity"
@@ -92,7 +96,8 @@ const Header = () => {
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden text-primary-foreground"
-          aria-label="Abrir menú"
+          aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
+          aria-expanded={menuOpen}
         >
           {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
@@ -137,7 +142,7 @@ const Header = () => {
             ))}
 
             <a
-              href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20cotizar%20una%20mudanza"
+              href={whatsappUrl()}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-gold text-accent-foreground px-5 py-2.5 rounded-lg font-body font-semibold text-sm justify-center hover:opacity-90 transition-opacity"

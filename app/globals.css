@@ -119,3 +119,24 @@
     background: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--gold-light)));
   }
 }
+
+/* Aparición al hacer scroll (ver components/vivo/RevealObserver.tsx). Solo se
+   oculta si corre JS (clase "js" en <html>), así el contenido nunca queda invisible. */
+@layer utilities {
+  .js .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  .js .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .js .reveal { opacity: 1; transform: none; transition: none; }
+  .animate-bounce, .animate-ping, .animate-fade-in { animation: none; }
+}

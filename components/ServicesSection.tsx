@@ -1,6 +1,5 @@
 import { Truck, Package, Shield, Clock, Home, Building, ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { Helmet } from "react-helmet-async";
 
 const services = [
   {
@@ -41,9 +40,6 @@ const services = [
 const ServicesSection = () => {
   return (
     <section id="servicios" className="py-20 md:py-28 bg-secondary">
-      <Helmet>
-        <meta name="description" content="Servicios de mudanzas residenciales, comerciales, embalaje profesional, guardamuebles y fletes puntuales en Buenos Aires." />
-      </Helmet>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">

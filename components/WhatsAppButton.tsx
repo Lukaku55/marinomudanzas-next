@@ -1,9 +1,11 @@
 import { MessageCircle } from "lucide-react";
+import { whatsappUrl } from "@/lib/cerebro";
 
-const WhatsAppButton = () => {
+/** Botón flotante de WhatsApp. `mensaje` permite contextualizarlo por página. */
+const WhatsAppButton = ({ mensaje }: { mensaje?: string }) => {
   return (
     <a
-      href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20cotizar%20una%20mudanza"
+      href={whatsappUrl(mensaje)}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 w-16 h-16 bg-[hsl(142,70%,40%)] hover:bg-[hsl(142,70%,35%)] rounded-full flex items-center justify-center shadow-2xl transition-colors"

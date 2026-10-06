@@ -6,7 +6,8 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/"],
+        // No bloquear /_next/: Google necesita el CSS y JS para renderizar la página.
+        disallow: ["/api/"],
       },
     ],
     sitemap: "https://www.mudanzasmarino.com.ar/sitemap.xml",

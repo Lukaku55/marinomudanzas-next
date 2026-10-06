@@ -1,4 +1,6 @@
 import { CheckCircle } from "lucide-react";
+import { NEGOCIO } from "@/lib/cerebro";
+import Contador from "@/components/vivo/Contador";
 
 const features = [
   "Más de 80 años de experiencia",
@@ -13,7 +15,7 @@ const AboutSection = () => {
   return (
     <section id="nosotros" className="py-20 md:py-28 bg-background">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center reveal">
           {/* Left content */}
           <div>
             <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-6">
@@ -42,8 +44,8 @@ const AboutSection = () => {
           {/* Right - Stats */}
           <div className="grid grid-cols-2 gap-6">
             {[
-              { number: "+150.000", label: "Mudanzas Realizadas" },
-              { number: "80+", label: "Años de Experiencia" },
+              { number: <Contador valor={NEGOCIO.stats.mudanzas} prefijo="+" />, label: "Mudanzas Realizadas" },
+              { number: <Contador valor={NEGOCIO.stats.anios} sufijo="+" />, label: "Años de Experiencia" },
               { number: "100%", label: "Clientes Satisfechos" },
               { number: "24hs", label: "Respuesta Inmediata" },
             ].map((stat, index) => (

@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { NEGOCIO } from "@/lib/cerebro";
 
 const ambientes = [
   {
@@ -107,7 +108,7 @@ export default function InventarioForm() {
     }
     setEnviando(true);
     const resumen = buildResumen();
-    window.open(`https://wa.me/5491154507435?text=${resumen}`, "_blank");
+    window.open(`https://wa.me/${NEGOCIO.whatsapp.numero}?text=${resumen}`, "_blank");
     setEnviando(false);
     setEnviado(true);
   };

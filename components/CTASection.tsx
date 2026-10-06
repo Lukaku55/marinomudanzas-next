@@ -1,9 +1,10 @@
 import { Phone, MessageCircle } from "lucide-react";
+import { NEGOCIO, TELEFONO, TEL_HREF, whatsappUrl } from "@/lib/cerebro";
 
 const CTASection = () => {
   return (
     <section className="py-20 md:py-28 bg-secondary">
-      <div className="container mx-auto px-4 text-center">
+      <div className="container mx-auto px-4 text-center reveal">
         <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-6">
           ¿Listo Para Tu Mudanza?
         </h2>
@@ -14,20 +15,20 @@ const CTASection = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20cotizar%20una%20mudanza"
+            href={whatsappUrl()}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 bg-[hsl(142,70%,35%)] text-primary-foreground px-8 py-4 rounded-lg font-body font-bold text-lg hover:opacity-90 transition-opacity shadow-xl"
           >
             <MessageCircle className="w-6 h-6" />
-            WhatsApp: 11-5450-7435
+            WhatsApp: {NEGOCIO.whatsapp.visible}
           </a>
           <a
-            href="tel:+541146111818"
+            href={TEL_HREF}
             className="flex items-center gap-3 bg-navy text-primary-foreground px-8 py-4 rounded-lg font-body font-bold text-lg hover:opacity-90 transition-opacity shadow-xl"
           >
             <Phone className="w-6 h-6" />
-            Llamar: 4611-1818
+            Llamar: {TELEFONO.visible}
           </a>
         </div>
       </div>
