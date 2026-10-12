@@ -113,6 +113,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-parque-avellaneda",
     "mudanzas-parque-chas",
     "mudanzas-velez-sarsfield",
+    "mudanzas-general-paz",
   ];
 
   return [

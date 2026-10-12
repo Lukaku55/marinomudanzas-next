@@ -136,6 +136,7 @@ const articles = [
   {slug:'mudanzas-parque-avellaneda',title:"Mudanzas en Parque Avellaneda Buenos Aires",excerpt:"Servicio de mudanzas en Parque Avellaneda. Barrio tranquilo del oeste de CABA con casas bajas y buen acceso vehicular. Embalaje incluido y presupuesto sin cargo.",date:'2026-09-14'},
   {slug:'mudanzas-parque-chas',title:"Mudanzas en Parque Chas Buenos Aires",excerpt:"Mudanzas en Parque Chas, el barrio de calles circulares único en CABA. Conocemos su particular diseño urbano. Embalaje incluido y presupuesto sin cargo.",date:'2026-09-21'},
   {slug:'mudanzas-velez-sarsfield',title:"Mudanzas en Vélez Sársfield Buenos Aires",excerpt:"Servicio de mudanzas en Vélez Sársfield. Barrio tranquilo del oeste de CABA con predominio de casas de familia. Embalaje incluido y presupuesto sin cargo.",date:'2026-09-28'},
+  {slug:'mudanzas-general-paz',title:"Mudanzas en General Paz Buenos Aires",excerpt:"Servicio de mudanzas en General Paz. Barrio tranquilo del sur de CABA con casas bajas y buen acceso vehicular. Embalaje incluido y presupuesto sin cargo.",date:'2026-10-12'},
 ];
 
 const itemListSchema = {
