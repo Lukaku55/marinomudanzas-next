@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-3-ambientes-buenos-aires" },
   title: "Mudanza de Departamento 3 Ambientes Buenos Aires | Marino Mudanzas",
   description: "¿Cuánto cuesta una mudanza de 3 ambientes en Buenos Aires? Qué incluye, cuánto personal se necesita y cómo planificarla. Precio cerrado → Presupuesto sin cargo: 4611-1818.",
 };

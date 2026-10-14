@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-villa-ortuzar" },
   title: "Mudanzas en Villa Ortúzar Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Villa Ortúzar: barrio residencial tranquilo entre Chacarita y Colegiales. Casas bajas y buen acceso vehicular. Precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };

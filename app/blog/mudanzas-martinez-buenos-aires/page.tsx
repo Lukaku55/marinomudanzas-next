@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-martinez-buenos-aires" },
   title: "Mudanzas en Martínez San Isidro | Marino Mudanzas",
   description: "Mudanzas en Martínez, San Isidro: casas grandes con jardín, countries y barrios privados. Coordinamos el acceso. Precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };

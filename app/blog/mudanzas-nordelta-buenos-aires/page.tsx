@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-nordelta-buenos-aires" },
   title: "Mudanzas en Nordelta Tigre | Marino Mudanzas",
   description: "Mudanzas en Nordelta, Tigre: acceso coordinado con seguridad, casas de alto volumen en el delta del Paraná. Precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };

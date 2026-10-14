@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-lanus" },
   title: "Mudanzas en Lanús GBA | Marino Mudanzas",
   description: "Mudanzas en Lanús Este y Oeste: zona sur del GBA con fácil acceso desde CABA. Precio cerrado sin sorpresas para todo el partido. Presupuesto sin cargo → 4611-1818.",
 };

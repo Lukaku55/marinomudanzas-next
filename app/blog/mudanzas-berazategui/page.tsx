@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-berazategui" },
   title: "Mudanzas en Berazategui GBA | Marino Mudanzas Buenos Aires",
   description: "Mudanzas en Berazategui con más de 80 años de experiencia. Cubrimos todo el partido. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
 };

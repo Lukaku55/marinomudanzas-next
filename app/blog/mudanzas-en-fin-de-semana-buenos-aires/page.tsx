@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-en-fin-de-semana-buenos-aires" },
   title: "Mudanzas en Fin de Semana en Buenos Aires | Marino Mudanzas",
   description: "¿Se puede mudar un sábado o domingo en Buenos Aires? Ventajas, mitos, restricciones de consorcio y cómo reservar. Precio cerrado, presupuesto sin cargo: 4611-1818.",
 };

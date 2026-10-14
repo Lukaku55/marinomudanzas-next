@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-lujan" },
   title: "Mudanzas en Luján GBA | Marino Mudanzas Buenos Aires",
   description: "Mudanzas en Luján con más de 80 años de experiencia. Ciudad histórica del oeste del GBA. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
 };

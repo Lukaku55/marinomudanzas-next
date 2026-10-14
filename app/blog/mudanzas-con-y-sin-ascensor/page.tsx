@@ -5,8 +5,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-con-y-sin-ascensor" },
   title: "Mudanzas con Ascensor y sin Ascensor en Buenos Aires | Marino Mudanzas",
-  description: "Todo sobre mudanzas en edificios con y sin ascensor en Buenos Aires. Técnicas, costos y soluciónes para cada caso. Marino Mudanzas, especialistas desde 1950.",
+  description: "Todo sobre mudanzas en edificios con y sin ascensor en Buenos Aires. Técnicas, costos y soluciónes para cada caso. Marino Mudanzas, especialistas desde hace más de 80 años.",
 };
 
 
@@ -14,7 +15,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Mudanzas con Ascensor y sin Ascensor en Buenos Aires | Marino Mudanzas",
-  "description": "Todo sobre mudanzas en edificios con y sin ascensor en Buenos Aires. Técnicas, costos y soluciónes para cada caso. Marino Mudanzas, especialistas desde 1950.",
+  "description": "Todo sobre mudanzas en edificios con y sin ascensor en Buenos Aires. Técnicas, costos y soluciónes para cada caso. Marino Mudanzas, especialistas desde hace más de 80 años.",
   "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-con-y-sin-ascensor",
   "author": {
     "@type": "Organization",

@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-2-ambientes-buenos-aires" },
   title: "Mudanza de 2 Ambientes en Buenos Aires: Precios y Tiempos 2026 | Marino Mudanzas",
   description: "¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires? Precios reales, tiempos estimados, qué camión necesitás y cómo prepararte. Presupuesto sin cargo → 4611-1818.",
 };

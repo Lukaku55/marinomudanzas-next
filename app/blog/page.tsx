@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog" },
   title: "Blog de Mudanzas Buenos Aires | Guías y Consejos | Marino Mudanzas",
   description: "Guías prácticas sobre mudanzas en Buenos Aires: costos, embalaje, cómo elegir empresa, barrios y organización. Por expertos con más de 80 años de experiencia.",
   openGraph: {
@@ -17,7 +18,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight } from "@/components/IconosBlog";
 
 const articles = [
   { slug: "mudanzas-2-ambientes-buenos-aires", title: "Mudanza de 2 Ambientes en Buenos Aires: Precios y Tiempos 2026", excerpt: "¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires? Precios reales, tiempos estimados por piso y ascensor, qué camión necesitás y checklist de preparación.", date: "2026-07-13" },
@@ -45,7 +46,7 @@ const articles = [
   {slug:'mudanzas-belgrano',title:'Mudanzas en Belgrano Buenos Aires',excerpt:'Servicio especializado de mudanzas en Belgrano. Conocemos cada edificio y cada particularidad del barrio.',date:'2026-04-22'},
   {slug:'mudanzas-caballito',title:'Mudanzas en Caballito Buenos Aires',excerpt:'Mudanzas en el barrio mas centrico de Buenos Aires. Coordinacion de permisos y acceso incluido.',date:'2026-04-22'},
   {slug:'mudanzas-recoleta',title:'Mudanzas en Recoleta Buenos Aires',excerpt:'Mudanzas en uno de los barrios mas exclusivos de Buenos Aires. Manejo de muebles de alto valor.',date:'2026-04-22'},
-  {slug:'mudanzas-flores',title:'Mudanzas en Flores Buenos Aires',excerpt:'Nuestro barrio de origen desde 1950. Conocemos cada calle y cada edificio de Flores.',date:'2026-04-22'},
+  {slug:'mudanzas-flores',title:'Mudanzas en Flores Buenos Aires',excerpt:'Nuestro barrio de origen desde hace más de 80 años. Conocemos cada calle y cada edificio de Flores.',date:'2026-04-22'},
   {slug:'mudanzas-almagro',title:'Mudanzas en Almagro Buenos Aires',excerpt:'Mudanzas en Almagro con mas de 80 anos de experiencia. Conocemos cada calle y edificio del barrio.',date:'2026-04-22'},
   {slug:'mudanzas-villa-urquiza',title:'Mudanzas en Villa Urquiza Buenos Aires',excerpt:'Servicio especializado de mudanzas en Villa Urquiza. Flota propia y personal capacitado.',date:'2026-04-22'},
   {slug:'mudanzas-san-telmo',title:'Mudanzas en San Telmo Buenos Aires',excerpt:'Experiencia en traslado de muebles antiguos y objetos de valor en el historico barrio de San Telmo.',date:'2026-04-22'},

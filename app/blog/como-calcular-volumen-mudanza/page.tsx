@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/como-calcular-volumen-mudanza" },
   title: "¿Cómo calcular el volumen de una mudanza? | Marino Mudanzas",
   description: "Aprendé a calcular el volumen de tu mudanza para elegir el camión correcto y evitar sorpresas. Guía práctica de Marino Mudanzas con más de 80 años de experiencia.",
 };

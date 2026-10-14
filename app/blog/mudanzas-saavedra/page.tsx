@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-saavedra" },
   title: "Mudanzas en Saavedra Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Saavedra: casas con jardín, buena accesibilidad para camiones y zona tranquila del norte de CABA. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

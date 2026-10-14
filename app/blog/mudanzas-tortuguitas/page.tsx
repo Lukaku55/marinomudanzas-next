@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-tortuguitas" },
   title: "Mudanzas en Tortuguitas | Marino Mudanzas | Presupuesto sin cargo",
   description: "Empresa de mudanzas en Tortuguitas, partido de Malvinas Argentinas. Más de 80 años de experiencia en CABA y GBA. Embalaje incluido. Llamanos: 4611-1818.",
 };

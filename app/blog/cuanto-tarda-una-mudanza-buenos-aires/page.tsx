@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/cuanto-tarda-una-mudanza-buenos-aires" },
   title: "¿Cuánto Tarda una Mudanza en Buenos Aires? | Marino Mudanzas",
   description: "Tiempos reales por tamaño de mudanza: monoambiente 2-3hs, 2 amb 3-5hs, 3 amb 5-7hs, casa completa 1-2 días. Qué acelera o demora una mudanza en CABA y GBA.",
 };

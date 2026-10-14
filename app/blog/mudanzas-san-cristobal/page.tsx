@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-san-cristobal" },
   title: "Mudanzas en San Cristóbal Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en San Cristóbal: barrio obrero del sur de CABA con edificios sin ascensor y alta rotación de alquileres. Precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };

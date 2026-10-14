@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/como-embalar-ropa-mudanza" },
   title: "Cómo Embalar la Ropa para una Mudanza | Marino Mudanzas",
   description: "Tres métodos para embalar ropa en una mudanza: cajas estándar, cajas para ropa colgada y bolsas. Qué no hacer y cuántas cajas necesitás. Buenos Aires.",
 };

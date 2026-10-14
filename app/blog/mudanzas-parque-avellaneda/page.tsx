@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-parque-avellaneda" },
   title: "Mudanzas en Parque Avellaneda Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Parque Avellaneda: barrio tranquilo del oeste de CABA con casas bajas y buen acceso vehicular. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-vicente-lopez" },
   title: "Mudanzas en Vicente López GBA | Marino Mudanzas",
   description: "Mudanzas en Vicente López: Olivos, La Lucila, Munro y Florida. Casas de gran porte y edificios modernos. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

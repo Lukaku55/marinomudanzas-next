@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/como-entregar-departamento-alquilado" },
   title: "Cómo Entregar un Departamento Alquilado en Buenos Aires | Marino Mudanzas",
   description: "Guía completa para la devolución de tu departamento alquilado. Checklist de limpieza y reparaciones, cómo coordinar la mudanza de salida y qué hacer para recuperar el depósito.",
 };

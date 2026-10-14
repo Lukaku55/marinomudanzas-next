@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-por-soga" },
   title: "Mudanzas por Soga en Buenos Aires | Marino Mudanzas",
   description: "Especialistas en mudanzas por soga en Buenos Aires. Subimos y bajamos muebles por el exterior cuando no entran por ascensor o escalera. Presupuesto sin cargo. Tel 4611-1818",
 };

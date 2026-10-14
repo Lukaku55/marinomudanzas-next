@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-villa-ballester-buenos-aires" },
   title: "Mudanzas en Villa Ballester Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Villa Ballester, partido de San Martín. Precio cerrado sin sorpresas para casas y edificios. Acceso rápido desde CABA. Presupuesto sin cargo: 4611-1818.",
 };

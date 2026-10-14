@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-larga-distancia-argentina" },
   title: "Mudanzas de Larga Distancia en Argentina | Marino Mudanzas Buenos Aires",
   description: "Servicio de mudanzas de larga distancia desde Buenos Aires a todo el pais y paises limitrofes. Mudanzas exclusivas sin cargas parciales. Tel 4611-1818",
 };

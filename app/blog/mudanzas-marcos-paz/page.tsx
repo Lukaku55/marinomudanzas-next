@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-marcos-paz" },
   title: "Mudanzas en Marcos Paz GBA | Marino Mudanzas Buenos Aires",
   description: "Mudanzas en Marcos Paz con más de 80 años de experiencia. Cubrimos todo el partido del oeste del GBA. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
 };

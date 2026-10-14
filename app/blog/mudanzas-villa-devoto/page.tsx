@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-villa-devoto" },
   title: "Mudanzas en Villa Devoto Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Villa Devoto: barrio familiar con casas de dos plantas y buen acceso vehicular. Cerca de nuestra base en Flores. Precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };

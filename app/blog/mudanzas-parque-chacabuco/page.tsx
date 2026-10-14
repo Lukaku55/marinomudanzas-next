@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-parque-chacabuco" },
   title: "Mudanzas en Parque Chacabuco Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Parque Chacabuco: barrio residencial tranquilo con casas de familia y calles arboladas. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

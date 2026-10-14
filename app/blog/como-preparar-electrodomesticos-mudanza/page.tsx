@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/como-preparar-electrodomesticos-mudanza" },
   title: "Cómo Preparar los Electrodomésticos para una Mudanza | Marino Mudanzas",
   description: "Guía paso a paso para desconectar y preparar heladera, lavarropas, lavavajillas, TV y más antes de tu mudanza. Consejos de expertos para evitar roturas.",
 };

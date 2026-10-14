@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/guardamuebles-buenos-aires" },
   title: "Guardamuebles en Buenos Aires: Todo lo que Necesitas Saber | Marino Mudanzas",
   description: "Todo sobre guardamuebles en Buenos Aires. Como funciona, que incluye, cuanto cuesta y como elegir el mejor servicio. Marino Mudanzas tiene guardamuebles en Flores, CABA.",
 };

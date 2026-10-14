@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-san-fernando" },
   title: "Mudanzas en San Fernando GBA | Marino Mudanzas Buenos Aires",
   description: "Servicio de mudanzas en San Fernando y zona norte del GBA. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };

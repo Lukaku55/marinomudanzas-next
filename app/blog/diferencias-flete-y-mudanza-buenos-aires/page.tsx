@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/diferencias-flete-y-mudanza-buenos-aires" },
   title: "¿Flete o Mudanza? Diferencias y Cuándo Conviene Cada Uno | Marino Mudanzas",
   description: "Flete vs mudanza completa: qué incluye cada servicio, diferencias de precio y cuándo conviene cada opción en Buenos Aires. Presupuesto sin cargo: 4611-1818.",
 };

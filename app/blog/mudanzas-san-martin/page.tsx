@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-san-martin" },
   title: "Mudanzas en San Martín GBA | Marino Mudanzas",
   description: "Mudanzas en San Martín: Villa Ballester, Villa Maipú y José León Suárez. Precio cerrado sin sorpresas para todo el partido. Presupuesto sin cargo → 4611-1818.",
 };

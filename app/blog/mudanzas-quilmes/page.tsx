@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-quilmes" },
   title: "Mudanzas en Quilmes GBA | Marino Mudanzas",
   description: "Mudanzas en Quilmes: Bernal, Berazategui y zona sur del GBA. Camiones de distintos tamaños y precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

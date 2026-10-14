@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-haedo-buenos-aires" },
   title: "Mudanzas en Haedo Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Haedo, partido de Morón. Acceso por Av. Rivadavia o autopista del Oeste. Precio cerrado para casas y edificios. Presupuesto sin cargo: 4611-1818.",
 };

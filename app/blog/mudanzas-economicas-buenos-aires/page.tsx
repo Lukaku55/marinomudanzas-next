@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-economicas-buenos-aires" },
   title: "Mudanzas Económicas en Buenos Aires | Marino Mudanzas",
   description: "Mudanzas económicas en Buenos Aires sin sacrificar calidad. Presupuesto transparente, sin cargos ocultos. Más de 80 años de experiencia. Tel 4611-1818.",
 };

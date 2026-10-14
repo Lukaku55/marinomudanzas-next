@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-florencio-varela" },
   title: "Mudanzas en Florencio Varela GBA | Marino Mudanzas Buenos Aires",
   description: "Mudanzas en Florencio Varela con más de 80 años de experiencia. Cubrimos todo el partido del sur del GBA. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
 };

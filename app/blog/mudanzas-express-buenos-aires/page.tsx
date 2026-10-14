@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-express-buenos-aires" },
   title: "Mudanzas Express en Buenos Aires | Marino Mudanzas",
   description: "Servicio de mudanzas express en Buenos Aires. Mudanzas urgentes y en el día en CABA y GBA. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };

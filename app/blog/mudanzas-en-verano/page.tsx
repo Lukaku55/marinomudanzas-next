@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-en-verano" },
   title: "Mudanzas en Verano en Buenos Aires: Guía Completa | Marino Mudanzas",
   description: "Todo lo que necesitás saber para mudarte en verano en Buenos Aires. Cómo manejar el calor, proteger plantas y electrodomésticos, y por qué reservar con anticipación en temporada alta.",
 };

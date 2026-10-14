@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-casa-completa-buenos-aires" },
   title: "Mudanza de Casa Completa Buenos Aires | Marino Mudanzas",
   description: "¿Cuánto cuesta mudar una casa completa en Buenos Aires? Qué incluye, cuánto personal y camiones se necesitan. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

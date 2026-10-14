@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-general-paz" },
   title: "Mudanzas en General Paz Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en General Paz: barrio pequeño y tranquilo del sur de CABA con casas bajas y excelente acceso vehicular. Precio cerrado sin sorpresas → 4611-1818.",
 };

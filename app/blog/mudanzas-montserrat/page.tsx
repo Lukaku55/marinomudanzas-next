@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-montserrat" },
   title: "Mudanzas en Montserrat Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Montserrat: edificios históricos, ascensores de reja y restricciones de tráfico en el centro de CABA. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

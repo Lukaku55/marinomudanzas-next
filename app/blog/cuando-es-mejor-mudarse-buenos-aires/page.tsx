@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/cuando-es-mejor-mudarse-buenos-aires" },
   title: "¿Cuándo es el Mejor Momento para Mudarse en Buenos Aires? | Marino Mudanzas",
   description: "Analizamos los mejores días, semanas y meses para mudarse en Buenos Aires. Por qué el fin de mes es un caos, cuándo conviene y cómo ahorrar eligiendo bien la fecha.",
 };
@@ -96,7 +97,7 @@ export default function Page() {
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">¿Cuándo es el Mejor Momento para Mudarse en Buenos Aires?</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
 
-            <p>Elegir bien la fecha de una mudanza puede hacer una diferencia enorme: en el estrés del día, en la disponibilidad de vehículos y operarios, y en qué tan caótico es el tráfico en los barrios. Desde 1950 venimos haciendo mudanzas en Buenos Aires y lo que hemos aprendido es claro: hay momentos ideales y momentos para evitar a toda costa.</p>
+            <p>Elegir bien la fecha de una mudanza puede hacer una diferencia enorme: en el estrés del día, en la disponibilidad de vehículos y operarios, y en qué tan caótico es el tráfico en los barrios. Desde hace más de 80 años venimos haciendo mudanzas en Buenos Aires y lo que hemos aprendido es claro: hay momentos ideales y momentos para evitar a toda costa.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Los mejores días de la semana para mudarse</h2>
             <ul className="list-disc pl-6 space-y-2">

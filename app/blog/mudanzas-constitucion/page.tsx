@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-constitucion" },
   title: "Mudanzas en Constitución Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Constitución con más de 80 años de experiencia. Barrio céntrico del sur de CABA. Embalaje incluido, seguro de carga y presupuesto sin cargo. Tel 4611-1818",
 };

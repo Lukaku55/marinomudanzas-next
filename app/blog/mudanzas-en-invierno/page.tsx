@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-en-invierno" },
   title: "Mudanzas en Invierno en Buenos Aires: Guía Completa | Marino Mudanzas",
   description: "Todo lo que necesitás saber para mudarte en invierno en Buenos Aires. Ventajas de la temporada baja, cómo proteger tus muebles de la lluvia y consejos para el día de la mudanza.",
 };

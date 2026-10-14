@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-de-piano-buenos-aires" },
   title: "Mudanzas de Piano en Buenos Aires | Marino Mudanzas",
   description: "Especialistas en el traslado de pianos verticales y de cola en Buenos Aires. Técnicas profesionales, equipamiento especializado y más de 80 años de experiencia.",
 };

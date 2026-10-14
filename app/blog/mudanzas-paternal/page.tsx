@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-paternal" },
   title: "Mudanzas en Paternal Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Paternal: barrio tranquilo del oeste CABA con casas bajas y calles de poco tráfico. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

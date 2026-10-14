@@ -5,11 +5,12 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/como-organizar-mudanza-paso-a-paso" },
   title: "Cómo organizar una mudanza paso a paso: guía completa | Marino Mudanzas",
   description: "¿No sabés por dónde empezar tu mudanza? Guía paso a paso con checklist semana a semana, consejos de embalaje y todo lo que necesitás saber antes del día D.",
 };
 
-import { MessageCircle, Phone } from "lucide-react";
+import { MessageCircle, Phone } from "@/components/IconosBlog";
 
 
 const jsonLd = {

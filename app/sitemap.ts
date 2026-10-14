@@ -1,3 +1,5 @@
+// La publicación automática del blog (.github/scripts/release-next-post.js) suma cada
+// lunes un artículo a la lista blogSlugs: no cambiar su formato.
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -117,7 +119,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   return [
-    { url: baseUrl, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
+    // La portada existe en español y en inglés; cada una avisa de la otra (hreflang).
+    { url: baseUrl, lastModified: new Date(), changeFrequency: "weekly", priority: 1, alternates: { languages: { "es-AR": baseUrl, en: `${baseUrl}/en` } } },
+    { url: `${baseUrl}/en`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8, alternates: { languages: { "es-AR": baseUrl, en: `${baseUrl}/en` } } },
     { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/mudanzas-residenciales`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/mudanzas-oficinas`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },

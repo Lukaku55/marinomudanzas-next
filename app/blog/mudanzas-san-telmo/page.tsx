@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-san-telmo" },
   title: "Mudanzas en San Telmo Buenos Aires | Marino Mudanzas",
   description: "Servicio de mudanzas en San Telmo, Buenos Aires. Especialistas en casas historicas y antiguedades. Mas de 80 años de experiencia. Tel 4611-1818",
 };

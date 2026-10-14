@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/fletes-buenos-aires" },
   title: "Fletes en Buenos Aires | Marino Mudanzas",
   description: "Servicio de fletes en Buenos Aires. Traslado de muebles, electrodomesticos y objetos en CABA y GBA. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };

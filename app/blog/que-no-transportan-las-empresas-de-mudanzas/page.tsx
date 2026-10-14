@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/que-no-transportan-las-empresas-de-mudanzas" },
   title: "Qué No Transportan las Empresas de Mudanzas | Marino Mudanzas",
   description: "Descubrí qué objetos y materiales no puede transportar una empresa de mudanzas y cómo manejar cada caso. Guía completa para evitar sorpresas el día de tu mudanza.",
 };

@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-velez-sarsfield" },
   title: "Mudanzas en Vélez Sársfield Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Vélez Sársfield: barrio del oeste de CABA con casas de familia y buen acceso vehicular. Atención en días de partido. Precio cerrado → 4611-1818.",
 };

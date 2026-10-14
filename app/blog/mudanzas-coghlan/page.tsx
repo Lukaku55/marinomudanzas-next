@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-coghlan" },
   title: "Mudanzas en Coghlan Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Coghlan: barrio tranquilo del norte de CABA con predominio de casas bajas y calles arboladas. Conocemos cada calle. Presupuesto sin cargo → 4611-1818.",
 };

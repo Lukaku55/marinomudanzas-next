@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-jose-c-paz" },
   title: "Mudanzas en José C. Paz GBA | Marino Mudanzas Buenos Aires",
   description: "Mudanzas en José C. Paz con más de 80 años de experiencia. Cubrimos todo el partido. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
 };

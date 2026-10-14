@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-fin-de-mes" },
   title: "Mudanzas a Fin de Mes en Buenos Aires | Marino Mudanzas",
   description: "¿Te mudás a fin de mes? Conocé cómo organizarte para la fecha más demandada del mes. Reservá con anticipación. Más de 80 años de experiencia. Tel 4611-1818",
 };

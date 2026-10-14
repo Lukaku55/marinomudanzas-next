@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/que-incluye-una-mudanza" },
   title: "¿Qué Incluye un Servicio de Mudanza? | Marino Mudanzas",
   description: "Todo lo que incluye un servicio de mudanza profesional en Buenos Aires. Embalaje, carga, transporte, descarga y más. Marino Mudanzas explica cada detalle.",
 };

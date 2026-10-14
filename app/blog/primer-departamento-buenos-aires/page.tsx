@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/primer-departamento-buenos-aires" },
   title: "Primer Departamento en Buenos Aires: Guía para tu Primera Mudanza | Marino Mudanzas",
   description: "Guía completa para independizarte en Buenos Aires. Checklist de lo que necesitás, cuánto cuesta la mudanza de un monoambiente y consejos para el primer día en tu nuevo hogar.",
 };

@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-la-matanza" },
   title: "Mudanzas en La Matanza GBA | Marino Mudanzas",
   description: "Mudanzas en La Matanza: Ramos Mejía, San Justo, Isidro Casanova y todo el partido. Personal propio, precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

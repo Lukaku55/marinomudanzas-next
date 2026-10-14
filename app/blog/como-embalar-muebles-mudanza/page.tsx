@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/como-embalar-muebles-mudanza" },
   title: "Cómo Embalar Muebles para una Mudanza | Guía Completa | Marino Mudanzas",
   description: "Guía completa para embalar muebles y objetos frágiles antes de una mudanza. Consejos profesionales de Marino Mudanzas con más de 80 años de experiencia.",
 };

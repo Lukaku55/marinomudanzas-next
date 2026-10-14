@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/como-proteger-television-mudanza" },
   title: "Cómo Proteger la Televisión en una Mudanza | Marino Mudanzas",
   description: "Cómo embalar y transportar un televisor LCD, OLED o QLED sin dañarlo. La TV va siempre vertical. Técnicas, materiales y consejos de Marino Mudanzas.",
 };

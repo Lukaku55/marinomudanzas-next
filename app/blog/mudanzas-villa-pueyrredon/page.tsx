@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-villa-pueyrredon" },
   title: "Mudanzas en Villa Pueyrredón Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Villa Pueyrredón: barrio noroeste de propietarios con casas con jardín y calles arboladas. Precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };

@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/empresa-mudanzas-confiable-buenos-aires" },
   title: "Cómo Elegir una Empresa de Mudanzas Confiable en Buenos Aires | Marino Mudanzas",
   description: "Guía para elegir una empresa de mudanzas confiable en Buenos Aires. Qué verificar antes de contratar, señales de alerta y por qué Marino Mudanzas es la mejor opción.",
 };
@@ -62,7 +63,7 @@ export default function Page() {
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Por qué elegir Marino Mudanzas</h2>
-            <p>Con más de 80 años de trayectoria, Marino Mudanzas es una de las empresas de mudanzas más antiguas y confiables de Buenos Aires. Tenemos sede en Flores desde 1950, flota propia de camiónes, más de 338 reseñas en Google con 4.7 estrellas y seguro de carga en todos nuestros servicios. Cada mudanza tiene un presupuesto detallado por escrito y un equipo de operarios capacitados y comprometidos con el cuidado de tus pertenencias.</p>
+            <p>Con más de 80 años de trayectoria, Marino Mudanzas es una de las empresas de mudanzas más antiguas y confiables de Buenos Aires. Tenemos sede en Flores desde hace más de 80 años, flota propia de camiónes, más de 338 reseñas en Google con 4.7 estrellas y seguro de carga en todos nuestros servicios. Cada mudanza tiene un presupuesto detallado por escrito y un equipo de operarios capacitados y comprometidos con el cuidado de tus pertenencias.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Solicitá tu presupuesto sin cargo</h2>
             <p>Contactános por WhatsApp o teléfono y te damos un presupuesto detallado sin cargo y sin compromiso. Trabajamos de lunes a sábado de 8 a 18hs.</p>

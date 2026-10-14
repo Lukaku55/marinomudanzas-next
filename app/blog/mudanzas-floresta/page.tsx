@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-floresta" },
   title: "Mudanzas en Floresta Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Floresta con más de 80 años de experiencia. Barrio vecino a Flores, nuestro lugar de origen. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
 };
@@ -18,7 +19,7 @@ export default function Page() {
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas en Floresta</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
-            <p>Floresta es un barrio residencial del oeste de la Ciudad Autónoma de Buenos Aires, vecino a Flores, nuestro barrio de origen desde 1950. Con calles arboladas, casas de familia y edificios de mediana altura, es un barrio que conocemos muy bien. En Marino Mudanzas realizamos mudanzas en Floresta con más de 80 años de experiencia en CABA.</p>
+            <p>Floresta es un barrio residencial del oeste de la Ciudad Autónoma de Buenos Aires, vecino a Flores, nuestro barrio de origen desde hace más de 80 años. Con calles arboladas, casas de familia y edificios de mediana altura, es un barrio que conocemos muy bien. En Marino Mudanzas realizamos mudanzas en Floresta con más de 80 años de experiencia en CABA.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Características de las mudanzas en Floresta</h2>
             <p>Floresta tiene una fisonomía similar a la de Flores — predominio de casas bajas con jardín y edificios de 4 a 6 pisos. Las calles son tranquilas y arboladas, lo que fácilita mucho las operaciónes de mudanza. Es uno de los barrios donde más trabajamos dada nuestra cercanía.</p>

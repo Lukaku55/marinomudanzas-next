@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-oficinas-buenos-aires" },
   title: "Mudanzas de Oficinas en Buenos Aires | Marino Mudanzas",
   description: "Servicio especializado de mudanzas de oficinas en Buenos Aires. Minimizamos el tiempo de inactividad de tu empresa. Mas de 80 años de experiencia. Tel 4611-1818",
 };

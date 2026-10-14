@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-olivos-buenos-aires" },
   title: "Mudanzas en Olivos GBA Norte | Marino Mudanzas",
   description: "Mudanzas en Olivos, Vicente López: mansiones sobre el río, edificios de alta gama en Av. Maipú y acceso por Panamericana. Precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };

@@ -5,8 +5,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-flores" },
   title: "Mudanzas en Flores Buenos Aires | Marino Mudanzas",
-  description: "Servicio de mudanzas en Flores, Buenos Aires. Nuestro barrio de origen desde 1950. Más de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  description: "Servicio de mudanzas en Flores, Buenos Aires. Nuestro barrio de origen. Más de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };
 
 
@@ -14,7 +15,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Mudanzas en Flores Buenos Aires | Marino Mudanzas",
-  "description": "Servicio de mudanzas en Flores, Buenos Aires. Nuestro barrio de origen desde 1950. Más de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
+  "description": "Servicio de mudanzas en Flores, Buenos Aires. Nuestro barrio de origen. Más de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
   "url": "https://www.mudanzasmarino.com.ar/blog/mudanzas-flores",
   "author": {
     "@type": "Organization",
@@ -40,7 +41,7 @@ export default function Page() {
           <Link href="/blog" className="font-body text-gold hover:underline text-sm mb-6 inline-block">← Volver al blog</Link>
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas en Flores</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
-            <p>Flores es nuestro barrio de origen y donde tenemos nuestra base de operaciónes desde 1950. Conocemos cada calle, cada edificio y cada particularidad del barrio como ninguna otra empresa. Av. Juan Bautista Alberdi 2968 es nuestra dirección desde hace más de 70 años, lo que nos convierte en la empresa de mudanzas con mayor arraigo en Flores.</p>
+            <p>Flores es nuestro barrio de origen y donde tenemos nuestra base de operaciónes desde hace más de 80 años. Conocemos cada calle, cada edificio y cada particularidad del barrio como ninguna otra empresa. Av. Juan Bautista Alberdi 2968 es nuestra dirección desde hace más de 70 años, lo que nos convierte en la empresa de mudanzas con mayor arraigo en Flores.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Particularidades de las mudanzas en Flores</h2>
             <p>Flores es un barrio muy diverso, con zonas residenciales tranquilas como Floresta y Villa Luro, y zonas comerciales activas como Avenida Rivadavia y Avenida Nazca. Sus calles mezclan edificios de departamentos modernos con casas de familia de varias plantas. Al ser nuestro barrio base, conocemos cada restricción de tráfico y cada norma de consorcio.</p>
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Zonas de Flores que cubrimos</h2>

@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/que-preguntar-antes-de-contratar-mudanza" },
   title: "Qué Preguntar Antes de Contratar una Empresa de Mudanzas | Marino Mudanzas",
   description: "Las preguntas clave que debés hacerle a una empresa de mudanzas antes de contratar. Evitá sorpresas y protegé tus pertenencias. Guía de Marino Mudanzas.",
 };

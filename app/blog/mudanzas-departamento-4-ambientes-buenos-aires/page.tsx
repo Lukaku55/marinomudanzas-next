@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-departamento-4-ambientes-buenos-aires" },
   title: "Mudanza de 4 Ambientes en Buenos Aires | Marino Mudanzas",
   description: "¿Cuánto cuesta mudar un departamento de 4 ambientes en Buenos Aires? Personal, camiones, tiempo y consejos. Precio cerrado. Presupuesto sin cargo: 4611-1818.",
 };

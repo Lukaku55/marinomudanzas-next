@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-merlo" },
   title: "Mudanzas en Merlo GBA | Marino Mudanzas Buenos Aires",
   description: "Mudanzas en Merlo con más de 80 años de experiencia. Servicio desde Buenos Aires a todo el partido de Merlo. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
 };

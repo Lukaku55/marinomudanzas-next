@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-urgentes-buenos-aires" },
   title: "Mudanzas Urgentes en Buenos Aires en 24-48 Horas | Marino Mudanzas",
   description: "Necesitás mudarte con urgencia en Buenos Aires? Coordinamos mudanzas urgentes desde 24 hs. Precio cerrado, presupuesto sin cargo. Llamanos: 4611-1818.",
 };

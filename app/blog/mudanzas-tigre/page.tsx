@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-tigre" },
   title: "Mudanzas en Tigre GBA | Marino Mudanzas",
   description: "Mudanzas en Tigre: Nordelta, countries y barrios cerrados del norte del GBA. Coordinación previa incluida. Precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };

@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanza-monoambiente-buenos-aires" },
   title: "Mudanza de Monoambiente en Buenos Aires | Marino Mudanzas",
   description: "¿Cuánto cuesta mudar un monoambiente en Buenos Aires? Tiempos, personal y qué incluye. Precio cerrado y presupuesto sin cargo. Llamanos: 4611-1818.",
 };

@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-puerto-madero" },
   title: "Mudanzas en Puerto Madero Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Puerto Madero: torres premium, consorcios estrictos, montacargas con turno anticipado y acceso vehicular controlado. Precio cerrado. 4611-1818.",
 };

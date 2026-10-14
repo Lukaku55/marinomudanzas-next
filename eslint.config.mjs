@@ -12,6 +12,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Artículos traídos tal cual del sitio actual; el layout sí se revisa.
+    "app/blog/*/**",
+    "app/blog/page.tsx",
+    "app/(paginas)/*/**",
+    "components/InventarioForm.tsx",
   ]),
 ]);
 

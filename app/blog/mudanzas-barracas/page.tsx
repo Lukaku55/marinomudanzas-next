@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-barracas" },
   title: "Mudanzas en Barracas Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Barracas: Polo Tecnológico, lofts en galpones reconvertidos y casas de barrio tradicional. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

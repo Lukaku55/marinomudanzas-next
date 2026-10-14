@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-villa-urquiza" },
   title: "Mudanzas en Villa Urquiza Buenos Aires | Marino Mudanzas",
   description: "Servicio de mudanzas en Villa Urquiza, Buenos Aires. Barrio residencial del norte de CABA. Mas de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };

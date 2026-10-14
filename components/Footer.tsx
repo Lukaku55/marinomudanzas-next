@@ -1,112 +1,57 @@
-import { Phone, Mail, MapPin, MessageCircle, Clock } from "lucide-react";
+import { InstagramLogo, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
+import { EMPRESA } from "@/content/site";
+import { textos } from "@/content/textos";
+import type { Idioma } from "@/content/idioma";
 
-
-const Footer = () => {
+export default function Footer({ idioma = "es" }: { idioma?: Idioma }) {
+  const t = textos(idioma);
   return (
-    <footer className="bg-navy-dark py-16">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-          {/* Brand */}
-          <div>
-            <div className="flex items-center gap-3 mb-4">
-              <img src="/logo-mm.webp" alt="Logo de Marino Mudanzas - Empresa de fletes y mudanzas en CABA" className="h-12 w-12 rounded-full bg-background p-1" loading="lazy" />
-              <span className="font-display text-xl font-bold text-primary-foreground">Marino Mudanzas</span>
-            </div>
-            <p className="font-body text-primary-foreground/60 leading-relaxed">
-              <strong className="text-gold">Más de 80 años de experiencia</strong> como tu aliado de confianza para mudanzas residenciales y comerciales en Buenos Aires y alrededores.
-            </p>
-            <p className="font-body text-primary-foreground/50 text-sm mt-3 leading-relaxed">
-              Brindamos servicio de mudanzas profesionales en Flores, Caballito, Palermo, Belgrano, Recoleta y todo Buenos Aires.
-            </p>
+    <footer className="on-dark bg-navy-deep text-white">
+      <div className="mx-auto grid max-w-[1320px] gap-12 px-5 py-16 md:grid-cols-12 md:px-8 md:py-20">
+        <div className="md:col-span-5">
+          <div className="flex items-center gap-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={EMPRESA.logo} alt="" width={64} height={64} loading="lazy" className="h-16 w-16 rounded-full bg-white object-contain p-1" />
+            <p className="display text-[clamp(1.7rem,3.4vw,2.4rem)]">{EMPRESA.nombre}</p>
           </div>
-
-          {/* Links */}
-          <div>
-            <h3 className="font-display text-lg font-semibold text-primary-foreground mb-4">Enlaces</h3>
-            <nav className="flex flex-col gap-3">
-              {[
-                { label: "Inicio", href: "/#inicio" },
-                { label: "Servicios", href: "/#servicios" },
-                { label: "Nosotros", href: "/#nosotros" },
-                { label: "Zonas", href: "/#zonas-cobertura" },
-                { label: "Testimonios", href: "/#testimonios" },
-                { label: "Blog", href: "/blog" },
-                { label: "Contacto", href: "/#contacto" },
-              ].map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="font-body text-primary-foreground/60 hover:text-gold transition-colors text-sm"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </nav>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h3 className="font-display text-lg font-semibold text-primary-foreground mb-4">Contacto</h3>
-            <div className="flex flex-col gap-3">
-              <h4 className="font-body text-sm font-semibold text-primary-foreground/80 uppercase tracking-wider">Teléfonos</h4>
-              <a href="tel:+541146111818" className="flex items-center gap-3 font-body text-primary-foreground/60 hover:text-gold transition-colors text-sm">
-                <Phone className="w-4 h-4 flex-shrink-0" />
-                4611-1818
-              </a>
-              <a href="tel:+541146131818" className="flex items-center gap-3 font-body text-primary-foreground/60 hover:text-gold transition-colors text-sm">
-                <Phone className="w-4 h-4 flex-shrink-0" />
-                4613-1818
-              </a>
-              <a href="tel:+541146371818" className="flex items-center gap-3 font-body text-primary-foreground/60 hover:text-gold transition-colors text-sm">
-                <Phone className="w-4 h-4 flex-shrink-0" />
-                4637-1818
-              </a>
-              <h4 className="font-body text-sm font-semibold text-primary-foreground/80 uppercase tracking-wider mt-2">WhatsApp</h4>
-              <a
-                href="https://wa.me/5491154507435"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 font-body text-primary-foreground/60 hover:text-gold transition-colors text-sm"
-              >
-                <MessageCircle className="w-4 h-4 flex-shrink-0" />
-                11-5450-7435
-              </a>
-            </div>
-          </div>
-
-          {/* Info */}
-          <div>
-            <h3 className="font-display text-lg font-semibold text-primary-foreground mb-4">Información</h3>
-            <div className="flex flex-col gap-3">
-              <div className="flex items-start gap-3 font-body text-primary-foreground/60 text-sm">
-                <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                Av. Juan Bautista Alberdi 2968, Flores, Buenos Aires
-              </div>
-              <div className="flex items-start gap-3 font-body text-primary-foreground/60 text-sm">
-                <Clock className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                Lunes a Sábados de 08:00 a 18:00
-              </div>
-              <a
-                href="https://www.instagram.com/marino_mudanzas"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 font-body text-primary-foreground/60 hover:text-gold transition-colors text-sm mt-2"
-              >
-                
-                @marino_mudanzas
-              </a>
-            </div>
+          <p className="mt-5 max-w-[36ch] text-white/70">{t.ui.pieTexto}</p>
+          <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
+            <a href={t.whatsapp()} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-[48px] items-center gap-2.5 text-white/90 hover:text-white">
+              <WhatsappLogo size={24} /> <span className="link-sub">WhatsApp</span>
+            </a>
+            <a href={EMPRESA.instagram.url} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-[48px] items-center gap-2.5 text-white/90 hover:text-white">
+              <InstagramLogo size={24} /> <span className="link-sub">@{EMPRESA.instagram.usuario}</span>
+            </a>
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center">
-          <p className="font-body text-sm text-primary-foreground/40">
-            © Marino Mudanzas 2026 — Empresa de mudanzas en Buenos Aires desde 1950. Todos los derechos reservados.
-          </p>
+        <nav aria-label={t.ui.pieAccesos} className="md:col-span-3">
+          <p className="font-medium text-white/60">{t.ui.pieSecciones}</p>
+          <ul className="mt-3 grid">
+            {[...t.nav, t.cta].map((n) => (
+              <li key={n.href}>
+                <a href={n.href} className="inline-flex min-h-[40px] items-center text-white/90 hover:text-white">{n.label}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        <div className="md:col-span-4">
+          <p className="font-medium text-white/60">{t.ui.pieContacto}</p>
+          <ul className="mt-3 grid text-white/90">
+            {EMPRESA.telefonos.map((t) => (
+              <li key={t.href}><a href={t.href} className="link-sub inline-flex min-h-[40px] items-center">{t.visible}</a></li>
+            ))}
+          </ul>
+          <p className="mt-3 text-white/70">{EMPRESA.direccion}</p>
+          <p className="text-white/70">{t.horario}</p>
         </div>
+      </div>
+      <div className="border-t border-white/15">
+        <p className="mx-auto max-w-[1320px] px-5 py-6 text-sm text-white/60 md:px-8">
+          © {EMPRESA.nombre} · {EMPRESA.direccion}
+        </p>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}

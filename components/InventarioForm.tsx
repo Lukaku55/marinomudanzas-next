@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { NEGOCIO } from "@/lib/cerebro";
 
 const ambientes = [
   {
@@ -107,7 +108,7 @@ export default function InventarioForm() {
     }
     setEnviando(true);
     const resumen = buildResumen();
-    window.open(`https://wa.me/5491154507435?text=${resumen}`, "_blank");
+    window.open(`https://wa.me/${NEGOCIO.whatsapp.numero}?text=${resumen}`, "_blank");
     setEnviando(false);
     setEnviado(true);
   };
@@ -229,7 +230,7 @@ export default function InventarioForm() {
 
       {/* Botón enviar */}
       <button onClick={handleSubmit} disabled={enviando}
-        className="w-full flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-4 rounded-xl font-body font-bold text-lg hover:opacity-90 transition-opacity disabled:opacity-50">
+        className="w-full flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-4 rounded-xl font-body font-bold text-lg hover:opacity-90 press disabled:opacity-50">
         {enviando ? "Enviando..." : "Enviar inventario por WhatsApp"}
       </button>
       <p className="font-body text-muted-foreground text-sm text-center">

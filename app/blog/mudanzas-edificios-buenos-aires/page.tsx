@@ -5,11 +5,12 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-edificios-buenos-aires" },
   title: "Mudanzas en edificios de Buenos Aires: todo lo que tenés que saber | Marino Mudanzas",
   description: "¿Te mudás en un edificio de Buenos Aires? Horarios permitidos por consorcio, permisos, coordinación con el encargado y soluciones sin ascensor. Tel 4611-1818.",
 };
 
-import { MessageCircle, Phone } from "lucide-react";
+import { MessageCircle, Phone } from "@/components/IconosBlog";
 
 
 const jsonLd = {

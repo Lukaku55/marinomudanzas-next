@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-belgrano" },
   title: "Mudanzas en Belgrano Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Belgrano con más de 80 años de experiencia. Belgrano R, C y Chico. Conocemos cada edificio del barrio. Embalaje incluido y presupuesto sin cargo. ¡Llamános!",
 };

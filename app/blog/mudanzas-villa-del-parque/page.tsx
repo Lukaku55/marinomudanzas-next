@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-villa-del-parque" },
   title: "Mudanzas en Villa del Parque Buenos Aires | Marino Mudanzas",
   description: "Servicio de mudanzas en Villa del Parque, CABA. Flota propia, embalaje profesional y más de 80 años de experiencia. Presupuesto sin cargo. Tel 4611-1818",
 };

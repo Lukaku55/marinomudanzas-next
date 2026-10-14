@@ -1,155 +1,130 @@
 "use client";
-import { useState, useRef, useEffect } from "react";
-import { Phone, Menu, X, ChevronDown } from "lucide-react";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { AnimatePresence, motion, useMotionValueEvent, useReducedMotion, useScroll } from "motion/react";
+import { List, Translate, X } from "@phosphor-icons/react";
+import { EMPRESA } from "@/content/site";
+import { textos } from "@/content/textos";
+import { idiomaDeRuta, portada, type Idioma } from "@/content/idioma";
 
-const serviciosMenu = [
-  { label: "Mudanzas Residenciales", href: "/mudanzas-residenciales" },
-  { label: "Mudanzas Comerciales", href: "/mudanzas-oficinas" },
-  { label: "Guardamuebles", href: "/guardamuebles" },
-  { label: "Mudanzas al Interior", href: "/mudanzas-interior" },
-];
+/** Lleva a la portada en el otro idioma (el blog y las páginas internas están en español). */
+function SelectorIdioma({ idioma, className = "" }: { idioma: Idioma; className?: string }) {
+  const t = textos(idioma);
+  const otro: Idioma = idioma === "en" ? "es" : "en";
+  return (
+    <a href={portada(otro)} hrefLang={otro} lang={otro} title={t.ui.cambiarAria} className={`inline-flex min-h-[44px] items-center gap-1.5 rounded-[4px] px-2.5 text-[0.9rem] font-semibold ${className}`}>
+      <Translate size={18} aria-hidden="true" />
+      <span aria-hidden="true" className="min-[1100px]:hidden">{t.ui.cambiarCorto}</span>
+      <span className="sr-only min-[1100px]:not-sr-only">{t.ui.cambiarA}</span>
+    </a>
+  );
+}
 
-const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [serviciosOpen, setServiciosOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
+export default function Header() {
+  // Solo la portada tiene foto oscura detrás; en el resto va sólido desde el inicio.
+  const ruta = usePathname();
+  const siempreSolido = ruta !== "/" && ruta !== "/en";
+  const idioma = idiomaDeRuta(ruta);
+  const t = textos(idioma);
+  const { nav: NAV, cta: CTA } = t;
+  const { scrollY } = useScroll();
+  const [solido, setSolido] = useState(false);
+  const [abierto, setAbierto] = useState(false);
+  const reducir = useReducedMotion();
+
+  useMotionValueEvent(scrollY, "change", (y) => setSolido(y > 40));
 
   useEffect(() => {
-    const handleClickOutside = (e: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
-        setServiciosOpen(false);
-      }
+    document.body.style.overflow = abierto ? "hidden" : "";
+    const esc = (e: KeyboardEvent) => e.key === "Escape" && setAbierto(false);
+    window.addEventListener("keydown", esc);
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", esc);
     };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  }, [abierto]);
 
-  const navLinks = [
-    { label: "Nosotros", href: "/#nosotros" },
-    { label: "Zonas", href: "/#zonas-cobertura" },
-    { label: "Testimonios", href: "/#testimonios" },
-    { label: "Blog", href: "/blog" },
-    { label: "Contacto", href: "/#contacto" },
-  ];
+  const claro = siempreSolido || solido || abierto;
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-navy shadow-lg">
-      <div className="container mx-auto flex items-center justify-between py-3 px-4">
-        <a href="/#inicio" className="flex items-center gap-3">
-          <img src="/logo-marino-nuevo.png" alt="Logo de Marino Mudanzas" className="h-12 w-12 rounded-full bg-background p-1" />
-          <span className="font-display text-2xl font-bold text-primary-foreground tracking-wide hidden sm:inline">
-            Marino Mudanzas
-          </span>
-        </a>
+    <header
+      className={`fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,color] duration-300 ${
+        claro ? "bg-paper/95 text-ink shadow-[0_1px_0_var(--line)] backdrop-blur" : "on-dark bg-transparent text-white"
+      }`}
+    >
+      <div className="mx-auto flex h-[var(--header-h)] max-w-[1320px] items-center justify-between gap-6 px-5 md:px-8">
+        <Link href={portada(idioma)} className="flex items-center gap-3" onClick={() => setAbierto(false)}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={EMPRESA.logo} alt="" width={44} height={44} className="h-11 w-11 rounded-full bg-white object-contain p-0.5" />
+          <span className="display whitespace-nowrap text-[1.1rem] leading-none min-[680px]:max-lg:sr-only">{EMPRESA.nombre}</span>
+        </Link>
 
-        <nav className="hidden md:flex items-center gap-8">
-          <a href="/#inicio" className="text-primary-foreground/80 hover:text-gold transition-colors font-body text-sm uppercase tracking-wider">Inicio</a>
-          <div className="relative" ref={dropdownRef}>
-            <button
-              onClick={() => setServiciosOpen(!serviciosOpen)}
-              className="flex items-center gap-1 text-primary-foreground/80 hover:text-gold transition-colors font-body text-sm uppercase tracking-wider"
-            >
-              Servicios
-              <ChevronDown className={`w-4 h-4 transition-transform ${serviciosOpen ? "rotate-180" : ""}`} />
-            </button>
-            {serviciosOpen && (
-              <div className="absolute top-full left-0 mt-2 w-52 bg-navy border border-white/10 rounded-lg shadow-xl overflow-hidden z-50">
-                {serviciosMenu.map((item) => (
-                  <a
-                    key={item.href}
-                    href={item.href}
-                    onClick={() => setServiciosOpen(false)}
-                    className="block px-4 py-3 text-primary-foreground/80 hover:text-gold hover:bg-white/5 transition-colors font-body text-sm"
-                  >
-                    {item.label}
-                  </a>
-                ))}
-              </div>
-            )}
-          </div>
-
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-primary-foreground/80 hover:text-gold transition-colors font-body text-sm uppercase tracking-wider"
-            >
-              {link.label}
-            </a>
-          ))}
+        <nav aria-label={t.ui.menuPrincipal} className="hidden min-[680px]:block">
+          <ul className="flex items-center gap-5 text-[0.9rem] font-medium lg:gap-7 lg:text-[0.95rem]">
+            {NAV.map((item) => (
+              <li key={item.href}>
+                <Link href={item.href} hrefLang={item.hrefLang} className="relative py-2 after:absolute after:inset-x-0 after:bottom-0 after:h-px after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-300 after:ease-[var(--ease-out)] hover:after:scale-x-100">
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </nav>
 
-        <a
-          href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20cotizar%20una%20mudanza"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden md:flex items-center gap-2 bg-gold text-accent-foreground px-5 py-2.5 rounded-lg font-body font-semibold text-sm hover:opacity-90 transition-opacity"
-        >
-          <Phone className="w-4 h-4" />
-          Cotizá Gratis
-        </a>
-
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-primary-foreground"
-          aria-label="Abrir menú"
-        >
-          {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
+        <div className="flex items-center gap-2">
+          <SelectorIdioma idioma={idioma} className="hover:bg-current/10" />
+          <div className="hidden sm:block">
+            <a href={CTA.href} className="btn btn-primario" aria-label={CTA.label}>
+              <span className="lg:hidden">{t.ui.presupuestoCorto}</span>
+              <span className="hidden lg:inline">{CTA.label}</span>
+            </a>
+          </div>
+          <button
+            type="button"
+            className="-mr-2 grid h-12 w-12 place-items-center min-[680px]:hidden"
+            aria-expanded={abierto}
+            aria-controls="menu-movil"
+            aria-label={abierto ? t.ui.cerrarMenu : t.ui.abrirMenu}
+            onClick={() => setAbierto((v) => !v)}
+          >
+            {abierto ? <X size={26} /> : <List size={26} />}
+          </button>
+        </div>
       </div>
 
-      {menuOpen && (
-        <div className="md:hidden bg-navy border-t border-white/10">
-          <nav className="flex flex-col px-4 py-4 gap-4">
-            <div>
-              <button
-                onClick={() => setServiciosOpen(!serviciosOpen)}
-                className="flex items-center gap-1 text-primary-foreground/80 hover:text-gold transition-colors font-body text-sm uppercase tracking-wider w-full"
-              >
-                Servicios
-                <ChevronDown className={`w-4 h-4 transition-transform ml-1 ${serviciosOpen ? "rotate-180" : ""}`} />
-              </button>
-              {serviciosOpen && (
-                <div className="mt-2 ml-4 flex flex-col gap-2">
-                  {serviciosMenu.map((item) => (
-                    <a
-                      key={item.href}
-                      href={item.href}
-                      onClick={() => { setMenuOpen(false); setServiciosOpen(false); }}
-                      className="text-gold font-body text-sm"
-                    >
-                      {"→"} {item.label}
-                    </a>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={() => setMenuOpen(false)}
-                className="text-primary-foreground/80 hover:text-gold transition-colors font-body text-sm uppercase tracking-wider"
-              >
-                {link.label}
-              </a>
-            ))}
-
-            <a
-              href="https://wa.me/5491154507435?text=Hola%2C%20quiero%20cotizar%20una%20mudanza"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-gold text-accent-foreground px-5 py-2.5 rounded-lg font-body font-semibold text-sm justify-center hover:opacity-90 transition-opacity"
-            >
-              <Phone className="w-4 h-4" />
-              Cotizá Gratis
+      <AnimatePresence>
+        {abierto && (
+          <motion.div
+            id="menu-movil"
+            className="absolute inset-x-0 top-[var(--header-h)] h-[calc(100dvh-var(--header-h))] overflow-y-auto bg-paper px-5 pb-10 pt-6 min-[680px]:hidden"
+            initial={reducir ? { opacity: 0 } : { opacity: 0, clipPath: "inset(0 0 100% 0)" }}
+            animate={reducir ? { opacity: 1 } : { opacity: 1, clipPath: "inset(0 0 0% 0)" }}
+            exit={{ opacity: 0, transition: { duration: 0.15 } }}
+            transition={{ duration: 0.45, ease: [0.23, 1, 0.32, 1] }}
+          >
+            <nav aria-label={t.ui.menuMovil}>
+              <ul className="divide-y divide-line border-y border-line">
+                {NAV.map((item, i) => (
+                  <motion.li
+                    key={item.href}
+                    initial={reducir ? false : { opacity: 0, y: 16 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.08 + i * 0.05, duration: 0.5, ease: [0.23, 1, 0.32, 1] }}
+                  >
+                    <Link href={item.href} hrefLang={item.hrefLang} onClick={() => setAbierto(false)} className="display flex min-h-[64px] items-center text-[1.75rem]">
+                      {item.label}
+                    </Link>
+                  </motion.li>
+                ))}
+              </ul>
+            </nav>
+            <a href={CTA.href} onClick={() => setAbierto(false)} className="btn btn-primario mt-8 w-full">
+              {CTA.label}
             </a>
-          </nav>
-        </div>
-      )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
-};
-
-export default Header;
+}

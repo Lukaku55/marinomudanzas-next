@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-pilar" },
   title: "Mudanzas en Pilar GBA | Marino Mudanzas",
   description: "Mudanzas en Pilar: countries y barrios privados del norte del GBA. Coordinación previa con administraciones y precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };

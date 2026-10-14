@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-avellaneda" },
   title: "Mudanzas en Avellaneda GBA | Marino Mudanzas",
   description: "Mudanzas en Avellaneda: zona sur del GBA, primer partido después de CABA. Conocemos las rutas de acceso y la regulación de carga. Precio cerrado. Presupuesto sin cargo → 4611-1818.",
 };

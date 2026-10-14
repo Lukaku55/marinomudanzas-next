@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-villa-lugano" },
   title: "Mudanzas en Villa Lugano Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Villa Lugano con más de 80 años de experiencia. Embalaje incluido, seguro de carga y presupuesto sin cargo. Tel 4611-1818",
 };

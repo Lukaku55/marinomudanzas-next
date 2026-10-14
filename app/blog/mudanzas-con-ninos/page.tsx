@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-con-ninos" },
   title: "Cómo Mudarse con Niños en Buenos Aires | Marino Mudanzas",
   description: "Guía completa para hacer una mudanza con niños pequeños y adolescentes en Buenos Aires. Consejos para reducir el estrés y hacer la transición más fácil para toda la familia.",
 };

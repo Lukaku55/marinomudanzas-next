@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-san-nicolas" },
   title: "Mudanzas de Oficinas en San Nicolás Microcentro | Marino Mudanzas",
   description: "Mudanzas de oficinas en San Nicolás, microcentro de Buenos Aires. Manejo de restricciones de carga y horarios en zona peatonal. Precio cerrado → 4611-1818.",
 };

@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-palermo" },
   title: "Mudanzas en Palermo Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Palermo con más de 80 años de experiencia. Cubrimos Palermo Soho, Hollywood y Chico. Embalaje incluido, seguro de carga y presupuesto sin cargo. ¡Llamános!",
 };

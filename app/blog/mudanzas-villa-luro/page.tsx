@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-villa-luro" },
   title: "Mudanzas en Villa Luro Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Villa Luro con más de 80 años de experiencia. Embalaje incluido, seguro de carga y presupuesto sin cargo. Tel 4611-1818",
 };

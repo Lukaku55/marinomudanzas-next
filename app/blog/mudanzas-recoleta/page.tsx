@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-recoleta" },
   title: "Mudanzas en Recoleta Buenos Aires | Marino Mudanzas",
   description: "Servicio de mudanzas en Recoleta, Buenos Aires. Especialistas en edificios de época y muebles de alto valor. Más de 80 años de experiencia. Tel 4611-1818",
 };

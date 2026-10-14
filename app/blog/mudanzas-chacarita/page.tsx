@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-chacarita" },
   title: "Mudanzas en Chacarita Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Chacarita: casas bajas, PHs y edificios sin ascensor de los 50. Precio cerrado sin sorpresas. Conocemos cada calle del barrio. Presupuesto sin cargo → 4611-1818.",
 };

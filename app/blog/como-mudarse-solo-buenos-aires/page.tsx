@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/como-mudarse-solo-buenos-aires" },
   title: "Cómo Mudarse Solo en Buenos Aires: Guía Completa | Marino Mudanzas",
   description: "Guía para mudarse solo por primera vez en Buenos Aires: checklist, qué llevarse, cuánto cuesta, cómo dar de alta servicios y consejos para ahorrar en la mudanza.",
 };

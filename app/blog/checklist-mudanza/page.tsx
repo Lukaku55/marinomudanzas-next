@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/checklist-mudanza" },
   title: "Checklist de Mudanza Completo 2026 | Marino Mudanzas",
   description: "Checklist completo para organizar tu mudanza paso a paso. Que hacer 4 semanas antes, 1 semana antes y el dia de la mudanza. Guia de Marino Mudanzas.",
 };

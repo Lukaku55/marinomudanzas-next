@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-fin-de-ano-buenos-aires" },
   title: "Mudanzas en Diciembre y Enero en Buenos Aires | Marino Mudanzas",
   description: "Todo lo que tenés que saber para mudarte en diciembre o enero en Buenos Aires: calor extremo, alta demanda, cómo reservar con tiempo y cuidar tus electrodomésticos.",
 };

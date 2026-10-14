@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-versalles" },
   title: "Mudanzas en Versalles Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Versalles con más de 80 años de experiencia. Uno de los barrios más exclusivos del oeste de CABA. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
 };

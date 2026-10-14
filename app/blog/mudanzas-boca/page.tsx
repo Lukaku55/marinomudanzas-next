@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-boca" },
   title: "Mudanzas en La Boca Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en La Boca con más de 80 años de experiencia. Barrio histórico y colorido del sur de CABA. Embalaje incluido, seguro de carga y presupuesto sin cargo. Tel 4611-1818",
 };

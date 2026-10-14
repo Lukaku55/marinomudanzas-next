@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-monoambiente-buenos-aires" },
   title: "Mudanzas de Monoambiente en Buenos Aires | Marino Mudanzas",
   description: "Mudanzas de monoambiente en Buenos Aires. Servicio rápido, camioneta adecuada, personal profesional. Presupuesto sin cargo. Tel 4611-1818.",
 };

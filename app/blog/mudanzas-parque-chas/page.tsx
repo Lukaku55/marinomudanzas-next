@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-parque-chas" },
   title: "Mudanzas en Parque Chas Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Parque Chas: el barrio de calles circulares de CABA. Conocemos cada calle del laberinto. Solo casas de los años 40. Precio cerrado → 4611-1818.",
 };

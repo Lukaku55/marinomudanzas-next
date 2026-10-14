@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-moreno" },
   title: "Mudanzas en Moreno GBA | Marino Mudanzas",
   description: "Mudanzas en Moreno: partido del oeste del GBA con personal y equipo propios. Precio cerrado sin sorpresas desde el presupuesto. Presupuesto sin cargo → 4611-1818.",
 };

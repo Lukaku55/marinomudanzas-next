@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/cuanto-tiempo-dura-una-mudanza" },
   title: "¿Cuánto Tiempo Dura una Mudanza? Tiempos por Tamaño | Marino Mudanzas",
   description: "Estimaciones reales de cuánto dura una mudanza según ambientes, piso y ascensor. Guía práctica para planificar tu día en Buenos Aires.",
 };

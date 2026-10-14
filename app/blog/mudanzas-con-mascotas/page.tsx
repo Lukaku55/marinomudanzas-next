@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-con-mascotas" },
   title: "Cómo Mudarse con Mascotas en Buenos Aires | Marino Mudanzas",
   description: "Guía completa para mudarse con perros, gatos y otras mascotas en Buenos Aires. Consejos de expertos para que tu mascota viva la mudanza sin estrés.",
 };

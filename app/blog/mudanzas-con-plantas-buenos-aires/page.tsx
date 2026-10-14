@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-con-plantas-buenos-aires" },
   title: "Cómo Transportar Plantas en tu Mudanza | Marino Mudanzas",
   description: "Cómo llevar tus plantas en la mudanza sin que se dañen: qué plantas aguantan el camión, cómo embalar macetas y qué hacer con las plantas más grandes. Buenos Aires.",
 };

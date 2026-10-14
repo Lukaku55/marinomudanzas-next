@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-entre-provincias-argentina" },
   title: "Mudanzas entre Provincias en Argentina | Marino Mudanzas",
   description: "Mudanzas interprovinciales exclusivas desde Buenos Aires a todo el país. Sin cargas parciales: un solo cliente por camión. Precio cerrado. Presupuesto sin cargo: 4611-1818.",
 };
@@ -96,7 +97,7 @@ export default function Page() {
           <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">Mudanzas entre Provincias en Argentina</h1>
           <div className="prose prose-lg mt-8 font-body text-muted-foreground leading-relaxed space-y-6">
 
-            <p>Una mudanza interprovincial es aquella en la que el origen o el destino es la provincia de Buenos Aires y la otra punta está en una provincia diferente del país. Son mudanzas que requieren mayor planificación logística, vehículos de gran porte y una empresa con experiencia real en larga distancia. En Marino Mudanzas realizamos mudanzas exclusivas entre provincias desde 1950, operando desde Buenos Aires hacia todos los destinos del país, y también en sentido inverso.</p>
+            <p>Una mudanza interprovincial es aquella en la que el origen o el destino es la provincia de Buenos Aires y la otra punta está en una provincia diferente del país. Son mudanzas que requieren mayor planificación logística, vehículos de gran porte y una empresa con experiencia real en larga distancia. En Marino Mudanzas realizamos mudanzas exclusivas entre provincias desde hace más de 80 años, operando desde Buenos Aires hacia todos los destinos del país, y también en sentido inverso.</p>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Qué es una mudanza exclusiva y por qué no hacemos cargas parciales</h2>
             <p>En Marino Mudanzas solo realizamos mudanzas exclusivas: un único cliente por camión. No compartimos el espacio del vehículo con las pertenencias de otros clientes. Las razones son concretas:</p>

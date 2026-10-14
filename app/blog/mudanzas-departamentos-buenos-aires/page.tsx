@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-departamentos-buenos-aires" },
   title: "Mudanzas de Departamentos en Buenos Aires | Marino Mudanzas",
   description: "Especialistas en mudanzas de departamentos en Buenos Aires. Coordinamos con el consorcio, gestionamos el ascensor y resolvemos cualquier dificultad de acceso. Tel 4611-1818",
 };

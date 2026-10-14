@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/guia-mudanzas-buenos-aires" },
   title: "Mudanzas en Buenos Aires: Guía Completa 2026 | Marino Mudanzas",
   description: "Todo lo que necesitás saber sobre mudanzas en Buenos Aires: tipos de servicio, costos, cómo elegir empresa, barrios y preguntas frecuentes. Guía actualizada 2026.",
 };
@@ -166,7 +167,7 @@ export default function Page() {
             <p>Alta concentración de edificios de lujo y de época. Los desafíos más comunes son ascensores pequeños, normas de consorcio estrictas y restricciones de estacionamiento de camiones en avenidas como Libertador, Alvear y Santa Fe. Recoleta tiene pisos de mármol que requieren protección especial.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Zona centro-oeste: Caballito, Flores, Almagro, Boedo</h3>
-            <p>Los barrios con mayor rotación residencial de CABA. Flores es nuestra base desde 1950. Caballito tiene muchos edificios sin ascensor en sus calles internas y restricciones en Rivadavia. La demanda a fin de mes en esta zona es muy alta.</p>
+            <p>Los barrios con mayor rotación residencial de CABA. Flores es nuestra base desde hace más de 80 años. Caballito tiene muchos edificios sin ascensor en sus calles internas y restricciones en Rivadavia. La demanda a fin de mes en esta zona es muy alta.</p>
 
             <h3 className="font-display text-xl font-semibold text-foreground mt-6 mb-2">Zona sur: San Telmo, La Boca, Barracas, Parque Patricios</h3>
             <p>San Telmo es el barrio más exigente del sur: calles de piedra, edificios de 1800 y angostos, y alto valor histórico de los inmuebles. La Boca tiene calles angostas y difícil acceso para camiones grandes. Parque Patricios está en transformación y tiene más facilidades de acceso.</p>
@@ -201,7 +202,7 @@ export default function Page() {
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">Por qué elegir Marino Mudanzas</h2>
-            <p>Con base en Flores desde 1950, Marino Mudanzas es una de las empresas con más historia en el sector. Nuestras ventajas concretas:</p>
+            <p>Con base en Flores desde hace más de 80 años, Marino Mudanzas es una de las empresas con más historia en el sector. Nuestras ventajas concretas:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Más de 80 años de experiencia</strong> — conocemos cada barrio, cada edificio emblemático y cada particularidad de Buenos Aires.</li>
               <li><strong>Flota propia</strong> — camionetas y camiones de distintos tamaños para adaptar el vehículo al volumen de cada mudanza.</li>

@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-villa-real" },
   title: "Mudanzas en Villa Real Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Villa Real con más de 80 años de experiencia. Barrio tranquilo del oeste de CABA. Embalaje incluido, seguro de carga y presupuesto sin cargo. Tel 4611-1818",
 };

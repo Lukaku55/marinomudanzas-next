@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-san-justo-buenos-aires" },
   title: "Mudanzas en San Justo Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en San Justo, cabecera de La Matanza. Precio cerrado para casas y edificios. Acceso por Rivadavia, Crovara o Autopista del Oeste. Presupuesto sin cargo: 4611-1818.",
 };

@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-ezeiza" },
   title: "Mudanzas en Ezeiza GBA | Marino Mudanzas Buenos Aires",
   description: "Mudanzas en Ezeiza con más de 80 años de experiencia. Canning, Carlos Spegazzini y todo el partido. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
 };

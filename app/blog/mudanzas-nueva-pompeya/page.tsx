@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-nueva-pompeya" },
   title: "Mudanzas en Nueva Pompeya Buenos Aires | Marino Mudanzas",
   description: "Mudanzas en Nueva Pompeya: barrio obrero del sur con casas bajas y calles tranquilas. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

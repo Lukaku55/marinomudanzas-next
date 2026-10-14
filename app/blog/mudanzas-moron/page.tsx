@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-moron" },
   title: "Mudanzas en Morón GBA | Marino Mudanzas",
   description: "Mudanzas en Morón: Haedo, El Palomar y Castelar. Servicio rápido desde nuestra base en Flores. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

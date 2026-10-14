@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-lomas-de-zamora" },
   title: "Mudanzas en Lomas de Zamora GBA | Marino Mudanzas",
   description: "Mudanzas en Lomas de Zamora: Banfield, Temperley y todo el partido sur del GBA. Precio cerrado sin sorpresas. Presupuesto sin cargo → 4611-1818.",
 };

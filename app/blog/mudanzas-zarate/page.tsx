@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/mudanzas-zarate" },
   title: "Mudanzas en Zárate GBA | Marino Mudanzas Buenos Aires",
   description: "Mudanzas en Zárate con más de 80 años de experiencia. Ciudad industrial del norte del GBA. Embalaje incluido y presupuesto sin cargo. Tel 4611-1818",
 };

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/como-armar-cajas-mudanza" },
   title: "Cómo Armar Cajas para una Mudanza | Guía Completa | Marino Mudanzas",
   description: "Guia completa para armar y embalar cajas para mudanza. Tecnicas profesionales para proteger tus objetos y aprovechar el espacio. Marino Mudanzas Buenos Aires.",
 };
