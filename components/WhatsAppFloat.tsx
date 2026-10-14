@@ -1,38 +1,21 @@
 "use client";
-import { useState } from "react";
 import { usePathname } from "next/navigation";
-import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "motion/react";
 import { WhatsappLogo } from "@phosphor-icons/react";
 import { textos } from "@/content/textos";
 import { idiomaDeRuta } from "@/content/idioma";
 
-/** Aparece después de la portada, donde ya hay botones de contacto visibles. */
+/** Botón de WhatsApp siempre visible, en todas las páginas. En celular queda arriba de la barra de presupuesto. */
 export default function WhatsAppFloat() {
-  const { scrollY } = useScroll();
-  const [visible, setVisible] = useState(false);
-  const ruta = usePathname();
-  const enPortada = ruta === "/" || ruta === "/en";
-  const t = textos(idiomaDeRuta(ruta));
-  useMotionValueEvent(scrollY, "change", (y) => setVisible(y > window.innerHeight * 0.8));
-
+  const t = textos(idiomaDeRuta(usePathname()));
   return (
-    <AnimatePresence>
-      {(visible || !enPortada) && (
-        <motion.a
-          href={t.whatsapp()}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={t.ui.whatsappEscribir}
-          className="fixed bottom-5 right-5 z-40 hidden h-14 w-14 md:grid place-items-center rounded-full bg-[#1c6b3c] text-white shadow-[0_10px_30px_-8px_rgb(11_23_40/0.55)]"
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.9 }}
-          whileTap={{ scale: 0.94 }}
-          transition={{ duration: 0.3, ease: [0.23, 1, 0.32, 1] }}
-        >
-          <WhatsappLogo size={28} weight="fill" />
-        </motion.a>
-      )}
-    </AnimatePresence>
+    <a
+      href={t.whatsapp()}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={t.ui.whatsappEscribir}
+      className="fixed bottom-[88px] right-4 z-40 grid h-14 w-14 place-items-center rounded-full bg-[#1c6b3c] text-white shadow-[0_10px_30px_-8px_rgb(11_23_40/0.55)] transition-[transform,background-color] duration-200 hover:bg-[#15532e] active:scale-95 md:bottom-5 md:right-5"
+    >
+      <WhatsappLogo size={30} weight="fill" aria-hidden="true" />
+    </a>
   );
 }

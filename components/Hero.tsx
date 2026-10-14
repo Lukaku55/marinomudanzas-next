@@ -20,7 +20,7 @@ export default function Hero({ idioma = "es" }: { idioma?: Idioma }) {
   return (
     <section id="inicio" ref={ref} className="on-dark relative flex min-h-[100dvh] items-end overflow-hidden bg-navy-deep text-white">
       <motion.div className="absolute inset-0" style={reducir ? undefined : { y, scale: escala }}>
-        <Image src={HERO.foto.src} alt={HERO.foto.alt} fill priority sizes="100vw" quality={70} className="object-cover object-[56%_center]" />
+        <Image src={HERO.foto.src} alt={HERO.foto.alt} fill priority sizes="100vw" className="object-cover object-[56%_center]" />
       </motion.div>
       <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(11_23_40/0.96)_0%,rgb(11_23_40/0.7)_45%,rgb(11_23_40/0.45)_100%)]" />
 

@@ -1,4 +1,5 @@
 import { InstagramLogo, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
+import Image from "next/image";
 import { EMPRESA } from "@/content/site";
 import { textos } from "@/content/textos";
 import type { Idioma } from "@/content/idioma";
@@ -10,8 +11,7 @@ export default function Footer({ idioma = "es" }: { idioma?: Idioma }) {
       <div className="mx-auto grid max-w-[1320px] gap-12 px-5 py-16 md:grid-cols-12 md:px-8 md:py-20">
         <div className="md:col-span-5">
           <div className="flex items-center gap-4">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={EMPRESA.logo} alt="" width={64} height={64} loading="lazy" className="h-16 w-16 rounded-full bg-white object-contain p-1" />
+            <Image src={EMPRESA.logo} alt="" width={64} height={64} className="h-16 w-16 rounded-full bg-white object-contain p-1" />
             <p className="display text-[clamp(1.7rem,3.4vw,2.4rem)]">{EMPRESA.nombre}</p>
           </div>
           <p className="mt-5 max-w-[36ch] text-white/70">{t.ui.pieTexto}</p>

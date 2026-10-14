@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion, useMotionValueEvent, useReducedMotion, useScroll } from "motion/react";
@@ -55,8 +56,7 @@ export default function Header() {
     >
       <div className="mx-auto flex h-[var(--header-h)] max-w-[1320px] items-center justify-between gap-6 px-5 md:px-8">
         <Link href={portada(idioma)} className="flex items-center gap-3" onClick={() => setAbierto(false)}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={EMPRESA.logo} alt="" width={44} height={44} className="h-11 w-11 rounded-full bg-white object-contain p-0.5" />
+          <Image src={EMPRESA.logo} alt="" width={44} height={44} priority className="h-11 w-11 rounded-full bg-white object-contain p-0.5" />
           <span className="display whitespace-nowrap text-[1.1rem] leading-none min-[680px]:max-lg:sr-only">{EMPRESA.nombre}</span>
         </Link>
 

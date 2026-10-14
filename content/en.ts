@@ -16,6 +16,7 @@ export const FOTOS_EN = {
   hall: alt(FOTOS.hall, "Marino Mudanzas movers carrying boxes through a marble and wood hall"),
   fragil: alt(FOTOS.fragil, "Marino Mudanzas movers bringing in a wrapped item marked as fragile"),
   soga: alt(FOTOS.soga, "Wrapped sofa being lowered by rope from a balcony"),
+  guardamuebles: alt(FOTOS.guardamuebles, "Marino Mudanzas furniture storage, with locked storage units on both sides of an aisle"),
   sogaArriba: alt(FOTOS.sogaArriba, "Wrapped furniture being lowered by rope, seen from the balcony"),
 };
 
@@ -40,7 +41,7 @@ export const SERVICIOS_EN: Servicio[] = [
   { nombre: "Offices and businesses", href: "/mudanzas-oficinas", texto: "We plan the move so your business stops as little as possible.", foto: FOTOS_EN.hall, icono: "oficina" },
   { nombre: "Packing", texto: "Blankets and stretch film to protect furniture and belongings during the move.", foto: FOTOS_EN.embalaje, icono: "caja" },
   { nombre: "Long-distance moves", href: "/mudanzas-interior", texto: "Moves anywhere in Argentina, without sharing the truck with other moves.", foto: FOTOS_EN.camionLateral, icono: "ruta" },
-  { nombre: "Furniture storage", href: "/guardamuebles", texto: "Spaces in Flores to store your furniture for as long as you need.", icono: "deposito" },
+  { nombre: "Furniture storage", href: "/guardamuebles", texto: "Spaces in Flores to store your furniture for as long as you need.", foto: FOTOS_EN.guardamuebles, icono: "deposito" },
   { nombre: "Rope hoisting", href: "/blog/mudanzas-por-soga", texto: "For large furniture that doesn't fit in the elevator or the stairs.", foto: FOTOS_EN.soga, icono: "soga" },
 ];
 

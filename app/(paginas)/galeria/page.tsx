@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -62,14 +63,16 @@ export default function Page() {
                 href={`/galeria/${photo.id}.jpg`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block aspect-square overflow-hidden rounded-xl bg-muted shadow-sm hover:shadow-xl transition-all duration-300"
+                className="group relative block aspect-square overflow-hidden rounded-xl bg-muted shadow-sm hover:shadow-xl transition-all duration-300"
                 title={photo.alt}
               >
-                <img
+                <Image
                   src={`/galeria/${photo.id}.jpg`}
                   alt={photo.alt}
-                  loading={i < 3 ? "eager" : "lazy"}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  fill
+                  sizes="(min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  priority={i < 3}
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </a>
             ))}

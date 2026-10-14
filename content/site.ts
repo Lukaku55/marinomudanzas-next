@@ -29,6 +29,7 @@ export const FOTOS = {
   hall: propia("equipo-hall", "Operarios de Marino Mudanzas trasladando cajas por un hall de mármol y madera", 1214, 1600),
   fragil: propia("equipo-pieza-fragil", "Operarios de Marino Mudanzas ingresando una pieza embalada y marcada como frágil", 1216, 1600),
   soga: propia("soga-sofa", "Sofá embalado bajando por soga desde un balcón", 900, 1600),
+  guardamuebles: propia("guardamuebles-deposito", "Depósito de guardamuebles de Marino Mudanzas, con bauleras enrejadas a los lados de un pasillo", 1050, 1400),
   sogaArriba: propia("soga-desde-arriba", "Mueble embalado bajando por soga, visto desde el balcón", 898, 1600),
 };
 
@@ -93,7 +94,7 @@ export const SERVICIOS: Servicio[] = [
   { nombre: "Oficinas y empresas", href: "/mudanzas-oficinas", texto: "Planificamos el traslado para que tu negocio pare lo menos posible.", foto: FOTOS.hall, icono: "oficina" },
   { nombre: "Embalaje", texto: "Mantas y film stretch para proteger muebles y objetos en el traslado.", foto: FOTOS.embalaje, icono: "caja" },
   { nombre: "Mudanzas al interior", href: "/mudanzas-interior", texto: "Traslados a todo el país, sin compartir la carga con otras mudanzas.", foto: FOTOS.camionLateral, icono: "ruta" },
-  { nombre: "Guardamuebles", href: "/guardamuebles", texto: "Espacios en Flores para guardar tus muebles el tiempo que necesites.", icono: "deposito" },
+  { nombre: "Guardamuebles", href: "/guardamuebles", texto: "Espacios en Flores para guardar tus muebles el tiempo que necesites.", foto: FOTOS.guardamuebles, icono: "deposito" },
   { nombre: "Mudanzas por soga", href: "/blog/mudanzas-por-soga", texto: "Para muebles grandes que no pasan por el ascensor ni la escalera.", foto: FOTOS.soga, icono: "soga" },
 ];
 
