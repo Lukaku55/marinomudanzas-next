@@ -35,8 +35,8 @@ export default function Portada({ idioma }: { idioma: Idioma }) {
     sameAs: [EMPRESA.instagram.url],
     address: { "@type": "PostalAddress", streetAddress: "Av. Juan Bautista Alberdi 2968", addressLocality: "Flores", addressRegion: "Ciudad Autónoma de Buenos Aires", postalCode: "C1406", addressCountry: "AR" },
     openingHoursSpecification: [
-      { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "09:00", closes: "15:00" },
-      { "@type": "OpeningHoursSpecification", dayOfWeek: "Saturday", opens: "09:00", closes: "13:00" },
+      { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "08:00", closes: "20:00" },
+      { "@type": "OpeningHoursSpecification", dayOfWeek: "Saturday", opens: "08:00", closes: "13:00" },
     ],
     areaServed: ["Ciudad Autónoma de Buenos Aires", "Gran Buenos Aires"],
   };
