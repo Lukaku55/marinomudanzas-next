@@ -45,9 +45,11 @@ export const EMPRESA = {
   whatsapp: { numero: "5491154507435", visible: "11-5450-7435" },
   instagram: { usuario: "marino_mudanzas", url: "https://www.instagram.com/marino_mudanzas" },
   direccion: "Av. Juan Bautista Alberdi 2968, Flores, CABA",
-  horario: "Lunes a sábados de 9 a 15 h", // provisorio: se puede cambiar más adelante
-  horarioEn: "from 9 a.m. to 3 p.m.",
-  horarioCompletoEn: "Monday to Saturday, 9 a.m. to 3 p.m.",
+  horario: "Atención presencial: lunes a viernes de 9 a 15 h y sábados de 9 a 13 h",
+  horarioWhatsapp: "WhatsApp: lunes a sábados de 7 a 21 h",
+  horarioEn: "from 7 a.m. to 9 p.m.", // atención por WhatsApp
+  horarioCompletoEn: "In person: Monday to Friday, 9 a.m. to 3 p.m.; Saturday, 9 a.m. to 1 p.m.",
+  horarioWhatsappEn: "WhatsApp: Monday to Saturday, 7 a.m. to 9 p.m.",
   /** Pendiente: confirmar cuál es el correo comercial antes de mostrarlo. */
   email: null as string | null,
   resenas: {
@@ -106,7 +108,7 @@ export const POR_QUE = {
     { titulo: "Embalaje con mantas y film", texto: "Cada mueble viaja protegido para que llegue como salió.", icono: "cuidado" },
     { titulo: "Coordinación con el edificio", texto: "Hablamos con el encargado y respetamos los horarios del consorcio.", icono: "plan" },
     { titulo: "Camiones propios", texto: "Trabajamos con nuestra flota, del tamaño que pide cada mudanza.", icono: "camion" },
-    { titulo: "Atención por WhatsApp", texto: "Te respondemos de lunes a sábados, de 9 a 15 h.", icono: "chat" },
+    { titulo: "Atención por WhatsApp", texto: "Te respondemos de lunes a sábados, de 7 a 21 h.", icono: "chat" },
     { titulo: "Reseñas a la vista", texto: "4,8 sobre 5 en Google. Podés leer lo que cuentan otros clientes.", icono: "estrella" },
   ] as const,
 };

@@ -47,6 +47,7 @@ export default function Presupuesto({ idioma = "es" }: { idioma?: Idioma }) {
           <ul className="mt-6 grid gap-3 text-ink-soft">
             <li className="flex gap-3"><MapPin size={20} className="mt-0.5 shrink-0 text-gold-deep" aria-hidden="true" /><span>{EMPRESA.direccion}</span></li>
             <li className="flex gap-3"><Clock size={20} className="mt-0.5 shrink-0 text-gold-deep" aria-hidden="true" /><span>{t.horario}</span></li>
+            <li className="flex gap-3"><WhatsappLogo size={20} className="mt-0.5 shrink-0 text-gold-deep" aria-hidden="true" /><span>{t.horarioWhatsapp}</span></li>
           </ul>
           {MOSTRAR_PENDIENTES && !EMPRESA.email && (
             <p className="mt-6 flex flex-wrap items-center gap-3 border-t border-line pt-5 text-sm text-ink-soft">

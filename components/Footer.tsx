@@ -45,6 +45,7 @@ export default function Footer({ idioma = "es" }: { idioma?: Idioma }) {
           </ul>
           <p className="mt-3 text-white/70">{EMPRESA.direccion}</p>
           <p className="text-white/70">{t.horario}</p>
+          <p className="text-white/70">{t.horarioWhatsapp}</p>
         </div>
       </div>
       <div className="border-t border-white/15">
