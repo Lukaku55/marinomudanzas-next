@@ -138,6 +138,7 @@ const articles = [
   {slug:'mudanzas-parque-chas',title:"Mudanzas en Parque Chas Buenos Aires",excerpt:"Mudanzas en Parque Chas, el barrio de calles circulares único en CABA. Conocemos su particular diseño urbano. Embalaje incluido y presupuesto sin cargo.",date:'2026-09-21'},
   {slug:'mudanzas-velez-sarsfield',title:"Mudanzas en Vélez Sársfield Buenos Aires",excerpt:"Servicio de mudanzas en Vélez Sársfield. Barrio tranquilo del oeste de CABA con predominio de casas de familia. Embalaje incluido y presupuesto sin cargo.",date:'2026-09-28'},
   {slug:'mudanzas-general-paz',title:"Mudanzas en General Paz Buenos Aires",excerpt:"Servicio de mudanzas en General Paz. Barrio tranquilo del sur de CABA con casas bajas y buen acceso vehicular. Embalaje incluido y presupuesto sin cargo.",date:'2026-10-12'},
+  {slug:'mudanzas-puerto-madero',title:"Mudanzas en Puerto Madero Buenos Aires",excerpt:"Mudanzas en el barrio más exclusivo de Buenos Aires. Torres premium, consorcios estrictos y logística de alto nivel. Servicio a medida y presupuesto sin cargo.",date:'2026-10-19'},
 ];
 
 const itemListSchema = {

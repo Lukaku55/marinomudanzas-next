@@ -116,6 +116,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-parque-chas",
     "mudanzas-velez-sarsfield",
     "mudanzas-general-paz",
+    "mudanzas-puerto-madero",
   ];
 
   return [
