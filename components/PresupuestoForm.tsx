@@ -4,6 +4,7 @@ import { Plus, WarningCircle, WhatsappLogo, X } from "@phosphor-icons/react";
 import { EMPRESA } from "@/content/site";
 import { textos } from "@/content/textos";
 import type { Idioma } from "@/content/idioma";
+import { evento } from "./Analitica";
 
 type Campo = "nombre" | "telefono" | "email" | "tipo" | "fecha" | "ascensor" | "mensaje";
 type Datos = Record<Campo, string>;
@@ -176,6 +177,7 @@ export default function PresupuestoForm({ idioma = "es" }: { idioma?: Idioma }) 
       return;
     }
     const url = t.whatsapp(armarMensaje());
+    evento("generate_lead", { method: "formulario_presupuesto", idioma });
     setEnlace(url);
     window.open(url, "_blank", "noopener,noreferrer");
   }

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Archivo, Geist } from "next/font/google";
 import { EMPRESA, PUBLICAR } from "@/content/site";
 import "./globals.css";
+import Analitica from "@/components/Analitica";
 
 const display = Archivo({ variable: "--font-display", subsets: ["latin"], axes: ["wdth"], display: "swap" });
 const body = Geist({ variable: "--font-body", subsets: ["latin"], display: "swap" });
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Saltar al contenido
         </a>
         {children}
+        <Analitica />
         <div className="grano" aria-hidden="true" />
       </body>
     </html>
