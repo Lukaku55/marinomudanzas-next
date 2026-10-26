@@ -117,6 +117,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-velez-sarsfield",
     "mudanzas-general-paz",
     "mudanzas-puerto-madero",
+    "mudanzas-departamento-2-ambientes-buenos-aires",
   ];
 
   return [
