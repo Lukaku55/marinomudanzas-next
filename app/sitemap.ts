@@ -118,6 +118,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-general-paz",
     "mudanzas-puerto-madero",
     "mudanzas-departamento-2-ambientes-buenos-aires",
+    "como-mudarse-solo-buenos-aires",
   ];
 
   return [
