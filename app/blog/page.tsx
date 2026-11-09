@@ -141,6 +141,7 @@ const articles = [
   {slug:'mudanzas-puerto-madero',title:"Mudanzas en Puerto Madero Buenos Aires",excerpt:"Mudanzas en el barrio más exclusivo de Buenos Aires. Torres premium, consorcios estrictos y logística de alto nivel. Servicio a medida y presupuesto sin cargo.",date:'2026-10-19'},
   {slug:'mudanzas-departamento-2-ambientes-buenos-aires',title:"Mudanza de 2 Ambientes en Buenos Aires: Costo y Guía 2026",excerpt:"¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires? Precios orientativos, personal necesario y tiempos estimados. Guía completa 2026.",date:'2026-10-26'},
   {slug:'como-mudarse-solo-buenos-aires',title:"Cómo Mudarse Solo en Buenos Aires: Guía Completa",excerpt:"Guía para tu primera mudanza en solitario en Buenos Aires. Checklist, costos, qué necesitás para tu primer departamento y cómo organizarte sin estrés.",date:'2026-11-02'},
+  {slug:'mudanzas-urgentes-buenos-aires',title:"Mudanzas Urgentes en Buenos Aires: Servicio en 24 a 48 Horas",excerpt:"¿Necesitás mudarte con urgencia? Cómo funciona el servicio de mudanza urgente en Buenos Aires, qué se puede coordinar en 24 a 48 horas y cuánto sale.",date:'2026-11-09'},
 ];
 
 const itemListSchema = {
