@@ -142,6 +142,7 @@ const articles = [
   {slug:'mudanzas-departamento-2-ambientes-buenos-aires',title:"Mudanza de 2 Ambientes en Buenos Aires: Costo y Guía 2026",excerpt:"¿Cuánto cuesta una mudanza de 2 ambientes en Buenos Aires? Precios orientativos, personal necesario y tiempos estimados. Guía completa 2026.",date:'2026-10-26'},
   {slug:'como-mudarse-solo-buenos-aires',title:"Cómo Mudarse Solo en Buenos Aires: Guía Completa",excerpt:"Guía para tu primera mudanza en solitario en Buenos Aires. Checklist, costos, qué necesitás para tu primer departamento y cómo organizarte sin estrés.",date:'2026-11-02'},
   {slug:'mudanzas-urgentes-buenos-aires',title:"Mudanzas Urgentes en Buenos Aires: Servicio en 24 a 48 Horas",excerpt:"¿Necesitás mudarte con urgencia? Cómo funciona el servicio de mudanza urgente en Buenos Aires, qué se puede coordinar en 24 a 48 horas y cuánto sale.",date:'2026-11-09'},
+  {slug:'cuando-es-mejor-mudarse-buenos-aires',title:"¿Cuándo es Mejor Mudarse en Buenos Aires?",excerpt:"Análisis de los mejores días, semanas y meses para mudarse en Buenos Aires. Cómo evitar el caos de fin de mes y qué temporadas tienen precios más bajos.",date:'2026-11-16'},
 ];
 
 const itemListSchema = {

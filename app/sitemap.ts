@@ -120,6 +120,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "mudanzas-departamento-2-ambientes-buenos-aires",
     "como-mudarse-solo-buenos-aires",
     "mudanzas-urgentes-buenos-aires",
+    "cuando-es-mejor-mudarse-buenos-aires",
   ];
 
   return [
